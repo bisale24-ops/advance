@@ -1,0 +1,17 @@
+[project]
+name = "advance"
+version = "0.1.0"
+description = "A tour-advance agent: where to play, who opens, where fans go after, who sponsors — from Qloo's taste graph."
+requires-python = ">=3.9"
+dependencies = []
+license = { file = "LICENSE" }
+
+[project.scripts]
+advance = "advance.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
