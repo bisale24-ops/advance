@@ -44,6 +44,15 @@ PROVIDERS = {
         "key_file": "openai.key",
         "model": "gpt-4o-mini",
     },
+    # Public AI's free inference utility, OpenAI-shaped. Apertus 70B returns native tool_calls when
+    # tool_choice is left unset; forcing "auto" makes it write the calls into the text instead.
+    "publicai": {
+        "base": "https://api.publicai.co",
+        "path": "/v1/chat/completions",
+        "key_env": "PUBLICAI_API_KEY",
+        "key_file": "publicai.key",
+        "model": "swiss-ai/apertus-v1.5-70b",
+    },
 }
 
 
@@ -93,7 +102,8 @@ def _post(url, headers, payload, timeout):
     """The only place this module touches the network. Swapped out wholesale in the tests."""
     request = urllib.request.Request(
         url, data=json.dumps(payload).encode("utf-8"), method="POST",
-        headers=dict(headers, **{"content-type": "application/json"}))
+        # Cloudflare in front of some gateways (Public AI) refuses urllib's default User-Agent: 403, code 1010
+        headers=dict(headers, **{"content-type": "application/json", "user-agent": "advance/0.1 (+https://khlab.app)"}))
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
             return response.status, response.read()
