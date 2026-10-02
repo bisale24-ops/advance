@@ -1,4 +1,4 @@
-"""The tour-advance brief: four decisions a promoter makes, each answered from Qloo's taste graph.
+"""The tour-advance brief: five decisions a promoter makes, each answered from Qloo's taste graph.
 
     brief = build(Qloo.from_env(), "Phoebe Bridgers", city="Chicago")
     print(render_text(brief))
@@ -14,6 +14,14 @@ from .qloo import Empty, Entity, QlooError
 
 OPENER_POPULARITY_SHARE = 0.92   # an opener draws less than the headliner: cap at this share of its popularity
 TAKE = 8
+# Qloo place categories (comma = any of). Without them "where fans go" returns airports and skyscrapers.
+VENUE_TAGS = ("urn:tag:category:place:live_music_venue", "urn:tag:category:place:concert_hall",
+              "urn:tag:category:place:arena", "urn:tag:category:place:stadium")
+AFTER_TAGS = ("urn:tag:category:place:bar", "urn:tag:category:place:cocktail_bar",
+              "urn:tag:category:place:night_club")
+# a hotel lobby bar or a campground snack bar carries the bar tag too (checked live, 3 Oct 2026)
+NOT_AFTER = ("urn:tag:category:place:hotel", "urn:tag:category:place:bed_breakfast",
+             "urn:tag:category:place:campground", "urn:tag:category:place:motel", "urn:tag:category:place:hostel")
 
 
 @dataclasses.dataclass(frozen=True)
@@ -56,7 +64,9 @@ class Brief:
 
 
 def _lines(entities, note=lambda e: ""):
-    return tuple(Line(e.name, e.affinity, e.popularity, e.id, note(e)) for e in entities)
+    def r(x):
+        return round(x, 3) if x is not None else None
+    return tuple(Line(e.name, r(e.affinity), r(e.popularity), e.id, note(e)) for e in entities)
 
 
 def _ask(key, title, question, call):
@@ -71,9 +81,14 @@ def _ask(key, title, question, call):
     return key, title, question, answer
 
 
-def where_to_play(q, headliner, take=TAKE):
-    got = _ask("cities", "Where to play", f"Which places over-index on {headliner.name}'s audience?",
-               lambda: q.insights("destination", entities=[headliner.id], take=take))
+def where_to_play(q, headliner, take=TAKE, market=None):
+    """Destinations whose audience over-indexes on the headliner; `market` (ISO country code) keeps the
+    routing inside one country, which is how tours are booked."""
+    where = f" in {market}" if market else ""
+    extra = {"filter__geocode__country_code": market} if market else {}
+    got = _ask("cities", "Where to play" + (f" · {market}" if market else ""),
+               f"Which places{where} over-index on {headliner.name}'s audience?",
+               lambda: q.insights("destination", entities=[headliner.id], take=take, **extra))
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
@@ -101,7 +116,22 @@ def after_show(q, headliner, city, take=TAKE):
         return Section("after", "After the show", "Where do the same fans go afterwards?",
                        missing="Pick a city to see places near the venue.")
     got = _ask("after", f"After the show · {city}", f"Where do {headliner.name}'s fans go in {city}?",
-               lambda: q.insights("place", entities=[headliner.id], take=take, filter__location__query=city))
+               lambda: q.insights("place", entities=[headliner.id], take=take, filter__location__query=city,
+                                  filter__tags=AFTER_TAGS, filter__exclude__tags=NOT_AFTER))
+    if isinstance(got, Section):
+        return got
+    key, title, question, answer = got
+    return Section(key, title, question, _lines(answer.entities), answer.request)
+
+
+def which_room(q, headliner, city, take=TAKE):
+    """Concert rooms in the city ranked by the headliner's audience: the venue shortlist."""
+    if not city:
+        return Section("venue", "Which room", "Which venues does this audience favour?",
+                       missing="Pick a city to see its venues.")
+    got = _ask("venue", f"Which room · {city}", f"Which {city} venues do {headliner.name}'s fans favour?",
+               lambda: q.insights("place", entities=[headliner.id], take=take, filter__location__query=city,
+                                  filter__tags=VENUE_TAGS))
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
@@ -117,13 +147,14 @@ def who_sponsors(q, headliner, take=TAKE):
     return Section(key, title, question, _lines(answer.entities), answer.request)
 
 
-def build(q, headliner_name, city=None, take=TAKE, cities=None, share=OPENER_POPULARITY_SHARE):
-    """The four questions. `cities` asks the after-show question once per city (`city` is one)."""
+def build(q, headliner_name, city=None, take=TAKE, cities=None, share=OPENER_POPULARITY_SHARE, market=None):
+    """The five questions. `cities` asks the venue and after-show questions once per city (`city` is one)."""
     headliner = q.find(headliner_name, "artist")
     cities = [c for c in (cities if cities is not None else [city]) if c]
-    afters = [after_show(q, headliner, c, take) for c in cities] or [after_show(q, headliner, None, take)]
+    afters = [s for c in cities for s in (which_room(q, headliner, c, take), after_show(q, headliner, c, take))] \
+        or [after_show(q, headliner, None, take)]
     return Brief(headliner, " · ".join(cities) or None, (
-        where_to_play(q, headliner, take),
+        where_to_play(q, headliner, take, market),
         who_opens(q, headliner, take, share),
         *afters,
         who_sponsors(q, headliner, take),

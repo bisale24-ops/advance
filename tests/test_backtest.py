@@ -26,6 +26,9 @@ class Stub:
         filler = tuple(Entity(f"t{i}", f"Taste {i}") for i in range(4))
         return Answer(entities=(ARTISTS["Chappell Roan"],) + filler + (ARTISTS["Remi Wolf"],))
 
+    def top(self, kind, n, entities=(), tags=(), **params):
+        return self.insights(kind, entities, tags, **params).entities[:n]
+
 
 def test_ranks_misses_and_unknown_acts_are_reported_per_opener():
     row = backtest.one_tour(Stub(), {"tour": "Guts", "headliner": "Olivia Rodrigo",
@@ -49,3 +52,11 @@ def test_the_summary_counts_hits_at_each_cut():
     s = backtest.summarise([row])
     assert s["taste"] == {"top10": 2, "top25": 2, "top100": 2, "median_rank": 3.5}
     assert s["baseline"] == {"top10": 0, "top25": 0, "top100": 1, "median_rank": 31}
+
+
+def test_search_genre_tags_are_rewritten_to_the_form_insights_honours():
+    head = Entity("h", "Olivia Rodrigo", raw={"tags": [
+        {"tag_id": "urn:tag:audience:qloo:loyal", "type": "urn:tag:audience:qloo"},
+        {"tag_id": "urn:tag:genre:pop_rock", "type": "urn:tag:genre"}]})
+    assert backtest.genre_tag(head) == "urn:tag:genre:music:pop_rock"
+    assert backtest.insights_tag("urn:tag:genre:music:rock") == "urn:tag:genre:music:rock"

@@ -108,3 +108,23 @@ def test_a_server_error_is_retried(client):
 
     q = qloo.Qloo(key="k", mode="live", transport=flaky, sleep=lambda s: None)
     assert q.search("A")[0].id == "A" and len(calls) == 3
+
+
+def test_take_over_fifty_is_refused_before_qloo_answers_400():
+    q = qloo.Qloo(key="k", mode="live", transport=lambda *a, **k: (_ for _ in ()).throw(AssertionError("no call")))
+    with pytest.raises(qloo.QlooError, match="take must be"):
+        q.insights("artist", entities=["x"], take=100)
+
+
+def test_top_pages_through_fifty_at_a_time_and_stops_on_a_short_page():
+    pages = []
+
+    class Paged(qloo.Qloo):
+        def insights(self, kind, entities=(), tags=(), **params):
+            pages.append(params["page"])
+            start = (params["page"] - 1) * 50
+            size = 50 if params["page"] == 1 else 20
+            return qloo.Answer(entities=tuple(qloo.Entity(f"e{start + i}", f"E{start + i}") for i in range(size)))
+
+    got = Paged(key="k", mode="live").top("artist", 120, entities=["x"])
+    assert pages == [1, 2] and len(got) == 70 and got[-1].id == "e69"

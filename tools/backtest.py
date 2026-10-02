@@ -36,11 +36,19 @@ def rank_of(target, entities):
     return None
 
 
+def insights_tag(tag):
+    """/search names a genre urn:tag:genre:pop_rock; /v2/insights only honours urn:tag:genre:music:pop_rock
+    and answers the first with an empty 200 (checked live, 3 Oct 2026)."""
+    if tag and tag.startswith("urn:tag:genre:") and not tag.startswith("urn:tag:genre:music:"):
+        return "urn:tag:genre:music:" + tag[len("urn:tag:genre:"):]
+    return tag
+
+
 def genre_tag(entity):
     raw = entity.raw or {}
     for tag in raw.get("tags") or ():
         if isinstance(tag, dict) and str(tag.get("type", "")).startswith("urn:tag:genre"):
-            return tag.get("id")
+            return insights_tag(tag.get("tag_id") or tag.get("id"))
     return None
 
 
@@ -52,7 +60,7 @@ def one_tour(q, tour):
         out["skipped"] = f"headliner not found: {type(error).__name__}"
         return out
     try:
-        taste = q.insights("artist", entities=[head.id], take=TAKE, filter__exclude__entities=[head.id]).entities
+        taste = q.top("artist", TAKE, entities=[head.id], filter__exclude__entities=[head.id])
     except (Empty, QlooError) as error:
         out["skipped"] = f"no taste list: {type(error).__name__}"
         return out
@@ -60,7 +68,7 @@ def one_tour(q, tour):
     baseline = ()
     if tag:
         try:
-            baseline = q.insights("artist", filter__tags=tag, take=TAKE, filter__exclude__entities=[head.id]).entities
+            baseline = q.top("artist", TAKE, filter__tags=tag, filter__exclude__entities=[head.id])
         except (Empty, QlooError):
             baseline = ()
     out["genre_tag"] = tag

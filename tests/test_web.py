@@ -19,10 +19,10 @@ class Stub:
 def test_ask_plans_builds_and_advises_and_says_which_step_ran(monkeypatch):
     monkeypatch.setattr(plan, "endpoint", lambda: None)
     r = web.ask("Mitski in Austin and Dallas, smaller opener", q=Stub())
-    assert r["plan"] == {"headliner": "Mitski", "cities": ["Austin", "Dallas"], "opener_share": 0.6}
+    assert r["plan"] == {"headliner": "Mitski", "cities": ["Austin", "Dallas"], "opener_share": 0.6, "market": ""}
     assert r["plan_meta"]["planner"] == "patterns" and r["advice_meta"]["adviser"] == "template"
-    assert [s["key"] for s in r["brief"]["sections"]] == ["cities", "openers", "after", "after", "brands"]
-    assert r["qloo_calls"] == 5
+    assert [s["key"] for s in r["brief"]["sections"]] == ["cities", "openers", "venue", "after", "venue", "after", "brands"]
+    assert r["qloo_calls"] == 7
     assert all(a["about"].startswith("Top ") for a in r["advice"])
 
 

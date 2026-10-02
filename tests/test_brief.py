@@ -51,14 +51,24 @@ def test_no_city_means_no_places_rather_than_invented_ones():
 def test_places_are_asked_for_inside_the_city():
     stub = Stub({"place": [e("Empty Bottle", 0.9)]})
     section = brief.after_show(stub, HEAD, city="Chicago")
-    assert stub.asked[0][2] == {"take": brief.TAKE, "filter__location__query": "Chicago"}
+    assert stub.asked[0][2] == {"take": brief.TAKE, "filter__location__query": "Chicago",
+                                "filter__tags": brief.AFTER_TAGS, "filter__exclude__tags": brief.NOT_AFTER}
     assert section.lines[0].name == "Empty Bottle"
 
 
-def test_the_whole_brief_has_four_sections_and_renders():
+def test_venues_are_concert_rooms_inside_the_city():
+    stub = Stub({"place": [e("Metro", 0.9)]})
+    section = brief.which_room(stub, HEAD, city="Chicago")
+    assert stub.asked[0][2] == {"take": brief.TAKE, "filter__location__query": "Chicago",
+                                "filter__tags": brief.VENUE_TAGS}
+    assert section.title == "Which room · Chicago" and section.lines[0].name == "Metro"
+    assert brief.which_room(Stub({}), HEAD, city=None).missing.startswith("Pick a city")
+
+
+def test_the_whole_brief_has_five_sections_and_renders():
     stub = Stub({"destination": [e("Chicago", 0.9)], "artist": [e("Julien Baker", 0.95)],
                  "place": [e("Empty Bottle", 0.9)], "brand": [e("Patagonia", 0.8)]})
     built = brief.build(stub, "Phoebe Bridgers", city="Chicago")
-    assert [s.key for s in built.sections] == ["cities", "openers", "after", "brands"]
+    assert [s.key for s in built.sections] == ["cities", "openers", "venue", "after", "brands"]
     text = brief.render_text(built)
     assert "ADVANCE — Phoebe Bridgers · Chicago" in text and "0.95  Julien Baker" in text

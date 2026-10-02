@@ -57,3 +57,33 @@ def test_the_model_plan_is_trimmed_to_three_cities(monkeypatch):
     monkeypatch.setattr(plan, "endpoint", lambda: {"url": "https://x.test", "model": "m", "key": "k"})
     got, meta = plan.plan("x", transport=fake_model({"headliner": "Mitski", "cities": ["A", " ", "B", "C", "D"], "opener_share": 0.9}))
     assert got["cities"] == ["A", "B", "C"] and meta["planner"] == "model"
+
+
+def test_patterns_read_the_market_and_keep_the_country_out_of_the_cities():
+    assert plan.plan_with_patterns("Metallica in Berlin, Germany") == {
+        "headliner": "Metallica", "cities": ["Berlin"], "opener_share": 0.92, "market": "DE"}
+    assert plan.plan_with_patterns("book Bad Bunny for a US tour")["market"] == "US"
+    assert plan.plan_with_patterns("Billie Eilish in Chicago")["market"] == ""
+
+
+def test_lowercase_us_is_a_word_not_a_market():
+    assert plan.market_in("plan us a show in Denver") == ""
+    assert plan.market_in("a UK tour") == "GB"
+
+
+def test_the_market_filters_where_to_play_by_country():
+    from advance import brief
+    from advance.qloo import Answer, Entity
+    asked = []
+
+    class Stub:
+        def insights(self, kind, entities=(), tags=(), **params):
+            asked.append(params)
+            return Answer(entities=(Entity("d", "Denver", affinity=0.9),))
+
+    head = Entity("H", "Mitski")
+    section = brief.where_to_play(Stub(), head, market="US")
+    assert asked[0]["filter__geocode__country_code"] == "US"
+    assert section.title == "Where to play · US"
+    brief.where_to_play(Stub(), head)
+    assert "filter__geocode__country_code" not in asked[1]

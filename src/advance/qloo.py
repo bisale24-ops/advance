@@ -50,7 +50,7 @@ ALLOWED = {
     "artist": COMMON | {"filter.exclude.entities"},
     "brand": COMMON | {"filter.exclude.entities"},
     "place": COMMON | LOCATION | {"filter.price_level.min", "filter.price_level.max", "bias.quality", "sort_by",
-                                  "filter.exclude.entities"},
+                                  "filter.exclude.entities", "filter.exclude.tags"},
     "destination": COMMON | LOCATION,
     "locality": {"signal.interests.entities", "take", "offset", "page"},
     "heatmap": {"signal.interests.entities", "signal.interests.tags", "signal.demographics.age",
@@ -59,6 +59,9 @@ ALLOWED = {
 }
 REQUIRED = {"destination": "signal.interests.entities",
             "heatmap": ("filter.location", "filter.location.query")}
+
+
+MAX_TAKE = 50
 
 
 class QlooError(RuntimeError):
@@ -210,6 +213,8 @@ class Qloo:
             query["signal.interests.entities"] = ",".join(entities)
         if tags:
             query["signal.interests.tags"] = ",".join(tags)
+        if not 1 <= int(params.get("take", 20)) <= MAX_TAKE:
+            raise QlooError(f"take must be 1..{MAX_TAKE} (Qloo answers 400); use top() for more")
         for name, value in params.items():
             key = name.replace("__", ".")
             if key not in ALLOWED[kind]:
@@ -229,3 +234,18 @@ class Qloo:
         if not answer.entities and not answer.heatmap:
             raise Empty("/v2/insights", query)
         return answer
+
+    def top(self, kind, n, entities=(), tags=(), **params):
+        """The first n insights entities, fetched in pages of MAX_TAKE (Qloo caps take at 50)."""
+        out = []
+        for page in range(1, -(-n // MAX_TAKE) + 1):
+            try:
+                got = self.insights(kind, entities, tags, take=MAX_TAKE, page=page, **params).entities
+            except Empty:
+                break
+            out.extend(e for e in got if e.id not in {x.id for x in out})
+            if len(got) < MAX_TAKE:
+                break
+        if not out:
+            raise Empty("/v2/insights", {"filter.type": TYPES[kind]})
+        return tuple(out[:n])

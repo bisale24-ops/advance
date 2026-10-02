@@ -24,7 +24,8 @@ def ask(text, q=None):
     q = q or Qloo.from_env()
     steps, meta = planning.plan(text)
     try:
-        built = briefing.build(q, steps["headliner"], cities=steps["cities"], share=steps["opener_share"])
+        built = briefing.build(q, steps["headliner"], cities=steps["cities"], share=steps["opener_share"],
+                               market=steps.get("market") or None)
     except Empty:
         return {"error": f"Qloo does not know an artist called {steps['headliner']!r}.", "plan": steps, "plan_meta": meta}
     brief = built.to_dict()

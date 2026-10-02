@@ -60,6 +60,22 @@ def _structured(system, user, schema, name, transport=None):
     return answer, {"model": spec["model"].split("/")[-1], "ms": round((time.perf_counter() - started) * 1000)}
 
 
+MARKETS = {"us": "US", "usa": "US", "united states": "US", "america": "US", "uk": "GB", "britain": "GB",
+           "united kingdom": "GB", "england": "GB", "germany": "DE", "france": "FR", "spain": "ES", "italy": "IT",
+           "canada": "CA", "mexico": "MX", "brazil": "BR", "japan": "JP", "australia": "AU", "netherlands": "NL",
+           "switzerland": "CH", "sweden": "SE", "poland": "PL", "argentina": "AR", "south korea": "KR",
+           "korea": "KR", "ireland": "IE", "portugal": "PT", "belgium": "BE", "austria": "AT"}
+
+
+def market_in(text):
+    """The country a request names, as an ISO code ("a US tour", "in Germany"), or ""."""
+    low = " " + re.sub(r"[^\w ]", " ", text.lower()) + " "
+    for name in sorted(MARKETS, key=len, reverse=True):
+        if f" {name} " in low and not (name == "us" and " US " not in " " + re.sub(r"[^\w ]", " ", text) + " "):
+            return MARKETS[name]
+    return ""
+
+
 # ---- 1. the plan ------------------------------------------------------------------------------
 
 PLAN_SCHEMA = {
@@ -68,8 +84,9 @@ PLAN_SCHEMA = {
         "headliner": {"type": "string"},
         "cities": {"type": "array", "items": {"type": "string"}, "maxItems": MAX_CITIES},
         "opener_share": {"type": "number", "minimum": 0.3, "maximum": 1.0},
+        "market": {"type": "string", "enum": [""] + sorted(set(MARKETS.values()))},
     },
-    "required": ["headliner", "cities", "opener_share"],
+    "required": ["headliner", "cities", "opener_share", "market"],
     "additionalProperties": False,
 }
 
@@ -77,7 +94,8 @@ PLAN_SYSTEM = """You turn a concert promoter's request into a plan for a tour-ad
 headliner: the one artist being booked, exactly as named. cities: the cities the promoter names, at most three, empty if none.
 opener_share: how big the opening act may be relative to the headliner's popularity — 0.92 by default,
 lower (e.g. 0.6) if they ask for a smaller or emerging opener, 1.0 if they want a co-headliner.
-Never invent a city or an artist the request does not name."""
+market: the ISO country code of the country the tour is in, if the request names one ("a US tour" -> "US"),
+else "". Never invent a city or an artist the request does not name."""
 
 
 def plan_with_patterns(sentence):
@@ -88,13 +106,18 @@ def plan_with_patterns(sentence):
     share = 0.6 if re.search(r"smaller|emerging|up-and-coming|newer|local", text, re.I) else 0.92
     # a city is named with a capital; "smaller opener please" after a comma is not one
     cities = [c for c in cities if c and c[0].isupper()]
-    return {"headliner": headliner, "cities": cities[:MAX_CITIES], "opener_share": share}
+    market = market_in(text)
+    cities = [c for c in cities if c.lower() not in MARKETS and not market_in(c)]
+    headliner = re.sub(r"\s+(?:tour|show)s?$", "", re.sub(r"(?i)^(?:an?|the)\s+(?:%s)\s+" % "|".join(
+        re.escape(k) for k in MARKETS), "", headliner)).strip()
+    return {"headliner": headliner, "cities": cities[:MAX_CITIES], "opener_share": share, "market": market}
 
 
 def plan(sentence, transport=None):
     try:
         answer, meta = _structured(PLAN_SYSTEM, sentence, PLAN_SCHEMA, "plan", transport)
         answer["cities"] = [c.strip() for c in answer.get("cities", []) if c.strip()][:MAX_CITIES]
+        answer["market"] = answer.get("market") or market_in(sentence)
         return answer, dict(meta, planner="model")
     except Exception as error:  # any failure: the patterns answer, and the result says so
         return plan_with_patterns(sentence), {"planner": "patterns", "why": type(error).__name__}
@@ -116,7 +139,7 @@ def advice_schema(names):
 
 
 ADVISE_SYSTEM = """You are a tour-advance assistant writing for a promoter. You are given a brief built from Qloo's
-taste graph: places, openers, after-show spots and brands, each with an affinity score. Write up to three
+taste graph: places, openers, venues, after-show spots and brands, each with an affinity score. Write up to three
 recommendations, each about one entity from the brief, saying in one sentence why, using only the brief's
 facts (affinity, which section it is in). Do not mention anything that is not in the brief."""
 
