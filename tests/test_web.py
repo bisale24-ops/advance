@@ -4,7 +4,7 @@ from advance.qloo import Answer, Empty, Entity
 
 
 class Stub:
-    calls = 0
+    calls = asked = 0
 
     def find(self, name, kind="artist"):
         if name == "Nobody":
@@ -13,6 +13,7 @@ class Stub:
 
     def insights(self, kind, entities=(), tags=(), **params):
         self.calls += 1
+        self.asked += 1
         return Answer(entities=(Entity(kind + "1", f"Top {kind}", affinity=0.9),), request={"filter.type": kind})
 
 
@@ -22,7 +23,7 @@ def test_ask_plans_builds_and_advises_and_says_which_step_ran(monkeypatch):
     assert r["plan"] == {"headliner": "Mitski", "cities": ["Austin", "Dallas"], "opener_share": 0.6, "market": ""}
     assert r["plan_meta"]["planner"] == "patterns" and r["advice_meta"]["adviser"] == "template"
     assert [s["key"] for s in r["brief"]["sections"]] == ["cities", "openers", "venue", "after", "venue", "after", "brands"]
-    assert r["qloo_calls"] == 7
+    assert r["qloo_calls"] == 7 and r["qloo_cached"] == 0
     assert all(a["about"].startswith("Top ") for a in r["advice"])
 
 

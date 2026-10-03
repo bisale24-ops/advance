@@ -147,6 +147,7 @@ class Qloo:
         self.sleep = sleep
         self.timeout = timeout
         self.calls = 0  # requests that actually left the machine
+        self.asked = 0  # every request, including those answered from the recording
 
     @classmethod
     def from_env(cls, **kwargs):
@@ -164,6 +165,7 @@ class Qloo:
     def get(self, path, params, attempts=4):
         params = {k: v for k, v in params.items() if v is not None and v != ""}
         slot = self._slot(path, params)
+        self.asked += 1
         if self.mode in ("cache", "replay") and slot.exists():
             return json.loads(slot.read_text())["response"], True
         if self.mode == "replay":

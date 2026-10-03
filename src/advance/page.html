@@ -141,7 +141,7 @@ async function run(text) {
       <span>Cities <b>${esc(p.cities.join(", ") || "none named")}</b></span>
       ${p.market ? `<span>Market <b>${esc(p.market)}</b></span>` : ""}
       <span>Opener ≤ <b>${Math.round(p.opener_share * 100)}%</b> of the headliner's popularity</span>
-      <span><b>${r.qloo_calls}</b> Qloo calls · ${r.ms} ms</span></div>`;
+      <span><b>${r.qloo_calls}</b> Qloo calls${r.qloo_cached ? ` (${r.qloo_cached} from cache)` : ""} · ${r.ms} ms</span></div>`;
     const recs = r.advice.length ? `<div class="recs"><h2>Advance notes</h2><ol>${r.advice.map(a => `<li><b>${esc(a.about)}</b> — ${esc(a.why)}</li>`).join("")}</ol>
       <p style="margin:10px 0 0;font-size:12.5px;opacity:.75">Written by ${esc(am.adviser)}${am.model ? " · " + esc(am.model) : ""}; it may only name entities from the brief below.</p></div>` : "";
     $("out").innerHTML = trace + recs + `<div class="grid">${r.brief.sections.map(section).join("")}</div>`;

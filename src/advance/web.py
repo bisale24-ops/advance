@@ -31,7 +31,7 @@ def ask(text, q=None):
     brief = built.to_dict()
     advice, advice_meta = planning.advise(brief)
     return {"plan": steps, "plan_meta": meta, "brief": brief, "advice": advice, "advice_meta": advice_meta,
-            "qloo_calls": q.calls, "ms": round((time.perf_counter() - started) * 1000)}
+            "qloo_calls": q.asked, "qloo_cached": q.asked - q.calls, "ms": round((time.perf_counter() - started) * 1000)}
 
 
 class Handler(http.server.BaseHTTPRequestHandler):
