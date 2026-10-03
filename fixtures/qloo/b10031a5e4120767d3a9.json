@@ -1,0 +1,324 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:destination",
+  "signal.interests.entities": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+  "take": 8,
+  "filter.geocode.country_code": "DE"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Rostock",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "C4DD53E5-2A0E-40E8-8D8D-6CDBED1763AB",
+     "popularity": 0.5176790571169537,
+     "location": {
+      "lat": 54.0833,
+      "lon": 12.1333,
+      "geohash": "u38esje4n6hh"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Rostock",
+       "admin1_region": "Mecklenburg-Vorpommern",
+       "admin2_region": "",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.9693401554956871
+     }
+    },
+    {
+     "name": "Potsdam",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "30209B35-7351-4161-AF03-7B23D4E4A69A",
+     "popularity": 0.7543064369900272,
+     "location": {
+      "lat": 52.4,
+      "lon": 13.0667,
+      "geohash": "u336174uhhm8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Potsdam",
+       "admin1_region": "Brandenburg",
+       "admin2_region": "",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.966844399491316
+     }
+    },
+    {
+     "name": "Leipzig",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "119E8E96-8A0A-47BC-9E50-75D439E86E11",
+     "popularity": 0.8599274705349048,
+     "location": {
+      "lat": 51.3396,
+      "lon": 12.3771,
+      "geohash": "u30u1dhdz748"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Leipzig",
+       "admin1_region": "Saxony",
+       "admin2_region": "",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.9624311918808904
+     }
+    },
+    {
+     "name": "Travem\u00fcnde",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "FEC99505-15A7-42C7-9546-548207AB7748",
+     "popularity": 0.2126019945602901,
+     "location": {
+      "lat": 53.9667,
+      "lon": 10.8667,
+      "geohash": "u1xep22fu6qc"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:romantic_getaways",
+       "name": "Romantic Getaways",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Travemuende",
+       "admin1_region": "Schleswig-Holstein",
+       "admin2_region": "",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.9615279456700305
+     }
+    },
+    {
+     "name": "Bremen",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "387D6DE5-3CE0-46D6-B2DD-A873A5B6C014",
+     "popularity": 0.8155031731640979,
+     "location": {
+      "lat": 53.0763,
+      "lon": 8.8085,
+      "geohash": "u1qmbqnpugtz"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Bremen",
+       "admin1_region": "Bremen",
+       "admin2_region": "",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.9605398739360761
+     }
+    },
+    {
+     "name": "Kiel",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "6FA4823D-041C-4926-9410-8EBD3E377AD3",
+     "popularity": 0.4038984587488667,
+     "location": {
+      "lat": 54.3213,
+      "lon": 10.1351,
+      "geohash": "u1xjn8uhsbqe"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Kiel",
+       "admin1_region": "Schleswig-Holstein",
+       "admin2_region": "",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.958371676016249
+     }
+    },
+    {
+     "name": "Hamburg",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "DFA1ECB1-172B-4AB7-9D66-80C083FA2039",
+     "popularity": 0.971894832275612,
+     "location": {
+      "lat": 53.55,
+      "lon": 10.0014,
+      "geohash": "u1x0es6z3e2k"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:urban_destinations",
+       "name": "Urban Destinations",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_nightlife",
+       "name": "Great Nightlife",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_architecture",
+       "name": "Great Architecture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Altstadt",
+       "admin1_region": "Hamburg",
+       "admin2_region": "",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.9550516471845794
+     }
+    },
+    {
+     "name": "Kassel",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "entity_id": "74A326AE-D83F-4D72-A701-8663618ECE45",
+     "popularity": 0.5081595648232095,
+     "location": {
+      "lat": 51.3167,
+      "lon": 9.5,
+      "geohash": "u1ngbjvtqn1r"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "properties": {
+      "geocode": {
+       "name": "Kassel",
+       "admin1_region": "Hesse",
+       "admin2_region": "Regierungsbezirk Kassel",
+       "country_code": "DE"
+      }
+     },
+     "disambiguation": "",
+     "query": {
+      "affinity": 0.9498777039146393
+     }
+    }
+   ]
+  }
+ }
+}

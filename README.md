@@ -4,7 +4,7 @@
 Qloo's taste graph the five questions a promoter answers by gut — where to play, who opens, which room, where fans
 go after the show, and which brands share the crowd — and writes the brief, with the evidence behind every line.
 
-Live: https://khlab-advance.onrender.com · Built for the Qloo Agentic Hackathon 2026 by KHLab.
+Live: https://khlab-advance.onrender.com · Demo video (1:47): https://youtu.be/8nE2Gu9vSbc · Built for the Qloo Agentic Hackathon 2026 by KHLab.
 
 ## The problem
 
