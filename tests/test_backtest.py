@@ -60,3 +60,12 @@ def test_search_genre_tags_are_rewritten_to_the_form_insights_honours():
         {"tag_id": "urn:tag:genre:pop_rock", "type": "urn:tag:genre"}]})
     assert backtest.genre_tag(head) == "urn:tag:genre:music:pop_rock"
     assert backtest.insights_tag("urn:tag:genre:music:rock") == "urn:tag:genre:music:rock"
+
+
+def test_llm_lists_are_read_from_numbered_lines_without_commentary():
+    spec = importlib.util.spec_from_file_location("backtest_llm", pathlib.Path(__file__).parent.parent / "tools" / "backtest_llm.py")
+    llm = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(llm)
+    answer = "Here are some:\n1. Phoebe Bridgers\n2) Julien Baker (indie)\n3. **Lucy Dacus** – boygenius\nThanks"
+    assert llm.names(answer) == ["Phoebe Bridgers", "Julien Baker", "Lucy Dacus"]
+    assert llm.names("1. Jay-Z\n2. blink-182 - pop punk") == ["Jay-Z", "blink-182"]

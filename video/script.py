@@ -25,8 +25,9 @@ SCENES = [
      "and halls, the bars fans pick, and brands like Fender and Gibson."),
     ("card:proof",
      "Does taste find the acts promoters actually book? We took a hundred and fifteen real tours with their support "
-     "acts, and gave Advance only the headliner. Qloo's taste list puts twenty six real openers in its top ten. A genre "
-     "chart puts one. In the top hundred, a hundred and nine against seventeen."),
+     "acts, and gave each method only the headliner. In the top hundred, Qloo's taste list finds a hundred and nine "
+     "real openers. The same language model without Qloo finds thirty seven, and a genre chart seventeen. "
+     "The model has read about these tours, and taste still finds three times more."),
     ("card:api",
      "Along the way we mapped where the API fails silently: a take above fifty, genre tags that need a music segment, "
      "and bars that are really hotel lobbies. Each one is guarded by a test, and the whole backtest replays offline "
@@ -57,10 +58,10 @@ CARDS = {
     "proof": """<h1>Checked on 115 real tours</h1>
     <p class=sub>Where do the openers promoters actually booked (2023–2025) land? 619 openers Qloo knows.</p>
     <table>
-      <tr><th></th><th>Qloo taste (Advance)</th><th>Genre chart</th></tr>
-      <tr><td>in the top 10</td><td class="ok big">26</td><td class=big>1</td></tr>
-      <tr><td>in the top 25</td><td class="ok big">48</td><td class=big>4</td></tr>
-      <tr><td>in the top 100</td><td class="ok big">109</td><td class=big>17</td></tr>
+      <tr><th></th><th>Qloo taste (Advance)</th><th>LLM alone (Apertus 70B)</th><th>Genre chart</th></tr>
+      <tr><td>in the top 10</td><td class="ok big">26</td><td class=big>21</td><td class=big>1</td></tr>
+      <tr><td>in the top 25</td><td class="ok big">48</td><td class=big>32</td><td class=big>4</td></tr>
+      <tr><td>in the top 100</td><td class="ok big">109</td><td class=big>37</td><td class=big>17</td></tr>
     </table>
     <p class=foot>Ranked 1st–2nd: Sleeping with Sirens for Pierce the Veil · Modest Mouse for Weezer · Wild Rivers for Noah Kahan · Keyshia Cole for Brandy</p>""",
     "api": """<h1>Where the API fails silently</h1>

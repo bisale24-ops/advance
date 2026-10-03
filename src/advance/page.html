@@ -71,10 +71,10 @@
   .cmp .bars { display: grid; gap: 5px; }
   .cmp .b { display: flex; align-items: center; gap: 10px; font-size: 13px; font-variant-numeric: tabular-nums; }
   .cmp .b i { display: block; height: 12px; border-radius: 99px; min-width: 3px; }
-  .cmp .t i { background: var(--violet); } .cmp .g i { background: #c9c7c1; }
+  .cmp .t i { background: var(--violet); } .cmp .l i { background: #0c4243; opacity: .55; } .cmp .g i { background: #c9c7c1; }
   .legend { display: flex; gap: 18px; font-size: 13px; color: var(--stone); margin: 16px 0 0; flex-wrap: wrap; }
   .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-  .legend .lt::before { background: var(--violet); } .legend .lg::before { background: #c9c7c1; }
+  .legend .lt::before { background: var(--violet); } .legend .ll::before { background: #0c4243; opacity: .55; } .legend .lg::before { background: #c9c7c1; }
   .hits { margin: 18px 0 0; font-size: 14px; color: var(--ink); }
   footer { border-top: 1px solid var(--mist); padding: 22px 0 40px; font-size: 13.5px; color: var(--stone); }
 </style>
@@ -99,9 +99,9 @@
 
   <section class="proof" id="proof">
     <h2>Checked on 115 real tours.</h2>
-    <p class="q">Given only the headliner, where do the support acts promoters actually booked (2023–2025, from Wikipedia) land in Qloo's taste list — against a genre chart, the most popular artists of the headliner's own genre?</p>
+    <p class="q">Given only the headliner, where do the support acts promoters actually booked (2023–2025, from Wikipedia) land in Qloo's taste list — against the same LLM asked without Qloo, and a genre chart of the headliner's own genre?</p>
     <div class="cmp" id="cmp"></div>
-    <div class="legend"><span class="lt">Qloo taste list (Advance)</span><span class="lg">Genre chart</span><span>619 real openers Qloo knows</span></div>
+    <div class="legend"><span class="lt">Qloo taste list (Advance)</span><span class="ll">LLM alone (Apertus 70B)</span><span class="lg">Genre chart</span><span>619 real openers Qloo knows</span></div>
     <p class="hits">Ranked first or second by taste: Sleeping with Sirens for Pierce the Veil · Modest Mouse for Weezer · Wild Rivers and Maisie Peters for Noah Kahan · Isabel LaRosa for Nessa Barrett · Keyshia Cole for Brandy.</p>
   </section>
 
@@ -114,9 +114,9 @@ const $ = id => document.getElementById(id);
 const EXAMPLES = ["Phoebe Bridgers in Chicago and Denver", "Mitski in Austin, smaller opener", "Fontaines D.C. in Boston and Philadelphia", "Chappell Roan in Nashville"];
 for (const e of EXAMPLES) { const b = document.createElement("button"); b.type = "button"; b.className = "ex"; b.textContent = e; b.onclick = () => { $("text").value = e; run(e); }; $("examples").append(b); }
 const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]);
-const PROOF = [["top 10", 26, 1], ["top 25", 48, 4], ["top 100", 109, 17]];
-$("cmp").innerHTML = PROOF.map(([k, t, g]) => `<span class="k">Found in ${k}</span><span class="bars">
-  <span class="b t"><i style="width:${t / 109 * 100}%"></i>${t}</span><span class="b g"><i style="width:${g / 109 * 100}%"></i>${g}</span></span>`).join("");
+const PROOF = [["top 10", 26, 21, 1], ["top 25", 48, 32, 4], ["top 100", 109, 37, 17]];
+$("cmp").innerHTML = PROOF.map(([k, t, l, g]) => `<span class="k">Found in ${k}</span><span class="bars">
+  <span class="b t"><i style="width:${t / 109 * 100}%"></i>${t}</span><span class="b l"><i style="width:${l / 109 * 100}%"></i>${l}</span><span class="b g"><i style="width:${g / 109 * 100}%"></i>${g}</span></span>`).join("");
 const pct = v => v == null ? "—" : v.toFixed(2);
 
 function section(s) {

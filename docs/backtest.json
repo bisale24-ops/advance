@@ -15,18 +15,27 @@
    "top25": 4,
    "top100": 17,
    "median_rank": 56
+  },
+  "llm": {
+   "top10": 21,
+   "top25": 32,
+   "top100": 37,
+   "median_rank": 9,
+   "names_per_list": 100.5,
+   "model": "swiss-ai/apertus-v1.5-70b"
   }
  },
  "tours": [
   {
-   "tour": "+\u2212=\u00f7\u00d7 Tour",
+   "tour": "+−=÷× Tour",
    "headliner": "Ed Sheeran",
    "openers": [
     {
      "name": "Armaan Malik",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ben&Ben",
@@ -36,151 +45,176 @@
      "name": "Budjerah",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Busted",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Calum Scott",
      "found": true,
      "taste_rank": 28,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cat Burns",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Denise Chaila",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dino Jelusick",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "DOT",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dylan",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Griff",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "James Blunt",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "John Mayer",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jonita Gandhi",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Khalid",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kayan",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kaylee Bell",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Little Big Town",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lisa Mishra",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mali",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Maisie Peters",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Myles Smith",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Prateek Kuhad",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Rosa Linn",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Russ",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tori Kelly",
      "found": true,
      "taste_rank": 88,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Zeyne",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -194,25 +228,29 @@
      "name": "Skating Polly",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Connie Constance",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Shamir",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Revenge Wife",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -230,13 +268,15 @@
      "name": "Jae Stephens",
      "found": true,
      "taste_rank": 54,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sekou",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -250,13 +290,15 @@
      "name": "Snoh Aalegra",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 11
     },
     {
      "name": "Anitta",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Chxrry",
@@ -266,31 +308,36 @@
      "name": "Creepy Nuts",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mike Dean",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kaytranada",
      "found": true,
      "taste_rank": 84,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Anna Lunoe",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Playboi Carti",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tayhana",
@@ -300,7 +347,8 @@
      "name": "Yousuke Yukimatsu",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -314,13 +362,15 @@
      "name": "Sombr",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ari Abdul",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -334,13 +384,15 @@
      "name": "JID",
      "found": true,
      "taste_rank": 28,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 2
     },
     {
      "name": "Nardo Wick",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -354,33 +406,37 @@
      "name": "Ken Carson",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Destroy Lonely",
      "found": true,
      "taste_rank": 63,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Homixide Gang",
      "found": true,
      "taste_rank": 67,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
    "genre_tag": "urn:tag:genre:music:rap"
   },
   {
-   "tour": "Autopoi\u00e9tica Tour",
+   "tour": "Autopoiética Tour",
    "headliner": "Mon Laferte",
    "openers": [
     {
-     "name": "Ximena Sari\u00f1ana",
+     "name": "Ximena Sariñana",
      "found": true,
      "taste_rank": 40,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -394,19 +450,22 @@
      "name": "Post Animal",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Lazy Eyes",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Velvet Trip",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -420,13 +479,15 @@
      "name": "annisokay",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Green Lizard",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -440,19 +501,22 @@
      "name": "King Woman",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Midwife",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Skullcrusher",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -466,7 +530,8 @@
      "name": "Naomi Sharon",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -480,13 +545,15 @@
      "name": "Shygirl",
      "found": true,
      "taste_rank": 22,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Finn Keane",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -500,43 +567,50 @@
      "name": "The Lottery Winners",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Rag 'N' Bone Man",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Davina Michelle",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dara",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "G Flip",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Drax Project",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Pedropiedra",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -550,19 +624,22 @@
      "name": "Alice Phoebe Lou",
      "found": true,
      "taste_rank": 87,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Frankie Cosmos",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": 93
+     "baseline_rank": 93,
+     "llm_rank": null
     },
     {
      "name": "Paris Texas",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -576,13 +653,15 @@
      "name": "Lil Yachty",
      "found": true,
      "taste_rank": 85,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Paris Texas",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -596,43 +675,50 @@
      "name": "Teezo Touchdown",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Don Toliver",
      "found": true,
      "taste_rank": 10,
-     "baseline_rank": 38
+     "baseline_rank": 38,
+     "llm_rank": null
     },
     {
      "name": "Sheck Wes",
      "found": true,
      "taste_rank": 27,
-     "baseline_rank": 97
+     "baseline_rank": 97,
+     "llm_rank": null
     },
     {
      "name": "Veeze",
      "found": true,
      "taste_rank": 73,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Skilla Baby",
      "found": true,
      "taste_rank": 15,
-     "baseline_rank": 26
+     "baseline_rank": 26,
+     "llm_rank": null
     },
     {
      "name": "Babyface Ray",
      "found": true,
      "taste_rank": 62,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yung Lean",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -646,7 +732,8 @@
      "name": "Flo",
      "found": true,
      "taste_rank": 49,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Anycia",
@@ -660,7 +747,8 @@
      "name": "JessB",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -674,37 +762,43 @@
      "name": "A. G. Cook",
      "found": true,
      "taste_rank": 42,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alaska Reid",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Baby Tate",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Elio",
      "found": true,
      "taste_rank": 47,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Magdalena Bay",
      "found": true,
      "taste_rank": 15,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yeule",
      "found": true,
      "taste_rank": 82,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -722,61 +816,71 @@
      "name": "Ethel Cain",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Noga Erez",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mykki Blanco",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Griff",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hope Tala",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Japanese Breakfast",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "King Princess",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Arlo Parks",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yves Tumor",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Wet Leg",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -790,37 +894,43 @@
      "name": "Deep Sea Diver",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Murder Capital",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Glen Hansard",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Pixies",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": 56
+     "baseline_rank": 56,
+     "llm_rank": null
     },
     {
      "name": "Dead Pioneers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Teen Jesus and the Jean Teasers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -838,19 +948,22 @@
      "name": "RIP Magic",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ninajirachi",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Wet Leg",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -864,19 +977,22 @@
      "name": "Momma",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Beaches",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Nieve Ella",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -890,19 +1006,22 @@
      "name": "Girlhouse",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Spill Tab",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Blu DeTiger",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -916,61 +1035,71 @@
      "name": "The Academic",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Rachel Chinouriri",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Andrew Cushin",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "DMA's",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Giant Rooks",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Lathums",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ava Lily",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sea Girls",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Snarls",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Snuts",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -984,73 +1113,85 @@
      "name": "Boston Manor",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Champ Kind",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Daytime TV",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dead Pony",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Enter Shikari",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Holding Absence",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kid Kapichi",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mallory Knox",
      "found": true,
      "taste_rank": 8,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Blackout",
      "found": true,
      "taste_rank": 10,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Skints",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Xcerts",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yours Truly",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1064,61 +1205,71 @@
      "name": "Alvvays",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alemeda",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Del Water Gap",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Evanescence",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Flowerovlove",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hope Tala",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Magdalena Bay",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Royel Otis",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sir Chloe",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Warning",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1132,31 +1283,36 @@
      "name": "Jasmine.4.T",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jay Som",
      "found": true,
      "taste_rank": 79,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Julia Jacklin",
      "found": true,
      "taste_rank": 10,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Katie Gavin",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Slow Pulp",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1170,13 +1326,15 @@
      "name": "Maisie Peters",
      "found": true,
      "taste_rank": 59,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Between Friends",
      "found": true,
      "taste_rank": 47,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1190,109 +1348,127 @@
      "name": "AFI",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Architects",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Bad Omens",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jean Dawson",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Deny",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ego Kill Talent",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Grandson",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "JPEGMafia",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Helmet",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Pvris",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Polaris",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Poppy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sleep Token",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Spiritbox",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "One Ok Rock",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Phantogram",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Clipse",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Vana",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1306,55 +1482,64 @@
      "name": "Racing Mount Pleasant",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dove Ellis",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Westside Cowboy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Iceage",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Leenalchi",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Billy Woods",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Julianna Barwick",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Bill Orcutt",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Easy Star All-Stars",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1368,25 +1553,29 @@
      "name": "Kevin Abstract",
      "found": true,
      "taste_rank": 52,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Malcolm Todd",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ravyn Lenae",
      "found": true,
      "taste_rank": 18,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Forest Claudette",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1400,13 +1589,15 @@
      "name": "Searows",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tiny Habits",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1420,37 +1611,43 @@
      "name": "All Time Low",
      "found": true,
      "taste_rank": 89,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Girlfriends",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Royal & the Serpent",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Simple Plan",
      "found": true,
      "taste_rank": 6,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 17
     },
     {
      "name": "Fefe Dobson",
      "found": true,
      "taste_rank": 41,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "We The Kings",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1464,49 +1661,57 @@
      "name": "Chappell Roan",
      "found": true,
      "taste_rank": 9,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Breeders",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Remi Wolf",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 7
     },
     {
      "name": "PinkPantheress",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Benee",
      "found": true,
      "taste_rank": 30,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Beabadoobee",
      "found": true,
      "taste_rank": 34,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 4
     },
     {
      "name": "St. Vincent",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Florence Road",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1520,55 +1725,64 @@
      "name": "Tkay Maidza",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dora Jar",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Duckwrth",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jessie Reyez",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jungle",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Arlo Parks",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 5
     },
     {
      "name": "Girl in Red",
      "found": true,
      "taste_rank": 8,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sampa the Great",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Omar Apollo",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1582,85 +1796,99 @@
      "name": "Nat & Alex Wolff",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Towa Bird",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
-     "name": "The Mar\u00edas",
+     "name": "The Marías",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ashnikko",
      "found": true,
      "taste_rank": 66,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Finneas",
      "found": true,
      "taste_rank": 17,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 24
     },
     {
      "name": "Tom Odell",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Magdalena Bay",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Syd",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lola Young",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yoasobi",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Fujii Kaze",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Men I Trust",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Young Miko",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lucy Dacus",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 10
     }
    ],
    "skipped": null,
@@ -1674,43 +1902,50 @@
      "name": "Beach Weather",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cavetown",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Crawlers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hot Mulligan",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jack Kays",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Movements",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sleeping with Sirens",
      "found": true,
      "taste_rank": 1,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1724,67 +1959,78 @@
      "name": "Dawes",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Blossoms",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Manic Street Preachers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sam Fender",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Supergrass",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Orville Peck",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Lathums",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Johnny Marr",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hot Chip",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Lemon Twigs",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ted Sablay",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1798,25 +2044,29 @@
      "name": "Molly Lewis",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Vagabon",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jack Ladder",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Nicholas Allbrook",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1830,37 +2080,43 @@
      "name": "Future Islands",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Joyce Manor",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Modest Mouse",
      "found": true,
      "taste_rank": 1,
-     "baseline_rank": 24
+     "baseline_rank": 24,
+     "llm_rank": 48
     },
     {
      "name": "Momma",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Spoon",
      "found": true,
      "taste_rank": 31,
-     "baseline_rank": 95
+     "baseline_rank": 95,
+     "llm_rank": null
     },
     {
      "name": "White Reaper",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1874,43 +2130,50 @@
      "name": "Skillibeng",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sleepy Hallow",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Central Cee",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sexyy Red",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Zack Bia",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lil Yachty",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lil Durk",
      "found": true,
      "taste_rank": 81,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1924,19 +2187,22 @@
      "name": "London Grammar",
      "found": true,
      "taste_rank": 50,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Banks",
      "found": true,
      "taste_rank": 10,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 5
     },
     {
      "name": "Addison Rae",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1950,19 +2216,22 @@
      "name": "Nova Twins",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lou Roy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Meet Me at the Altar",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -1976,37 +2245,43 @@
      "name": "Myles Smith",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jacob Banks",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cannons",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "EaJ",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Peter McPoland",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Declan McKenna",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2020,13 +2295,15 @@
      "name": "24kGoldn",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Elio",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2040,91 +2317,106 @@
      "name": "Blood Orange",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Madison Cunningham",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Madi Diaz",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gabriels",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ben Harper",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Inhaler",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Koffee",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jenny Lewis",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mitski",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Arlo Parks",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Orville Peck",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jessie Ware",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Wet Leg",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Wolf Alice",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Annie Mac",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2138,7 +2430,8 @@
      "name": "Pi'erre Bourne",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2152,37 +2445,43 @@
      "name": "All Time Low",
      "found": true,
      "taste_rank": 89,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Beaches",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Girlfriends",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Grandson",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mod Sun",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Simple Plan",
      "found": true,
      "taste_rank": 6,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 17
     }
    ],
    "skipped": null,
@@ -2196,91 +2495,106 @@
      "name": "Architects",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 30
     },
     {
      "name": "Mammoth WVH",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Floor Jansen",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ice Nine Kills",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 41
     },
     {
      "name": "Epica",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Five Finger Death Punch",
      "found": true,
      "taste_rank": 78,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Volbeat",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 1
     },
     {
      "name": "Pantera",
      "found": true,
      "taste_rank": 3,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Suicidal Tendencies",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Greta Van Fleet",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Limp Bizkit",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Evanescence",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Avatar",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gojira",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 2
     },
     {
      "name": "Knocked Loose",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 37
     }
    ],
    "skipped": null,
@@ -2294,19 +2608,22 @@
      "name": "NoCap",
      "found": true,
      "taste_rank": 81,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Offset",
      "found": true,
      "taste_rank": 35,
-     "baseline_rank": 72
+     "baseline_rank": 72,
+     "llm_rank": null
     },
     {
      "name": "Toosii",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2320,7 +2637,8 @@
      "name": "Westside Gunn",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2334,45 +2652,51 @@
      "name": "Raveena",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Becca Hatch",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
    "genre_tag": "urn:tag:genre:music:hip_hop"
   },
   {
-   "tour": "Ma\u00f1ana Ser\u00e1 Bonito Tour",
+   "tour": "Mañana Será Bonito Tour",
    "headliner": "Karol G",
    "openers": [
     {
      "name": "Young Miko",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Bad Gyal",
      "found": true,
      "taste_rank": 40,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
-     "name": "\u00d1ejo",
+     "name": "Ñejo",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ryan Castro",
      "found": true,
      "taste_rank": 36,
-     "baseline_rank": 98
+     "baseline_rank": 98,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2386,109 +2710,127 @@
      "name": "Grandson",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
-     "name": "M\u00d8",
+     "name": "MØ",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mother Mother",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Karin Ann",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kings Elliot",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "KennyHoopla",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Rkomi",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alexa Feser",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lola Young",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Emma Steinbakken",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Macklemore",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jesse Clegg",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "TALK",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Benson Boone",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Oliver Tree",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Chelsea Cutler",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Em Beihold",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "AJR",
      "found": true,
      "taste_rank": 80,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2502,25 +2844,29 @@
      "name": "Omar Rudberg",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Inji",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Eli",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cat & Calmell",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2534,19 +2880,22 @@
      "name": "Benee",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Zara Larsson",
      "found": true,
      "taste_rank": 84,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alessi Rose",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2560,37 +2909,43 @@
      "name": "Alkaline Trio",
      "found": true,
      "taste_rank": 31,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Drug Church",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Scowl",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Landon Barker",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Beauty School Dropout",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Liily",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2604,55 +2959,64 @@
      "name": "Agnostic Front",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Amyl and the Sniffers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Angel Du$t",
      "found": true,
      "taste_rank": 1,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Basement",
      "found": true,
      "taste_rank": 13,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Boy Harsher",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ceremony",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Clipse",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Blood Orange",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Die Spitz",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Febuary",
@@ -2662,115 +3026,134 @@
      "name": "Fiddlehead",
      "found": true,
      "taste_rank": 5,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Garden",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hatebreed",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "High Vis",
      "found": true,
      "taste_rank": 31,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jane Remover",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Julie",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mall Grab",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mannequin Pussy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Pennywise",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": 50
+     "baseline_rank": 50,
+     "llm_rank": null
     },
     {
      "name": "Porches",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Saya Gray",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Speed",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Slayyyter",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Terror",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Texas is the Reason",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Thundercat",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Trash Talk",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Vince Staples",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yves Tumor",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2784,37 +3167,43 @@
      "name": "Asian Kung-Fu Generation",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ball Park Music",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cage the Elephant",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cast",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 20
     },
     {
      "name": "Otoboke Beaver",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Richard Ashcroft",
      "found": true,
      "taste_rank": 54,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2828,7 +3217,8 @@
      "name": "Cassie Henderson",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2842,13 +3232,15 @@
      "name": "Eddie Benjamin",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Maro",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2862,49 +3254,57 @@
      "name": "Pierce the Veil",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alexisonfire",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Astronoid",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Drain",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ekkstacy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hot Milk",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jxdn",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Landon Barker",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2924,49 +3324,57 @@
      "name": "Wunderhorse",
      "found": true,
      "taste_rank": 15,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "CMAT",
      "found": true,
      "taste_rank": 42,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Olivia Dean",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Young Jesus",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Holly Humberstone",
      "found": true,
      "taste_rank": 19,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Esha Tewari",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Beddy Rays",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sycco",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -2980,25 +3388,29 @@
      "name": "Monica",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tyga",
      "found": true,
      "taste_rank": 15,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 7
     },
     {
      "name": "Bia",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Skillibeng",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3012,31 +3424,36 @@
      "name": "The Pretty Reckless",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Amyl and the Sniffers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Casanovas",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Southern River Band",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Foo Fighters",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3047,22 +3464,25 @@
    "headliner": "Xscape",
    "openers": [
     {
-     "name": "M\u00fda",
+     "name": "Mýa",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 18
     },
     {
      "name": "702",
      "found": true,
      "taste_rank": 12,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Total",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 4
     },
     {
      "name": "Psiryn",
@@ -3072,7 +3492,8 @@
      "name": "OMG Girlz",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3086,43 +3507,50 @@
      "name": "Kita Alexander",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dove Cameron",
      "found": true,
      "taste_rank": 37,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cil",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Merk & Kremont",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Princesa Alba",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alessi Rose",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yami Safdie",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3148,7 +3576,8 @@
      "name": "Travis",
      "found": true,
      "taste_rank": 36,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3162,19 +3591,22 @@
      "name": "Omar Apollo",
      "found": true,
      "taste_rank": 40,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Raye",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "D4vd",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3194,31 +3626,36 @@
      "name": "Hunxho",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kodak Black",
      "found": true,
      "taste_rank": 82,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "BossMan Dlow",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Erica Banks",
      "found": true,
      "taste_rank": 73,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "KenTheMan",
      "found": true,
      "taste_rank": 62,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3232,55 +3669,64 @@
      "name": "Amaarae",
      "found": true,
      "taste_rank": 90,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Beabadoobee",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 4
     },
     {
      "name": "Rachel Chinouriri",
      "found": true,
      "taste_rank": 15,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Clairo",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 5
     },
     {
      "name": "Olivia Dean",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Griff",
      "found": true,
      "taste_rank": 13,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ravyn Lenae",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Amber Mark",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Declan McKenna",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3294,13 +3740,15 @@
      "name": "The Twilight Sad",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Just Mustard",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3314,67 +3762,78 @@
      "name": "Alkaline Trio",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": 19
+     "baseline_rank": 19,
+     "llm_rank": null
     },
     {
      "name": "The Academy Is...",
      "found": true,
      "taste_rank": 34,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Royal & The Serpent",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Bring Me the Horizon",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "New Found Glory",
      "found": true,
      "taste_rank": 25,
-     "baseline_rank": 18
+     "baseline_rank": 18,
+     "llm_rank": 8
     },
     {
      "name": "Four Year Strong",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 12
     },
     {
      "name": "Pvris",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Nothing,Nowhere",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jimmy Eat World",
      "found": true,
      "taste_rank": 20,
-     "baseline_rank": 5
+     "baseline_rank": 5,
+     "llm_rank": 22
     },
     {
      "name": "The Maine",
      "found": true,
      "taste_rank": 59,
-     "baseline_rank": 40
+     "baseline_rank": 40,
+     "llm_rank": 10
     },
     {
      "name": "Hot Mulligan",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3388,25 +3847,29 @@
      "name": "Summer Walker",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 28
     },
     {
      "name": "Burna Boy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Vybz Kartel",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Boy Better Know",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3420,25 +3883,29 @@
      "name": "Cavetown",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Goth Babe",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Quinn XCII",
      "found": true,
      "taste_rank": 8,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Elio Mei",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lawerence",
@@ -3448,13 +3915,15 @@
      "name": "Beach Weather",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alexander Stewart",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3468,7 +3937,8 @@
      "name": "Hope Tala",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3482,85 +3952,99 @@
      "name": "Pat Benatar",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Brandi Carlile",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sheryl Crow",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Noga Erez",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Viki Gabor",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gayle",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Neil Giraldo",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Grouplove",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Margaret",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alice Merton",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Rag'n'Bone Man",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Script",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gwen Stefani",
      "found": true,
      "taste_rank": 7,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tones and I",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3574,25 +4058,29 @@
      "name": "KB",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "We Are Messengers",
      "found": true,
      "taste_rank": 24,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hulvey",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Josiah Queen",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3606,25 +4094,29 @@
      "name": "Jodie Harsh",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mallrat",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Rita Ora",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 5
     },
     {
      "name": "Romy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3638,49 +4130,57 @@
      "name": "Tyga",
      "found": true,
      "taste_rank": 5,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "NoCap",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Belly Gang Kushington",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gudda Gudda",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Lil Twist",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jay Jones",
      "found": true,
      "taste_rank": 11,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "2 Chainz",
      "found": true,
      "taste_rank": 33,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Game",
      "found": true,
      "taste_rank": 4,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3694,7 +4194,8 @@
      "name": "Say Now",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3708,13 +4209,15 @@
      "name": "Baby Keem",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 4
     },
     {
      "name": "Tanna Leone",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3728,37 +4231,43 @@
      "name": "Keyshia Cole",
      "found": true,
      "taste_rank": 2,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Coco Jones",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Muni Long",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mya",
      "found": true,
      "taste_rank": 21,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jamal Roberts",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kelly Rowland",
      "found": true,
      "taste_rank": 14,
-     "baseline_rank": 66
+     "baseline_rank": 66,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3772,13 +4281,15 @@
      "name": "Balu Brigada",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dayglow",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3792,109 +4303,127 @@
      "name": "Paramore",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gayle",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Beabadoobee",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 6
     },
     {
      "name": "Muna",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gracie Abrams",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 2
     },
     {
      "name": "Phoebe Bridgers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 11
     },
     {
      "name": "Girl in Red",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Haim",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sabrina Carpenter",
      "found": true,
      "taste_rank": 33,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 3
     },
     {
      "name": "Louta",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mette",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Griff",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Benson Boone",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sofia Isella",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Holly Humberstone",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Suki Waterhouse",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Maisie Peters",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Raye",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3908,7 +4437,8 @@
      "name": "Sub Urban",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3916,31 +4446,35 @@
   },
   {
    "tour": "The Jaguar Tour",
-   "headliner": "Victoria Mon\u00e9t",
+   "headliner": "Victoria Monét",
    "openers": [
     {
-     "name": "Ambr\u00e9",
+     "name": "Ambré",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Leon Thomas",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
-     "name": "Taner\u00e9lle",
+     "name": "Tanerélle",
      "found": true,
      "taste_rank": 52,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tone Stith",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3954,7 +4488,8 @@
      "name": "Blu DeTiger",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3968,7 +4503,8 @@
      "name": "Willow",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -3982,19 +4518,22 @@
      "name": "Ice Spice",
      "found": true,
      "taste_rank": 59,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Doechii",
      "found": true,
      "taste_rank": 37,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Hemlocke Springs",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4008,31 +4547,36 @@
      "name": "Ashe",
      "found": true,
      "taste_rank": 8,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Dora Jar",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Role Model",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Djo",
      "found": true,
      "taste_rank": 51,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Griff",
      "found": true,
      "taste_rank": 6,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4046,25 +4590,29 @@
      "name": "Birdy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Del Water Gap",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tommy Lefroy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Gina Miles",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4078,7 +4626,8 @@
      "name": "Daughtry",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Megadeath",
@@ -4088,13 +4637,15 @@
      "name": "Three Days Grace",
      "found": true,
      "taste_rank": 12,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 9
     },
     {
      "name": "Nothing More",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4108,55 +4659,64 @@
      "name": "Clairo",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sudan Archives",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Perfume Genius",
      "found": true,
      "taste_rank": 48,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Junglepussy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Nu Genea",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Genesis Owusu",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sycco",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ladyhawke",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cuco",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4170,37 +4730,43 @@
      "name": "Latto",
      "found": true,
      "taste_rank": 5,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Saucy Santana",
      "found": true,
      "taste_rank": 57,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Bree Runway",
      "found": true,
      "taste_rank": 14,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Joy Crookes",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tkay Maidza",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Tinashe",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": 86
+     "baseline_rank": 86,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4214,43 +4780,50 @@
      "name": "James Bay",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ryan Beatty",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mt. Joy",
      "found": true,
      "taste_rank": 6,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jensen McRae",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Maisie Peters",
      "found": true,
      "taste_rank": 2,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Wild Rivers",
      "found": true,
      "taste_rank": 1,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alessi Rose",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4264,19 +4837,22 @@
      "name": "Paul Russell",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Chris Olsen",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Natasha Bedingfield",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4290,19 +4866,22 @@
      "name": "Garbage",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Alison Moyet",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Cold War Kids",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4316,37 +4895,43 @@
      "name": "Leah Kate",
      "found": true,
      "taste_rank": 60,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Georgia",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Mae Stephens",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Charlotte Plank",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Beth McCarthy",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Caity Baser",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4360,7 +4945,8 @@
      "name": "charlieonnafriday",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Achiraya Nitibhon",
@@ -4378,13 +4964,15 @@
      "name": "Olly Murs",
      "found": true,
      "taste_rank": 36,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sophie Ellis-Bextor",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4398,19 +4986,22 @@
      "name": "Sailorr",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Naomi Sharon",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Latto",
      "found": true,
      "taste_rank": 14,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4424,19 +5015,22 @@
      "name": "Sheryl Crow",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Grouplove",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Script",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4450,73 +5044,85 @@
      "name": "Blood Orange",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Chanel Beads",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Empress Of",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Japanese House",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 18
     },
     {
      "name": "Jim-E Stack",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
-     "name": "Nil\u00fcfer Yanya",
+     "name": "Nilüfer Yanya",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Fabiana Palladino",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Erika de Casier",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "2hollis",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Kevin Abstract",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Smerz",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Sophia Stel",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4530,25 +5136,29 @@
      "name": "Beach Bunny",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Jake Wesley Rogers",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Marina",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Fletcher",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4562,13 +5172,15 @@
      "name": "The Flaming Lips",
      "found": true,
      "taste_rank": 54,
-     "baseline_rank": 78
+     "baseline_rank": 78,
+     "llm_rank": null
     },
     {
      "name": "Dinosaur Jr.",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4582,37 +5194,43 @@
      "name": "Aleyna Tilki",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Biig Piig",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ena Mori",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Nadin Amizah",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Pomme",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Wednesday Campanella",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Yaelokre",
@@ -4630,25 +5248,29 @@
      "name": "Wallows",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Turnstile",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "The Story So Far",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 9
     },
     {
      "name": "Rise Against",
      "found": true,
      "taste_rank": 17,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": 19
     }
    ],
    "skipped": null,
@@ -4662,13 +5284,15 @@
      "name": "Cash Cobain",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Bktherula",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
@@ -4682,27 +5306,30 @@
      "name": "Isabel LaRosa",
      "found": true,
      "taste_rank": 1,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,
    "genre_tag": "urn:tag:genre:music:singer_songwriter"
   },
   {
-   "tour": "\u2212 Tour",
+   "tour": "− Tour",
    "headliner": "Ed Sheeran",
    "openers": [
     {
      "name": "Cian Ducrot",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     },
     {
      "name": "Ben Kweller",
      "found": true,
      "taste_rank": null,
-     "baseline_rank": null
+     "baseline_rank": null,
+     "llm_rank": null
     }
    ],
    "skipped": null,

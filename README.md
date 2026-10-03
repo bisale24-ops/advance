@@ -4,7 +4,7 @@
 Qloo's taste graph the five questions a promoter answers by gut — where to play, who opens, which room, where fans
 go after the show, and which brands share the crowd — and writes the brief, with the evidence behind every line.
 
-Live: https://khlab-advance.onrender.com · Demo video (1:47): https://youtu.be/8nE2Gu9vSbc · Built for the Qloo Agentic Hackathon 2026 by KHLab.
+Live: https://khlab-advance.onrender.com · Demo video (1:53): https://youtu.be/KvUEBoJMvRQ · Built for the Qloo Agentic Hackathon 2026 by KHLab.
 
 ## The problem
 
@@ -31,24 +31,30 @@ and the page says which step answered.
 
 ## Does Qloo's taste find the acts promoters actually booked?
 
-We took **115 real tours (2023–2025)** with their support acts from Wikipedia (`data/tours.json`), gave Advance only
-the headliner, and looked up where each real opener lands — against a genre chart: the most popular artists of the
-headliner's own genre, which is what a booker without taste data would use.
+We took **115 real tours (2023–2025)** with their support acts from Wikipedia (`data/tours.json`), gave each
+method only the headliner, and looked up where each real opener lands in a 100-long list from:
 
-| Of 619 real openers Qloo knows | Taste list (Advance) | Genre chart |
-|---|---|---|
-| in the top 10 | **26** | 1 |
-| in the top 25 | **48** | 4 |
-| in the top 100 | **109** | 17 |
-| median rank when found | 31 | 56 |
+- **Qloo taste** — what Advance uses: artists ranked by affinity to the headliner's audience;
+- **an LLM alone** — the same model that plans Advance (Apertus 70B), asked for 100 likely openers, no Qloo;
+- **a genre chart** — the most popular artists of the headliner's own genre, what a booker without taste data uses.
 
-Taste finds **6× more of the acts promoters really booked** than the genre chart. Examples it ranks first or second:
+| Of 619 real openers Qloo knows | Qloo taste (Advance) | LLM alone | Genre chart |
+|---|---|---|---|
+| in the top 10 | **26** | 21 | 1 |
+| in the top 25 | **48** | 32 | 4 |
+| in the top 100 | **109** | 37 | 17 |
+
+Taste finds **3× more of the acts promoters really booked than the LLM alone, and 6× more than the genre chart**.
+The LLM is strong at the very top (when it names a real opener, it is usually in its first ten), because it has
+read about many of these tours — they are on Wikipedia, so that bias favours the LLM, not Qloo — but past the
+obvious names it runs out of knowledge, while taste keeps finding them. Examples taste ranks first or second:
 Sleeping with Sirens for Pierce the Veil, Modest Mouse for Weezer, Wild Rivers and Maisie Peters for Noah Kahan,
-Isabel LaRosa for Nessa Barrett, Keyshia Cole for Brandy. It is not an oracle — 82% of real openers are outside its
-top 100, because tours also book label-mates, friends and local acts — but it is the right list to start from.
+Isabel LaRosa for Nessa Barrett, Keyshia Cole for Brandy. It is not an oracle — 82% of real openers are outside
+its top 100, because tours also book label-mates, friends and local acts — but it is the right list to start from.
 
 ```bash
-QLOO_MODE=replay python3 tools/backtest.py data/tours.json docs/backtest.json   # same numbers, offline
+QLOO_MODE=replay python3 tools/backtest.py data/tours.json docs/backtest.json   # taste and genre chart, offline
+LLM_MODE=replay python3 tools/backtest_llm.py data/tours.json docs/backtest.json  # adds the LLM-alone column
 ```
 
 ## What it does not do
@@ -82,7 +88,7 @@ from the recorded responses in `fixtures/qloo` with no key and no network.
 
 ## How it was checked
 
-`./check.sh` runs 31 tests on Python 3.9 and 3.13 plus the recorded demo end to end; CI runs the same on every
+`./check.sh` runs 32 tests on Python 3.9 and 3.13 plus the recorded demo end to end; CI runs the same on every
 push. The backtest replays from the recorded Qloo responses and reproduces the table above exactly.
 
 ## Licence
