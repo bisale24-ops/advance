@@ -17,9 +17,5 @@ jobs:
       - run: pip install pytest
       - name: unit tests
         run: PYTHONPATH=src python -m pytest tests -q
-      - name: run against this repository
-        run: PYTHONPATH=src python -m advance --repo . --quiet
-      - name: nothing on stderr
-        run: |
-          err=$(PYTHONPATH=src python -m advance --repo . 2>&1 >/dev/null)
-          test -z "$err" || { echo "$err"; exit 1; }
+      - name: the recorded demo runs with no key and no network
+        run: QLOO_MODE=replay ADVANCE_NO_LLM=1 PYTHONPATH=src python -m advance "Phoebe Bridgers in Chicago"

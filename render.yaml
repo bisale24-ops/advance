@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: khlab-advance
+    runtime: python
+    plan: free
+    buildCommand: "true"
+    startCommand: PYTHONPATH=src python -m advance.web
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: QLOO_API_KEY
+        sync: false
+      - key: PUBLICAI_API_KEY
+        sync: false

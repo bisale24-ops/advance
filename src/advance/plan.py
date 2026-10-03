@@ -27,6 +27,8 @@ MAX_CITIES = 3
 
 
 def endpoint():
+    if os.environ.get("ADVANCE_NO_LLM"):      # CI and offline demos: patterns and template only
+        return None
     for spec in ENDPOINTS:
         key = os.environ.get(spec["env"], "").strip()
         if not key:

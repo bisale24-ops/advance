@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Advance</title>
-<meta name="description" content="A tour-advance agent for promoters: where to play, who opens, where fans go after, who sponsors — from Qloo's taste graph.">
+<meta name="description" content="A tour-advance agent for promoters: where to play, who opens, which room, where fans go after, who sponsors — from Qloo's taste graph.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
@@ -63,6 +63,19 @@
   pre { font: 12px/1.5 "JetBrains Mono", ui-monospace, monospace; background: var(--canvas); border-radius: 10px; padding: 10px 12px; white-space: pre-wrap; word-break: break-word; margin: 8px 0 0; color: var(--ink); }
   .error { margin-top: 22px; padding: 14px 16px; border-radius: 12px; background: #fbeaea; color: #6b1d1d; }
   .empty { color: var(--stone); margin-top: 28px; }
+  .proof { margin: 8px 0 36px; background: var(--paper); border: 1px solid var(--mist); border-radius: 18px; padding: 26px 26px 22px; }
+  .proof h2 { font: 400 28px/1.15 Newsreader, Georgia, serif; margin: 0 0 6px; letter-spacing: -.01em; }
+  .proof .q { color: var(--stone); margin: 0 0 20px; max-width: 70ch; }
+  .cmp { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 10px 16px; align-items: center; max-width: 760px; }
+  .cmp .k { font-size: 14px; color: var(--stone); }
+  .cmp .bars { display: grid; gap: 5px; }
+  .cmp .b { display: flex; align-items: center; gap: 10px; font-size: 13px; font-variant-numeric: tabular-nums; }
+  .cmp .b i { display: block; height: 12px; border-radius: 99px; min-width: 3px; }
+  .cmp .t i { background: var(--violet); } .cmp .g i { background: #c9c7c1; }
+  .legend { display: flex; gap: 18px; font-size: 13px; color: var(--stone); margin: 16px 0 0; flex-wrap: wrap; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+  .legend .lt::before { background: var(--violet); } .legend .lg::before { background: #c9c7c1; }
+  .hits { margin: 18px 0 0; font-size: 14px; color: var(--ink); }
   footer { border-top: 1px solid var(--mist); padding: 22px 0 40px; font-size: 13.5px; color: var(--stone); }
 </style>
 </head>
@@ -70,7 +83,7 @@
 <div class="wrap">
   <header>
     <div class="mark">Advance<span>.</span></div>
-    <nav><a href="https://github.com/bisale24-ops/advance">Source</a><a href="#how">How it works</a></nav>
+    <nav><a href="#proof">Backtest</a><a href="https://github.com/bisale24-ops/advance">Source</a><a href="#how">How it works</a></nav>
   </header>
 
   <section class="hero">
@@ -84,8 +97,16 @@
     <div id="out"><p class="empty">Every line in the brief carries Qloo's affinity score and the exact request behind it.</p></div>
   </section>
 
+  <section class="proof" id="proof">
+    <h2>Checked on 115 real tours.</h2>
+    <p class="q">Given only the headliner, where do the support acts promoters actually booked (2023–2025, from Wikipedia) land in Qloo's taste list — against a genre chart, the most popular artists of the headliner's own genre?</p>
+    <div class="cmp" id="cmp"></div>
+    <div class="legend"><span class="lt">Qloo taste list (Advance)</span><span class="lg">Genre chart</span><span>619 real openers Qloo knows</span></div>
+    <p class="hits">Ranked first or second by taste: Sleeping with Sirens for Pierce the Veil · Modest Mouse for Weezer · Wild Rivers and Maisie Peters for Noah Kahan · Isabel LaRosa for Nessa Barrett · Keyshia Cole for Brandy.</p>
+  </section>
+
   <footer id="how">
-    How it works: a language model turns your sentence into a plan (headliner, cities, how big an opener may be), Qloo's Insights API answers each question for that headliner's audience, and the model writes up to three recommendations from a schema that lists only the names Qloo returned — it cannot recommend anything that is not in the brief. If the model is unavailable, a pattern planner and a template take over, and the trace says so. Built by <a href="https://khlab.app">KHLab</a> on Qloo's Taste AI.
+    How it works: a language model (Apertus 70B) turns your sentence into a plan (headliner, cities, country, how big an opener may be), Qloo's Insights API answers each question for that headliner's audience, and the model writes up to three recommendations from a schema that lists only the names Qloo returned — it cannot recommend anything that is not in the brief. If the model is unavailable, a pattern planner and a template take over, and the trace says so. Built by <a href="https://khlab.app">KHLab</a> on Qloo's Taste AI.
   </footer>
 </div>
 <script>
@@ -93,6 +114,9 @@ const $ = id => document.getElementById(id);
 const EXAMPLES = ["Phoebe Bridgers in Chicago and Denver", "Mitski in Austin, smaller opener", "Fontaines D.C. in Boston and Philadelphia", "Chappell Roan in Nashville"];
 for (const e of EXAMPLES) { const b = document.createElement("button"); b.type = "button"; b.className = "ex"; b.textContent = e; b.onclick = () => { $("text").value = e; run(e); }; $("examples").append(b); }
 const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]);
+const PROOF = [["top 10", 26, 1], ["top 25", 48, 4], ["top 100", 109, 17]];
+$("cmp").innerHTML = PROOF.map(([k, t, g]) => `<span class="k">Found in ${k}</span><span class="bars">
+  <span class="b t"><i style="width:${t / 109 * 100}%"></i>${t}</span><span class="b g"><i style="width:${g / 109 * 100}%"></i>${g}</span></span>`).join("");
 const pct = v => v == null ? "—" : v.toFixed(2);
 
 function section(s) {
@@ -115,6 +139,7 @@ async function run(text) {
       <span>Plan <span class="pill ${pm.planner === "model" ? "" : "fallback"}">${esc(pm.planner)}${pm.model ? " · " + esc(pm.model) : ""}</span></span>
       <span>Headliner <b>${esc(r.brief.headliner.name)}</b></span>
       <span>Cities <b>${esc(p.cities.join(", ") || "none named")}</b></span>
+      ${p.market ? `<span>Market <b>${esc(p.market)}</b></span>` : ""}
       <span>Opener ≤ <b>${Math.round(p.opener_share * 100)}%</b> of the headliner's popularity</span>
       <span><b>${r.qloo_calls}</b> Qloo calls · ${r.ms} ms</span></div>`;
     const recs = r.advice.length ? `<div class="recs"><h2>Advance notes</h2><ol>${r.advice.map(a => `<li><b>${esc(a.about)}</b> — ${esc(a.why)}</li>`).join("")}</ol>
