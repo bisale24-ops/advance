@@ -14,6 +14,8 @@ from .qloo import Empty, Entity, QlooError
 
 OPENER_POPULARITY_SHARE = 0.92   # an opener draws less than the headliner: cap at this share of its popularity
 TAKE = 8
+MARKET_POPULARITY_FLOOR = 0.75   # a tour books markets that draw a room: skip towns Qloo scores as tiny
+MARKET_POOL = 6                  # ask for this many times TAKE, then keep the bookable ones
 # Qloo place categories (comma = any of). Without them "where fans go" returns airports and skyscrapers.
 VENUE_TAGS = ("urn:tag:category:place:live_music_venue", "urn:tag:category:place:concert_hall",
               "urn:tag:category:place:arena", "urn:tag:category:place:stadium")
@@ -88,11 +90,13 @@ def where_to_play(q, headliner, take=TAKE, market=None):
     extra = {"filter__geocode__country_code": market} if market else {}
     got = _ask("cities", "Where to play" + (f" · {market}" if market else ""),
                f"Which places{where} over-index on {headliner.name}'s audience?",
-               lambda: q.insights("destination", entities=[headliner.id], take=take, **extra))
+               lambda: q.insights("destination", entities=[headliner.id], take=take * MARKET_POOL, **extra))
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
-    return Section(key, title, question, _lines(answer.entities), answer.request)
+    big = [e for e in answer.entities if (e.popularity or 0) >= MARKET_POPULARITY_FLOOR]
+    picks = (big if len(big) >= take else list(answer.entities))[:take]
+    return Section(key, title, question, _lines(picks), answer.request)
 
 
 def who_opens(q, headliner, take=TAKE, share=OPENER_POPULARITY_SHARE):

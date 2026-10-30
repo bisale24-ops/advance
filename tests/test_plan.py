@@ -87,3 +87,18 @@ def test_the_market_filters_where_to_play_by_country():
     assert section.title == "Where to play · US"
     brief.where_to_play(Stub(), head)
     assert "filter__geocode__country_code" not in asked[1]
+
+
+def test_where_to_play_skips_towns_too_small_to_book_a_room():
+    from advance import brief
+    from advance.qloo import Answer, Entity
+    pool = tuple([Entity("t%d" % i, "Hamlet%d" % i, affinity=0.95 - i / 100, popularity=0.1) for i in range(4)]
+                 + [Entity("c%d" % i, "City%d" % i, affinity=0.8 - i / 100, popularity=0.9) for i in range(8)])
+
+    class Stub:
+        def insights(self, kind, entities=(), tags=(), take=0, **params):
+            assert take > brief.TAKE
+            return Answer(entities=pool)
+
+    names = [line.name for line in brief.where_to_play(Stub(), Entity("H", "Mitski"), market="US").lines]
+    assert names == ["City%d" % i for i in range(8)]
