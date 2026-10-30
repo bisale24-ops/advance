@@ -25,6 +25,8 @@ Per tour (113 with at least one opener known to Qloo): taste finds at least one 
 - Qloo's candidate list is its own artist universe; the LLM's names were matched to openers by normalised name.
 - It measures one thing, the support act. Venue, market and sponsor lines are not backtested, and venue capacity and availability are not in Qloo at all.
 
+**Why 115 and 113.** 115 tours were collected; 2 had a headliner Qloo cannot find (listed in `docs/backtest.json` as skipped), so 113 are scored. Tours were fixed before any result was seen, and no method was tuned on this set: the opener cap, the market filter and the venue categories were changed afterwards for the brief, not for the backtest. There is no separate holdout set, so this is a retrospective test, not a prospective one.
+
 **Reproduce, offline, no key**
 ```
 QLOO_MODE=replay python3 tools/backtest.py data/tours.json docs/backtest.json

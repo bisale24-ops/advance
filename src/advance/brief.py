@@ -132,7 +132,9 @@ def where_to_play(q, headliner, take=TAKE, market=None):
     key, title, question, answer = got
     big = [e for e in answer.entities if (e.popularity or 0) >= MARKET_POPULARITY_FLOOR]
     picks = (big if len(big) >= take else list(answer.entities))[:take]
-    return Section(key, title, question, _lines([_with_region(e) for e in picks]), answer.request)
+    def size(e):
+        return "market size %.2f (Qloo popularity)" % e.popularity if e.popularity is not None else ""
+    return Section(key, title, question, _lines([_with_region(e) for e in picks], size), answer.request)
 
 
 def who_opens(q, headliner, take=TAKE, share=OPENER_POPULARITY_SHARE):
