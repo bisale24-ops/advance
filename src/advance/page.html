@@ -76,6 +76,20 @@
   .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
   .legend .lt::before { background: var(--violet); } .legend .ll::before { background: #0c4243; opacity: .55; } .legend .lg::before { background: #c9c7c1; }
   .hits { margin: 18px 0 0; font-size: 14px; color: var(--ink); }
+  .route { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+  @media (max-width: 820px) { .route { grid-template-columns: 1fr; } }
+  .route svg { width: 100%; height: auto; display: block; background: #f7f5f1; border-radius: 12px; }
+  .route .us { fill: #ece9e2; stroke: #d6d2c8; stroke-width: 1; }
+  .route .path { fill: none; stroke: var(--violet); stroke-width: 2.2; stroke-dasharray: 6 5; }
+  .route .dot { fill: var(--violet); stroke: #fff; stroke-width: 2; } .route .dot.typed { fill: var(--wine); }
+  .route .num { font: 600 10px "Instrument Sans", sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: central; }
+  .route .lab { font: 500 12.5px "Instrument Sans", sans-serif; fill: var(--ink); paint-order: stroke; stroke: #f7f5f1; stroke-width: 3.5px; }
+  .legs { list-style: none; margin: 0; padding: 0; counter-reset: s; }
+  .legs li { padding: 7px 0; border-top: 1px solid #f0efec; display: grid; grid-template-columns: 22px 1fr auto; gap: 10px; font-size: 14.5px; }
+  .legs li:first-child { border-top: 0; }
+  .legs .d { color: var(--stone); font-variant-numeric: tabular-nums; font-size: 13px; }
+  .legs .sum { margin-top: 10px; font-size: 14px; color: var(--stone); } .legs .sum b { color: var(--ink); }
+  .legs .key { font-size: 12.5px; color: var(--stone); margin-top: 8px; }
   footer { border-top: 1px solid var(--mist); padding: 22px 0 40px; font-size: 13.5px; color: var(--stone); }
 </style>
 </head>
@@ -120,11 +134,36 @@ $("cmp").innerHTML = PROOF.map(([k, t, l, g]) => `<span class="k">Found in ${k}<
 const pct = v => v == null ? "—" : v.toFixed(2);
 
 function section(s) {
+  const w = a => Math.max(4, Math.round(((a ?? 0) - 0.7) / 0.3 * 100));   // bars start at 0.70, where Qloo's scores begin to mean a match
   const rows = s.lines.map((l, i) => `<div class="row"><span class="n">${i + 1}</span><span class="name" title="${esc(l.name)}">${esc(l.name)}</span>
-    <span class="aff"><span class="bar"><i style="width:${Math.round((l.affinity ?? 0) * 100)}%"></i></span>${pct(l.affinity)}</span></div>`).join("");
+    <span class="aff"><span class="bar"><i style="width:${w(l.affinity)}%"></i></span>${pct(l.affinity)}</span></div>`).join("");
   return `<article class="card"><h3>${esc(s.title)}</h3><p class="q">${esc(s.question)}</p>
     ${rows || `<p class="missing">${esc(s.missing)}</p>`}
     ${s.request ? `<details><summary>Evidence: the Qloo request</summary><pre>GET /v2/insights\n${esc(JSON.stringify(s.request, null, 1))}</pre></details>` : ""}</article>`;
+}
+
+const US = [[48.9,-123],[48.4,-124.7],[46.2,-124],[43,-124.5],[40.4,-124.4],[37.8,-122.5],[34.5,-120.5],[32.5,-117.1],[32.7,-114.7],[31.3,-111.1],[31.3,-108.2],[31.8,-106.5],[29.8,-104.5],[29,-103.1],[28,-99.5],[26,-97.2],[28,-97],[29.6,-94],[29.2,-90.5],[30.2,-88],[30,-85],[29,-83],[27,-82.5],[25.2,-81.1],[25.5,-80.3],[27.5,-80.3],[30.7,-81.4],[32,-80.8],[34.6,-76.5],[35.2,-75.5],[37,-76],[38.5,-75],[39.5,-74],[40.5,-74],[41,-72],[41.5,-70],[43.5,-70.3],[44.8,-66.95],[47.4,-69.2],[45,-71.5],[45,-74.7],[43.6,-76.2],[43.3,-79],[42,-83],[43.5,-82.5],[45.8,-84.5],[46.5,-84.5],[47,-88],[48,-89.5],[49,-95],[49,-123]];
+function routeCard(r) {
+  if (!r) return "";
+  const inUS = r.stops.every(s => s.lat > 24 && s.lat < 50 && s.lon > -125 && s.lon < -66);
+  const W = 720, H = 400, pad = 46;
+  const pts = (inUS ? US.map(([la, lo]) => ({lat: la, lon: lo})) : []).concat(r.stops);
+  const la = pts.map(p => p.lat), lo = pts.map(p => p.lon);
+  const [la0, la1, lo0, lo1] = [Math.min(...la), Math.max(...la), Math.min(...lo), Math.max(...lo)];
+  const k = Math.cos(((la0 + la1) / 2) * Math.PI / 180);
+  const sc = Math.min((W - 2 * pad) / ((lo1 - lo0) * k || 1), (H - 2 * pad) / ((la1 - la0) || 1));
+  const ox = (W - (lo1 - lo0) * k * sc) / 2, oy = (H - (la1 - la0) * sc) / 2;
+  const X = p => ox + (p.lon - lo0) * k * sc, Y = p => oy + (la1 - p.lat) * sc;
+  const outline = inUS ? `<polygon class="us" points="${US.map(([a, b]) => X({lon: b}).toFixed(1) + "," + Y({lat: a}).toFixed(1)).join(" ")}"/>` : "";
+  const line = `<polyline class="path" points="${r.stops.map(p => X(p).toFixed(1) + "," + Y(p).toFixed(1)).join(" ")}"/>`;
+  const dots = r.stops.map((p, i) => { const right = X(p) < W * .7;
+    return `<circle class="dot ${p.typed ? "typed" : ""}" cx="${X(p).toFixed(1)}" cy="${Y(p).toFixed(1)}" r="11"/><text class="num" x="${X(p).toFixed(1)}" y="${Y(p).toFixed(1)}">${i + 1}</text>
+    <text class="lab" x="${(X(p) + (right ? 16 : -16)).toFixed(1)}" y="${(Y(p) + 4).toFixed(1)}" text-anchor="${right ? "start" : "end"}">${esc(p.name.split(",")[0])}</text>`; }).join("");
+  const legs = r.stops.map((p, i) => `<li><span class="n">${i + 1}</span><span>${esc(p.name)}</span><span class="d">${i ? "+" + r.legs[i - 1].distance.toLocaleString() + " " + r.unit : "start"}</span></li>`).join("");
+  return `<article class="card route"><div><h3>Tour routing</h3><p class="q">The shortest order to play your cities and Qloo's best markets, so the tour does not double back.</p>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of the routed tour">${outline}${line}${dots}</svg></div>
+    <div><ol class="legs">${legs}</ol><p class="legs sum">Total <b>${r.total.toLocaleString()} ${r.unit}</b> in straight lines across ${r.stops.length} stops.</p>
+    <p class="legs key"><span style="color:var(--wine)">●</span> the cities you named &nbsp; <span style="color:var(--violet)">●</span> markets where this audience over-indexes</p></div></article>`;
 }
 
 async function run(text) {
@@ -144,11 +183,12 @@ async function run(text) {
       <span><b>${r.qloo_calls}</b> Qloo calls${r.qloo_cached ? ` (${r.qloo_cached} from cache)` : ""} · ${r.ms} ms</span></div>`;
     const recs = r.advice.length ? `<div class="recs"><h2>Advance notes</h2><ol>${r.advice.map(a => `<li><b>${esc(a.about)}</b> — ${esc(a.why)}</li>`).join("")}</ol>
       <p style="margin:10px 0 0;font-size:12.5px;opacity:.75">Written by ${esc(am.adviser)}${am.model ? " · " + esc(am.model) : ""}; it may only name entities from the brief below.</p></div>` : "";
-    $("out").innerHTML = trace + recs + `<div class="grid">${r.brief.sections.map(section).join("")}</div>`;
+    $("out").innerHTML = trace + recs + `<div class="grid">${routeCard(r.brief.route)}${r.brief.sections.map(section).join("")}</div>`;
   } catch (err) {
     $("out").innerHTML = `<div class="error">${esc(err.message)}</div>`;
   } finally { $("go").disabled = false; }
 }
+const q0 = new URLSearchParams(location.search).get("q"); if (q0) { $("text").value = q0; run(q0); }
 $("form").onsubmit = e => { e.preventDefault(); run($("text").value); };
 </script>
 </body>

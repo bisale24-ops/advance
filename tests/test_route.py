@@ -1,0 +1,33 @@
+from advance import route
+
+
+def stop(name, lat, lon):
+    return {"name": name, "lat": lat, "lon": lon}
+
+
+BOS, CHI, DEN, NYC = stop("Boston", 42.36, -71.06), stop("Chicago", 41.88, -87.63), stop("Denver", 39.74, -104.98), stop("New York", 40.71, -74.0)
+
+
+def test_the_route_does_not_double_back():
+    # typed order Boston, Denver, New York, Chicago zig-zags; the shortest path is monotone east to west
+    got = route.plan([BOS, DEN], [NYC, CHI])
+    names = [s["name"] for s in got["stops"]]
+    assert names in (["Boston", "New York", "Chicago", "Denver"], ["Denver", "Chicago", "New York", "Boston"])
+    assert got["total"] == sum(l["distance"] for l in got["legs"])
+
+
+def test_the_shortest_path_beats_every_other_order():
+    import itertools
+    stops = [BOS, CHI, DEN, NYC]
+    best = route.plan([], stops)["total"]
+    km = lambda o: sum(route.km(a, b) for a, b in zip(o, o[1:])) / route.KM_PER_MILE
+    assert best <= round(min(km(o) for o in itertools.permutations(stops))) + 4   # rounding of four legs
+
+
+def test_one_market_is_not_two_stops():
+    cambridge = stop("Cambridge", 42.37, -71.11)
+    assert [s["name"] for s in route.plan([BOS], [cambridge, CHI])["stops"]].count("Cambridge") == 0
+
+
+def test_a_single_place_is_no_route():
+    assert route.plan([BOS], [stop("Cambridge", 42.37, -71.11)]) is None

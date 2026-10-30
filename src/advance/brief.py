@@ -10,6 +10,7 @@ and keeps the request — an empty taste signal is information, not a reason to 
 import dataclasses
 import typing
 
+from . import route
 from .qloo import Empty, Entity, QlooError
 
 OPENER_POPULARITY_SHARE = 0.92   # an opener draws less than the headliner: cap at this share of its popularity
@@ -33,6 +34,8 @@ class Line:
     popularity: typing.Optional[float]
     entity_id: str
     note: str = ""
+    lat: typing.Optional[float] = None
+    lon: typing.Optional[float] = None
 
 
 @dataclasses.dataclass(frozen=True)
@@ -50,6 +53,7 @@ class Brief:
     headliner: Entity
     city: typing.Optional[str]
     sections: typing.Tuple[Section, ...]
+    route: typing.Optional[dict] = None     # the cities ordered into a tour, see route.py
 
     def section(self, key):
         return next(s for s in self.sections if s.key == key)
@@ -62,13 +66,16 @@ class Brief:
             "sections": [{"key": s.key, "title": s.title, "question": s.question, "missing": s.missing,
                           "request": s.request,
                           "lines": [dataclasses.asdict(line) for line in s.lines]} for s in self.sections],
+            "route": self.route,
         }
 
 
 def _lines(entities, note=lambda e: ""):
     def r(x):
         return round(x, 3) if x is not None else None
-    return tuple(Line(e.name, r(e.affinity), r(e.popularity), e.id, note(e)) for e in entities)
+    def at(e, key):
+        return (e.location or {}).get(key)
+    return tuple(Line(e.name, r(e.affinity), r(e.popularity), e.id, note(e), at(e, "lat"), at(e, "lon")) for e in entities)
 
 
 def _with_region(e):
@@ -166,12 +173,28 @@ def build(q, headliner_name, city=None, take=TAKE, cities=None, share=OPENER_POP
     cities = [c for c in (cities if cities is not None else [city]) if c]
     afters = [s for c in cities for s in (which_room(q, headliner, c, take), after_show(q, headliner, c, take))] \
         or [after_show(q, headliner, None, take)]
+    where = where_to_play(q, headliner, take, market)
     return Brief(headliner, " · ".join(cities) or None, (
-        where_to_play(q, headliner, take, market),
+        where,
         who_opens(q, headliner, take, share),
         *afters,
         who_sponsors(q, headliner, take),
-    ))
+    ), tour_route(q, cities, where, market))
+
+
+def tour_route(q, cities, where, market):
+    """The typed cities first, then Qloo's best markets, joined into the shortest path."""
+    named = []
+    for c in cities:
+        try:
+            hit = q.find(c, "destination")
+        except (Empty, QlooError):
+            continue
+        loc = hit.location or {}
+        if loc.get("lat") is not None and loc.get("lon") is not None:
+            named.append({"name": c, "lat": loc["lat"], "lon": loc["lon"]})
+    markets = [{"name": l.name, "lat": l.lat, "lon": l.lon} for l in where.lines if l.lat is not None and l.lon is not None]
+    return route.plan(named, markets, unit="mi" if market in (None, "", "US") else "km")
 
 
 def render_text(brief):
