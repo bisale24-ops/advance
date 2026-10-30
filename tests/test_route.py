@@ -31,3 +31,17 @@ def test_one_market_is_not_two_stops():
 
 def test_a_single_place_is_no_route():
     assert route.plan([BOS], [stop("Cambridge", 42.37, -71.11)]) is None
+
+
+def test_roads_attach_to_every_leg_and_a_failed_lookup_stays_none():
+    tour = route.plan([BOS, DEN], [NYC, CHI])
+    calls = []
+
+    def lookup(a, b):
+        calls.append((a["name"], b["name"]))
+        return None if b["name"] == "Chicago" else {"km": 100, "hours": 1.5}
+
+    got = route.with_roads(tour, lookup)
+    assert len(calls) == len(got["legs"]) == 3
+    assert [l["road"] is None for l in got["legs"]].count(True) == 1
+    assert route.with_roads(None, lookup) is None

@@ -4,7 +4,9 @@ Straight-line distance, not a booking calendar: it answers "which cities sit tog
 does not route Boston -> Nashville -> Boston. Seven stops at most, so every order is checked.
 """
 import itertools
+import json
 import math
+import urllib.request
 
 MAX_STOPS = 7
 MIN_APART_KM = 60          # two stops this close are one market (Boston and Cambridge)
@@ -54,3 +56,32 @@ def plan(named, markets, unit="mi"):
     return {"unit": unit, "stops": [{"name": s["name"], "lat": s["lat"], "lon": s["lon"],
                                      "typed": s["name"] in {n["name"] for n in named}} for s in order],
             "legs": legs, "total": sum(l["distance"] for l in legs)}
+
+
+OSRM = "https://router.project-osrm.org/route/v1/driving/{a};{b}?overview=false"
+
+
+def road(a, b, timeout=4):
+    """Road distance (km) and driving hours between two stops from OSRM (OpenStreetMap data).
+    None when the service does not answer: the page then says it is an estimate."""
+    url = OSRM.format(a="%s,%s" % (a["lon"], a["lat"]), b="%s,%s" % (b["lon"], b["lat"]))
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "advance/0.1"}), timeout=timeout) as r:
+            data = json.load(r)
+        leg = data["routes"][0]
+        return {"km": round(leg["distance"] / 1000), "hours": round(leg["duration"] / 3600, 1)}
+    except Exception:  # noqa: BLE001 - any failure means no road figure, never a made-up one
+        return None
+
+
+def with_roads(tour, lookup=road):
+    """Attach a `road` figure to every leg of a plan (None where the lookup failed)."""
+    if not tour:
+        return tour
+    import concurrent.futures
+    stops = {s["name"]: s for s in tour["stops"]}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        found = list(pool.map(lambda leg: lookup(stops[leg["from"]], stops[leg["to"]]), tour["legs"]))
+    for leg, figure in zip(tour["legs"], found):
+        leg["road"] = figure
+    return tour

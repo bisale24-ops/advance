@@ -8,6 +8,7 @@ produced it, so a reader can re-run any single claim. A section Qloo could not a
 and keeps the request — an empty taste signal is information, not a reason to guess.
 """
 import dataclasses
+import os
 import typing
 
 from . import route
@@ -213,7 +214,8 @@ def tour_route(q, cities, where, market):
         if loc.get("lat") is not None and loc.get("lon") is not None:
             named.append({"name": c, "lat": loc["lat"], "lon": loc["lon"]})
     markets = [{"name": l.name, "lat": l.lat, "lon": l.lon} for l in where.lines if l.lat is not None and l.lon is not None]
-    return route.plan(named, markets, unit="mi" if market in (None, "", "US") else "km")
+    lookup = (lambda a, b: None) if os.environ.get("QLOO_MODE") == "replay" else route.road   # replay runs offline
+    return route.with_roads(route.plan(named, markets, unit="mi" if market in (None, "", "US") else "km"), lookup)
 
 
 def render_text(brief):
