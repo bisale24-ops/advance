@@ -104,3 +104,15 @@ def test_most_booked_rooms_are_asked_for_with_no_artist_signal():
     assert kind == "place" and entities == () and params["filter__location__query"] == "Chicago"
     assert section.key == "booked" and section.title == "Most-booked rooms · Chicago"
     assert brief.booked_rooms(stub, HEAD, None) is None
+
+
+def test_after_the_show_searches_around_the_room_when_one_is_known():
+    from advance.brief import Line
+    stub = Stub({"place": [e("Lemon", 0.9)]})
+    room = Line("United Center", 0.9, 1.0, "r", lat=41.88, lon=-87.67)
+    section = brief.after_show(stub, HEAD, "Chicago", near=room)
+    params = stub.asked[0][2]
+    assert params["filter__location"] == "POINT(-87.67 41.88)" and params["filter__location__radius"] == brief.AFTER_RADIUS_M
+    assert "filter__location__query" not in params and "United Center" in section.question
+    brief.after_show(stub, HEAD, "Chicago")
+    assert stub.asked[1][2]["filter__location__query"] == "Chicago"

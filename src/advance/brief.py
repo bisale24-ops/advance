@@ -153,13 +153,23 @@ def who_opens(q, headliner, take=TAKE, share=OPENER_POPULARITY_SHARE):
     return Section(key, title, question, _lines(picks), answer.request)
 
 
-def after_show(q, headliner, city, take=TAKE):
+AFTER_RADIUS_M = 3000
+
+
+def after_show(q, headliner, city, take=TAKE, near=None):
+    """Bars and clubs the fans pick. With `near` (a room line with coordinates) the search is the 3 km around that
+    room, so "after the show" means after a show at that room; otherwise the whole city."""
     if not city:
         return Section("after", "After the show", "Where do the same fans go afterwards?",
                        missing="Pick a city to see places near the venue.")
-    got = _ask("after", f"After the show · {city}", f"Where do {headliner.name}'s fans go in {city}?",
-               lambda: q.insights("place", entities=[headliner.id], take=take, filter__location__query=city,
-                                  filter__tags=AFTER_TAGS, filter__exclude__tags=NOT_AFTER))
+    anchored = near is not None and near.lat is not None and near.lon is not None
+    where = ({"filter__location": "POINT(%s %s)" % (near.lon, near.lat), "filter__location__radius": AFTER_RADIUS_M}
+             if anchored else {"filter__location__query": city})
+    question = (f"Where do {headliner.name}'s fans go within {AFTER_RADIUS_M // 1000} km of {near.name}, {city}?"
+                if anchored else f"Where do {headliner.name}'s fans go in {city}?")
+    got = _ask("after", f"After the show · {city}", question,
+               lambda: q.insights("place", entities=[headliner.id], take=take, filter__tags=AFTER_TAGS,
+                                  filter__exclude__tags=NOT_AFTER, **where))
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
@@ -253,9 +263,12 @@ def build(q, headliner_name, city=None, take=TAKE, cities=None, share=OPENER_POP
     """The five questions. `cities` asks the venue and after-show questions once per city (`city` is one)."""
     headliner = q.find(headliner_name, "artist")
     cities = [c for c in (cities if cities is not None else [city]) if c]
-    afters = [s for c in cities for s in (which_room(q, headliner, c, take), booked_rooms(q, headliner, c, take),
-                                          after_show(q, headliner, c, take)) if s] \
-        or [after_show(q, headliner, None, take)]
+    afters = []
+    for c in cities:
+        room, booked = which_room(q, headliner, c, take), booked_rooms(q, headliner, c, take)
+        anchor = booked.lines[0] if booked is not None and booked.lines else None
+        afters += [room, booked, after_show(q, headliner, c, take, near=anchor)]
+    afters = [s for s in afters if s] or [after_show(q, headliner, None, take)]
     where = where_to_play(q, headliner, take, market)
     return Brief(headliner, " · ".join(cities) or None, (
         where,
