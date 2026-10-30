@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Cuyahoga Falls, Ohio",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "C08F5790-B209-4F5F-9AC1-4108B7E389FD",
+      "name": "Cuyahoga Falls",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 41.16405838506779,
+       "lon": -81.52052607249686
+      },
+      "popularity": 0.9883988,
+      "disambiguation": "Cuyahoga Falls, Summit County, Ohio, United States"
+     }
+    ]
+   }
+  }
+ }
+}

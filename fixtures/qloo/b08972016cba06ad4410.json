@@ -1,0 +1,656 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Irving, Texas",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Grand Prairie Cricket Stadium",
+     "entity_id": "0B42852C-F98B-45B1-9958-E46664BE04FC",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0B42852C-F98B-45B1-9958-E46664BE04FC-1qoFGn-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1600 Lone Star Pkwy Grand Prairie, TX 75050",
+      "geocode": {
+       "city": "Grand Prairie",
+       "name": null,
+       "metro": "Dallas",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Texas",
+       "admin2_region": "Dallas County"
+      },
+      "parking": null,
+      "website": "http://www.majorleaguecricket.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "cricket stadium",
+        "count": 24
+       },
+       {
+        "name": "drone show",
+        "count": 4
+       },
+       {
+        "name": "league matches",
+        "count": 19
+       },
+       {
+        "name": "major league cricket",
+        "count": 2
+       },
+       {
+        "name": "cricket experience",
+        "count": 6
+       },
+       {
+        "name": "stadium size",
+        "count": 7
+       },
+       {
+        "name": "heatstroke",
+        "count": 2
+       },
+       {
+        "name": "helpful staff",
+        "count": 7
+       },
+       {
+        "name": "clean restrooms",
+        "count": 3
+       },
+       {
+        "name": "unobstructed views",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Grand Prairie",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "FCF66536-A22B-4E6A-8E6C-2E8887EB9F42",
+        "admin_level": 8,
+        "locality_id": "r114449",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Grand Prairie",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "FCF66536-A22B-4E6A-8E6C-2E8887EB9F42",
+        "admin_level": 8,
+        "locality_id": "r114449",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "75050",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "38159749-2B10-4555-AE29-5D9FBD98BAFA",
+        "admin_level": 9,
+        "locality_id": "z75050",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       }
+      ],
+      "description": "Dedicated cricket stadium in the Dallas\u2013Fort Worth area that hosts Major League Cricket matches and international fixtures.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Dedicated cricket stadium in the Dallas\u2013Fort Worth area that hosts Major League Cricket matches and international fixtures.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0B42852C-F98B-45B1-9958-E46664BE04FC-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.5517285569895037,
+     "location": {
+      "lat": 32.768232499999996,
+      "lon": -96.98683899999999,
+      "geohash": "9vg43j22fce5"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:cricket_ground",
+       "name": "Cricket ground",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:cricket_ground",
+       "name": "Cricket ground",
+       "type": "urn:tag:category:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 1188.5574449005376,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1600 Lone Star Pkwy Grand Prairie, TX 75050",
+     "external": {
+      "google_place": [
+       {
+        "id": "2e075c7c630e8f87",
+        "place_id": "ChIJ-xfjYECEToYRKlPFpWJ_OlA"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+      "name": "Irving",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 32.85806535636591,
+       "lon": -96.97025812202637
+      },
+      "popularity": 0.9973958,
+      "disambiguation": "Irving, Dallas County, Texas, United States"
+     }
+    ]
+   }
+  }
+ }
+}

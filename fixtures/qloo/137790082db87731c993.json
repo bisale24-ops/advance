@@ -1,0 +1,6626 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Bethlehem, Pennsylvania",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "ArtsQuest Center at SteelStacks",
+     "entity_id": "E74BA0CD-EF44-41CB-A780-A8B9D1E7F9C2",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ]
+      },
+      "phone": "+16103321300",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/E74BA0CD-EF44-41CB-A780-A8B9D1E7F9C2-4y7mpy-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "101 Founders Way Bethlehem, PA 18015",
+      "geocode": {
+       "city": "Bethlehem",
+       "name": "South Bethlehem",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Northampton County"
+      },
+      "parking": null,
+      "website": "http://www.artsquest.org/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "18015",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A3FF64D-7076-4E2E-830D-E5C1DEBF82C4",
+        "admin_level": 9,
+        "locality_id": "z18015",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Hip performing arts venue in a repurposed steel-mill complex hosting films, concerts, visual-arts exhibitions and community events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "South Bethlehem",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:art_center",
+       "akas": [
+        {
+         "value": "\"\u30a2\u30fc\u30c8\u30bb\u30f3\u30bf\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Centre d'art\"",
+         "languages": [
+          "ca",
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Kunstcentrum\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u827a\u672f\u4e2d\u5fc3\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Kituo cha sanaa\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Centru de art\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0631\u0643\u0632 \u0641\u0646\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Arte zentroa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u04e8\u043d\u0435\u0440 \u043e\u0440\u0442\u0430\u043b\u044b\u0493\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u1798\u1787\u17d2\u1788\u1798\u178e\u17d2\u178c\u179b\u179f\u17b7\u179b\u17d2\u1794\u17c8\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Centrum sztuki\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0442-\u0446\u0435\u043d\u0442\u0440\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Centrum umenia\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0c06\u0c30\u0c4d\u0c1f\u0c4d \u0c38\u0c46\u0c02\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Art centre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u039a\u03ad\u03bd\u03c4\u03c1\u03bf \u03c4\u03ad\u03c7\u03bd\u03b7\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Centro de arte\"",
+         "languages": [
+          "es_la",
+          "es",
+          "pt",
+          "es_ar",
+          "pt_pt",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Kunstikeskus\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Kunssentrum\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u0130nc\u0259s\u0259n\u0259t m\u0259rk\u0259zi\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u10ee\u10d4\u10da\u10dd\u10d5\u10dc\u10d4\u10d1\u10d8\u10e1 \u10ea\u10d4\u10dc\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0986\u09b0\u09cd\u099f \u09b8\u09c7\u09a8\u09cd\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Umjetni\u010dki centar\"",
+         "languages": [
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0442 \u0446\u0435\u043d\u0442\u044a\u0440\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Centro d'arte\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Umetnostni center\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u1021\u1014\u102f\u1015\u100a\u102c\u1005\u1004\u103a\u1010\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Qend\u00ebr arti\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05e8\u05db\u05d6 \u05d0\u05de\u05e0\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kunstzentrum\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Taidekeskus\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0915\u0932\u093e \u0915\u0947\u0902\u0926\u094d\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Konstcenter\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u85dd\u8853\u4e2d\u5fc3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Men\u0173 centras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0423\u043c\u0435\u0442\u043d\u0438\u0447\u043a\u0438 \u0446\u0435\u043d\u0442\u0430\u0440\"",
+         "languages": [
+          "sr",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0438\u0441\u0442\u0435\u0446\u044c\u043a\u0438\u0439 \u0446\u0435\u043d\u0442\u0440\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Kunstsenter\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Kunstcenter\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Art center\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e28\u0e34\u0e25\u0e1b\u0e30\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Sanat merkezi\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb9\u0e99\u0eaa\u0eb4\u0ea5\u0eb0\u0e9b\u0eb0\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"M\u0101kslas centrs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uc544\ud2b8 \uc13c\ud130\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0bb2\u0bc8 \u0bae\u0bc8\u0baf\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Trung t\u00e2m ngh\u1ec7 thu\u1eadt\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"M\u0171v\u00e9szeti k\u00f6zpont\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Pusat seni\"",
+         "languages": [
+          "ms",
+          "id"
+         ]
+        },
+        {
+         "value": "\"Um\u011bleck\u00e9 centrum\"",
+         "languages": [
+          "cs"
+         ]
+        }
+       ],
+       "name": "Art center",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Hip performing arts venue in a repurposed steel-mill complex hosting films, concerts, visual-arts exhibitions and community events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "ArtsQuest Center at SteelStacks is a dynamic performing arts venue located in the heart of Bethlehem, Pennsylvania, within a repurposed steel-mill complex. It serves as a central hub for concerts, films, visual arts, and community celebrations, blending industrial history with a modern, lively atmosphere. Visitors are drawn to its unique setting, which offers iconic views of the historic steel stacks and a constant schedule of engaging local and national entertainment.",
+      "service_description": null,
+      "ambience_description": "The center maintains a lively and artistic atmosphere that feels both historic and contemporary. It is a social, welcoming space where the industrial backdrop creates a unique and festive environment.",
+      "amenities_description": "The facility features a variety of amenities, including an indoor bar, dining options, and accessible restrooms. Guests can also enjoy an outdoor terrace and an elevated walking trail along the historic site.",
+      "unique_selling_points": "Housed within a repurposed steel-mill, the venue offers a one-of-a-kind setting where industrial history meets modern entertainment. It provides a distinct backdrop for live music, cinema, and seasonal community festivals.",
+      "neighborhood_description": "The neighborhood is defined by its rich industrial past, blending historical preservation with a vibrant modern arts scene. It serves as a bustling hub for community engagement, entertainment, and cultural tourism.",
+      "physical_setting_description": "Located within the historic and repurposed Bethlehem Steel factory complex, the center offers a unique industrial aesthetic. Visitors enjoy impressive views of the iconic steel stacks and the surrounding urban landscape.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/E74BA0CD-EF44-41CB-A780-A8B9D1E7F9C2-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.998862784122884,
+     "location": {
+      "lat": 40.614004,
+      "lon": -75.367718,
+      "geohash": "dr4rhcwcsyc8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:interests:qloo:public_art",
+       "name": "Public art",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:festive",
+       "name": "Festive",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:all_day",
+       "name": "All day",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:industrial_heritage",
+       "name": "Industrial heritage",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:artistic",
+       "name": "Artistic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_terrace",
+       "name": "Outdoor terrace",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:independent_cinema",
+       "name": "Independent cinema",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ice_skating",
+       "name": "Ice skating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:industrial_history",
+       "name": "Industrial history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:cultural_complex",
+       "name": "Cultural complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:steel_stacks",
+       "name": "Steel stacks",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:performance_stage",
+       "name": "Performance stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:steel_stack_view",
+       "name": "Steel stack view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:walking_trail",
+       "name": "Walking trail",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:bethlehem_steel_factory",
+       "name": "Bethlehem steel factory",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:repurposed_steel_mill",
+       "name": "Repurposed steel mill",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:bright",
+       "name": "Bright",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:indoor_seating",
+       "name": "Indoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:art_center",
+       "name": "Art center",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:art_center",
+       "name": "Art center",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unique",
+       "name": "Unique",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_festivals",
+       "name": "Local festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:film_screenings",
+       "name": "Film screenings",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "101 Founders Way Bethlehem, PA 18015",
+     "external": {
+      "google_place": [
+       {
+        "id": "8c64c67ebe45aa50",
+        "place_id": "ChIJPYZjMEY-xIkRUKpFvn7GZIw"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Wind Creek Event Center",
+     "entity_id": "499F0126-ACAE-436E-8A87-C40BA46FDC6E",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+16102977414",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/499F0126-ACAE-436E-8A87-C40BA46FDC6E-1ExbUL-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "77 Wind Creek Blvd Bethlehem, PA 18015",
+      "geocode": {
+       "city": "Bethlehem",
+       "name": "South Bethlehem",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Northampton County"
+      },
+      "parking": true,
+      "website": "http://www.windcreekeventcenter.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "casino",
+        "count": 87
+       },
+       {
+        "name": "shows",
+        "count": 61
+       },
+       {
+        "name": "security",
+        "count": 58
+       },
+       {
+        "name": "folding chairs",
+        "count": 28
+       },
+       {
+        "name": "mall",
+        "count": 12
+       },
+       {
+        "name": "food court",
+        "count": 12
+       },
+       {
+        "name": "diana ross",
+        "count": 8
+       },
+       {
+        "name": "aaron lewis",
+        "count": 6
+       },
+       {
+        "name": "air supply",
+        "count": 6
+       },
+       {
+        "name": "suite",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "18015",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A3FF64D-7076-4E2E-830D-E5C1DEBF82C4",
+        "admin_level": 9,
+        "locality_id": "z18015",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Contemporary 14,000-square-foot indoor venue hosting concerts, comedy, sports, and private events in Bethlehem, PA.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "South Bethlehem",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:concert_hall",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Konserttisali\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0c15\u0c1a\u0c47\u0c30\u0c40 \u0c39\u0c3e\u0c32\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c5\u03bd\u03b1\u03c5\u03bb\u03b9\u03b1\u03ba\u03cc\u03c2 \u03c7\u03ce\u03c1\u03bf\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430 \u0441\u0430\u043b\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Concertzaal\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u044b\u0439 \u0437\u0430\u043b\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Sall\u00eb koncertesh\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u1015\u103d\u1032\u1001\u1014\u103a\u1038\u1019\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\ucf58\uc11c\ud2b8\ud640\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Konsertsaal\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Sala de concertos\"",
+         "languages": [
+          "gl",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Concert hall\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0995\u09a8\u09b8\u09be\u09b0\u09cd\u099f \u09b9\u09b2\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Sala koncertowa\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Konsert zal\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u30b3\u30f3\u30b5\u30fc\u30c8\u30db\u30fc\u30eb\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u0eab\u0ecd\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e84\u0ead\u0e99\u0ec0\u0eaa\u0eb5\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Konserthus\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "sl",
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Koncert\u0173 sal\u0117\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05d5\u05dc\u05dd \u05e7\u05d5\u05e0\u05e6\u05e8\u05d8\u05d9\u05dd\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Konzertsaal\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u97f3\u4e50\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Gedung konser\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00ed s\u00ed\u0148\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10d0\u10d9\u10dd\u10dc\u10ea\u10d4\u10e0\u10e2\u10dd \u10d3\u10d0\u10e0\u10d1\u10d0\u10d6\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u97f3\u6a02\u5ef3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430 \u0437\u0430\u043b\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Konser salonu\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Kontserdisaal\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Konsyertong bulwagan\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430 \u0434\u0432\u043e\u0440\u0430\u043d\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Hangversenyterem\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Kontzertu-aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Koncertsal\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u0642\u0627\u0639\u0629 \u062d\u0641\u0644\u0627\u062a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442 \u0437\u0430\u043b\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00e1 s\u00e1la\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Koncertz\u0101le\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u0437\u0430\u043b\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertsal\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0915\u0949\u0928\u094d\u0938\u0930\u094d\u091f \u0939\u0949\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0e2b\u0e2d\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u179f\u17b6\u179b\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa tamasha\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Sal\u0103 de concerte\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Dewan konsert\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Ph\u00f2ng h\u00f2a nh\u1ea1c\"",
+         "languages": [
+          "vi"
+         ]
+        }
+       ],
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Contemporary 14,000-square-foot indoor venue hosting concerts, comedy, sports, and private events in Bethlehem, PA.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Wind Creek Event Center is a premier 14,000-square-foot indoor entertainment destination located in the heart of Bethlehem, Pennsylvania. The venue hosts an array of high-profile events, ranging from world-class concerts and comedy shows to sporting events and private functions. It is recognized for its commitment to inclusivity and convenience, offering accessible amenities and a central location that draws visitors from across the Lehigh Valley. Whether attending a major touring act or a community event, guests experience a modern, lively atmosphere designed for optimal engagement.",
+      "service_description": null,
+      "ambience_description": "The venue maintains a high-energy and social atmosphere that is well-suited for large gatherings and live performances. The environment is designed to be modern and efficient for hosting diverse types of crowds.",
+      "amenities_description": "The venue offers convenient amenities such as a dedicated box office, coat check services, and inclusive features like transcripts for the hearing impaired. Guests can also enjoy happy hour offerings during their visit.",
+      "unique_selling_points": "As a 14,000-square-foot premier event venue in the Lehigh Valley, it offers a versatile space for major concerts, national comedy tours, and private events. It acts as a central entertainment hub providing access to high-profile performers and live stage productions.",
+      "neighborhood_description": "The surrounding area is a lively hub known for its commercial activity and vibrant tourist scene. It provides a central location for visitors to engage with a variety of entertainment and leisure opportunities.",
+      "physical_setting_description": "Located in Bethlehem, this contemporary 14,000-square-foot indoor facility is situated in a central urban environment. It serves as a prominent destination for large-scale entertainment within the Lehigh Valley.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/499F0126-ACAE-436E-8A87-C40BA46FDC6E-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9968569158437963,
+     "location": {
+      "lat": 40.6153202,
+      "lon": -75.3591574,
+      "geohash": "dr4rj1v1kkn4"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:coat_check",
+       "name": "Coat check",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:indoor_stage_view",
+       "name": "Indoor stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:performing_arts",
+       "name": "Performing arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_venue",
+       "name": "Indoor venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_shows",
+       "name": "Comedy shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coat_check",
+       "name": "Coat check",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stand_up_comedy",
+       "name": "Stand up comedy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:box_office",
+       "name": "Box office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_culture",
+       "name": "Concert culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:wind_creek_bethlehem_casino",
+       "name": "Wind creek bethlehem casino",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_events",
+       "name": "Sports events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:transcripts_for_hearing_impaired",
+       "name": "Transcripts for hearing impaired",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "77 Wind Creek Blvd Bethlehem, PA 18015",
+     "external": {
+      "google_place": [
+       {
+        "id": "5cbae94907af93ac",
+        "place_id": "ChIJo66TRTc-xIkRrJOvB0npulw"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Wind Creek Bethlehem",
+     "entity_id": "16EECA14-1A74-4471-BB90-DAB3C56B78DC",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+14847777777",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/16EECA14-1A74-4471-BB90-DAB3C56B78DC-3nLQ3X-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "77 Wind Creek Blvd Bethlehem, PA 18015",
+      "geocode": {
+       "city": "Bethlehem",
+       "name": "South Bethlehem",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Northampton County"
+      },
+      "parking": true,
+      "website": "https://windcreek.com/bethlehem",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "casino",
+        "count": 2251
+       },
+       {
+        "name": "smoking area",
+        "count": 180
+       },
+       {
+        "name": "poker room",
+        "count": 73
+       },
+       {
+        "name": "concert venue",
+        "count": 80
+       },
+       {
+        "name": "food court",
+        "count": 233
+       },
+       {
+        "name": "slots",
+        "count": 397
+       },
+       {
+        "name": "chop house",
+        "count": 124
+       },
+       {
+        "name": "table games",
+        "count": 197
+       },
+       {
+        "name": "comfortable bed",
+        "count": 98
+       },
+       {
+        "name": "blackjack",
+        "count": 90
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "18015",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A3FF64D-7076-4E2E-830D-E5C1DEBF82C4",
+        "admin_level": 9,
+        "locality_id": "z18015",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Lively casino resort offering 3,000 slot machines, 13 restaurants including Emeril Lagasse venues, a spa, indoor pool, event center, and free parking.",
+      "hotel_class": 4,
+      "price_level": null,
+      "price_range": {
+       "to": 201,
+       "from": 145,
+       "currency": "usd"
+      },
+      "star_rating": 4,
+      "event_spaces": true,
+      "neighborhood": "South Bethlehem",
+      "pet_friendly": false,
+      "check_in_time": "16:00",
+      "primary_genre": {
+       "id": "urn:tag:genre:place:hotel",
+       "akas": [
+        {
+         "value": "\"\u039e\u03b5\u03bd\u03bf\u03b4\u03bf\u03c7\u03b5\u03af\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Otel\"",
+         "languages": [
+          "tr",
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u041e\u0442\u0435\u043b\u044c\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Kh\u00e1ch s\u1ea1n\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Hotelli\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5e97\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u049a\u043e\u043d\u0430\u049b \u04af\u0439\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Hoteli\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10d0\u10e1\u10e2\u10e3\u10db\u10e0\u10dd\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0939\u094b\u091f\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u101f\u102d\u102f\u1010\u101a\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"H\u00f4tel\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"\ud638\ud154\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0c39\u0c4b\u0c1f\u0c32\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Viesn\u012bca\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Sz\u00e1lloda\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Vie\u0161butis\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0413\u043e\u0442\u0435\u043b\u044c\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u0425\u043e\u0442\u0435\u043b\"",
+         "languages": [
+          "mk",
+          "bg",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u178e\u17d2\u178b\u17b6\u1782\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u09b9\u09cb\u099f\u09c7\u09b2\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u30db\u30c6\u30eb\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Hotel\"",
+         "languages": [
+          "pl",
+          "pt_pt",
+          "ro",
+          "hr",
+          "sq",
+          "sk",
+          "cs",
+          "it",
+          "es_la",
+          "de",
+          "es",
+          "af",
+          "pt",
+          "tl",
+          "ca",
+          "bs",
+          "da",
+          "id",
+          "en_gb",
+          "nl",
+          "gl",
+          "ms",
+          "sl",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0b9f\u0bc1\u0ba4\u0bbf\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Hotela\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Hotell\"",
+         "languages": [
+          "sv",
+          "et",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0641\u0646\u062f\u0642\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05dc\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0ec1\u0eae\u0ea1\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u98ef\u5e97\"",
+         "languages": [
+          "zh_tw"
+         ]
+        }
+       ],
+       "name": "Hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": "11:00",
+      "business_rating": 4.199999809265137,
+      "loyalty_program": "Wind Creek Rewards",
+      "number_of_rooms": 282,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Lively casino resort offering 3,000 slot machines, 13 restaurants including Emeril Lagasse venues, a spa, indoor pool, event center, and free parking.",
+      "number_of_stations": null,
+      "cuisine_description": "Wind Creek Bethlehem is a large casino-resort with a broad range of dining options from casual to fine dining. Signature offerings include steakhouse and seafood menus (including prime rib and other steak cuts), Cajun/Creole dishes from Emeril Lagasse's restaurant, an expansive buffet and multiple casual outlets serving burgers, pizza and pub fare, plus dessert and coffee options. The property supports dietary needs with vegetarian, vegan and gluten-free choices and offers full bar and specialty cocktail programs.",
+      "overall_description": "Wind Creek Bethlehem is a sprawling, modern casino resort that serves as a primary entertainment hub for the region. Offering a blend of high-energy gaming, professional event hosting, and diverse dining options ranging from casual food courts to fine dining establishments, it provides an all-inclusive guest experience. The property is noted for its clean, contemporary hotel rooms and its unique physical footprint on the site of a historic steel mill, making it a distinctive destination for concerts, weekend getaways, and celebrations.",
+      "service_description": "Multiple on-site dining venues cover casual to upscale experiences. Guests can dine in at restaurants (including a signature Emeril Lagasse outlet), order room service, use takeout options, or book catering and banquet/private dining for events held in the resort's event center. The property hosts nightlife and promotional events tied to casino activity and rewards members, with full bar service across venues.",
+      "ambience_description": "The property maintains a modern, upscale feel with a lively, high-energy casino environment balanced by professional hospitality and well-maintained, comfortable guest accommodations.",
+      "amenities_description": "Wind Creek Bethlehem is a vibrant casino resort featuring a modern hotel with diverse room options including suites. The property offers extensive amenities such as a full-service spa, fitness center, indoor pool, and a business center. Dining is a highlight with multiple onsite restaurants, including fine dining options and a food court. Guests enjoy 24/7 front desk service, concierge assistance, free parking, and security, alongside a large casino floor and event center.",
+      "unique_selling_points": "The property stands out as a comprehensive resort destination that seamlessly combines a massive, modern gaming floor with a high-end concert venue, diverse culinary options, and a luxury spa. Its unique location on the site of a historic steel mill provides a striking backdrop that differentiates it from typical casino resorts.",
+      "neighborhood_description": "The surrounding area is a blend of preserved industrial history and walkable local attractions, providing a distinct atmosphere that feels both expansive and conveniently located near local shopping and dining districts.",
+      "physical_setting_description": "Situated on the historic grounds of a former major steel foundry, this facility features a modern, multi-story structure that offers unique views of both the old industrial architecture and the scenic hillside town. The resort is integrated into a larger, walk-friendly campus that connects gaming, lodging, dining, and shopping areas.",
+      "customer_demographics_description": "Wind Creek Bethlehem attracts a mix of local and visiting adults: hotel guests and tourists drawn by the casino, shoppers visiting the outlet mall, groups and couples looking for nightlife and dining, business travelers using the event center, and higher-spend guests seeking fine-dining and steakhouse experiences. The venue also services families using hotel amenities (pool, restaurants) though the gaming floor primarily draws adults.",
+      "image": {
+       "url": "https://images.qloo.com/i/16EECA14-1A74-4471-BB90-DAB3C56B78DC-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9965060746235004,
+     "location": {
+      "lat": 40.6140872,
+      "lon": -75.3569271,
+      "geohash": "dr4rj1wf0q7k"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:hotel:casino",
+       "name": "Casino",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:seafood_platters_and_shellfish",
+       "name": "Seafood platters and shellfish",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:all_day",
+       "name": "All day",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:soft_drinks",
+       "name": "Soft drinks",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:creole",
+       "name": "Creole",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:elegant",
+       "name": "Elegant",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:party_goers",
+       "name": "Party goers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:55_",
+       "name": "55+",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:casino_gaming",
+       "name": "Casino gaming",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:fine_dining",
+       "name": "Fine dining",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:personal_care",
+       "name": "Personal care",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:pescatarian",
+       "name": "Pescatarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:room_service",
+       "name": "Room service",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:business_center",
+       "name": "Business center",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:casino_gaming",
+       "name": "Casino gaming",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:former_steel_mill_grounds",
+       "name": "Former steel mill grounds",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:resort_like",
+       "name": "Resort like",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:steel_stacks",
+       "name": "Steel stacks",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:steakhouse",
+       "name": "Steakhouse",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:telephone",
+       "name": "Telephone",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:international_casual_dining",
+       "name": "International casual dining",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_space",
+       "name": "Event space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:day_spa",
+       "name": "Day spa",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:bottled_water",
+       "name": "Bottled water",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:casino",
+       "name": "Casino",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:free_wi_fi",
+       "name": "Free wi fi",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:fine_dining_enthusiasts",
+       "name": "Fine dining enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concierge",
+       "name": "Concierge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:multiple_restaurants",
+       "name": "Multiple restaurants",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel",
+       "name": "Hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:45_54",
+       "name": "45 54",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:paid_breakfast",
+       "name": "Paid breakfast",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:kid_friendly",
+       "name": "Kid friendly",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:executive_suite",
+       "name": "Executive suite",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:event_catering",
+       "name": "Event catering",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:desserts",
+       "name": "Desserts",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_concerts",
+       "name": "Live concerts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:christmas_market",
+       "name": "Christmas market",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:spa",
+       "name": "Spa",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:hotel_rating:place:four_star",
+       "name": "Four star",
+       "type": "urn:tag:hotel_rating:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:nut_free",
+       "name": "Nut free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:gourmet",
+       "name": "Gourmet",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:online_ordering",
+       "name": "Online ordering",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:steak_and_prime_rib_entrees",
+       "name": "Steak and prime rib entrees",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:standard",
+       "name": "Standard",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:seafood_enthusiasts",
+       "name": "Seafood enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:farm_to_table",
+       "name": "Farm to table",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:upscale",
+       "name": "Upscale",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:fine_dining",
+       "name": "Fine dining restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fine_dining",
+       "name": "Fine dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:place_page_attributes:place:hotel_class",
+       "name": "Hotel class",
+       "type": "urn:tag:place_page_attributes:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:luxurious",
+       "name": "Luxurious",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:cajun",
+       "name": "Cajun",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:assorted_desserts_and_pastries",
+       "name": "Assorted desserts and pastries",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:mini_fridge",
+       "name": "Mini fridge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:king",
+       "name": "King",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:banquet_services",
+       "name": "Banquet services",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:resort_hotel",
+       "name": "Resort hotel",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:historic_industrial_views",
+       "name": "Historic industrial views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:air_conditioning",
+       "name": "Air conditioning",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:steak_enthusiasts",
+       "name": "Steak enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel:resort",
+       "name": "Resort hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:cajun_creole_specialties_from_emeril_lagasse",
+       "name": "Cajuncreole specialties from emeril lagasse",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:spa_and_wellness",
+       "name": "Spa and wellness",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:allergy_friendly",
+       "name": "Allergy friendly",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:suite",
+       "name": "Suite",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:front_desk_24_7",
+       "name": "Front desk 247",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:towels",
+       "name": "Towels",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:event_attendees",
+       "name": "Event attendees",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:buffet",
+       "name": "Buffet",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:day_spa",
+       "name": "Day spa",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:grill",
+       "name": "Grill",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:gift_shop",
+       "name": "Gift shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:industrial_heritage",
+       "name": "Industrial heritage",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:fine_dining",
+       "name": "Fine dining",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:room_service",
+       "name": "Room service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevator",
+       "name": "Elevator",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:affluent_diners",
+       "name": "Affluent diners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:security_24_7",
+       "name": "Security 247",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:business_center",
+       "name": "Business center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:meeting_rooms",
+       "name": "Meeting rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:casino",
+       "name": "Casino",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:gourmet_burgers_and_casual_pub_fare",
+       "name": "Gourmet burgers and casual pub fare",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:breakfast_available",
+       "name": "Breakfast available",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:gaming_amusement",
+       "name": "Gaming amusement",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:air_conditioned",
+       "name": "Air conditioned",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:dairy_free",
+       "name": "Dairy free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:walk_ins",
+       "name": "Walk ins",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:casino_buffet",
+       "name": "Casino buffet",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:hotel_room_service_entrees",
+       "name": "Hotel room service entrees",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:fine_dining_restaurant",
+       "name": "Fine dining restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:business_travelers",
+       "name": "Business travelers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:indoor_pool",
+       "name": "Indoor pool",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:historic_bethlehem_main_street",
+       "name": "Historic bethlehem main street",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:free_parking",
+       "name": "Free parking",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:spa",
+       "name": "Spa",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:sustainability_initiative:qloo:waste_reduction",
+       "name": "Waste reduction",
+       "type": "urn:tag:sustainability_initiative:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:specialty_cocktails",
+       "name": "Specialty cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:tourists",
+       "name": "Tourists",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:hair_dryer",
+       "name": "Hair dryer",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:hotel",
+       "name": "Hotel",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:regulars",
+       "name": "Regulars",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:shoppers",
+       "name": "Shoppers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:bistro",
+       "name": "Bistro",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:hotel_guests",
+       "name": "Hotel guests",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:wood_fired_or_stone_baked_pizzas",
+       "name": "Wood fired or stone baked pizzas",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:food_court",
+       "name": "Food court",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:desk",
+       "name": "Desk",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:buffet_selections_rotating_hot_and_cold_stations_",
+       "name": "Buffet selections rotating hot and cold stations",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:laundry_service",
+       "name": "Laundry service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:free_wi_fi",
+       "name": "Free wi fi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:wellness",
+       "name": "Wellness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:sustainability_initiative:qloo:energy_efficient_lighting",
+       "name": "Energy efficient lighting",
+       "type": "urn:tag:sustainability_initiative:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:flat_screen_tv",
+       "name": "Flat screen tv",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:cafe",
+       "name": "Cafe",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:contemporary_american",
+       "name": "Contemporary american",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fitness_center",
+       "name": "Fitness center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:free_parking",
+       "name": "Free parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.6833951532490843
+      }
+     },
+     "disambiguation": "77 Wind Creek Blvd Bethlehem, PA 18015",
+     "external": {
+      "expedia": [
+       {
+        "id": "4434146"
+       }
+      ],
+      "tripadvisor": [
+       {
+        "id": "d2142721",
+        "rating": 3.5,
+        "rating_count": 1049
+       }
+      ],
+      "google_place": [
+       {
+        "id": "7e95db0e90e2745e",
+        "place_id": "ChIJqy8fbzo-xIkRXnTikA7blX4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Musikfest Caf\u00e9",
+     "entity_id": "996CCE98-2E22-46E5-AFCF-A8718BDD64A2",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+16103321300",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/996CCE98-2E22-46E5-AFCF-A8718BDD64A2-1tvUDq-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "101 Founders Way Bethlehem, PA 18015",
+      "geocode": {
+       "city": "Bethlehem",
+       "name": "South Bethlehem",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Northampton County"
+      },
+      "parking": null,
+      "website": "http://www.steelstacks.org/about/venues-at-steelstacks/musikfest-cafe-presented-by-yuengling/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "F3C10D7B-7966-4AB8-A4BD-E8B6E4674AC8",
+        "admin_level": 10,
+        "locality_id": "r14975350",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "18015",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A3FF64D-7076-4E2E-830D-E5C1DEBF82C4",
+        "admin_level": 9,
+        "locality_id": "z18015",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Two-level cabaret-style concert venue overlooking the Bethlehem Steel blast furnaces, serving American fare and beer/wine for intimate performances and events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "South Bethlehem",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:concert_hall",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Konserttisali\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0c15\u0c1a\u0c47\u0c30\u0c40 \u0c39\u0c3e\u0c32\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c5\u03bd\u03b1\u03c5\u03bb\u03b9\u03b1\u03ba\u03cc\u03c2 \u03c7\u03ce\u03c1\u03bf\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430 \u0441\u0430\u043b\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Concertzaal\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u044b\u0439 \u0437\u0430\u043b\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Sall\u00eb koncertesh\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u1015\u103d\u1032\u1001\u1014\u103a\u1038\u1019\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\ucf58\uc11c\ud2b8\ud640\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Konsertsaal\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Sala de concertos\"",
+         "languages": [
+          "gl",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Concert hall\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0995\u09a8\u09b8\u09be\u09b0\u09cd\u099f \u09b9\u09b2\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Sala koncertowa\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Konsert zal\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u30b3\u30f3\u30b5\u30fc\u30c8\u30db\u30fc\u30eb\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u0eab\u0ecd\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e84\u0ead\u0e99\u0ec0\u0eaa\u0eb5\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Konserthus\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "sl",
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Koncert\u0173 sal\u0117\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05d5\u05dc\u05dd \u05e7\u05d5\u05e0\u05e6\u05e8\u05d8\u05d9\u05dd\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Konzertsaal\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u97f3\u4e50\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Gedung konser\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00ed s\u00ed\u0148\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10d0\u10d9\u10dd\u10dc\u10ea\u10d4\u10e0\u10e2\u10dd \u10d3\u10d0\u10e0\u10d1\u10d0\u10d6\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u97f3\u6a02\u5ef3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430 \u0437\u0430\u043b\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Konser salonu\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Kontserdisaal\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Konsyertong bulwagan\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430 \u0434\u0432\u043e\u0440\u0430\u043d\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Hangversenyterem\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Kontzertu-aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Koncertsal\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u0642\u0627\u0639\u0629 \u062d\u0641\u0644\u0627\u062a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442 \u0437\u0430\u043b\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00e1 s\u00e1la\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Koncertz\u0101le\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u0437\u0430\u043b\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertsal\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0915\u0949\u0928\u094d\u0938\u0930\u094d\u091f \u0939\u0949\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0e2b\u0e2d\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u179f\u17b6\u179b\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa tamasha\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Sal\u0103 de concerte\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Dewan konsert\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Ph\u00f2ng h\u00f2a nh\u1ea1c\"",
+         "languages": [
+          "vi"
+         ]
+        }
+       ],
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Two-level cabaret-style concert venue overlooking the Bethlehem Steel blast furnaces, serving American fare and beer/wine for intimate performances and events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Musikfest Caf\u00e9 is a premier two-level, cabaret-style concert venue located within the ArtsQuest Center at SteelStacks in Bethlehem, Pennsylvania. Set against the powerful backdrop of the historic Bethlehem Steel blast furnaces, the venue offers a unique and intimate atmosphere for live music, dining, and private events. With professional technical capabilities and a distinct industrial-chic aesthetic, it serves as a cornerstone of the regional cultural scene. Guests frequent this destination for its combination of exceptional live performances and its breathtaking connection to the city's rich industrial past.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is sophisticated yet intimate, characterized by its cabaret-style seating and the stunning visual backdrop of the iconic, floodlit blast furnaces after dark. It offers an energetic and culturally rich vibe that is perfect for experiencing live performances.",
+      "amenities_description": "The venue is equipped with a built-in stage, professional-grade lighting and sound systems, and a bar and kitchen serving American fare. The space features versatile cabaret-style seating arrangements that can be customized to suit different event requirements.",
+      "unique_selling_points": "The venue is distinguished by its direct, dramatic views of the historic Bethlehem Steel blast furnaces through floor-to-ceiling windows. This fusion of industrial history and high-quality live music entertainment makes it a premier cultural destination in the Lehigh Valley.",
+      "neighborhood_description": "Situated in the heart of the SteelStacks campus, the neighborhood is a vibrant cultural district that transforms a former industrial site into a bustling center for arts, music, and community gatherings. The area retains a powerful connection to Bethlehem's steel-making history while offering a modern, pedestrian-friendly environment.",
+      "physical_setting_description": "Located within the ArtsQuest Center at SteelStacks, this two-level concert venue features soaring floor-to-ceiling windows that provide dramatic views of the illuminated, historic Bethlehem Steel blast furnaces. The setting seamlessly blends industrial heritage with a modern, cabaret-style interior designed for intimate performances and events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/996CCE98-2E22-46E5-AFCF-A8718BDD64A2-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9595726534777113,
+     "location": {
+      "lat": 40.614038,
+      "lon": -75.3676539,
+      "geohash": "dr4rhcwcymhu"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:industrial_heritage_view",
+       "name": "Industrial heritage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wedding_services",
+       "name": "Wedding services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:performing_arts",
+       "name": "Performing arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:professional_sound_system",
+       "name": "Professional sound system",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_elevator",
+       "name": "Wheelchair accessible elevator",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:industrial_history",
+       "name": "Industrial history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+       "name": "Trendy",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:cultural_hub",
+       "name": "Cultural hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:built_in_stage",
+       "name": "Built in stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:atmospheric",
+       "name": "Atmospheric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:cabaret_style",
+       "name": "Cabaret style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:professional_lighting",
+       "name": "Professional lighting",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arts_center",
+       "name": "Arts center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:steelstacks",
+       "name": "Steelstacks",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:floor_to_ceiling_windows",
+       "name": "Floor to ceiling windows",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:highmark_blue_shield_community_stage",
+       "name": "Highmark blue shield community stage",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:industrial_heritage_site",
+       "name": "Industrial heritage site",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:chic",
+       "name": "Chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:romantic",
+       "name": "Romantic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:frank_banko_alehouse_cinemas",
+       "name": "Frank banko alehouse cinemas",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cabaret_style",
+       "name": "Cabaret style",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:kitchen",
+       "name": "Kitchen",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:blast_furnace_view",
+       "name": "Blast furnace view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:wind_creek_deck",
+       "name": "Wind creek deck",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sophisticated",
+       "name": "Sophisticated",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:culinary_arts",
+       "name": "Culinary arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "101 Founders Way Bethlehem, PA 18015",
+     "external": {
+      "google_place": [
+       {
+        "id": "d322fbd8bbcbb55b",
+        "place_id": "ChIJPYZjMEY-xIkRW7XLu9j7ItM"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Stabler Athletic & Convocation Center",
+     "entity_id": "EBF7373A-06AC-4A16-8628-1FD2FF45F3BE",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+16107583770",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/EBF7373A-06AC-4A16-8628-1FD2FF45F3BE-4rmq4n-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "124 Goodman Dr Bethlehem, PA 18015",
+      "geocode": {
+       "city": "Bethlehem",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Northampton County"
+      },
+      "parking": null,
+      "website": "https://lehighsports.com/facilities/stabler-arena/5",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       {
+        "name": "Northampton County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3DE58544-6B2C-4B61-8CC1-B4F47293F533",
+        "admin_level": 6,
+        "locality_id": "r417788",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "18015",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A3FF64D-7076-4E2E-830D-E5C1DEBF82C4",
+        "admin_level": 9,
+        "locality_id": "z18015",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "On-campus arena for Lehigh University basketball, wrestling, and live events since 1979.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "On-campus arena for Lehigh University basketball, wrestling, and live events since 1979.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/EBF7373A-06AC-4A16-8628-1FD2FF45F3BE-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.5641133077845147,
+     "location": {
+      "lat": 40.5852839,
+      "lon": -75.3574024,
+      "geohash": "dr4qvhq6mmd8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "124 Goodman Dr Bethlehem, PA 18015",
+     "external": {
+      "google_place": [
+       {
+        "id": "ad04c317964c9a1a",
+        "place_id": "ChIJCwrUsAk-xIkRGppMlhfDBK0"
+       }
+      ]
+     }
+    },
+    {
+     "name": "ARTISAN Wine and Cheese Cellars",
+     "entity_id": "6ADDDD39-19E7-4CAF-A5B2-A72E53D92F81",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T17:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T17:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T17:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+16108132851",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/6ADDDD39-19E7-4CAF-A5B2-A72E53D92F81-0TtGu0-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "55 W Lehigh St Bethlehem, PA 18018",
+      "geocode": {
+       "city": "Bethlehem",
+       "name": "West Bethlehem",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Lehigh County"
+      },
+      "parking": true,
+      "website": "http://www.artisanwineandcheesecellars.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "live music",
+        "count": 13
+       },
+       {
+        "name": "pretzel bites",
+        "count": 2
+       },
+       {
+        "name": "friendly staff",
+        "count": 19
+       },
+       {
+        "name": "intimate",
+        "count": 4
+       },
+       {
+        "name": "party planner",
+        "count": 2
+       },
+       {
+        "name": "celebration",
+        "count": 10
+       },
+       {
+        "name": "atmosphere",
+        "count": 18
+       },
+       {
+        "name": "leather",
+        "count": 2
+       },
+       {
+        "name": "space",
+        "count": 2
+       },
+       {
+        "name": "coordination",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Lehigh County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BA9A9F47-A667-42ED-809A-1C21020FB16F",
+        "admin_level": 6,
+        "locality_id": "r417842",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "West Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "85ECAADB-6CAC-4773-849A-16B58EBE9F05",
+        "admin_level": 10,
+        "locality_id": "r14975352",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       {
+        "name": "Lehigh County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BA9A9F47-A667-42ED-809A-1C21020FB16F",
+        "admin_level": 6,
+        "locality_id": "r417842",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "West Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "85ECAADB-6CAC-4773-849A-16B58EBE9F05",
+        "admin_level": 10,
+        "locality_id": "r14975352",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "18018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1D5B441A-8EBA-43E6-8F71-646777B35E0E",
+        "admin_level": 9,
+        "locality_id": "z18018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Historic Bethlehem",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "434DE4A7-C040-491E-8B29-2817CFBF79E9",
+        "admin_level": 10,
+        "locality_id": "r14975139",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bethlehem",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+        "admin_level": 8,
+        "locality_id": "r188220",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Wine-focused bar and shop offering curated wines, artisanal cheese, cocktails, food, and live music in Bethlehem's Lehigh Valley.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "West Bethlehem",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant",
+       "akas": [
+        {
+         "value": "\"Mgahawa\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0c30\u0c46\u0c38\u0c4d\u0c1f\u0c3e\u0c30\u0c46\u0c02\u0c1f\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Restor\u0101ns\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u10e0\u10d4\u10e1\u10e2\u10dd\u10e0\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u30ec\u30b9\u30c8\u30e9\u30f3\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Jatetxea\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0439\u0440\u0430\u043c\u0445\u0430\u043d\u0430\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Ristorante\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Re\u0161taur\u00e1cia\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0637\u0639\u0645\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Restaurang\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0395\u03c3\u03c4\u03b9\u03b1\u03c4\u03cc\u03c1\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Restaurante\"",
+         "languages": [
+          "pt_pt",
+          "es_la",
+          "pt",
+          "es_ar",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u0930\u0947\u0938\u094d\u0924\u0930\u093e\u0902\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eae\u0ec9\u0eb2\u0e99\u0ead\u0eb2\u0eab\u0eb2\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Restorant\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0b89\u0ba3\u0bb5\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0442\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05e1\u05e2\u05d3\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Restaurant\"",
+         "languages": [
+          "fr",
+          "af",
+          "ca",
+          "en_gb",
+          "nl",
+          "da",
+          "fr_ca",
+          "nb",
+          "ro",
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u09b0\u09c7\u09b8\u09cd\u09a4\u09cb\u09b0\u09be\u0981\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Restoran\"",
+         "languages": [
+          "tr",
+          "id",
+          "ms",
+          "et",
+          "bs",
+          "az",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Restauracja\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e0ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1797\u17c4\u1787\u1793\u17b8\u1799\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u9910\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Restavracija\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Ravintola\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u1005\u102c\u1038\u101e\u1031\u102c\u1000\u103a\u1006\u102d\u102f\u1004\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u00c9tterem\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Restawran\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\"",
+         "languages": [
+          "sr",
+          "uk",
+          "ru",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\uc2dd\ub2f9\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e23\u0e49\u0e32\u0e19\u0e2d\u0e32\u0e2b\u0e32\u0e23\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u9910\u5ef3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Restaurace\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Restoranas\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Wine-focused bar and shop offering curated wines, artisanal cheese, cocktails, food, and live music in Bethlehem's Lehigh Valley.",
+      "number_of_stations": null,
+      "cuisine_description": "Artisan Wine and Cheese Cellars offers a focused menu centered on wine, including wine on tap, and artisanal meat and cheese boards. In addition to their house-made charcuterie and cheese platters, guests can order more substantial American fare from the sister restaurant, The Wooden Match, located adjacent to the venue. The beverage program features a curated selection of wines, craft cocktails, and spirits in a relaxed bar setting.",
+      "overall_description": "This wine-focused establishment offers a sophisticated yet relaxed experience set within the repurposed walls of a historic train depot. Guests can enjoy a curated selection of wines, cocktails, and artisanal cheese boards in an environment that blends industrial, rustic, and historic design elements. With live music frequently featured, the venue acts as both a vibrant social destination and an intimate spot for private events and gatherings.",
+      "service_description": "The venue provides an intimate dining and social environment housed within a historic train depot, featuring multiple distinct rooms including lounge areas with leather sofas and formal dining spaces. It is well-suited for private events, wedding receptions, and social gatherings. Service includes table service and bar service, with the option to order food from an affiliated restaurant. Guests can enjoy live music performances on weekends, making it a popular spot for date nights and evening outings.",
+      "ambience_description": "The atmosphere blends rustic, barn-house, and industrial elements to create a warm, inviting environment. It shifts seamlessly from a lively, music-filled social hub to a quiet, intimate sanctuary suitable for private conversations.",
+      "amenities_description": "The venue offers a variety of seating options including a main bar area, intimate lounge rooms, and a loft space. Guests benefit from accessible facilities, ample parking, and curated music performances.",
+      "unique_selling_points": "Occupying a repurposed historic train station, this venue provides a distinctive atmosphere of exposed brick and high ceilings that sets it apart from traditional bars. It uniquely balances the role of an intimate wine shop and bar with a vibrant live music venue.",
+      "neighborhood_description": "Located in a bustling, historic part of the city, the setting provides a unique backdrop that is both accessible and full of architectural character.",
+      "physical_setting_description": "Housed in a converted historic train depot, the venue features long, narrow corridors, high vaulted ceilings, and exposed brick walls. The interior is divided into multiple rooms, offering various seating configurations ranging from bistro tables and a central bar to cozy lounge areas with leather armchairs.",
+      "customer_demographics_description": "The restaurant attracts a diverse crowd of locals and visitors who appreciate a sophisticated yet casual atmosphere. Typical patrons include couples seeking intimate date nights, groups of friends gathering for music and drinks, and individuals hosting private celebrations such as birthday parties and wedding receptions.",
+      "image": {
+       "url": "https://images.qloo.com/i/6ADDDD39-19E7-4CAF-A5B2-A72E53D92F81-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.27989217343628636,
+     "location": {
+      "lat": 40.6168001,
+      "lon": -75.38224439999999,
+      "geohash": "dr4rhdh6421b"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:service_options:place:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:order_ahead",
+       "name": "Order ahead",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:wine_tasting",
+       "name": "Wine tasting",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:event_catering",
+       "name": "Event catering",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:converted_industrial_space",
+       "name": "Converted industrial space",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:artisanal_cheese",
+       "name": "Artisanal cheese",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:anniversary",
+       "name": "Anniversary",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:the_wooden_match",
+       "name": "The wooden match",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:wine_enthusiasts",
+       "name": "Wine enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:music_enthusiasts",
+       "name": "Music enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:culinary_experiences",
+       "name": "Culinary experiences",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:loft_seating",
+       "name": "Loft seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:historic_architecture",
+       "name": "Historic architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:barn_house",
+       "name": "Barn house",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:wine_bar",
+       "name": "Wine bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:social_events",
+       "name": "Social events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:romantic",
+       "name": "Romantic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_jazz",
+       "name": "Live jazz",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:small_plates",
+       "name": "Small plates",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:wine_on_tap",
+       "name": "Wine on tap",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:wine_bar",
+       "name": "Wine bar",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:lehigh_valley",
+       "name": "Lehigh valley",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:artistic",
+       "name": "Artistic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:meat_and_cheese_boards",
+       "name": "Meat and cheese boards",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:brothel_burger",
+       "name": "Brothel burger",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:handicap_accessible",
+       "name": "Handicap accessible",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:music_appreciation",
+       "name": "Music appreciation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:tapas",
+       "name": "Tapas",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:wine_bar",
+       "name": "Wine bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed_outside",
+       "name": "Dogs allowed outside",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:celebratory_diners",
+       "name": "Celebratory diners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:leather_sofas",
+       "name": "Leather sofas",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:catering",
+       "name": "Catering",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:interior_architectural_detail",
+       "name": "Interior architectural detail",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:train_depot",
+       "name": "Train depot",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:20_to_30",
+       "name": "$20 to $30",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "55 W Lehigh St Bethlehem, PA 18018",
+     "external": {
+      "google_place": [
+       {
+        "id": "e237896b99f2e7cb",
+        "place_id": "ChIJGWR291k-xIkRy-fymWuJN-I"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "297A5CD4-5D43-447A-B88B-25A801FA3EEB",
+      "name": "Bethlehem",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 40.62665174066016,
+       "lon": -75.36795569841412
+      },
+      "popularity": 0.9892332,
+      "disambiguation": "Bethlehem, Northampton County, Pennsylvania, United States"
+     }
+    ]
+   }
+  }
+ }
+}

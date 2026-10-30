@@ -1,0 +1,2539 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Anaheim",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Honda Center",
+     "entity_id": "A2DCA61A-1843-4825-AE65-21C94B59D599",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+17147042400",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/A2DCA61A-1843-4825-AE65-21C94B59D599-4iU8h4-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2695 E Katella Ave Anaheim, CA 92806",
+      "geocode": {
+       "city": "Anaheim",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Orange County"
+      },
+      "parking": true,
+      "website": "http://www.hondacenter.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "concerts",
+        "count": 649
+       },
+       {
+        "name": "hockey game",
+        "count": 410
+       },
+       {
+        "name": "ducks",
+        "count": 316
+       },
+       {
+        "name": "disney on ice",
+        "count": 37
+       },
+       {
+        "name": "concert venue",
+        "count": 50
+       },
+       {
+        "name": "friendly staff",
+        "count": 235
+       },
+       {
+        "name": "crowd",
+        "count": 37
+       },
+       {
+        "name": "metal detectors",
+        "count": 10
+       },
+       {
+        "name": "leg room",
+        "count": 12
+       },
+       {
+        "name": "concessions",
+        "count": 62
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Anaheim",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "94BE2E66-0061-42ED-BDA8-97446B23FA8F",
+        "admin_level": 8,
+        "locality_id": "r253985",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BEC4451B-B9E5-4453-98BD-2B550C3A9968",
+        "admin_level": 6,
+        "locality_id": "r396466",
+        "abbreviation": "Orange",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BEC4451B-B9E5-4453-98BD-2B550C3A9968",
+        "admin_level": 6,
+        "locality_id": "r396466",
+        "abbreviation": "Orange",
+        "country_code": null
+       },
+       {
+        "name": "92806",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "774CC5A0-8F2D-44FE-A865-BC2080C817B5",
+        "admin_level": 9,
+        "locality_id": "z92806",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Anaheim",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "94BE2E66-0061-42ED-BDA8-97446B23FA8F",
+        "admin_level": 8,
+        "locality_id": "r253985",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "17,000-seat indoor arena in Anaheim hosting concerts, sporting events (including NHL hockey), and large-scale entertainment shows.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "17,000-seat indoor arena in Anaheim hosting concerts, sporting events (including NHL hockey), and large-scale entertainment shows.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Honda Center is a premier, modern indoor arena in Anaheim that serves as a landmark destination for NHL hockey, concerts, and live entertainment. Known for its excellent sightlines and well-organized facilities, the arena consistently delivers a professional event experience to diverse crowds. While guests often note the premium pricing on concessions, the venue remains a top choice due to its cleanliness, accessibility, and high-energy atmosphere.",
+      "service_description": null,
+      "ambience_description": "The arena offers a high-energy, modern atmosphere characterized by clean facilities and a professional environment that effectively accommodates large crowds for diverse entertainment.",
+      "amenities_description": "The venue is equipped with numerous restrooms, various concession stands, and multiple accessible seating options to ensure comfort and convenience for all guests.",
+      "unique_selling_points": "The arena is renowned for its excellent sightlines from virtually every seat and a modern, well-maintained facility that creates an intimate yet large-scale viewing experience.",
+      "neighborhood_description": "Located in a busy commercial area of Anaheim, the arena is highly accessible and surrounded by various infrastructure to support large-scale events and crowds.",
+      "physical_setting_description": "The Honda Center is a large, modern indoor arena situated in the heart of Anaheim, conveniently located just off the 57 freeway. It serves as a prominent entertainment hub that hosts high-profile sporting events and large-scale concerts.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/A2DCA61A-1843-4825-AE65-21C94B59D599-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9998205862261482,
+     "location": {
+      "lat": 33.807847599999995,
+      "lon": -117.87646869999999,
+      "geohash": "9qh0mdsbzp79"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:business",
+       "name": "Business",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:proximity_to_transportation",
+       "name": "Proximity to transportation",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:family_shows",
+       "name": "Family shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:entertainment_venues",
+       "name": "Entertainment venues",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:high_traffic",
+       "name": "High traffic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_store",
+       "name": "Team store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_services",
+       "name": "Accessible services",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:angel_stadium",
+       "name": "Angel stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_sports",
+       "name": "Live sports",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:arena_culture",
+       "name": "Arena culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cup_holders",
+       "name": "Cup holders",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hockey_games",
+       "name": "Hockey games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:shuttle_service",
+       "name": "Shuttle service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:reservable_parking",
+       "name": "Reservable parking",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_event_space",
+       "name": "Outdoor event space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:business_friendly",
+       "name": "Business friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lots",
+       "name": "Parking lots",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:professional",
+       "name": "Professional",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bars",
+       "name": "Bars",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_arena",
+       "name": "Indoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_events",
+       "name": "Public events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_tours",
+       "name": "Concert tours",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:rink_view",
+       "name": "Rink view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:app_based_ordering",
+       "name": "App based ordering",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:oc_vibe",
+       "name": "Oc vibe",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:state_of_the_art",
+       "name": "State of the art",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_garage",
+       "name": "Free parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ice_rink_view",
+       "name": "Ice rink view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_structure",
+       "name": "Parking structure",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:jumbotron",
+       "name": "Jumbotron",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:major_league_sports",
+       "name": "Major league sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:arena_style",
+       "name": "Arena style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.5714285714285714
+      }
+     },
+     "disambiguation": "2695 E Katella Ave Anaheim, CA 92806",
+     "external": {
+      "google_place": [
+       {
+        "id": "a88a2a13ca2a5515",
+        "place_id": "ChIJXyczhHXX3IARFVUqyhMqiqg"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Angel Stadium",
+     "entity_id": "E130D830-C0AC-4A95-8929-EF91068F5DAF",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+17149402000",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/E130D830-C0AC-4A95-8929-EF91068F5DAF-3iY33P-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2000 E Gene Autry Way Anaheim, CA 92806",
+      "geocode": {
+       "city": "Anaheim",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Orange County"
+      },
+      "parking": true,
+      "website": "https://www.mlb.com/angels/ballpark",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Anaheim",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "94BE2E66-0061-42ED-BDA8-97446B23FA8F",
+        "admin_level": 8,
+        "locality_id": "r253985",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BEC4451B-B9E5-4453-98BD-2B550C3A9968",
+        "admin_level": 6,
+        "locality_id": "r396466",
+        "abbreviation": "Orange",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BEC4451B-B9E5-4453-98BD-2B550C3A9968",
+        "admin_level": 6,
+        "locality_id": "r396466",
+        "abbreviation": "Orange",
+        "country_code": null
+       },
+       {
+        "name": "92806",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "774CC5A0-8F2D-44FE-A865-BC2080C817B5",
+        "admin_level": 9,
+        "locality_id": "z92806",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Anaheim",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "94BE2E66-0061-42ED-BDA8-97446B23FA8F",
+        "admin_level": 8,
+        "locality_id": "r253985",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Major League Baseball stadium in Anaheim seating over 45,000, offering multiple restaurants, ballpark tours, and extensive fan amenities.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Major League Baseball stadium in Anaheim seating over 45,000, offering multiple restaurants, ballpark tours, and extensive fan amenities.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Angel Stadium serves as a premier destination in Anaheim for professional baseball and high-energy live entertainment. Known for its historic charm, the venue features a distinctive open-air design and iconic architectural landmarks that create an immersive experience for families and sports enthusiasts alike. Visitors can enjoy a wide array of gourmet and classic concession options, efficient fan services, and impressive views from all levels. Whether attending an MLB game or a specialized event like a monster truck rally, the stadium provides a central and nostalgic atmosphere rooted in California sports tradition.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is consistently vibrant and energized, particularly during game days and live entertainment events. It maintains a welcoming, family-oriented feel, blending long-standing baseball traditions with modern event experiences.",
+      "amenities_description": "The stadium offers extensive fan amenities including diverse dining and beverage options, multiple merchandise stores, and well-maintained public facilities. Guests also have access to guided ballpark tours and modern digital ticketing through the official app.",
+      "unique_selling_points": "The stadium is defined by its iconic haloed Big A landmark and a unique open-air design that provides excellent field views from nearly every seat. It combines a rich baseball history as the fourth oldest ballpark in the U.S. with modern fan-focused entertainment like post-game fireworks.",
+      "neighborhood_description": "Situated in a highly accessible area of Anaheim, the stadium is surrounded by commercial zones and is a major hub for sports fans and event-goers. The immediate area is designed to manage large crowds with efficient transport links and proximity to major roadways.",
+      "physical_setting_description": "Angel Stadium is an iconic, open-air sports venue located in the heart of Anaheim, characterized by its signature Big A landmark and expansive parking facilities. The stadium features a streamline architectural design and offers panoramic views of the field from multiple seating tiers.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/E130D830-C0AC-4A95-8929-EF91068F5DAF-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9991224326278991,
+     "location": {
+      "lat": 33.800308,
+      "lon": -117.8827321,
+      "geohash": "9qh0m90mj64s"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:business",
+       "name": "Business",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:changing_tables",
+       "name": "Changing tables",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restaurants",
+       "name": "Restaurants",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:honda_center",
+       "name": "Honda center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:stadium_district",
+       "name": "Stadium district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:video_scoreboards",
+       "name": "Video scoreboards",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_stores",
+       "name": "Team stores",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:streamlined_architecture",
+       "name": "Streamlined architecture",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nostalgic",
+       "name": "Nostalgic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:family_outings",
+       "name": "Family outings",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_history",
+       "name": "Local history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:gourmet_food",
+       "name": "Gourmet food",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_entertainment",
+       "name": "Live entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:disneyland_park",
+       "name": "Disneyland park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.4585691011106334
+      }
+     },
+     "disambiguation": "2000 E Gene Autry Way Anaheim, CA 92806",
+     "external": {
+      "opentable": [
+       {
+        "id": "118483",
+        "url": "https://www.opentable.com/restaurant/profile/118483"
+       }
+      ],
+      "google_place": [
+       {
+        "id": "2d8fe2eb50c3667a",
+        "place_id": "ChIJHbA-iJzX3IARembDUOvijy0"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Glover Stadium",
+     "entity_id": "A50401BB-2AB7-4C9F-8357-386257CF62A5",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17147655155",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/A50401BB-2AB7-4C9F-8357-386257CF62A5-1aQaxY-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1125 N La Palma Pkwy Anaheim, CA 92801",
+      "geocode": {
+       "city": "Anaheim",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Orange County"
+      },
+      "parking": null,
+      "website": "http://www.teamsideline.com/sites/anaheim/locations",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "live music",
+        "count": 12
+       },
+       {
+        "name": "band competition",
+        "count": 2
+       },
+       {
+        "name": "high school games",
+        "count": 2
+       },
+       {
+        "name": "snack bar",
+        "count": 2
+       },
+       {
+        "name": "competitions",
+        "count": 5
+       },
+       {
+        "name": "restrooms",
+        "count": 8
+       },
+       {
+        "name": "hand rails",
+        "count": 2
+       },
+       {
+        "name": "handicap",
+        "count": 5
+       },
+       {
+        "name": "graduation",
+        "count": 10
+       },
+       {
+        "name": "pleasant experience",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Anaheim",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "94BE2E66-0061-42ED-BDA8-97446B23FA8F",
+        "admin_level": 8,
+        "locality_id": "r253985",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BEC4451B-B9E5-4453-98BD-2B550C3A9968",
+        "admin_level": 6,
+        "locality_id": "r396466",
+        "abbreviation": "Orange",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "BEC4451B-B9E5-4453-98BD-2B550C3A9968",
+        "admin_level": 6,
+        "locality_id": "r396466",
+        "abbreviation": "Orange",
+        "country_code": null
+       },
+       {
+        "name": "92801",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "04695D03-B60A-47CE-A9C1-A3BC9B6E859B",
+        "admin_level": 9,
+        "locality_id": "z92801",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Anaheim",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "94BE2E66-0061-42ED-BDA8-97446B23FA8F",
+        "admin_level": 8,
+        "locality_id": "r253985",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Outdoor sports venue with a grass field and seating used for tournaments, performances, and community athletics.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.099999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Outdoor sports venue with a grass field and seating used for tournaments, performances, and community athletics.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/A50401BB-2AB7-4C9F-8357-386257CF62A5-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 33.8479361,
+      "lon": -117.9214617,
+      "geohash": "9qh0s9u4wb25"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1125 N La Palma Pkwy Anaheim, CA 92801",
+     "external": {
+      "google_place": [
+       {
+        "id": "512d2eff1cc4656b",
+        "place_id": "ChIJmTyh6RzW3IARa2XEHP8uLVE"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "94BE2E66-0061-42ED-BDA8-97446B23FA8F",
+      "name": "Anaheim",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 33.838951056546875,
+       "lon": -117.85738830700645
+      },
+      "popularity": 0.997827,
+      "disambiguation": "Anaheim, Orange, Orange County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

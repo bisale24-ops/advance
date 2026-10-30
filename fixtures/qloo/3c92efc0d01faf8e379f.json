@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Wantagh",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "90F250F6-E791-4B6E-B9D2-F1056E8DB1AD",
+      "name": "Wantagh",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 40.668623434978514,
+       "lon": -73.51045802305657
+      },
+      "popularity": 0.9548275,
+      "disambiguation": "Wantagh, Hempstead, Nassau County, New York, United States"
+     }
+    ]
+   }
+  }
+ }
+}

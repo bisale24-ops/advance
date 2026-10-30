@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Auburn, Washington",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "890464C9-EB32-4FD0-A70E-D09A700A8223",
+      "name": "Auburn",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 47.30368868587655,
+       "lon": -122.21010980006167
+      },
+      "popularity": 0.99152976,
+      "disambiguation": "Auburn, King County, Washington, United States"
+     }
+    ]
+   }
+  }
+ }
+}

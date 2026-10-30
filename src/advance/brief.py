@@ -224,6 +224,22 @@ def which_room(q, headliner, city, take=TAKE):
     return Section(key, title, question, _lines(picks, note), answer.request)
 
 
+def booked_rooms(q, headliner, city, take=TAKE):
+    """The city's most-played concert rooms, with no artist signal. Backtested on 417 real tour stops
+    (docs/VENUE_BACKTEST.md): the room a tour played was among these 8 in 50% of cases, against 37% for the
+    taste-ordered list, so a promoter gets both: where tours play, and what this audience favours."""
+    if not city:
+        return None
+    got = _ask("booked", f"Most-booked rooms · {city}", f"Which {city} rooms do touring acts play most, whoever they are? "
+               "(No taste signal. In 417 real tour stops the room played was among these 8 half the time.)",
+               lambda: q.insights("place", take=take, filter__location__query=city,
+                                  filter__tags=VENUE_TAGS, filter__exclude__tags=NOT_VENUE))
+    if isinstance(got, Section):
+        return got
+    key, title, question, answer = got
+    return Section(key, title, question, _lines(answer.entities, place_note), answer.request)
+
+
 def who_sponsors(q, headliner, take=TAKE):
     got = _ask("brands", "Who sponsors", f"Which brands share {headliner.name}'s audience?",
                lambda: q.insights("brand", entities=[headliner.id], take=take))
@@ -237,7 +253,8 @@ def build(q, headliner_name, city=None, take=TAKE, cities=None, share=OPENER_POP
     """The five questions. `cities` asks the venue and after-show questions once per city (`city` is one)."""
     headliner = q.find(headliner_name, "artist")
     cities = [c for c in (cities if cities is not None else [city]) if c]
-    afters = [s for c in cities for s in (which_room(q, headliner, c, take), after_show(q, headliner, c, take))] \
+    afters = [s for c in cities for s in (which_room(q, headliner, c, take), booked_rooms(q, headliner, c, take),
+                                          after_show(q, headliner, c, take)) if s] \
         or [after_show(q, headliner, None, take)]
     where = where_to_play(q, headliner, take, market)
     return Brief(headliner, " · ".join(cities) or None, (

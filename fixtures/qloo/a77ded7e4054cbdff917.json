@@ -1,0 +1,3975 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Sacramento",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Golden 1 Center",
+     "entity_id": "6AC501B1-FDED-40CB-87FC-C5895A2231BB",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+19167015401",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/6AC501B1-FDED-40CB-87FC-C5895A2231BB-03z6FE-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "500 David J Stern Walk Sacramento, CA 95814",
+      "geocode": {
+       "city": "Sacramento",
+       "name": "Downtown",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Sacramento County"
+      },
+      "parking": true,
+      "website": "https://www.golden1center.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Downtown",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "D5DDBF62-6F1B-46CD-87DF-B563A78931B6",
+        "admin_level": 10,
+        "locality_id": "r15839938",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "95814",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "412E9D0D-8B56-49C9-8E41-D047C5969DF9",
+        "admin_level": 9,
+        "locality_id": "z95814",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Downtown",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "D5DDBF62-6F1B-46CD-87DF-B563A78931B6",
+        "admin_level": 10,
+        "locality_id": "r15839938",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Downtown Sacramento arena and entertainment complex, home to the NBA's Sacramento Kings, noted for sustainable design and year-round concerts and events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Downtown",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Downtown Sacramento arena and entertainment complex, home to the NBA's Sacramento Kings, noted for sustainable design and year-round concerts and events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Golden 1 Center is a premier, modern multi-purpose arena located in downtown Sacramento that serves as the home to the NBA's Sacramento Kings. Known for its commitment to sustainability and state-of-the-art design, the venue hosts a variety of major concerts, sporting events, and community functions throughout the year. Its integration into the DoCo plaza provides visitors with a comprehensive entertainment experience featuring diverse local dining and shopping options. Despite its high popularity, guests appreciate the clean and spacious interior which creates an immersive atmosphere for live performances and athletic competition.",
+      "service_description": null,
+      "ambience_description": "The arena offers a grand, modern atmosphere characterized by its spacious concourses and clean, state-of-the-art design. It fosters a high-energy environment during events, particularly for professional basketball games and live music performances.",
+      "amenities_description": "The facility provides a wide range of amenities, including various local food and beverage options, multiple nearby parking structures, and VIP suite experiences. Guests can also enjoy modern comforts like cushioned seating and open, airy concourses.",
+      "unique_selling_points": "The arena is renowned for its sustainable design, innovative energy-efficient systems, and the iconic 'Beam' lighting ceremony following Sacramento Kings victories. Its location within the vibrant DoCo plaza provides a seamless experience for dining and entertainment.",
+      "neighborhood_description": "The surrounding downtown neighborhood is a bustling commercial and entertainment district that remains active before and after events. The area offers a variety of dining and retail options, creating a vibrant atmosphere for visitors.",
+      "physical_setting_description": "Located in the heart of downtown Sacramento within the DoCo plaza, this modern arena serves as a prominent entertainment landmark. The surrounding area features numerous shops, restaurants, and easy access to local transit and freeway infrastructure.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/6AC501B1-FDED-40CB-87FC-C5895A2231BB-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9998566175637541,
+     "location": {
+      "lat": 38.5802045,
+      "lon": -121.4996602,
+      "geohash": "9qce7pq9uz39"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:cafes",
+       "name": "Cafes",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:graduation_ceremonies",
+       "name": "Graduation ceremonies",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:escalators",
+       "name": "Escalators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_hub",
+       "name": "Entertainment hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:grand",
+       "name": "Grand",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_celebrations",
+       "name": "Public celebrations",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fine_dining",
+       "name": "Fine dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:high_tech",
+       "name": "High tech",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_commons",
+       "name": "Downtown commons",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:exclusive_lounges",
+       "name": "Exclusive lounges",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_complex",
+       "name": "Entertainment complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:sacramento_river",
+       "name": "Sacramento river",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:retail_shops",
+       "name": "Retail shops",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_architecture",
+       "name": "Public architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor",
+       "name": "Arena floor",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:capitol_park",
+       "name": "Capitol park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_suites",
+       "name": "Vip suites",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_stalls",
+       "name": "Merchandise stalls",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:state_of_the_art",
+       "name": "State of the art",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:old_sacramento",
+       "name": "Old sacramento",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:multi_purpose_arena",
+       "name": "Multi purpose arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:immaculate",
+       "name": "Immaculate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restaurants",
+       "name": "Restaurants",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:dining_out",
+       "name": "Dining out",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:graduations",
+       "name": "Graduations",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessibility_features",
+       "name": "Accessibility features",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:california_state_capitol",
+       "name": "California state capitol",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:sacramento_convention_district",
+       "name": "Sacramento convention district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:california_state_capitol_museum",
+       "name": "California state capitol museum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cushioned_seats",
+       "name": "Cushioned seats",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_culture",
+       "name": "Event culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:multi_purpose_venue",
+       "name": "Multi purpose venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_lounges",
+       "name": "Vip lounges",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garages",
+       "name": "Parking garages",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:basketball_games",
+       "name": "Basketball games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_entrances",
+       "name": "Accessible entrances",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.386750490563073
+      }
+     },
+     "disambiguation": "500 David J Stern Walk Sacramento, CA 95814",
+     "external": {
+      "google_place": [
+       {
+        "id": "987c53711f042fa6",
+        "place_id": "ChIJvxlrBLxM6IARpi8EH3FTfJg"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Heart Health Park",
+     "entity_id": "91E1A186-A84F-4FB2-81EF-63EEA076D960",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/91E1A186-A84F-4FB2-81EF-63EEA076D960-2aoOo9-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1600 Exposition Blvd Sacramento, CA 95815",
+      "geocode": {
+       "city": "Sacramento",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Sacramento County"
+      },
+      "parking": true,
+      "website": null,
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "concert",
+        "count": 63
+       },
+       {
+        "name": "parking",
+        "count": 32
+       },
+       {
+        "name": "food trucks",
+        "count": 22
+       },
+       {
+        "name": "beer",
+        "count": 19
+       },
+       {
+        "name": "vendors",
+        "count": 17
+       },
+       {
+        "name": "state fair",
+        "count": 16
+       },
+       {
+        "name": "republic",
+        "count": 14
+       },
+       {
+        "name": "walk",
+        "count": 10
+       },
+       {
+        "name": "tickets",
+        "count": 9
+       },
+       {
+        "name": "bottle",
+        "count": 7
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "95815",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "BAEDD0AA-114B-4E67-8BAC-986581023D97",
+        "admin_level": 9,
+        "locality_id": "z95815",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Mid-sized outdoor soccer stadium seating 11,500, home to Sacramento Republic FC and hosting concerts and community events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Mid-sized outdoor soccer stadium seating 11,500, home to Sacramento Republic FC and hosting concerts and community events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Heart Health Park is a functional outdoor stadium in Sacramento, primarily recognized as the home field for the Sacramento Republic FC professional soccer team. Beyond sporting matches, the venue serves as a versatile space for major community events, concerts, and holiday-themed celebrations. While it features convenient amenities like food trucks and on-site parking, visitors should plan for potential traffic delays when leaving high-capacity events. It provides an energetic and family-oriented environment that anchors local cultural and athletic life.",
+      "service_description": null,
+      "ambience_description": "The stadium offers a casual, high-energy atmosphere that is well-suited for families and groups attending sporting matches, concerts, and holiday festivities.",
+      "amenities_description": "The venue provides essential event amenities, including designated parking, a variety of food trucks, and beverage service during scheduled programs.",
+      "unique_selling_points": "As the dedicated home of Sacramento Republic FC, this stadium provides an intimate outdoor soccer experience and hosts large-scale seasonal community events like holiday light displays.",
+      "neighborhood_description": "The surrounding area functions primarily as a commercial and event-focused zone, easily accessible but prone to significant traffic congestion during major gatherings.",
+      "physical_setting_description": "Heart Health Park is a mid-sized outdoor soccer stadium situated within the Cal Expo grounds in Sacramento. The venue offers views of neighboring water park attractions and serves as a prominent facility for local sports and seasonal community events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/91E1A186-A84F-4FB2-81EF-63EEA076D960-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.994251144366426,
+     "location": {
+      "lat": 38.5913553,
+      "lon": -121.43803129999999,
+      "geohash": "9qces97dbtyg"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:event_hub",
+       "name": "Event hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_festivals",
+       "name": "Public festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:soccer",
+       "name": "Soccer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_sports",
+       "name": "Local sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:raging_waters_sacramento",
+       "name": "Raging waters sacramento",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:high_traffic_area",
+       "name": "High traffic area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:holiday_celebrations",
+       "name": "Holiday celebrations",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:cal_expo",
+       "name": "Cal expo",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:water_park_view",
+       "name": "Water park view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_trucks",
+       "name": "Food trucks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_stadium",
+       "name": "Industrial stadium",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1600 Exposition Blvd Sacramento, CA 95815",
+     "external": {
+      "google_place": [
+       {
+        "id": "175f408c01022587",
+        "place_id": "ChIJN4Sjiw_amoARhyUCAYxAXxc"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Sutter Health Park",
+     "entity_id": "BB639DC5-F13F-4F96-BC42-2BCF98622452",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+19163764700",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/BB639DC5-F13F-4F96-BC42-2BCF98622452-040T0v-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "400 Ballpark Dr West Sacramento, CA 95691",
+      "geocode": {
+       "city": "West Sacramento",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Yolo County"
+      },
+      "parking": true,
+      "website": "http://sutterhealthpark.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "West Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "239C1F6D-C914-4565-BCAE-F0C39503511A",
+        "admin_level": 8,
+        "locality_id": "r7615151",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Yolo County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5445AA4B-E218-4BC8-AD07-3491C7F17CBD",
+        "admin_level": 6,
+        "locality_id": "r396507",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "Yolo County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5445AA4B-E218-4BC8-AD07-3491C7F17CBD",
+        "admin_level": 6,
+        "locality_id": "r396507",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "95691",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "FCA45FC7-95B0-4F56-9DA7-1D5EC5FBB7C1",
+        "admin_level": 9,
+        "locality_id": "z95691",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "West Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "239C1F6D-C914-4565-BCAE-F0C39503511A",
+        "admin_level": 8,
+        "locality_id": "r7615151",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Minor-league baseball stadium hosting regular River Cats games, concerts, seasonal family events, and on-site concessions in West Sacramento.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Minor-league baseball stadium hosting regular River Cats games, concerts, seasonal family events, and on-site concessions in West Sacramento.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Sutter Health Park is a premier stadium in West Sacramento that serves as a central hub for sports and entertainment. Known for its intimate design, it provides excellent views of the field alongside a picturesque backdrop of the city skyline and the Sacramento River. Beyond hosting professional baseball games, the venue is a versatile space for community events, seasonal festivities, and large-scale entertainment, making it a beloved destination for families and sports enthusiasts alike.",
+      "service_description": null,
+      "ambience_description": "The stadium offers an intimate and family-friendly atmosphere where every seat feels close to the action. It is characterized by a clean, well-maintained environment with a welcoming and enthusiastic staff.",
+      "amenities_description": "The venue provides ample amenities including various food and drink concessions, spacious restrooms, and dedicated areas for families such as kids' play zones. Services include accessible parking, an information booth, and clear signage to assist guests throughout their visit.",
+      "unique_selling_points": "The stadium is renowned as one of the finest minor league ballparks, offering an intimate perspective of the game with stunning views of the Sacramento skyline and the historic Tower Bridge. It serves as a versatile event space that seamlessly hosts professional baseball, concerts, and seasonal community festivals.",
+      "neighborhood_description": "The surrounding neighborhood is a blend of commercial and residential spaces, offering a vibrant atmosphere near the riverfront and city center. It is conveniently located near major roadways and bike trails, making it accessible for visitors.",
+      "physical_setting_description": "Located in West Sacramento, the stadium sits in a revitalized area near the Sacramento River with views of the Tower Bridge and the city skyline. It features a beautifully designed layout with fixed seating, a lawn area, and proximity to downtown.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/BB639DC5-F13F-4F96-BC42-2BCF98622452-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9718090071657787,
+     "location": {
+      "lat": 38.580832799999996,
+      "lon": -121.51365759999999,
+      "geohash": "9qce6zkmwsd7"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_stage",
+       "name": "Event stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:graduations",
+       "name": "Graduations",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_stadium",
+       "name": "Open air stadium",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:information_booth",
+       "name": "Information booth",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:kids_play_area",
+       "name": "Kids play area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lawn_seating",
+       "name": "Lawn seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_festivals",
+       "name": "Local festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nature_outdoors",
+       "name": "Nature outdoors",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:waterfront",
+       "name": "Waterfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:holiday_events",
+       "name": "Holiday events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:ziggurat_building",
+       "name": "Ziggurat building",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stadium_seating",
+       "name": "Stadium seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:tower_bridge",
+       "name": "Tower bridge",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:revitalized_area",
+       "name": "Revitalized area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:charming",
+       "name": "Charming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:family_outings",
+       "name": "Family outings",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nostalgic",
+       "name": "Nostalgic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 202.8760695928233,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "400 Ballpark Dr West Sacramento, CA 95691",
+     "external": {
+      "google_place": [
+       {
+        "id": "25c7369317a134ef",
+        "place_id": "ChIJnalemcrWmoAR7zShF5M2xyU"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Hornet Stadium",
+     "entity_id": "D6EE3940-307E-4F94-8CAC-E981AC6999C1",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+19162786011",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/D6EE3940-307E-4F94-8CAC-E981AC6999C1-0IqleO-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "6000 Jed Smith Dr Sacramento, CA 95819",
+      "geocode": {
+       "city": "Sacramento",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Sacramento County"
+      },
+      "parking": null,
+      "website": "https://hornetsports.com/facilities/hornet-stadium/1",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "bleachers",
+        "count": 9
+       },
+       {
+        "name": "track",
+        "count": 16
+       },
+       {
+        "name": "junior olympic",
+        "count": 7
+       },
+       {
+        "name": "food trucks",
+        "count": 15
+       },
+       {
+        "name": "tailgating",
+        "count": 6
+       },
+       {
+        "name": "stingers",
+        "count": 4
+       },
+       {
+        "name": "playoffs",
+        "count": 3
+       },
+       {
+        "name": "wheelchair accessibility",
+        "count": 2
+       },
+       {
+        "name": "basketball games",
+        "count": 2
+       },
+       {
+        "name": "atmosphere",
+        "count": 18
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "95819",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1D1CBFCE-A13E-4A1D-87DA-EA50D56AC3B2",
+        "admin_level": 9,
+        "locality_id": "z95819",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "21,195-seat university stadium hosting college football and track and field on the Sacramento State campus, with modern turf and a large video board.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "21,195-seat university stadium hosting college football and track and field on the Sacramento State campus, with modern turf and a large video board.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/D6EE3940-307E-4F94-8CAC-E981AC6999C1-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.7551366014870913,
+     "location": {
+      "lat": 38.5557157,
+      "lon": -121.4229836,
+      "geohash": "9qcekfy7r6wv"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:subscription",
+       "name": "Subscription",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "6000 Jed Smith Dr Sacramento, CA 95819",
+     "external": {
+      "google_place": [
+       {
+        "id": "a40aa43b444734c",
+        "place_id": "ChIJhUoLWIramoARTHNEtEOqQAo"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Cosumnes River College Stadium",
+     "entity_id": "40FFF95C-42C5-4762-8C90-AD1AA8FE395D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+19166917418",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/40FFF95C-42C5-4762-8C90-AD1AA8FE395D-0DxKGe-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "8401 Center Pkwy Sacramento, CA 95823",
+      "geocode": {
+       "city": "Sacramento",
+       "name": "Valley Hi / North Laguna",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Sacramento County"
+      },
+      "parking": true,
+      "website": "http://crchawks.com/information/facilities/stadium",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Valley Hi / North Laguna",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "76F5809E-9C3B-4AAD-AE20-BADF78531839",
+        "admin_level": 10,
+        "locality_id": "r16347493",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "Sacramento",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+        "admin_level": 8,
+        "locality_id": "r6232940",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Sacramento County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FBC3AF14-E930-45B1-9FC0-C08CB6B2BA7F",
+        "admin_level": 6,
+        "locality_id": "r396460",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Valley Hi / North Laguna",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "76F5809E-9C3B-4AAD-AE20-BADF78531839",
+        "admin_level": 10,
+        "locality_id": "r16347493",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "95823",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "8385670C-72AF-4D6B-8945-C1FFDBA78E8B",
+        "admin_level": 9,
+        "locality_id": "z95823",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Multiuse college stadium on a community college campus hosting football, soccer, and track and field events for students and regional competitions.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Valley Hi / North Laguna",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Multiuse college stadium on a community college campus hosting football, soccer, and track and field events for students and regional competitions.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Cosumnes River College Stadium is a functional, multiuse sports venue located on the college's campus in Sacramento. It primarily hosts football, soccer, and track and field events, serving both the student population and local athletic groups for various competitions. With a focus on athletic performance and community engagement, the stadium provides a practical setting for local sport and physical activity.",
+      "service_description": null,
+      "ambience_description": "The stadium offers an energetic and casual atmosphere, especially during game days and competitive track events. It feels like a core part of the local campus community, providing a welcoming environment for athletes and spectators alike.",
+      "amenities_description": "The stadium features a regulation-sized turf field suitable for football and soccer, along with an integrated track and field complex for competitive events. Bleacher seating is provided for spectators to view matches and meets comfortably.",
+      "unique_selling_points": "This stadium serves as a vital hub for both collegiate athletics and regional sports competitions, providing a dedicated space for track, football, and soccer talent to perform. Its multiuse design makes it a versatile venue for the broader Sacramento community.",
+      "neighborhood_description": "The surrounding area is characterized by its academic focus and proximity to residential zones, serving as a hub for students and local sports enthusiasts. The neighborhood is accessible and functions primarily as an educational and community-oriented space.",
+      "physical_setting_description": "Located on the Cosumnes River College campus in Sacramento, this multiuse stadium is situated within a traditional academic environment. The facility provides an open-air setting primarily designed for collegiate and regional athletic competitions.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/40FFF95C-42C5-4762-8C90-AD1AA8FE395D-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 38.4546396,
+      "lon": -121.419473,
+      "geohash": "9qcdv03n90rg"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sporty",
+       "name": "Sporty",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:cosumnes_river_college",
+       "name": "Cosumnes river college",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:football_games",
+       "name": "Football games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:campus_view",
+       "name": "Campus view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:college_sports_facility",
+       "name": "College sports facility",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:football_field",
+       "name": "Football field",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:youth_sports",
+       "name": "Youth sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:track_facility",
+       "name": "Track facility",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:track_and_field_competitions",
+       "name": "Track and field competitions",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bleacher_seating",
+       "name": "Bleacher seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:academic_setting",
+       "name": "Academic setting",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:physical_fitness",
+       "name": "Physical fitness",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:sacramento_zoo",
+       "name": "Sacramento zoo",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:competitive_athletics",
+       "name": "Competitive athletics",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:william_land_park",
+       "name": "William land park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:athletic_utility",
+       "name": "Athletic utility",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:academic_culture",
+       "name": "Academic culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:soccer_matches",
+       "name": "Soccer matches",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "8401 Center Pkwy Sacramento, CA 95823",
+     "external": {
+      "google_place": [
+       {
+        "id": "f14de51cb2b3fd6a",
+        "place_id": "ChIJVRFym3XGmoARav2zshzlTfE"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "4569DD91-9EC3-4CDB-97E1-6198C09851D4",
+      "name": "Sacramento",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 38.565582545402336,
+       "lon": -121.46751184780905
+      },
+      "popularity": 0.9980575,
+      "disambiguation": "Sacramento, Sacramento County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

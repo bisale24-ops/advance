@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Columbia, Maryland",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+      "name": "Columbia",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.20046795204916,
+       "lon": -76.85898151682127
+      },
+      "popularity": 0.9941519,
+      "disambiguation": "Columbia, Howard County, Maryland, United States"
+     }
+    ]
+   }
+  }
+ }
+}

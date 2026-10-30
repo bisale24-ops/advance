@@ -1,0 +1,1781 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Clearwater, Florida",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Clearwater Threshers",
+     "entity_id": "89F98BE1-D577-44B3-B7DF-D34625F845F1",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17277124300",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/89F98BE1-D577-44B3-B7DF-D34625F845F1-0tAy89-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "601 Old Coachman Rd. Clearwater, FL 33765",
+      "geocode": {
+       "city": "Clearwater",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Pinellas County"
+      },
+      "parking": true,
+      "website": "http://www.threshersbaseball.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "33765",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A37DBED-44DC-478B-8964-E9EE6603C9F9",
+        "admin_level": 9,
+        "locality_id": "z33765",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Minor-league baseball stadium in Clearwater, Florida, home to the Clearwater Threshers and used for Philadelphia Phillies spring training and events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Minor-league baseball stadium in Clearwater, Florida, home to the Clearwater Threshers and used for Philadelphia Phillies spring training and events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "BayCare Ballpark serves as a premier minor-league baseball venue in Clearwater, Florida, hosting the Clearwater Threshers and Philadelphia Phillies spring training. It is widely praised for its friendly staff, excellent seating with great field visibility, and a family-friendly atmosphere that makes it a top destination for sports fans. With convenient amenities, diverse food choices, and regular events like fireworks and community festivals, the park provides a high-quality, accessible experience for visitors of all ages.",
+      "service_description": null,
+      "ambience_description": "The ballpark offers a warm, family-friendly atmosphere where visitors can enjoy quality baseball and entertainment in a clean and comfortable setting.",
+      "amenities_description": "The facility features a range of amenities including diverse food and beverage options, a large team store, accessible seating, and family-oriented areas like playgrounds and sunscreen stations.",
+      "unique_selling_points": "As the home of the Clearwater Threshers and spring training site for the Philadelphia Phillies, the ballpark offers an intimate, highly accessible experience where every seat provides a great view of the action.",
+      "neighborhood_description": "The surrounding area is a convenient and accessible commercial district, making the ballpark an easy-to-reach destination for local residents and visitors alike.",
+      "physical_setting_description": "A well-maintained minor-league baseball stadium located within a commercial area in Clearwater, Florida. The venue provides excellent sightlines for games and events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/89F98BE1-D577-44B3-B7DF-D34625F845F1-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9955805892869547,
+     "location": {
+      "lat": 27.970921299999997,
+      "lon": -82.7317194,
+      "geohash": "dhvpj7uw7jw2"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fan_focused",
+       "name": "Fan focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_store",
+       "name": "Team store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:baseball_themed",
+       "name": "Baseball themed",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:sunscreen_stations",
+       "name": "Sunscreen stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:spring_training",
+       "name": "Spring training",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_sports",
+       "name": "Local sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:playground",
+       "name": "Playground",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_club",
+       "name": "Baseball club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_club",
+       "name": "Baseball club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:baseball",
+       "name": "Baseball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:minor_league_baseball",
+       "name": "Minor league baseball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:family_entertainment",
+       "name": "Family entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxed",
+       "name": "Relaxed",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "601 Old Coachman Rd. Clearwater, FL 33765",
+     "external": {
+      "google_place": [
+       {
+        "id": "a4f1c1439a11b8b",
+        "place_id": "ChIJH0k8TCruwogRixuhORQcTwo"
+       }
+      ]
+     }
+    },
+    {
+     "name": "TD Ballpark",
+     "entity_id": "443489E0-B375-4438-932E-34282E19C270",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17277339302",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/443489E0-B375-4438-932E-34282E19C270-1yFLlV-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "373 Douglas Ave Dunedin, FL 34698",
+      "geocode": {
+       "city": "Dunedin",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Pinellas County"
+      },
+      "parking": true,
+      "website": "https://www.milb.com/dunedin",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "blue jays",
+        "count": 172
+       },
+       {
+        "name": "spring training",
+        "count": 155
+       },
+       {
+        "name": "minor league ballpark",
+        "count": 22
+       },
+       {
+        "name": "friendly staff",
+        "count": 79
+       },
+       {
+        "name": "intimate setting",
+        "count": 12
+       },
+       {
+        "name": "renovations",
+        "count": 42
+       },
+       {
+        "name": "clean restrooms",
+        "count": 11
+       },
+       {
+        "name": "shaded seats",
+        "count": 4
+       },
+       {
+        "name": "family friendly",
+        "count": 25
+       },
+       {
+        "name": "clean stadium",
+        "count": 7
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Dunedin",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0C14D48A-EABB-4FA2-8212-A95150879778",
+        "admin_level": 8,
+        "locality_id": "r118906",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Dunedin",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0C14D48A-EABB-4FA2-8212-A95150879778",
+        "admin_level": 8,
+        "locality_id": "r118906",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "34698",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "6547089E-2865-42DF-93A1-06C310627432",
+        "admin_level": 9,
+        "locality_id": "z34698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "5,509-seat stadium hosting Toronto Blue Jays spring training and Class-A Dunedin Blue Jays, with renovated seating, concessions, bars, and kids' activity areas.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "5,509-seat stadium hosting Toronto Blue Jays spring training and Class-A Dunedin Blue Jays, with renovated seating, concessions, bars, and kids' activity areas.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "TD Ballpark is a premier, renovated baseball facility located in downtown Dunedin, Florida, serving as the spring training home for the Toronto Blue Jays and the regular venue for the Dunedin Blue Jays. Known for its intimate layout, the stadium ensures every fan has an excellent view of the field while enjoying a wide selection of concessions, bars, and kid-friendly entertainment zones. The venue is highly regarded for its clean, safe, and family-oriented environment, making it a beloved destination for local residents and visiting tourists alike. Whether attending a high-stakes spring training game or a relaxed minor league event, guests can count on a memorable experience defined by great energy and professional service.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and social, providing a classic, fun-filled environment perfect for enjoying baseball. It is characterized by friendly staff, clean facilities, and a community-oriented spirit.",
+      "amenities_description": "The stadium offers a variety of amenities including multiple concession stands, on-site bars, and dedicated play areas for children. Guests also have access to a team merchandise shop and well-maintained public restrooms.",
+      "unique_selling_points": "As the official home of Toronto Blue Jays spring training, this stadium is uniquely positioned to offer an intimate, high-quality baseball viewing experience where every seat provides an excellent vantage point.",
+      "neighborhood_description": "The ballpark is situated in a walkable and friendly area, making it easy for visitors to access local downtown shops and dining. It is surrounded by a safe community that contributes to a relaxed and welcoming game-day vibe.",
+      "physical_setting_description": "Located in the heart of Dunedin, this renovated 5,509-seat baseball stadium serves as the primary home for spring training and minor league games. The facility features a clean, well-maintained concourse with a mix of open and covered seating areas.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/443489E0-B375-4438-932E-34282E19C270-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 28.004101499999997,
+      "lon": -82.78728009999999,
+      "geohash": "dhvpk1upswgb"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:minor_league_baseball",
+       "name": "Minor league baseball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_tourism",
+       "name": "Sports tourism",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_services",
+       "name": "Event services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:kids_activity_area",
+       "name": "Kids activity area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:baseball_games",
+       "name": "Baseball games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:baseball_stadium",
+       "name": "Baseball stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_store",
+       "name": "Merchandise store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:covered_seating",
+       "name": "Covered seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sporting_venue",
+       "name": "Sporting venue",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:videoboard",
+       "name": "Videoboard",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:downtown_access",
+       "name": "Downtown access",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_dunedin",
+       "name": "Downtown dunedin",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bars",
+       "name": "Bars",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_baseball",
+       "name": "Professional baseball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 359.8457574958109,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "373 Douglas Ave Dunedin, FL 34698",
+     "external": {
+      "google_place": [
+       {
+        "id": "73787cee195d2375",
+        "place_id": "ChIJ4X02bHDxwogRpVIQrZfT2yI"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+      "name": "Clearwater",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 27.979114794079102,
+       "lon": -82.76916270360522
+      },
+      "popularity": 0.9968511,
+      "disambiguation": "Clearwater, Pinellas County, Florida, United States"
+     }
+    ]
+   }
+  }
+ }
+}

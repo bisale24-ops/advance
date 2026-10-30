@@ -1,0 +1,34 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "85185E8B-ABB8-4602-B156-3F5AC935221A",
+  "take": 50,
+  "filter.location.query": "Cumberland, Georgia",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "FCDD1EA3-CFC5-4CAA-A9E7-328E8AF4B525",
+      "name": "Cumberland Forest",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 33.8331614,
+       "lon": -84.0721359
+      },
+      "popularity": 0.9569985,
+      "disambiguation": "Cumberland Forest, Gwinnett County, Georgia, United States"
+     }
+    ]
+   }
+  }
+ }
+}

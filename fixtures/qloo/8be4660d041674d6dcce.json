@@ -1,0 +1,1180 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+  "take": 50,
+  "filter.location.query": "East Rutherford, New Jersey",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Meadowlands Arena",
+     "entity_id": "41A9FB46-5087-4D8C-8710-FF71190D1376",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/41A9FB46-5087-4D8C-8710-FF71190D1376-3WZe1W-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "Plaza M East Rutherford, NJ 07073",
+      "geocode": {
+       "city": "East Rutherford",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Jersey",
+       "admin2_region": "Bergen County"
+      },
+      "parking": true,
+      "website": null,
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "East Rutherford",
+        "place": "borough",
+        "boundary": "administrative",
+        "entity_id": "8D33B770-2966-4844-8014-BC7629ADCC49",
+        "admin_level": 8,
+        "locality_id": "r170599",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Bergen County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "0FEF6ACD-C172-4D8D-9DDE-734636C20DDF",
+        "admin_level": 6,
+        "locality_id": "r958930",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "07073",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "A30F9BF7-68B5-45A4-A8EF-FDC113732CC2",
+        "admin_level": 9,
+        "locality_id": "z07073",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "East Rutherford",
+        "place": "borough",
+        "boundary": "administrative",
+        "entity_id": "8D33B770-2966-4844-8014-BC7629ADCC49",
+        "admin_level": 8,
+        "locality_id": "r170599",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bergen County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "0FEF6ACD-C172-4D8D-9DDE-734636C20DDF",
+        "admin_level": 6,
+        "locality_id": "r958930",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Large indoor arena at the Meadowlands Sports Complex adjacent to MetLife Stadium, hosting major concerts, sporting events, and exhibitions.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large indoor arena at the Meadowlands Sports Complex adjacent to MetLife Stadium, hosting major concerts, sporting events, and exhibitions.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Meadowlands Arena serves as a massive indoor venue situated at the heart of the Meadowlands Sports Complex in East Rutherford, New Jersey. It is a vital regional hub for high-profile concerts, competitive sporting events, and large exhibitions, positioned strategically next to MetLife Stadium. The arena is characterized by a high-energy, social atmosphere designed to accommodate diverse crowds of fans and tourists. Its professional infrastructure and central location make it a premier choice for major entertainment and community experiences in the region.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is electric and high-energy, defined by the anticipation and excitement of major live events. The facility maintains a modern, professional, and grand feel suitable for hosting diverse public crowds.",
+      "amenities_description": "The arena provides comprehensive event facilities including ample parking, various concession stands, and accessible infrastructure to support large-capacity crowds. Services are designed for efficient entry, exit, and crowd management.",
+      "unique_selling_points": "As a central pillar of the Meadowlands Sports Complex, the arena is distinct for its massive seating capacity and ability to host world-class headline performers and professional sports teams. Its adjacency to major transportation routes makes it a premier regional destination.",
+      "neighborhood_description": "The surrounding neighborhood functions as a major regional entertainment and sports hub, characterized by constant activity and high visitor traffic. It is a highly accessible area designed specifically to facilitate large-scale public gatherings.",
+      "physical_setting_description": "Located within the expansive Meadowlands Sports Complex, this large indoor arena is situated in a high-traffic commercial area adjacent to major sporting facilities. The site offers expansive views of the surrounding stadium grounds and nearby highway infrastructure.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/41A9FB46-5087-4D8C-8710-FF71190D1376-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9486770741513785,
+     "location": {
+      "lat": 40.8116838,
+      "lon": -74.06760299999999,
+      "geohash": "dr724t9979pr"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.8427344078274625,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "Plaza M East Rutherford, NJ 07073",
+     "external": {
+      "google_place": [
+       {
+        "id": "d98a494cde7ba94e",
+        "place_id": "ChIJazDedwD5wokRTql73kxJitk"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Boverini Stadium",
+     "entity_id": "66F262BF-83BA-40CB-B537-6F5B87E54B23",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/66F262BF-83BA-40CB-B537-6F5B87E54B23-45lUxB-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "262 River Dr Passaic, NJ 07055",
+      "geocode": {
+       "city": "Passaic",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Jersey",
+       "admin2_region": "Passaic County"
+      },
+      "parking": true,
+      "website": null,
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Passaic",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "3BE67791-68CE-4FD1-B65C-E779616D12BE",
+        "admin_level": 8,
+        "locality_id": "r170671",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Passaic County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4BAE41BE-B933-42FB-8710-19EFE93C032F",
+        "admin_level": 6,
+        "locality_id": "r2560070",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Passaic County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4BAE41BE-B933-42FB-8710-19EFE93C032F",
+        "admin_level": 6,
+        "locality_id": "r2560070",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "07055",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "B3D8BF81-1C9B-407D-9495-E09DE9B51E5C",
+        "admin_level": 9,
+        "locality_id": "z07055",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Passaic",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "3BE67791-68CE-4FD1-B65C-E779616D12BE",
+        "admin_level": 8,
+        "locality_id": "r170671",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "A renovated riverside stadium used for school, community, and sporting events with open views and a spacious athletic field.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "A renovated riverside stadium used for school, community, and sporting events with open views and a spacious athletic field.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Boverini Stadium is a prominent, revitalized community landmark known for its high-quality athletic facilities and spacious design. Serving as a primary home for high school sports and significant local ceremonies, it offers a clean and welcoming environment for spectators and athletes alike. While the lack of ample dedicated parking makes access challenging during peak times, the stadium\u2019s excellent sightlines and modern amenities continue to make it a cherished venue for the local community.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is vibrant and community-focused, characterized by clean facilities and a welcoming energy during local games and graduations. It blends a nostalgic sense of history with modern, well-kept amenities.",
+      "amenities_description": "The stadium provides essential amenities including well-maintained restrooms, updated concession stands, and modern lighting for night games. The seating is designed for clear sightlines across the high-quality synthetic turf field.",
+      "unique_selling_points": "The venue is defined by its beautiful renovation, which provides a high-quality, clean, and spacious environment for both competitive sports and major community milestones. Its location and elevated design ensure every seat has an excellent view of the action.",
+      "neighborhood_description": "The stadium is nestled within a densely populated urban residential area, reflecting the local community vibe. It serves as a central hub for school and local sports, though the surrounding streets can become quite congested during large events.",
+      "physical_setting_description": "Situated along the river, this renovated facility features an expansive, well-maintained athletic field and track. It offers open, elevated views of the playing surface from comfortable bleacher seating.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/66F262BF-83BA-40CB-B537-6F5B87E54B23-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.699542104846735,
+     "location": {
+      "lat": 40.8499453,
+      "lon": -74.12195559999999,
+      "geohash": "dr723kd01jxy"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:interests:qloo:physical_fitness",
+       "name": "Physical fitness",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:athletic_field",
+       "name": "Athletic field",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:community_centric",
+       "name": "Community centric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:river_view",
+       "name": "River view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lighting",
+       "name": "Lighting",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:high_density_residential_area",
+       "name": "High density residential area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:athletic_complex",
+       "name": "Athletic complex",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_sports",
+       "name": "Local sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bleacher_seating",
+       "name": "Bleacher seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:school_ceremonies",
+       "name": "School ceremonies",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stand",
+       "name": "Concession stand",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:astroturf_field",
+       "name": "Astroturf field",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:track_and_field",
+       "name": "Track and field",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:multi_purpose_stadium",
+       "name": "Multi purpose stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:riverfront",
+       "name": "Riverfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:high_school_athletics",
+       "name": "High school athletics",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_planning",
+       "name": "Urban planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:track",
+       "name": "Track",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7859912139941273,
+      "distance": 132.59131712665373,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "262 River Dr Passaic, NJ 07055",
+     "external": {
+      "google_place": [
+       {
+        "id": "36c433461d549cd0",
+        "place_id": "ChIJswvhktT4wokR0JxUHUYzxDY"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "8D33B770-2966-4844-8014-BC7629ADCC49",
+      "name": "East Rutherford",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 40.817946581758136,
+       "lon": -74.08541451550417
+      },
+      "popularity": 0.97935325,
+      "disambiguation": "East Rutherford, Bergen County, New Jersey, United States"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -70,7 +70,7 @@ def test_the_whole_brief_has_five_sections_and_renders():
     stub = Stub({"destination": [e("Chicago", 0.9)], "artist": [e("Julien Baker", 0.95)],
                  "place": [e("Empty Bottle", 0.9)], "brand": [e("Patagonia", 0.8)]})
     built = brief.build(stub, "Phoebe Bridgers", city="Chicago")
-    assert [s.key for s in built.sections] == ["cities", "openers", "venue", "after", "brands"]
+    assert [s.key for s in built.sections] == ["cities", "openers", "venue", "booked", "after", "brands"]
     text = brief.render_text(built)
     assert "ADVANCE — Phoebe Bridgers · Chicago" in text and "0.95  Julien Baker" in text
 
@@ -95,3 +95,12 @@ def test_rooms_that_stand_out_for_this_act_come_before_rooms_every_act_likes():
     # Qloo's own score is untouched and no panel means no change
     assert ranked[0].affinity == 0.88
     assert [r.name for r in brief.stands_out([generic, special], [], 2)[0]] == ["Good Hall", "Indie Club"]
+
+
+def test_most_booked_rooms_are_asked_for_with_no_artist_signal():
+    stub = Stub({"place": [e("United Center", 0.0)]})
+    section = brief.booked_rooms(stub, HEAD, "Chicago")
+    kind, entities, params = stub.asked[0]
+    assert kind == "place" and entities == () and params["filter__location__query"] == "Chicago"
+    assert section.key == "booked" and section.title == "Most-booked rooms · Chicago"
+    assert brief.booked_rooms(stub, HEAD, None) is None

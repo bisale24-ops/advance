@@ -1,0 +1,5549 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "85185E8B-ABB8-4602-B156-3F5AC935221A",
+  "take": 50,
+  "filter.location.query": "Rosemont, Illinois",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Allstate Arena",
+     "entity_id": "E2DE8992-A1D6-4A6C-B261-D27A9E880FE8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+18476356601",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/E2DE8992-A1D6-4A6C-B261-D27A9E880FE8-3DUHxI-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "6920 Mannheim Rd Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "http://www.allstatearena.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Maine Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "807671A9-5891-423E-843D-20A4019B1FFA",
+        "admin_level": 7,
+        "locality_id": "r11584610",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large multipurpose arena near O'Hare Airport hosting professional and college basketball, concerts, and family shows.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large multipurpose arena near O'Hare Airport hosting professional and college basketball, concerts, and family shows.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Allstate Arena is a major multipurpose indoor facility in Rosemont, Illinois, known for hosting a wide variety of events including professional hockey games, concerts, and family-oriented shows. Despite being an older facility, its compact, two-level design ensures that attendees enjoy clear views of the stage or ice from almost every section. The venue is conveniently located near O'Hare Airport and major highways, making it a highly accessible entertainment hub for the Chicagoland area. It remains a staple for community gatherings and large-scale touring acts alike.",
+      "service_description": null,
+      "ambience_description": "The arena offers a lively and high-energy atmosphere during events, making it a popular social hub for diverse crowds. While the environment is energetic, the facility itself maintains a dated, functional aesthetic.",
+      "amenities_description": "The venue features multiple floors equipped with various concession stands, bars, and restroom facilities to accommodate large crowds. Accessible infrastructure such as elevators and ramps is provided to assist guests in navigating the arena.",
+      "unique_selling_points": "The arena is recognized for its intimate seating layout where there is generally not a poor seat in the house. It serves as a versatile, go-to destination for everything from professional hockey games to major musical performances.",
+      "neighborhood_description": "The surrounding area is a bustling commercial hub highly frequented by travelers and locals alike due to its proximity to major transportation routes and airport facilities. It functions as a primary destination for entertainment and business gatherings.",
+      "physical_setting_description": "Located in Rosemont near O'Hare Airport, this multipurpose arena is positioned conveniently off the highway in a busy commercial area. The facility serves as a prominent regional landmark for large-scale indoor events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/E2DE8992-A1D6-4A6C-B261-D27A9E880FE8-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9939430207113329,
+     "location": {
+      "lat": 42.005258999999995,
+      "lon": -87.88783,
+      "geohash": "dp3wbnf43h44"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:high_traffic",
+       "name": "High traffic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:dated",
+       "name": "Dated",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:dated",
+       "name": "Dated",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:impact_field",
+       "name": "Impact field",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:family_shows",
+       "name": "Family shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_kiosks",
+       "name": "Merchandise kiosks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:parkway_bank_park",
+       "name": "Parkway bank park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hockey",
+       "name": "Hockey",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:family_entertainment",
+       "name": "Family entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ramps",
+       "name": "Ramps",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ice_rink_view",
+       "name": "Ice rink view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:rosemont_theatre",
+       "name": "Rosemont theatre",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7731248743656645,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.226560654258756
+      }
+     },
+     "disambiguation": "6920 Mannheim Rd Rosemont, IL 60018",
+     "external": {
+      "google_place": [
+       {
+        "id": "ba81a6bfde0757fb",
+        "place_id": "ChIJ7VkkjFu2D4gR-1cH3r-mgbo"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Joe's Live",
+     "entity_id": "66A8A674-C0F3-4F3A-9ACC-32EBA2E9EF31",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18472610392",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/66A8A674-C0F3-4F3A-9ACC-32EBA2E9EF31-03quJQ-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5441 Park Pl Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "http://www.joesliverosemont.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Leyden Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "3B723B46-87B1-403E-826D-2E851C1BE3FB",
+        "admin_level": 7,
+        "locality_id": "r11584606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large Rosemont live-music venue and restaurant offering concerts, VIP suites, bottle service, and private-event catering near O'Hare.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large Rosemont live-music venue and restaurant offering concerts, VIP suites, bottle service, and private-event catering near O'Hare.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "A prominent live music destination in Rosemont, this venue combines concert-going with high-end hospitality. It features dedicated VIP suites and lounge spaces, making it suitable for both casual nights out and large private gatherings. Situated conveniently near O'Hare, it is a primary hub for music lovers and event planners seeking a professional and energetic environment.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is high-energy and social, perfect for fans looking to enjoy live music in an engaging setting. The space balances a concert-hall excitement with upscale lounge amenities.",
+      "amenities_description": "The venue features premium VIP suites and lounge areas that provide an elevated concert experience, complemented by full restaurant service and catering options. Guests can enjoy professional hospitality services including table-side bottle service during shows.",
+      "unique_selling_points": "This venue stands out by blending the high-octane environment of a professional concert stage with the luxury of private VIP suites and full-service dining. It offers a comprehensive entertainment package for both public performances and private corporate or social events.",
+      "neighborhood_description": "The surrounding area is a busy, visitor-friendly hub characterized by a variety of entertainment options and corporate facilities. It serves as a convenient focal point for travelers and locals seeking active nightlife and dining experiences.",
+      "physical_setting_description": "Located in the heart of Rosemont near O'Hare Airport, this venue is situated within a vibrant commercial area. It offers a structured interior space designed specifically for hosting high-energy musical performances.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/66A8A674-C0F3-4F3A-9ACC-32EBA2E9EF31-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9947241949689108,
+     "location": {
+      "lat": 41.978137499999995,
+      "lon": -87.8673185,
+      "geohash": "dp3wb9burh5d"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:bottle_service",
+       "name": "Bottle service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coat_check",
+       "name": "Coat check",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:corporate_events",
+       "name": "Corporate events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:donald_e_stephens_convention_center",
+       "name": "Donald e stephens convention center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:airport",
+       "name": "Airport",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_going",
+       "name": "Concert going",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wedding_services",
+       "name": "Wedding services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:fashion_outlets_of_chicago",
+       "name": "Fashion outlets of chicago",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:upscale",
+       "name": "Upscale",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:business_friendly",
+       "name": "Business friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_elevator",
+       "name": "Wheelchair accessible elevator",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:social_networking",
+       "name": "Social networking",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_suites",
+       "name": "Vip suites",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_oriented",
+       "name": "Entertainment oriented",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_restaurant",
+       "name": "Full restaurant",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:gourmet_dining",
+       "name": "Gourmet dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:private_event_catering",
+       "name": "Private event catering",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife_culture",
+       "name": "Nightlife culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary_entertainment",
+       "name": "Contemporary entertainment",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:business",
+       "name": "Business",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7671718500274397,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5441 Park Pl Rosemont, IL 60018",
+     "external": {
+      "google_place": [
+       {
+        "id": "ff73759addb620a2",
+        "place_id": "ChIJcXjQYeK1D4gRoiC23Zp1c_8"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Impact Field",
+     "entity_id": "F1894128-B7FB-4393-9905-1FDB10B12C5F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18476365450",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/F1894128-B7FB-4393-9905-1FDB10B12C5F-1cHyzb-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "9850 Balmoral Ave Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "https://thechicagodogs.com/explore-impact/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "baseball",
+        "count": 70
+       },
+       {
+        "name": "ball game",
+        "count": 30
+       },
+       {
+        "name": "beer",
+        "count": 30
+       },
+       {
+        "name": "fireworks",
+        "count": 29
+       },
+       {
+        "name": "chicago dog",
+        "count": 14
+       },
+       {
+        "name": "parking garage",
+        "count": 14
+       },
+       {
+        "name": "innings",
+        "count": 12
+       },
+       {
+        "name": "minor league",
+        "count": 8
+       },
+       {
+        "name": "concession stand",
+        "count": 8
+       },
+       {
+        "name": "christmas lights",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Leyden Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "3B723B46-87B1-403E-826D-2E851C1BE3FB",
+        "admin_level": 7,
+        "locality_id": "r11584606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Modern independent-league ballpark in Rosemont serving as the home of the Chicago Dogs, offering fan-focused amenities and close proximity to O'Hare.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Modern independent-league ballpark in Rosemont serving as the home of the Chicago Dogs, offering fan-focused amenities and close proximity to O'Hare.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Impact Field is a premier, modern independent-league ballpark serving as the home of the Chicago Dogs in Rosemont. Known for its clean, well-maintained facilities and excellent sightlines from every seat, it hosts both professional baseball games and large-scale seasonal community events. With convenient access to major highways and the airport, the venue is a popular destination for local families and sports enthusiasts seeking an engaging, accessible outing.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and family-focused, offering a clean and well-maintained environment that feels welcoming for both sports fans and event-goers.",
+      "amenities_description": "The facility provides convenient attached parking, various food and beverage concessions, and dedicated recreational areas including a kid zone and seasonal event attractions.",
+      "unique_selling_points": "As a modern ballpark where every seat offers a great view, it provides an intimate and accessible experience for minor league baseball and community events.",
+      "neighborhood_description": "The area surrounding the stadium is a highly accessible commercial hub near major transport arteries and the airport, known for being easy to reach and family-oriented.",
+      "physical_setting_description": "A modern, well-maintained independent-league baseball stadium located in Rosemont, situated conveniently between the I-294 expressway and O'Hare International Airport.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/F1894128-B7FB-4393-9905-1FDB10B12C5F-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9555858045444803,
+     "location": {
+      "lat": 41.9782126,
+      "lon": -87.87173639999999,
+      "geohash": "dp3wb3vub4m9"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:minor_league_sports",
+       "name": "Minor league sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_stadium_entertainment",
+       "name": "Public stadium entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:laid_back",
+       "name": "Laid back",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sporting_facility",
+       "name": "Sporting facility",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:o_hare_international_airport",
+       "name": "Ohare international airport",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:train_ride",
+       "name": "Train ride",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_slide",
+       "name": "Ice slide",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_deck",
+       "name": "Parking deck",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:seasonal_celebrations",
+       "name": "Seasonal celebrations",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_family_activities",
+       "name": "Outdoor family activities",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:airport",
+       "name": "Airport",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_community_events",
+       "name": "Local community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:holiday_events",
+       "name": "Holiday events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:ballpark",
+       "name": "Ballpark",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:kid_zone",
+       "name": "Kid zone",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_rink",
+       "name": "Ice rink",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7605092394383857,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "9850 Balmoral Ave Rosemont, IL 60018",
+     "external": {
+      "google_place": [
+       {
+        "id": "2b4c4268d41b7150",
+        "place_id": "ChIJD_sP_eC1D4gRUHEb1GhCTCs"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Bub City",
+     "entity_id": "5C8AFF88-D1D1-45C3-B9E5-A8A751196D6D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T21:30:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": "+18472610399",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/5C8AFF88-D1D1-45C3-B9E5-A8A751196D6D-0rMNSZ-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "Parkway Bank Park 5441 Park Pl Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "https://www.bub-city.com/rosemont/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": 0.38888888888888884
+       },
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 0.9761904761904762
+       }
+      ],
+      "keywords": [
+       {
+        "name": "whiskey selection",
+        "count": 125
+       },
+       {
+        "name": "live music",
+        "count": 159
+       },
+       {
+        "name": "brisket",
+        "count": 133
+       },
+       {
+        "name": "waffle fries",
+        "count": 33
+       },
+       {
+        "name": "country music",
+        "count": 47
+       },
+       {
+        "name": "fried pickles",
+        "count": 31
+       },
+       {
+        "name": "loud music",
+        "count": 8
+       },
+       {
+        "name": "brisket grilled cheese",
+        "count": 14
+       },
+       {
+        "name": "outdoor seating",
+        "count": 15
+       },
+       {
+        "name": "chicken sandwich",
+        "count": 29
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Leyden Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "3B723B46-87B1-403E-826D-2E851C1BE3FB",
+        "admin_level": 7,
+        "locality_id": "r11584606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Buzzy, country\u2011western BBQ eatery and bar with live music, large whiskey selection, comfort\u2011food menu and event hosting in Rosemont's Parkway Bank Park.",
+      "hotel_class": null,
+      "price_level": 3,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:barbecue",
+       "akas": [
+        {
+         "value": "\"Restaurant de barbacoa\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e0ng \u0111\u1ed3 n\u01b0\u1edbng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Barbecuerestaurant\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0395\u03c3\u03c4\u03b9\u03b1\u03c4\u03cc\u03c1\u03b9\u03bf \u03bc\u03c0\u03ac\u03c1\u03bc\u03c0\u03b5\u03ba\u03b9\u03bf\u03c5\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Grillrestaurang\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Restawran ng barbecue\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Kepsni\u0173 restoranas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102c\u1018\u102e\u1000\u103b\u1030\u1038\u1005\u102c\u1038\u101e\u1031\u102c\u1000\u103a\u1006\u102d\u102f\u1004\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05e1\u05e2\u05d3\u05ea \u05d1\u05e8\u05d1\u05d9\u05e7\u05d9\u05d5\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0baa\u0bbe\u0bb0\u0bcd\u0baa\u0bbf\u0b95\u0bcd\u0baf\u0bc2 \u0b89\u0ba3\u0bb5\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\u0431\u0435\u043a\u044e \u043c\u0435\u0439\u0440\u0430\u043c\u0445\u0430\u043d\u0430\u0441\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\u0431\u0435\u043a\u044e \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0442\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Grilliravintola\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0437\u0430 \u0431\u0430\u0440\u0431\u0435\u043a\u0458\u0443\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Restavracija z \u017earom\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Braairestaurant\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Mgahawa wa nyama choma\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Restaurante de churrasco\"",
+         "languages": [
+          "gl",
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c3e\u0c30\u0c4d\u0c2c\u0c46\u0c15\u0c4d\u0c2f\u0c42 \u0c30\u0c46\u0c38\u0c4d\u0c1f\u0c3e\u0c30\u0c46\u0c02\u0c1f\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u1797\u17c4\u1787\u1793\u17b8\u1799\u178a\u17d2\u178b\u17b6\u1793\u179f\u17b6\u1785\u17cb\u17a2\u17b6\u17c6\u1784\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Restorant barbeky\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Restauracja z grillem\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Restaurant de barbecue\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0e23\u0e49\u0e32\u0e19\u0e1a\u0e32\u0e23\u0e4c\u0e1a\u0e35\u0e04\u0e34\u0e27\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Restoran s ro\u0161tiljem\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Restoran barbeku\"",
+         "languages": [
+          "id",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Gril restaurace\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u0eae\u0ec9\u0eb2\u0e99\u0ead\u0eb2\u0eab\u0eb2\u0e99\u0e9b\u0eb5\u0ec9\u0e87\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Restaurante de barbacoa\"",
+         "languages": [
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09be\u09b0\u09ac\u09bf\u0995\u09bf\u0989 \u09b0\u09c7\u09b8\u09cd\u09a4\u09cb\u09b0\u09be\u0981\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u70e7\u70e4\u9910\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Restoran ro\u0161tilja\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Parrilla\"",
+         "languages": [
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u71d2\u70e4\u9910\u5ef3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u092c\u093e\u0930\u092c\u0947\u0915\u094d\u092f\u0942 \u0930\u0947\u0938\u094d\u0924\u0930\u093e\u0902\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Barbecue-Restaurant\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u30d0\u30fc\u30d9\u30ad\u30e5\u30fc\u30ec\u30b9\u30c8\u30e9\u30f3\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Churrascaria\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Restaurant cu gr\u0103tar\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0637\u0639\u0645 \u0645\u0634\u0627\u0648\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Grillrestoran\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Gril re\u0161taur\u00e1cia\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0431\u0430\u0440\u0431\u0435\u043a\u044e\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Grill\u00e9tterem\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0440\u043e\u0448\u0442\u0438\u0459\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Ristorante di barbecue\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\ubc14\ube44\ud050 \uc2dd\ub2f9\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Grilb\u0101rs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\u0431\u0435\u043a\u044e-\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Barbakoa jatetxea\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Barbek\u00fc restoran\u0131\"",
+         "languages": [
+          "az",
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Grillrestaurant\"",
+         "languages": [
+          "nb",
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d0\u10e0\u10d1\u10d4\u10e5\u10d8\u10e3 \u10e0\u10d4\u10e1\u10e2\u10dd\u10e0\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Barbecue restaurant\"",
+         "languages": [
+          "en_gb"
+         ]
+        }
+       ],
+       "name": "Barbecue restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": "Lettuce Entertain You Frequent Diner Club",
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": [
+       {
+        "id": "urn:tag:specialty_dish:place:sandwich",
+        "name": "An Sandwich",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 1
+       },
+       {
+        "id": "urn:tag:specialty_dish:place:mac_cheese",
+        "name": "Mac And Cheese",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 0.8888888888888888
+       },
+       {
+        "id": "urn:tag:specialty_dish:place:brussels_sprouts",
+        "name": "Brussels Sprouts",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 0.7777777777777778
+       }
+      ],
+      "short_description": "Buzzy, country\u2011western BBQ eatery and bar with live music, large whiskey selection, comfort\u2011food menu and event hosting in Rosemont's Parkway Bank Park.",
+      "number_of_stations": null,
+      "cuisine_description": "Bub City specializes in traditional American barbecue, offering comfort food staples like 18-hour smoked beef brisket, pulled pork, fried chicken, and rich mac and cheese. The menu features Southern-inspired sides such as skillet cornbread, pit beans, and fried pickles, alongside sandwiches and appetizers. The restaurant is widely recognized for its extensive whiskey collection, house-made cocktails, and craft beer selection, with specific options for vegetarians and gluten-sensitive guests.",
+      "overall_description": "A buzzing, country-western themed destination located in a popular suburban entertainment district near the airport. The venue specializes in slow-smoked barbecue, comfort-food sides, and an impressive selection of craft spirits and whiskeys. With its large open layout, live music stage, and frequent events, it serves as a high-energy gathering place for families, groups, and travelers alike.",
+      "service_description": "Bub City provides a lively, full-service dining experience with options for takeout and delivery. The venue is well-suited for a variety of occasions, from casual family outings and date nights to corporate events and large group celebrations, supported by private dining and catering services. Guests can enjoy a festive atmosphere featuring live musical performances, making it a popular hub for social gatherings, Happy Hour, and post-event entertainment.",
+      "ambience_description": "The atmosphere is festive and high-energy, characterized by country-western decor, string lighting, and an open layout that encourages socializing. With a stage for live music and multiple bars, it maintains a loud, spirited vibe perfect for those seeking an active social experience.",
+      "amenities_description": "The venue offers a wide array of amenities including a stage for live music, extensive bar services with a focus on whiskey, and options for both private and large group events. The facility includes accessible features like elevators in the shared parking structure and outdoor seating areas.",
+      "unique_selling_points": "The restaurant stands out for its combination of authentic slow-smoked barbecue, a vast curated whiskey selection, and a dedicated stage for live music. It functions as a versatile hub that captures both a local culinary destination and a high-energy nightlife spot.",
+      "neighborhood_description": "The surrounding area is a vibrant, pedestrian-friendly development filled with restaurants, breweries, and entertainment venues designed for leisure and social outings.",
+      "physical_setting_description": "Situated within a bustling entertainment and dining complex near the airport, this venue features a large, open-concept floor plan designed to accommodate crowds. It is tucked within a multi-level structure, often requiring navigation through parking facilities to arrive at its lively, country-themed interior.",
+      "customer_demographics_description": "The restaurant attracts a diverse crowd, ranging from local professionals and families visiting the Rosemont entertainment district to tourists and airport travelers passing through the area. It is a popular destination for groups of friends, event attendees, and barbecue enthusiasts looking for a lively social environment.",
+      "image": {
+       "url": "https://images.qloo.com/i/5C8AFF88-D1D1-45C3-B9E5-A8A751196D6D-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9838152431873841,
+     "location": {
+      "lat": 41.9783354,
+      "lon": -87.86730279999999,
+      "geohash": "dp3wb9bvx3nf"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:customer_identity:qloo:wine_enthusiasts",
+       "name": "Wine enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:themed",
+       "name": "Themed",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:specialty_dish:place:brussels_sprouts",
+       "name": "Brussels sprouts",
+       "type": "urn:tag:specialty_dish:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music_stage",
+       "name": "Live music stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:event_catering",
+       "name": "Event catering",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:burnt_ends",
+       "name": "Burnt ends",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:halal",
+       "name": "Halal",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:no_contact_delivery",
+       "name": "No contact delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:rosemont_convention_center",
+       "name": "Rosemont convention center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:quick_bite",
+       "name": "Quick bite",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:gluten_free_options",
+       "name": "Gluten free options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_viewing",
+       "name": "Sports viewing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:specialty_dish:place:18_hour_beef_brisket",
+       "name": "18 hour beef brisket",
+       "type": "urn:tag:specialty_dish:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:gluten_free_friendly",
+       "name": "Gluten free friendly",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:20_to_50",
+       "name": "$20 to $50",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:cocktail_enthusiasts",
+       "name": "Cocktail enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:high_chair",
+       "name": "High chair",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:interior_atmosphere",
+       "name": "Interior atmosphere",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_cider",
+       "name": "Hard cider",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:specialty_dish:place:sandwich",
+       "name": "Sandwich",
+       "type": "urn:tag:specialty_dish:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:honky_tonk",
+       "name": "Honky tonk",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:online_ordering",
+       "name": "Online ordering",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_validation",
+       "name": "Parking validation",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:buffalo_chicken_sandwich",
+       "name": "Buffalo chicken sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:o_hare_international_airport",
+       "name": "Ohare international airport",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:social_dining",
+       "name": "Social dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:55_",
+       "name": "55+",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:parkway_bank_park",
+       "name": "Parkway bank park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:country_western",
+       "name": "Country western",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pulled_pork",
+       "name": "Pulled pork",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:mac_and_cheese",
+       "name": "Mac and cheese",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:barbecue_restaurant",
+       "name": "Barbecue restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:bourbon_and_whiskey",
+       "name": "Bourbon and whiskey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:barbecue_culture",
+       "name": "Barbecue culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:specialty_dish:place:mac_and_cheese",
+       "name": "Mac and cheese",
+       "type": "urn:tag:specialty_dish:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:specialty_dish:place:salad",
+       "name": "Salad",
+       "type": "urn:tag:specialty_dish:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:fried_chicken",
+       "name": "Fried chicken",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:loaded_bacon_tots",
+       "name": "Loaded bacon tots",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:brisket_sandwich",
+       "name": "Brisket sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:healthy_options",
+       "name": "Healthy options",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:barbecue",
+       "name": "Barbecue",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:corporate_clients",
+       "name": "Corporate clients",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_garage",
+       "name": "Free parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:barbecue",
+       "name": "Barbecue restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:work_dinner",
+       "name": "Work dinner",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:specialty_dish:place:fried_pickles",
+       "name": "Fried pickles",
+       "type": "urn:tag:specialty_dish:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:dinner_reservations_recommended",
+       "name": "Dinner reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:country_western",
+       "name": "Country western",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:fried_pickles",
+       "name": "Fried pickles",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:business_professionals",
+       "name": "Business professionals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:late_night_food",
+       "name": "Late night food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:catering",
+       "name": "Catering",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:specialty_cocktails",
+       "name": "Specialty cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:southern_comfort",
+       "name": "Southern comfort",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:order_ahead",
+       "name": "Order ahead",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hot_tea",
+       "name": "Hot tea",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:soft_drinks",
+       "name": "Soft drinks",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessibility_features",
+       "name": "Accessibility features",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:tourists",
+       "name": "Tourists",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:skillet_cornbread",
+       "name": "Skillet cornbread",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:walk_ins",
+       "name": "Walk ins",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kids_menu",
+       "name": "Kids menu",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:18_hour_beef_brisket",
+       "name": "18 hour beef brisket",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7525733840262995,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.2616557874388457
+      }
+     },
+     "disambiguation": "Parkway Bank Park 5441 Park Pl Rosemont, IL 60018",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d10451351",
+        "rating": 4,
+        "rating_count": 215
+       }
+      ],
+      "google_place": [
+       {
+        "id": "50916406a5786144",
+        "place_id": "ChIJYUTaNuK1D4gRRGF4pQZkkVA"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Ballpark at Rosemont",
+     "entity_id": "0721CD9A-5199-483B-B1AD-46C8CD0DED77",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18479938453",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0721CD9A-5199-483B-B1AD-46C8CD0DED77-3qIHYa-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "27 Jennie Finch Way Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "https://rosemont.com/sports-complex/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "pro softball games",
+        "count": 2
+       },
+       {
+        "name": "concessions",
+        "count": 11
+       },
+       {
+        "name": "atmosphere",
+        "count": 10
+       },
+       {
+        "name": "cleanliness",
+        "count": 3
+       },
+       {
+        "name": "pitchers",
+        "count": 2
+       },
+       {
+        "name": "clean bathrooms",
+        "count": 4
+       },
+       {
+        "name": "friendly staff",
+        "count": 5
+       },
+       {
+        "name": "concession stand",
+        "count": 3
+       },
+       {
+        "name": "ball park",
+        "count": 6
+       },
+       {
+        "name": "location",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Leyden Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "3B723B46-87B1-403E-826D-2E851C1BE3FB",
+        "admin_level": 7,
+        "locality_id": "r11584606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Year-round indoor sports complex with a domed facility and 2,000-seat stadium hosting softball, lacrosse, volleyball, and community events near Rosemont's entertainment district.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:softball_field",
+       "akas": [
+        {
+         "value": "\"Softbollplan\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Igrali\u0161te za softball\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Campo de s\u00f3ftbol\"",
+         "languages": [
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b\u043d\u043e \u0438\u0433\u0440\u0438\u0449\u0435\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Softballbane\"",
+         "languages": [
+          "nb",
+          "da"
+         ]
+        },
+        {
+         "value": "\"Teren za softbol\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Uwanja wa softball\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Camp de softbol\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Teren de softball\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0b9a\u0bbe\u0b83\u0baa\u0bcd\u0b9f\u0bcd\u0baa\u0bbe\u0bb2\u0bcd \u0bae\u0bc8\u0ba4\u0bbe\u0ba9\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d2\u05e8\u05e9 \u05e1\u05d5\u05e4\u05d8\u05d1\u05d5\u05dc\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Softbol zelaia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u043b\u0435\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Lapangan sofbol\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c3e\u0c2b\u0c4d\u0c1f\u0c4d\u200c\u0c2c\u0c3e\u0c32\u0c4d \u0c2e\u0c48\u0c26\u0c3e\u0c28\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Fush\u00eb softbolli\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Softbalov\u00e9 ihrisko\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Softbol meydan\u00e7as\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Softbalov\u00e9 h\u0159i\u0161t\u011b\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Terrain de softball\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Softbalveld\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10dd\u10e4\u10e2\u10d1\u10dd\u10da\u10d8\u10e1 \u10db\u10dd\u10d4\u10d3\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Softbola laukums\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Softbolo aik\u0161t\u0117\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b\u044c\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Campo da softball\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u5792\u7403\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u30bd\u30d5\u30c8\u30dc\u30fc\u30eb\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09ab\u099f\u09ac\u09b2 \u09ae\u09be\u09a0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Softpalliv\u00e4ljak\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u58d8\u7403\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Padang sofbol\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Softbol sahas\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0393\u03ae\u03c0\u03b5\u03b4\u03bf \u03c3\u03cc\u03c6\u03c4\u03bc\u03c0\u03bf\u03bb\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Campo de s\u00f3fbol\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Boisko do softballa\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Softballp\u00e1lya\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Sagtebalveld\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n b\u00f3ng m\u1ec1m\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Softball field\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Campo de softbol\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0440\u0435\u043d \u0437\u0430 \u0441\u043e\u0444\u0442\u0431\u043e\u043b\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Softball pitch\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Softballfeld\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u0938\u0949\u092b\u094d\u091f\u092c\u0949\u0932 \u092e\u0948\u0926\u093e\u0928\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\uc18c\ud504\ud2b8\ubcfc \uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e0b\u0e2d\u0e1f\u0e15\u0e4c\u0e1a\u0e2d\u0e25\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Cancha de s\u00f3ftbol\"",
+         "languages": [
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e8a\u0ead\u0e9a\u0e9a\u0ead\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Terrain de balle-molle\"",
+         "languages": [
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628 \u0643\u0631\u0629 \u0644\u064a\u0646\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Softball-kentt\u00e4\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0418\u0433\u0440\u0430\u043b\u0438\u0448\u0442\u0435 \u0437\u0430 \u0441\u043e\u0444\u0442\u0431\u043e\u043b\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u1006\u1031\u102c\u1037\u1016\u103a\u1018\u1031\u102c\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u1791\u17b8\u179b\u17b6\u1793\u179f\u17bc\u17a0\u17d2\u179c\u1794\u179b\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Igri\u0161\u010de za softball\"",
+         "languages": [
+          "sl"
+         ]
+        }
+       ],
+       "name": "Softball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Year-round indoor sports complex with a domed facility and 2,000-seat stadium hosting softball, lacrosse, volleyball, and community events near Rosemont's entertainment district.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "This premier multi-sport venue in Rosemont is a standout facility designed specifically to support and showcase professional women's sports alongside a wide variety of community events. The complex features a 2,000-seat stadium and a large, year-round indoor dome that hosts everything from softball and lacrosse to boxing and volleyball. Known for its clean, family-friendly environment and accessible location, it provides a high-quality experience for both players and spectators. Its commitment to the sport of softball and its modern infrastructure make it a highly regarded hub for athletic competition in the Chicago suburbs.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and welcoming, characterized by a clean, well-maintained environment that feels ideal for sports fans and families. It provides a bright and lively space suitable for experiencing high-level athletic competitions.",
+      "amenities_description": "The facility provides essential amenities including concession stands serving a variety of food and drinks, clean restroom facilities, and ample parking. The seating areas are designed for comfort, offering good sightlines for watching live events on the turf fields.",
+      "unique_selling_points": "This is the first major sports facility in the nation built expressly for women's professional sports. Its year-round utility is made possible by a massive air-supported dome, allowing for seamless athletic events regardless of weather conditions.",
+      "neighborhood_description": "Situated within a bustling suburban entertainment hub, the area is highly accessible and offers convenient proximity to various local dining and recreational amenities. Its central location makes it a popular destination for families and sports enthusiasts alike.",
+      "physical_setting_description": "Located in a suburban entertainment district near a major interstate, this venue features a modern, 2,000-seat stadium and a large, air-supported indoor domed facility. The complex is designed for year-round sports usage, with fields and seating areas that accommodate professional and community events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0721CD9A-5199-483B-B1AD-46C8CD0DED77-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.7310448233554387,
+     "location": {
+      "lat": 41.980926499999995,
+      "lon": -87.8722482,
+      "geohash": "dp3wb6mks7bt"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:parkway_bank_park",
+       "name": "Parkway bank park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sports_focused",
+       "name": "Sports focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:field_sports",
+       "name": "Field sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stadium_architecture",
+       "name": "Stadium architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:boxing",
+       "name": "Boxing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:softball_field",
+       "name": "Softball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:volleyball",
+       "name": "Volleyball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:bright",
+       "name": "Bright",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:softball_field",
+       "name": "Softball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sports_stadium",
+       "name": "Sports stadium",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:des_convention_center",
+       "name": "Des convention center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:inviting",
+       "name": "Inviting",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:suburban",
+       "name": "Suburban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:rosemont_theatre",
+       "name": "Rosemont theatre",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:domed_facility",
+       "name": "Domed facility",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:women_s_professional_sports",
+       "name": "Womens professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:lacrosse",
+       "name": "Lacrosse",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stadium_seating",
+       "name": "Stadium seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:allstate_arena",
+       "name": "Allstate arena",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:turf_fields",
+       "name": "Turf fields",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_level_views",
+       "name": "Field level views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:youth_athletics",
+       "name": "Youth athletics",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:professional_softball",
+       "name": "Professional softball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:minimalist",
+       "name": "Minimalist",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7419630786897532,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 1.3093073414159542
+      }
+     },
+     "disambiguation": "27 Jennie Finch Way Rosemont, IL 60018",
+     "external": {
+      "google_place": [
+       {
+        "id": "103a2e0d17dc5d35",
+        "place_id": "ChIJ64EYS-C1D4gRNV3cFw0uOhA"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+      "name": "Rosemont",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 41.9889598516711,
+       "lon": -87.87177015163321
+      },
+      "popularity": 0.9889874,
+      "disambiguation": "Rosemont, Leyden Township, Cook County, Illinois, United States"
+     }
+    ]
+   }
+  }
+ }
+}

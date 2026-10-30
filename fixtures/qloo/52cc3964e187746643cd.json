@@ -1,0 +1,34 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "3D8CC570-78AB-4989-AC0E-34FD09E39601",
+  "take": 25,
+  "filter.location.query": "Ridgefield, Washington",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "C76E5397-ECA6-486C-8748-87797286F009",
+      "name": "Ridgefield",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 45.81137157902688,
+       "lon": -122.7051474987844
+      },
+      "popularity": 0.9053322,
+      "disambiguation": "Ridgefield, Clark County, Washington, United States"
+     }
+    ]
+   }
+  }
+ }
+}

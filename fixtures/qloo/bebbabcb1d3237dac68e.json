@@ -1,0 +1,4027 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "058B79A3-49F5-4927-9AB6-DE713C706796",
+  "take": 50,
+  "filter.location.query": "Clearwater, Florida",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Clearwater Threshers",
+     "entity_id": "89F98BE1-D577-44B3-B7DF-D34625F845F1",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17277124300",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/89F98BE1-D577-44B3-B7DF-D34625F845F1-0tAy89-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "601 Old Coachman Rd. Clearwater, FL 33765",
+      "geocode": {
+       "city": "Clearwater",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Pinellas County"
+      },
+      "parking": true,
+      "website": "http://www.threshersbaseball.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "33765",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A37DBED-44DC-478B-8964-E9EE6603C9F9",
+        "admin_level": 9,
+        "locality_id": "z33765",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Minor-league baseball stadium in Clearwater, Florida, home to the Clearwater Threshers and used for Philadelphia Phillies spring training and events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Minor-league baseball stadium in Clearwater, Florida, home to the Clearwater Threshers and used for Philadelphia Phillies spring training and events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "BayCare Ballpark serves as a premier minor-league baseball venue in Clearwater, Florida, hosting the Clearwater Threshers and Philadelphia Phillies spring training. It is widely praised for its friendly staff, excellent seating with great field visibility, and a family-friendly atmosphere that makes it a top destination for sports fans. With convenient amenities, diverse food choices, and regular events like fireworks and community festivals, the park provides a high-quality, accessible experience for visitors of all ages.",
+      "service_description": null,
+      "ambience_description": "The ballpark offers a warm, family-friendly atmosphere where visitors can enjoy quality baseball and entertainment in a clean and comfortable setting.",
+      "amenities_description": "The facility features a range of amenities including diverse food and beverage options, a large team store, accessible seating, and family-oriented areas like playgrounds and sunscreen stations.",
+      "unique_selling_points": "As the home of the Clearwater Threshers and spring training site for the Philadelphia Phillies, the ballpark offers an intimate, highly accessible experience where every seat provides a great view of the action.",
+      "neighborhood_description": "The surrounding area is a convenient and accessible commercial district, making the ballpark an easy-to-reach destination for local residents and visitors alike.",
+      "physical_setting_description": "A well-maintained minor-league baseball stadium located within a commercial area in Clearwater, Florida. The venue provides excellent sightlines for games and events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/89F98BE1-D577-44B3-B7DF-D34625F845F1-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9955805892869547,
+     "location": {
+      "lat": 27.970921299999997,
+      "lon": -82.7317194,
+      "geohash": "dhvpj7uw7jw2"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fan_focused",
+       "name": "Fan focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_store",
+       "name": "Team store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:baseball_themed",
+       "name": "Baseball themed",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:sunscreen_stations",
+       "name": "Sunscreen stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:spring_training",
+       "name": "Spring training",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_sports",
+       "name": "Local sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:playground",
+       "name": "Playground",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_club",
+       "name": "Baseball club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_club",
+       "name": "Baseball club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:baseball",
+       "name": "Baseball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:minor_league_baseball",
+       "name": "Minor league baseball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:family_entertainment",
+       "name": "Family entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxed",
+       "name": "Relaxed",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7188553363874024,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "601 Old Coachman Rd. Clearwater, FL 33765",
+     "external": {
+      "google_place": [
+       {
+        "id": "a4f1c1439a11b8b",
+        "place_id": "ChIJH0k8TCruwogRixuhORQcTwo"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Ruth Eckerd Hall",
+     "entity_id": "25D0EDA2-446C-4F1A-BF21-B4D403706B94",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17277917400",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/25D0EDA2-446C-4F1A-BF21-B4D403706B94-0FqvTy-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1111 McMullen Booth Rd Clearwater, FL 33759",
+      "geocode": {
+       "city": "Clearwater",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Pinellas County"
+      },
+      "parking": true,
+      "website": "http://www.rutheckerdhall.com/%3Futm_sorce%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgooglemybusiness",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "aisle",
+        "count": 102
+       },
+       {
+        "name": "ushers",
+        "count": 61
+       },
+       {
+        "name": "traffic",
+        "count": 48
+       },
+       {
+        "name": "concert hall",
+        "count": 44
+       },
+       {
+        "name": "valet",
+        "count": 17
+       },
+       {
+        "name": "joe bonamassa",
+        "count": 15
+       },
+       {
+        "name": "john mellencamp",
+        "count": 12
+       },
+       {
+        "name": "larry the cable guy",
+        "count": 9
+       },
+       {
+        "name": "straz center for the performing arts",
+        "count": 8
+       },
+       {
+        "name": "the gipsy kings",
+        "count": 5
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "33759",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "67F10F5B-D131-4E39-8697-BFA95BD65612",
+        "admin_level": 9,
+        "locality_id": "z33759",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Roomy modern performing-arts venue in Clearwater hosting music, comedy and Broadway productions, plus arts education programs.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "akas": [
+        {
+         "value": "\"Nh\u00e0 h\u00e1t ngh\u1ec7 thu\u1eadt bi\u1ec3u di\u1ec5n\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Theater voor podiumkunsten\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0430\u0440 \u0437\u0430 \u0438\u0437\u0432\u0435\u0434\u0443\u0432\u0430\u0447\u043a\u0438 \u0443\u043c\u0435\u0442\u043d\u043e\u0441\u0442\u0438\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u0130fa\u00e7\u0131l\u0131q s\u0259n\u0259ti teatr\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Scenos men\u0173 teatras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041e\u0440\u044b\u043d\u0434\u0430\u0443\u0448\u044b\u043b\u044b\u049b \u04e9\u043d\u0435\u0440 \u0442\u0435\u0430\u0442\u0440\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes esc\u00e9nicas\"",
+         "languages": [
+          "es_la",
+          "es",
+          "gl",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"Kazali\u0161te izvedbenih umjetnosti\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Salle de spectacles\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0ea5\u0eb0\u0e84\u0ead\u0e99\u0eaa\u0eb4\u0ea5\u0eb0\u0e9b\u0eb0\u0e81\u0eb2\u0e99\u0eaa\u0eb0\u0ec1\u0e94\u0e87\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Teatro di arti performative\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes c\u00eanicas\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Th\u00e9\u00e2tre\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u8868\u6f14\u827a\u672f\u5267\u9662\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Divadlo sc\u00e9nick\u00fdch um\u011bn\u00ed\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Teater seni pertunjukan\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u041f\u043e\u0437\u043e\u0440\u0438\u0448\u0442\u0435 \u0438\u0437\u0432\u043e\u0452\u0430\u0447\u043a\u0438\u0445 \u0443\u043c\u0435\u0442\u043d\u043e\u0441\u0442\u0438\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0915\u0932\u093e \u0925\u093f\u090f\u091f\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes performativas\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u821e\u53f0\u82b8\u8853\u5287\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Teatre d'arts esc\u00e8niques\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10ea\u10d4\u10dc\u10e3\u10e0\u10d8 \u10ee\u10d4\u10da\u10dd\u10d5\u10dc\u10d4\u10d1\u10d8\u10e1 \u10d7\u10d4\u10d0\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05d0\u05de\u05e0\u05d5\u05d9\u05d5\u05ea \u05d4\u05d1\u05de\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u044a\u0440 \u0437\u0430 \u0441\u0446\u0435\u043d\u0438\u0447\u043d\u0438 \u0438\u0437\u043a\u0443\u0441\u0442\u0432\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0633\u0631\u062d \u0641\u0646\u0648\u0646 \u0623\u062f\u0627\u0626\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"El\u0151ad\u00f3m\u0171v\u00e9szeti sz\u00ednh\u00e1z\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Teatro\"",
+         "languages": [
+          "pt",
+          "es"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa sanaa za maonyesho\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Teat\u00ebr i arteve performuese\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Pozori\u0161te izvo\u0111a\u010dkih umjetnosti\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Gledali\u0161\u010de uprizoritvenih umetnosti\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bbf\u0b95\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd \u0b95\u0bb2\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Theater\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u1031\u1038\u1021\u1014\u102f\u1015\u100a\u102c\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Teatr sztuk scenicznych\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u09aa\u09be\u09b0\u09ab\u09b0\u09cd\u09ae\u09bf\u0982 \u0986\u09b0\u09cd\u099f\u09b8 \u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Theater f\u00fcr darstellende K\u00fcnste\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Performing arts theatre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0c2a\u0c46\u0c30\u0c4d\u0c2b\u0c3e\u0c30\u0c4d\u0c2e\u0c3f\u0c02\u0c17\u0c4d \u0c06\u0c30\u0c4d\u0c1f\u0c4d\u0c38\u0c4d \u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Etenduskunstide teater\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Teatru de arte spectacolului\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Teater f\u00f6r scenkonst\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440 \u0441\u0446\u0435\u043d\u0456\u0447\u043d\u0438\u0445 \u043c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Teater seni persembahan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Teater vir uitvoerende kunste\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Divadlo sc\u00e9nick\u00fdch umen\u00ed\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Arte eszenikoen antzokia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\u179f\u17b7\u179b\u17d2\u1794\u17c8\u179f\u1798\u17d2\u178f\u17c2\u1784\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Teatro ng sining ng pagtatanghal\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Esitt\u00e4vien taiteiden teatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e25\u0e30\u0e04\u0e23\u0e28\u0e34\u0e25\u0e1b\u0e30\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Skatuves m\u0101kslas te\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacf5\uc5f0 \uc608\uc220 \uadf9\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Sahne sanatlar\u0131 tiyatrosu\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u8868\u6f14\u85dd\u8853\u5287\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Teater for scenekunst\"",
+         "languages": [
+          "da",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0398\u03ad\u03b1\u03c4\u03c1\u03bf \u03c0\u03b1\u03c1\u03b1\u03c3\u03c4\u03b1\u03c4\u03b9\u03ba\u03ce\u03bd \u03c4\u03b5\u03c7\u03bd\u03ce\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        }
+       ],
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Roomy modern performing-arts venue in Clearwater hosting music, comedy and Broadway productions, plus arts education programs.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Ruth Eckerd Hall is a premier performing-arts venue in Clearwater, widely celebrated for its superior acoustics, comfortable seating, and clear sight lines. It hosts a diverse range of programming including concerts, comedy, Broadway shows, and community events in a modern, well-maintained environment. With its dedicated, friendly staff, accessible facilities, and convenient parking, it remains a favorite destination for both locals and tourists seeking high-quality live entertainment.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is welcoming and comfortable, offering an intimate yet lively environment perfect for enjoying live performances. The venue is consistently praised for being well-maintained and professionally managed.",
+      "amenities_description": "The venue provides comprehensive amenities including full-service bars, concession stands, and on-site dining options, alongside accessible features like elevators and ample parking.",
+      "unique_selling_points": "Renowned for its acoustically perfect hall, the venue provides an intimate viewing experience with excellent sight lines from any seat in the house.",
+      "neighborhood_description": "The surrounding area is a convenient and accessible location that supports a steady flow of visitors attending various shows and community events.",
+      "physical_setting_description": "A modern, roomy performing-arts venue located in Clearwater that features a beautiful exterior and a spacious, comfortable interior. The facility is well-integrated into a commercial area with ample, easily accessible parking.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/25D0EDA2-446C-4F1A-BF21-B4D403706B94-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.996415067636764,
+     "location": {
+      "lat": 27.9759724,
+      "lon": -82.7047268,
+      "geohash": "dhvpnhb7b5ms"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:category:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sophisticated",
+       "name": "Sophisticated",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:covid_19_antibody_testing",
+       "name": "Covid 19 antibody testing",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:drive_through",
+       "name": "Drive through",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:comedy",
+       "name": "Comedy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:biergarten",
+       "name": "Biergarten",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:performing_arts_center",
+       "name": "Performing arts center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:performing_arts",
+       "name": "Performing arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:elegant",
+       "name": "Elegant",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:graduation_ceremonies",
+       "name": "Graduation ceremonies",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:mask_required",
+       "name": "Mask required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:symphony_orchestras",
+       "name": "Symphony orchestras",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_shows",
+       "name": "Comedy shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cup_holders",
+       "name": "Cup holders",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevator",
+       "name": "Elevator",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:theater",
+       "name": "Theater",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:appointment_required_for_covid_test",
+       "name": "Appointment required for covid test",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:business_friendly",
+       "name": "Business friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:auditorium_view",
+       "name": "Auditorium view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:turnaround_time",
+       "name": "Turnaround time",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:appointment_required",
+       "name": "Appointment required",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:tests_limited_to_certain_patients",
+       "name": "Tests limited to certain patients",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:professional",
+       "name": "Professional",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:temperature_check_required",
+       "name": "Temperature check required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:theatrical",
+       "name": "Theatrical",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7167482360306204,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1111 McMullen Booth Rd Clearwater, FL 33759",
+     "external": {
+      "google_place": [
+       {
+        "id": "56b535f2c69622ab",
+        "place_id": "ChIJ4YG1mE_uwogRqyKWxvI1tVY"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Nancy and David Bilheimer Capitol Theatre",
+     "entity_id": "6039ABD0-C17C-44AF-86F8-61C23B1FF2AB",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17277917400",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/6039ABD0-C17C-44AF-86F8-61C23B1FF2AB-242WkJ-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "405 Cleveland St Clearwater, FL 33755",
+      "geocode": {
+       "city": "Clearwater",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Pinellas County"
+      },
+      "parking": true,
+      "website": "https://www.rutheckerdhall.com/plan-your-visit/the-nancy-and-david-bilheimer-capitol-theatre",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "intimate venue",
+        "count": 156
+       },
+       {
+        "name": "live music",
+        "count": 68
+       },
+       {
+        "name": "intimate theater",
+        "count": 56
+       },
+       {
+        "name": "classic albums live",
+        "count": 10
+       },
+       {
+        "name": "mezzanine",
+        "count": 22
+       },
+       {
+        "name": "rooftop bar",
+        "count": 28
+       },
+       {
+        "name": "concerts",
+        "count": 248
+       },
+       {
+        "name": "balconies",
+        "count": 30
+       },
+       {
+        "name": "historic venue",
+        "count": 17
+       },
+       {
+        "name": "concert venue",
+        "count": 47
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Clearwater",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+        "admin_level": 8,
+        "locality_id": "r118909",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "33755",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "20FD9C97-FDC2-4977-B471-62D0ED9D2D11",
+        "admin_level": 9,
+        "locality_id": "z33755",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Historic 1921 art-deco theater in downtown Clearwater hosting concerts, theater, comedy and films, with VIP boxes, rooftop terrace, concessions and expanded seating.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "akas": [
+        {
+         "value": "\"Nh\u00e0 h\u00e1t ngh\u1ec7 thu\u1eadt bi\u1ec3u di\u1ec5n\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Theater voor podiumkunsten\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0430\u0440 \u0437\u0430 \u0438\u0437\u0432\u0435\u0434\u0443\u0432\u0430\u0447\u043a\u0438 \u0443\u043c\u0435\u0442\u043d\u043e\u0441\u0442\u0438\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u0130fa\u00e7\u0131l\u0131q s\u0259n\u0259ti teatr\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Scenos men\u0173 teatras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041e\u0440\u044b\u043d\u0434\u0430\u0443\u0448\u044b\u043b\u044b\u049b \u04e9\u043d\u0435\u0440 \u0442\u0435\u0430\u0442\u0440\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes esc\u00e9nicas\"",
+         "languages": [
+          "es_la",
+          "es",
+          "gl",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"Kazali\u0161te izvedbenih umjetnosti\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Salle de spectacles\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0ea5\u0eb0\u0e84\u0ead\u0e99\u0eaa\u0eb4\u0ea5\u0eb0\u0e9b\u0eb0\u0e81\u0eb2\u0e99\u0eaa\u0eb0\u0ec1\u0e94\u0e87\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Teatro di arti performative\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes c\u00eanicas\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Th\u00e9\u00e2tre\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u8868\u6f14\u827a\u672f\u5267\u9662\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Divadlo sc\u00e9nick\u00fdch um\u011bn\u00ed\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Teater seni pertunjukan\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u041f\u043e\u0437\u043e\u0440\u0438\u0448\u0442\u0435 \u0438\u0437\u0432\u043e\u0452\u0430\u0447\u043a\u0438\u0445 \u0443\u043c\u0435\u0442\u043d\u043e\u0441\u0442\u0438\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0915\u0932\u093e \u0925\u093f\u090f\u091f\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes performativas\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u821e\u53f0\u82b8\u8853\u5287\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Teatre d'arts esc\u00e8niques\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10ea\u10d4\u10dc\u10e3\u10e0\u10d8 \u10ee\u10d4\u10da\u10dd\u10d5\u10dc\u10d4\u10d1\u10d8\u10e1 \u10d7\u10d4\u10d0\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05d0\u05de\u05e0\u05d5\u05d9\u05d5\u05ea \u05d4\u05d1\u05de\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u044a\u0440 \u0437\u0430 \u0441\u0446\u0435\u043d\u0438\u0447\u043d\u0438 \u0438\u0437\u043a\u0443\u0441\u0442\u0432\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0633\u0631\u062d \u0641\u0646\u0648\u0646 \u0623\u062f\u0627\u0626\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"El\u0151ad\u00f3m\u0171v\u00e9szeti sz\u00ednh\u00e1z\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Teatro\"",
+         "languages": [
+          "pt",
+          "es"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa sanaa za maonyesho\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Teat\u00ebr i arteve performuese\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Pozori\u0161te izvo\u0111a\u010dkih umjetnosti\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Gledali\u0161\u010de uprizoritvenih umetnosti\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bbf\u0b95\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd \u0b95\u0bb2\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Theater\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u1031\u1038\u1021\u1014\u102f\u1015\u100a\u102c\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Teatr sztuk scenicznych\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u09aa\u09be\u09b0\u09ab\u09b0\u09cd\u09ae\u09bf\u0982 \u0986\u09b0\u09cd\u099f\u09b8 \u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Theater f\u00fcr darstellende K\u00fcnste\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Performing arts theatre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0c2a\u0c46\u0c30\u0c4d\u0c2b\u0c3e\u0c30\u0c4d\u0c2e\u0c3f\u0c02\u0c17\u0c4d \u0c06\u0c30\u0c4d\u0c1f\u0c4d\u0c38\u0c4d \u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Etenduskunstide teater\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Teatru de arte spectacolului\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Teater f\u00f6r scenkonst\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440 \u0441\u0446\u0435\u043d\u0456\u0447\u043d\u0438\u0445 \u043c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Teater seni persembahan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Teater vir uitvoerende kunste\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Divadlo sc\u00e9nick\u00fdch umen\u00ed\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Arte eszenikoen antzokia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\u179f\u17b7\u179b\u17d2\u1794\u17c8\u179f\u1798\u17d2\u178f\u17c2\u1784\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Teatro ng sining ng pagtatanghal\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Esitt\u00e4vien taiteiden teatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e25\u0e30\u0e04\u0e23\u0e28\u0e34\u0e25\u0e1b\u0e30\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Skatuves m\u0101kslas te\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacf5\uc5f0 \uc608\uc220 \uadf9\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Sahne sanatlar\u0131 tiyatrosu\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u8868\u6f14\u85dd\u8853\u5287\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Teater for scenekunst\"",
+         "languages": [
+          "da",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0398\u03ad\u03b1\u03c4\u03c1\u03bf \u03c0\u03b1\u03c1\u03b1\u03c3\u03c4\u03b1\u03c4\u03b9\u03ba\u03ce\u03bd \u03c4\u03b5\u03c7\u03bd\u03ce\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        }
+       ],
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": "Ruth Eckerd Hall Membership",
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Historic 1921 art-deco theater in downtown Clearwater hosting concerts, theater, comedy and films, with VIP boxes, rooftop terrace, concessions and expanded seating.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Nancy and David Bilheimer Capitol Theatre is a premier historic destination in downtown Clearwater, originally opened in 1921. Meticulously restored to retain its art-deco character while incorporating modern upgrades, it serves as an intimate venue for concerts, comedy, and theater. The theater features a rooftop terrace, VIP amenities, and excellent acoustics, all located within a highly walkable district filled with dining options.",
+      "service_description": null,
+      "ambience_description": "The venue offers an intimate and charming atmosphere, blending 1920s historical elegance with modern amenities like a rooftop lounge. It provides a cozy, close-up experience where guests often feel a personal connection to the performers.",
+      "amenities_description": "The theater features modern conveniences including a rooftop terrace, a VIP lounge, and multiple concession stands offering a full bar and snacks. The facility also includes updated lobby spaces, private loge boxes, and clean, well-maintained restrooms.",
+      "unique_selling_points": "As one of Florida's oldest operating theaters, this venue offers a rare combination of 1921 art-deco historic charm and modern performance technology. Its intimate size ensures that all 777 seats provide an up-close, immersive experience with the performers.",
+      "neighborhood_description": "The theater is located in a vibrant downtown area filled with numerous restaurants, bars, and local shops within easy walking distance. It is positioned in a central, accessible hub that encourages pre-show dining and exploration.",
+      "physical_setting_description": "Constructed in 1921, this historic art-deco theater is situated in the heart of the Cleveland Street District in downtown Clearwater. It features an outdoor balcony overlooking the Clearwater Causeway and a rooftop terrace.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/6039ABD0-C17C-44AF-86F8-61C23B1FF2AB-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9816526200168567,
+     "location": {
+      "lat": 27.965462199999997,
+      "lon": -82.8009342,
+      "geohash": "dhvp5ffnw7uv"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fine_dining",
+       "name": "Fine dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:temperature_check_required",
+       "name": "Temperature check required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:clearwater_causeway",
+       "name": "Clearwater causeway",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:rooftop_terrace",
+       "name": "Rooftop terrace",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:historical_architecture",
+       "name": "Historical architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:old_school",
+       "name": "Old school",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:private_loge_boxes",
+       "name": "Private loge boxes",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:downtown_district",
+       "name": "Downtown district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_lounge",
+       "name": "Vip lounge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ticket_office",
+       "name": "Ticket office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:dining_district",
+       "name": "Dining district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:mask_required",
+       "name": "Mask required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stand",
+       "name": "Concession stand",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:elegant",
+       "name": "Elegant",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:cleveland_street_district",
+       "name": "Cleveland street district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:elegant",
+       "name": "Elegant",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:city_exploration",
+       "name": "City exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:vintage",
+       "name": "Vintage",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_shows",
+       "name": "Comedy shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:romantic",
+       "name": "Romantic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:film_screenings",
+       "name": "Film screenings",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_elevator",
+       "name": "Wheelchair accessible elevator",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:art_deco",
+       "name": "Art deco",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:gilded_age",
+       "name": "Gilded age",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:performing_arts",
+       "name": "Performing arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:causeway_view",
+       "name": "Causeway view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:charming",
+       "name": "Charming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.6945913672785038,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "405 Cleveland St Clearwater, FL 33755",
+     "external": {
+      "google_place": [
+       {
+        "id": "3e2b9f89a646ee02",
+        "place_id": "ChIJ4_qkc97wwogRAu5GpomfKz4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Crooked Thumb Brewery",
+     "entity_id": "0F3EA1AB-B71B-43C9-B2B4-2632CE7A0892",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": "+17277245953",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0F3EA1AB-B71B-43C9-B2B4-2632CE7A0892-2xFx4v-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "555 10th Ave S Safety Harbor, FL 34695",
+      "geocode": {
+       "city": "Safety Harbor",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Pinellas County"
+      },
+      "parking": true,
+      "website": "http://crookedthumbbrew.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "food trucks",
+        "count": 50
+       },
+       {
+        "name": "beer garden",
+        "count": 12
+       },
+       {
+        "name": "picnic tables",
+        "count": 6
+       },
+       {
+        "name": "outdoor space",
+        "count": 29
+       },
+       {
+        "name": "cats",
+        "count": 16
+       },
+       {
+        "name": "strawberry shakedown",
+        "count": 2
+       },
+       {
+        "name": "outdoor stage",
+        "count": 5
+       },
+       {
+        "name": "family friendly",
+        "count": 24
+       },
+       {
+        "name": "stouts",
+        "count": 3
+       },
+       {
+        "name": "live music",
+        "count": 46
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Safety Harbor",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "2521113F-7922-49DF-96BB-7275BF27AC64",
+        "admin_level": 8,
+        "locality_id": "r118896",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Safety Harbor",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "2521113F-7922-49DF-96BB-7275BF27AC64",
+        "admin_level": 8,
+        "locality_id": "r118896",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "34695",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "B8B145AB-8B91-4040-A668-CFF1AB1907DF",
+        "admin_level": 9,
+        "locality_id": "z34695",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Pinellas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "517A0969-6747-4DA4-A4BE-B5404B5389D6",
+        "admin_level": 6,
+        "locality_id": "r1210726",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Casual local craft brewery and taproom in Safety Harbor offering rotating draft beers and a relaxed neighborhood atmosphere.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:brewery",
+       "akas": [
+        {
+         "value": "\"\u0421\u044b\u0440\u0430 \u0437\u0430\u0443\u044b\u0442\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Pivovar\"",
+         "languages": [
+          "cs",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Brewery\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Birrificio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Cervecer\u00eda\"",
+         "languages": [
+          "es_ar",
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u917f\u9152\u5382\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Piv\u0259 zavodu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Brouwerij\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10da\u10e3\u10d3\u10e1\u10d0\u10ee\u10d0\u10e0\u10e8\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u092c\u094d\u0930\u0942\u0905\u0930\u0940\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1785\u1780\u17d2\u179a\u1795\u179b\u17b7\u178f\u179f\u17d2\u179a\u17b6\u1794\u17c0\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Serbeserya\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102e\u101a\u102c\u1001\u103b\u1000\u103a\u1005\u1000\u103a\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Ber\u0103rie\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d1\u05e9\u05dc\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Pivovarna\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Cervejaria\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Panimo\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u91c0\u9152\u5ee0\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0635\u0646\u0639 \u062c\u0639\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Bira fabrikas\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Pivara\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e40\u0e1a\u0e35\u0e22\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Brouery\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Garagardotegia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0e87\u0eb2\u0e99\u0e9c\u0eb0\u0ea5\u0eb4\u0e94\u0ec0\u0e9a\u0e8d\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Kiwanda cha bia\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Browar\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Bryggeri\"",
+         "languages": [
+          "da",
+          "nb",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\uc591\uc870\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u043d\u0438\u0446\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Brauerei\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Kilang bir\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0396\u03c5\u03b8\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09cd\u09b0\u09c1\u09af\u09bc\u09be\u09b0\u09bf\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Pabrik bir\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Cervexar\u00eda\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Brasserie\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Cerveseria\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c4d\u0c30\u0c42\u0c35\u0c30\u0c40\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Birtari\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Alaus darykla\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u91b8\u9020\u6240\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0440\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"S\u00f6rf\u0151zde\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 m\u00e1y bia\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Pruulikoda\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Alus dar\u012btava\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0baa\u0bbe\u0ba9 \u0b86\u0bb2\u0bc8\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Pivovara\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "ru"
+         ]
+        }
+       ],
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Casual local craft brewery and taproom in Safety Harbor offering rotating draft beers and a relaxed neighborhood atmosphere.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Crooked Thumb Brewery is a casual, neighborhood craft brewery in Safety Harbor that emphasizes a relaxed, community-driven experience. The space features both an indoor garage-style taproom and a large, fenced-in outdoor area that frequently hosts live music and food trucks. Known for its wide variety of craft beers ranging from IPAs to fruit-infused sours, it serves as a popular destination for locals and visitors seeking a chill, social atmosphere. The venue is notably dog-friendly and acts as a central hub for those looking to unwind in a laid-back, unpretentious setting.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is notably relaxed and social, often described as a chill gathering spot where locals congregate for drinks and live entertainment.",
+      "amenities_description": "The facility features a spacious fenced outdoor area with a stage for live music and a garage-style indoor taproom. Rotating local food trucks are also frequently available on-site.",
+      "unique_selling_points": "This brewery is known for its authentic community vibe and a diverse selection of craft beers, including IPAs and sours, all served in an open, dog-friendly space.",
+      "neighborhood_description": "Situated off the main road in a quaint community, the area offers a relaxed, small-town atmosphere that feels like a hidden local gem.",
+      "physical_setting_description": "Located in the quiet village of Safety Harbor, this brewery features a casual, laid-back setting that includes an open-air garage space and a fenced-in outdoor yard.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0F3EA1AB-B71B-43C9-B2B4-2632CE7A0892-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.923272752396734,
+     "location": {
+      "lat": 27.9875112,
+      "lon": -82.6987549,
+      "geohash": "dhvpnnux56hh"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:setting:qloo:village",
+       "name": "Village",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pet_ownership",
+       "name": "Pet ownership",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:craft_beer_tasting",
+       "name": "Craft beer tasting",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:community_focused",
+       "name": "Community focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_community_events",
+       "name": "Local community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_living",
+       "name": "Outdoor living",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unique",
+       "name": "Unique",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:wedding_venue",
+       "name": "Wedding venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:rural",
+       "name": "Rural",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:taproom",
+       "name": "Taproom",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:chill_vibe",
+       "name": "Chill vibe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_trucks",
+       "name": "Food trucks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:craft_brewery",
+       "name": "Craft brewery",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:safety_harbor_waterfront",
+       "name": "Safety harbor waterfront",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer_appreciation",
+       "name": "Craft beer appreciation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pet_friendly",
+       "name": "Pet friendly",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:main_street_safety_harbor",
+       "name": "Main street safety harbor",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:wedding_venue",
+       "name": "Wedding venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:garden_view",
+       "name": "Garden view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:local_community_feel",
+       "name": "Local community feel",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:quiet",
+       "name": "Quiet",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_space",
+       "name": "Event space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music_stage",
+       "name": "Live music stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.6862517466513882,
+      "distance": 1040.172893245153,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "555 10th Ave S Safety Harbor, FL 34695",
+     "external": {
+      "google_place": [
+       {
+        "id": "399a37d526df8ced",
+        "place_id": "ChIJi2KIll3uwogR7YzfJtU3mjk"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "193E36F3-ED6A-43E3-8D75-8164B327024A",
+      "name": "Clearwater",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 27.979114794079102,
+       "lon": -82.76916270360522
+      },
+      "popularity": 0.9968511,
+      "disambiguation": "Clearwater, Pinellas County, Florida, United States"
+     }
+    ]
+   }
+  }
+ }
+}

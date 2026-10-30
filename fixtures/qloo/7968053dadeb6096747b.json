@@ -1,0 +1,2766 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Rosemont, Illinois",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Allstate Arena",
+     "entity_id": "E2DE8992-A1D6-4A6C-B261-D27A9E880FE8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+18476356601",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/E2DE8992-A1D6-4A6C-B261-D27A9E880FE8-3DUHxI-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "6920 Mannheim Rd Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "http://www.allstatearena.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Maine Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "807671A9-5891-423E-843D-20A4019B1FFA",
+        "admin_level": 7,
+        "locality_id": "r11584610",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large multipurpose arena near O'Hare Airport hosting professional and college basketball, concerts, and family shows.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large multipurpose arena near O'Hare Airport hosting professional and college basketball, concerts, and family shows.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Allstate Arena is a major multipurpose indoor facility in Rosemont, Illinois, known for hosting a wide variety of events including professional hockey games, concerts, and family-oriented shows. Despite being an older facility, its compact, two-level design ensures that attendees enjoy clear views of the stage or ice from almost every section. The venue is conveniently located near O'Hare Airport and major highways, making it a highly accessible entertainment hub for the Chicagoland area. It remains a staple for community gatherings and large-scale touring acts alike.",
+      "service_description": null,
+      "ambience_description": "The arena offers a lively and high-energy atmosphere during events, making it a popular social hub for diverse crowds. While the environment is energetic, the facility itself maintains a dated, functional aesthetic.",
+      "amenities_description": "The venue features multiple floors equipped with various concession stands, bars, and restroom facilities to accommodate large crowds. Accessible infrastructure such as elevators and ramps is provided to assist guests in navigating the arena.",
+      "unique_selling_points": "The arena is recognized for its intimate seating layout where there is generally not a poor seat in the house. It serves as a versatile, go-to destination for everything from professional hockey games to major musical performances.",
+      "neighborhood_description": "The surrounding area is a bustling commercial hub highly frequented by travelers and locals alike due to its proximity to major transportation routes and airport facilities. It functions as a primary destination for entertainment and business gatherings.",
+      "physical_setting_description": "Located in Rosemont near O'Hare Airport, this multipurpose arena is positioned conveniently off the highway in a busy commercial area. The facility serves as a prominent regional landmark for large-scale indoor events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/E2DE8992-A1D6-4A6C-B261-D27A9E880FE8-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9939430207113329,
+     "location": {
+      "lat": 42.005258999999995,
+      "lon": -87.88783,
+      "geohash": "dp3wbnf43h44"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:high_traffic",
+       "name": "High traffic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:dated",
+       "name": "Dated",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:dated",
+       "name": "Dated",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:impact_field",
+       "name": "Impact field",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:family_shows",
+       "name": "Family shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_kiosks",
+       "name": "Merchandise kiosks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:parkway_bank_park",
+       "name": "Parkway bank park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hockey",
+       "name": "Hockey",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:family_entertainment",
+       "name": "Family entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ramps",
+       "name": "Ramps",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ice_rink_view",
+       "name": "Ice rink view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:rosemont_theatre",
+       "name": "Rosemont theatre",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.226560654258756
+      }
+     },
+     "disambiguation": "6920 Mannheim Rd Rosemont, IL 60018",
+     "external": {
+      "google_place": [
+       {
+        "id": "ba81a6bfde0757fb",
+        "place_id": "ChIJ7VkkjFu2D4gR-1cH3r-mgbo"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Impact Field",
+     "entity_id": "F1894128-B7FB-4393-9905-1FDB10B12C5F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18476365450",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/F1894128-B7FB-4393-9905-1FDB10B12C5F-1cHyzb-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "9850 Balmoral Ave Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "https://thechicagodogs.com/explore-impact/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "baseball",
+        "count": 70
+       },
+       {
+        "name": "ball game",
+        "count": 30
+       },
+       {
+        "name": "beer",
+        "count": 30
+       },
+       {
+        "name": "fireworks",
+        "count": 29
+       },
+       {
+        "name": "chicago dog",
+        "count": 14
+       },
+       {
+        "name": "parking garage",
+        "count": 14
+       },
+       {
+        "name": "innings",
+        "count": 12
+       },
+       {
+        "name": "minor league",
+        "count": 8
+       },
+       {
+        "name": "concession stand",
+        "count": 8
+       },
+       {
+        "name": "christmas lights",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Leyden Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "3B723B46-87B1-403E-826D-2E851C1BE3FB",
+        "admin_level": 7,
+        "locality_id": "r11584606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Modern independent-league ballpark in Rosemont serving as the home of the Chicago Dogs, offering fan-focused amenities and close proximity to O'Hare.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Modern independent-league ballpark in Rosemont serving as the home of the Chicago Dogs, offering fan-focused amenities and close proximity to O'Hare.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Impact Field is a premier, modern independent-league ballpark serving as the home of the Chicago Dogs in Rosemont. Known for its clean, well-maintained facilities and excellent sightlines from every seat, it hosts both professional baseball games and large-scale seasonal community events. With convenient access to major highways and the airport, the venue is a popular destination for local families and sports enthusiasts seeking an engaging, accessible outing.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and family-focused, offering a clean and well-maintained environment that feels welcoming for both sports fans and event-goers.",
+      "amenities_description": "The facility provides convenient attached parking, various food and beverage concessions, and dedicated recreational areas including a kid zone and seasonal event attractions.",
+      "unique_selling_points": "As a modern ballpark where every seat offers a great view, it provides an intimate and accessible experience for minor league baseball and community events.",
+      "neighborhood_description": "The area surrounding the stadium is a highly accessible commercial hub near major transport arteries and the airport, known for being easy to reach and family-oriented.",
+      "physical_setting_description": "A modern, well-maintained independent-league baseball stadium located in Rosemont, situated conveniently between the I-294 expressway and O'Hare International Airport.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/F1894128-B7FB-4393-9905-1FDB10B12C5F-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9555858045444803,
+     "location": {
+      "lat": 41.9782126,
+      "lon": -87.87173639999999,
+      "geohash": "dp3wb3vub4m9"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:minor_league_sports",
+       "name": "Minor league sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_stadium_entertainment",
+       "name": "Public stadium entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:laid_back",
+       "name": "Laid back",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sporting_facility",
+       "name": "Sporting facility",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:o_hare_international_airport",
+       "name": "Ohare international airport",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:train_ride",
+       "name": "Train ride",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_slide",
+       "name": "Ice slide",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_deck",
+       "name": "Parking deck",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:seasonal_celebrations",
+       "name": "Seasonal celebrations",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_family_activities",
+       "name": "Outdoor family activities",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:airport",
+       "name": "Airport",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_community_events",
+       "name": "Local community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:holiday_events",
+       "name": "Holiday events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:ballpark",
+       "name": "Ballpark",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:kid_zone",
+       "name": "Kid zone",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_rink",
+       "name": "Ice rink",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "9850 Balmoral Ave Rosemont, IL 60018",
+     "external": {
+      "google_place": [
+       {
+        "id": "2b4c4268d41b7150",
+        "place_id": "ChIJD_sP_eC1D4gRUHEb1GhCTCs"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Ballpark at Rosemont",
+     "entity_id": "0721CD9A-5199-483B-B1AD-46C8CD0DED77",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18479938453",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0721CD9A-5199-483B-B1AD-46C8CD0DED77-3qIHYa-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "27 Jennie Finch Way Rosemont, IL 60018",
+      "geocode": {
+       "city": "Rosemont",
+       "name": "Rosemont",
+       "metro": "Chicago",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County"
+      },
+      "parking": true,
+      "website": "https://rosemont.com/sports-complex/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "pro softball games",
+        "count": 2
+       },
+       {
+        "name": "concessions",
+        "count": 11
+       },
+       {
+        "name": "atmosphere",
+        "count": 10
+       },
+       {
+        "name": "cleanliness",
+        "count": 3
+       },
+       {
+        "name": "pitchers",
+        "count": 2
+       },
+       {
+        "name": "clean bathrooms",
+        "count": 4
+       },
+       {
+        "name": "friendly staff",
+        "count": 5
+       },
+       {
+        "name": "concession stand",
+        "count": 3
+       },
+       {
+        "name": "ball park",
+        "count": 6
+       },
+       {
+        "name": "location",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Illinois",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3C810436-FA8B-44B2-8584-909EE3726340",
+        "admin_level": 4,
+        "locality_id": "r122586",
+        "abbreviation": "Ill.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "60018",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "40F3F75D-21DE-4BB8-821D-B98248E1626E",
+        "admin_level": 9,
+        "locality_id": "z60018",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Rosemont",
+        "place": "village",
+        "boundary": "administrative",
+        "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+        "admin_level": 8,
+        "locality_id": "r5728807",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Leyden Township",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "3B723B46-87B1-403E-826D-2E851C1BE3FB",
+        "admin_level": 7,
+        "locality_id": "r11584606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Chicago",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "83BB9E0A-BBDB-457D-8893-C63AA7E7B339",
+        "admin_level": 12,
+        "locality_id": "27748652-BB63-461D-9C65-207D06E18716",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cook County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "8F4FEEC5-1B19-4EB2-84D7-FAFD39131610",
+        "admin_level": 6,
+        "locality_id": "r122576",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Year-round indoor sports complex with a domed facility and 2,000-seat stadium hosting softball, lacrosse, volleyball, and community events near Rosemont's entertainment district.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Rosemont",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:softball_field",
+       "akas": [
+        {
+         "value": "\"Softbollplan\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Igrali\u0161te za softball\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Campo de s\u00f3ftbol\"",
+         "languages": [
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b\u043d\u043e \u0438\u0433\u0440\u0438\u0449\u0435\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Softballbane\"",
+         "languages": [
+          "nb",
+          "da"
+         ]
+        },
+        {
+         "value": "\"Teren za softbol\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Uwanja wa softball\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Camp de softbol\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Teren de softball\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0b9a\u0bbe\u0b83\u0baa\u0bcd\u0b9f\u0bcd\u0baa\u0bbe\u0bb2\u0bcd \u0bae\u0bc8\u0ba4\u0bbe\u0ba9\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d2\u05e8\u05e9 \u05e1\u05d5\u05e4\u05d8\u05d1\u05d5\u05dc\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Softbol zelaia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u043b\u0435\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Lapangan sofbol\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c3e\u0c2b\u0c4d\u0c1f\u0c4d\u200c\u0c2c\u0c3e\u0c32\u0c4d \u0c2e\u0c48\u0c26\u0c3e\u0c28\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Fush\u00eb softbolli\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Softbalov\u00e9 ihrisko\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Softbol meydan\u00e7as\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Softbalov\u00e9 h\u0159i\u0161t\u011b\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Terrain de softball\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Softbalveld\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10dd\u10e4\u10e2\u10d1\u10dd\u10da\u10d8\u10e1 \u10db\u10dd\u10d4\u10d3\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Softbola laukums\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Softbolo aik\u0161t\u0117\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043e\u0444\u0442\u0431\u043e\u043b\u044c\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Campo da softball\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u5792\u7403\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u30bd\u30d5\u30c8\u30dc\u30fc\u30eb\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09ab\u099f\u09ac\u09b2 \u09ae\u09be\u09a0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Softpalliv\u00e4ljak\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u58d8\u7403\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Padang sofbol\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Softbol sahas\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0393\u03ae\u03c0\u03b5\u03b4\u03bf \u03c3\u03cc\u03c6\u03c4\u03bc\u03c0\u03bf\u03bb\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Campo de s\u00f3fbol\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Boisko do softballa\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Softballp\u00e1lya\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Sagtebalveld\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n b\u00f3ng m\u1ec1m\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Softball field\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Campo de softbol\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0440\u0435\u043d \u0437\u0430 \u0441\u043e\u0444\u0442\u0431\u043e\u043b\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Softball pitch\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Softballfeld\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u0938\u0949\u092b\u094d\u091f\u092c\u0949\u0932 \u092e\u0948\u0926\u093e\u0928\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\uc18c\ud504\ud2b8\ubcfc \uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e0b\u0e2d\u0e1f\u0e15\u0e4c\u0e1a\u0e2d\u0e25\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Cancha de s\u00f3ftbol\"",
+         "languages": [
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e8a\u0ead\u0e9a\u0e9a\u0ead\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Terrain de balle-molle\"",
+         "languages": [
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628 \u0643\u0631\u0629 \u0644\u064a\u0646\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Softball-kentt\u00e4\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0418\u0433\u0440\u0430\u043b\u0438\u0448\u0442\u0435 \u0437\u0430 \u0441\u043e\u0444\u0442\u0431\u043e\u043b\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u1006\u1031\u102c\u1037\u1016\u103a\u1018\u1031\u102c\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u1791\u17b8\u179b\u17b6\u1793\u179f\u17bc\u17a0\u17d2\u179c\u1794\u179b\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Igri\u0161\u010de za softball\"",
+         "languages": [
+          "sl"
+         ]
+        }
+       ],
+       "name": "Softball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Year-round indoor sports complex with a domed facility and 2,000-seat stadium hosting softball, lacrosse, volleyball, and community events near Rosemont's entertainment district.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "This premier multi-sport venue in Rosemont is a standout facility designed specifically to support and showcase professional women's sports alongside a wide variety of community events. The complex features a 2,000-seat stadium and a large, year-round indoor dome that hosts everything from softball and lacrosse to boxing and volleyball. Known for its clean, family-friendly environment and accessible location, it provides a high-quality experience for both players and spectators. Its commitment to the sport of softball and its modern infrastructure make it a highly regarded hub for athletic competition in the Chicago suburbs.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and welcoming, characterized by a clean, well-maintained environment that feels ideal for sports fans and families. It provides a bright and lively space suitable for experiencing high-level athletic competitions.",
+      "amenities_description": "The facility provides essential amenities including concession stands serving a variety of food and drinks, clean restroom facilities, and ample parking. The seating areas are designed for comfort, offering good sightlines for watching live events on the turf fields.",
+      "unique_selling_points": "This is the first major sports facility in the nation built expressly for women's professional sports. Its year-round utility is made possible by a massive air-supported dome, allowing for seamless athletic events regardless of weather conditions.",
+      "neighborhood_description": "Situated within a bustling suburban entertainment hub, the area is highly accessible and offers convenient proximity to various local dining and recreational amenities. Its central location makes it a popular destination for families and sports enthusiasts alike.",
+      "physical_setting_description": "Located in a suburban entertainment district near a major interstate, this venue features a modern, 2,000-seat stadium and a large, air-supported indoor domed facility. The complex is designed for year-round sports usage, with fields and seating areas that accommodate professional and community events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0721CD9A-5199-483B-B1AD-46C8CD0DED77-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.7310448233554387,
+     "location": {
+      "lat": 41.980926499999995,
+      "lon": -87.8722482,
+      "geohash": "dp3wb6mks7bt"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:parkway_bank_park",
+       "name": "Parkway bank park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sports_focused",
+       "name": "Sports focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:field_sports",
+       "name": "Field sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stadium_architecture",
+       "name": "Stadium architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:boxing",
+       "name": "Boxing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:softball_field",
+       "name": "Softball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:volleyball",
+       "name": "Volleyball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:bright",
+       "name": "Bright",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:softball_field",
+       "name": "Softball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sports_stadium",
+       "name": "Sports stadium",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:des_convention_center",
+       "name": "Des convention center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:inviting",
+       "name": "Inviting",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:suburban",
+       "name": "Suburban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:rosemont_theatre",
+       "name": "Rosemont theatre",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:domed_facility",
+       "name": "Domed facility",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:women_s_professional_sports",
+       "name": "Womens professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:lacrosse",
+       "name": "Lacrosse",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stadium_seating",
+       "name": "Stadium seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:allstate_arena",
+       "name": "Allstate arena",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:turf_fields",
+       "name": "Turf fields",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_level_views",
+       "name": "Field level views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:youth_athletics",
+       "name": "Youth athletics",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:professional_softball",
+       "name": "Professional softball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:minimalist",
+       "name": "Minimalist",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 1.3093073414159542
+      }
+     },
+     "disambiguation": "27 Jennie Finch Way Rosemont, IL 60018",
+     "external": {
+      "google_place": [
+       {
+        "id": "103a2e0d17dc5d35",
+        "place_id": "ChIJ64EYS-C1D4gRNV3cFw0uOhA"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "BE64B8A4-587E-42CF-92EC-66B8E6C9175D",
+      "name": "Rosemont",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 41.9889598516711,
+       "lon": -87.87177015163321
+      },
+      "popularity": 0.9889874,
+      "disambiguation": "Rosemont, Leyden Township, Cook County, Illinois, United States"
+     }
+    ]
+   }
+  }
+ }
+}

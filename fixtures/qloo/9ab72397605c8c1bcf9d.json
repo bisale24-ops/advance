@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Indio, California",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "01140698-E9EF-42EB-8373-63383022078A",
+      "name": "Indio",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 33.75358188683835,
+       "lon": -116.22059620168065
+      },
+      "popularity": 0.987387,
+      "disambiguation": "Indio, Riverside, California, United States of America"
+     }
+    ]
+   }
+  }
+ }
+}

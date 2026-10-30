@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Concord, California",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "4F8FFC23-B8BF-4A86-A433-25725B2AEEDF",
+      "name": "Concord",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 37.97220578187016,
+       "lon": -122.00161234537006
+      },
+      "popularity": 0.9920068,
+      "disambiguation": "Concord, Contra Costa County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

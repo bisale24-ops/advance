@@ -1,0 +1,1043 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Pasadena, California",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Rose Bowl Stadium",
+     "entity_id": "67F52FDA-B739-4E19-816F-92D031D4E88A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+16265773100",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/67F52FDA-B739-4E19-816F-92D031D4E88A-2OPL4l-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1001 Rose Bowl Dr Pasadena, CA 91103",
+      "geocode": {
+       "city": "Pasadena",
+       "name": null,
+       "metro": "Los Angeles",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Los Angeles County"
+      },
+      "parking": true,
+      "website": "https://www.rosebowlstadium.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 0.9444444444444444
+       }
+      ],
+      "keywords": [
+       {
+        "name": "tailgate",
+        "count": 67
+       },
+       {
+        "name": "half marathon",
+        "count": 14
+       },
+       {
+        "name": "rose bowl loop",
+        "count": 3
+       },
+       {
+        "name": "historic venue",
+        "count": 31
+       },
+       {
+        "name": "flea market",
+        "count": 160
+       },
+       {
+        "name": "long lines",
+        "count": 35
+       },
+       {
+        "name": "historic stadium",
+        "count": 19
+       },
+       {
+        "name": "traffic",
+        "count": 133
+       },
+       {
+        "name": "crowded",
+        "count": 58
+       },
+       {
+        "name": "friendly staff",
+        "count": 59
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Pasadena",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "C12E78F6-B8B3-422B-9706-8FBD7DACB4BA",
+        "admin_level": 8,
+        "locality_id": "r3529725",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Los Angeles",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "CFBB7124-518B-461A-AAA0-89DFE0DB9298",
+        "admin_level": 12,
+        "locality_id": "41C29F19-6897-48B5-A421-F416969E98E0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Los Angeles County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "10F17338-97FE-40A3-9434-F6D59F000A9E",
+        "admin_level": 6,
+        "locality_id": "r396479",
+        "abbreviation": "Los Angeles",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Pasadena",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "C12E78F6-B8B3-422B-9706-8FBD7DACB4BA",
+        "admin_level": 8,
+        "locality_id": "r3529725",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "91103",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1DF83BF8-4853-4852-9346-C75A009486F7",
+        "admin_level": 9,
+        "locality_id": "z91103",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Los Angeles",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "CFBB7124-518B-461A-AAA0-89DFE0DB9298",
+        "admin_level": 12,
+        "locality_id": "41C29F19-6897-48B5-A421-F416969E98E0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Los Angeles County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "10F17338-97FE-40A3-9434-F6D59F000A9E",
+        "admin_level": 6,
+        "locality_id": "r396479",
+        "abbreviation": "Los Angeles",
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Historic outdoor stadium in Pasadena hosting a storied annual college-football championship game and a popular monthly flea market.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": 15,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Historic outdoor stadium in Pasadena hosting a storied annual college-football championship game and a popular monthly flea market.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Rose Bowl Stadium is an iconic, historic outdoor venue located in Pasadena, California, famously recognized as a National Historic Landmark. It serves as a primary hub for major sporting events, including the annual Rose Bowl Game, as well as high-profile concerts and the monthly Rose Bowl Flea Market. While the facility reflects its age, it remains a beloved bucket-list destination for millions due to its rich tradition, scenic mountain surroundings, and unparalleled atmosphere. Visitors are encouraged to plan ahead for transport and parking, as the massive venue creates significant activity during major events.",
+      "service_description": null,
+      "ambience_description": "The stadium exudes a grand, nostalgic atmosphere, defined by its rich history and the high-energy vibe of the massive crowds that gather here for world-class events.",
+      "amenities_description": "The venue is equipped with a variety of concession stands, ample restroom facilities, and merchandise areas, complemented by organized stadium tours that provide behind-the-scenes access.",
+      "unique_selling_points": "As a National Historic Landmark, it is world-renowned for hosting the annual Rose Bowl Game and serving as a premier site for global concerts and historic sporting events.",
+      "neighborhood_description": "The surrounding neighborhood offers a blend of historic charm and natural beauty, characterized by its proximity to the Arroyo Seco parkland and the vibrant shops and dining of Old Town Pasadena.",
+      "physical_setting_description": "Situated in a scenic valley in Pasadena, this historic outdoor stadium is surrounded by lush landscaping and mountains. It serves as a prominent landmark that blends into the natural beauty of its Arroyo Seco setting.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/67F52FDA-B739-4E19-816F-92D031D4E88A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9999468816363131,
+     "location": {
+      "lat": 34.1613332,
+      "lon": -118.1676304,
+      "geohash": "9q5fr4bunw6k"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:grand",
+       "name": "Grand",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hiking",
+       "name": "Hiking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stadium_tours",
+       "name": "Stadium tours",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:flea_market_shopping",
+       "name": "Flea market shopping",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nostalgic",
+       "name": "Nostalgic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:norton_simon_museum",
+       "name": "Norton simon museum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:flea_markets",
+       "name": "Flea markets",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:running",
+       "name": "Running",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:nature",
+       "name": "Nature",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_old_town_pasadena",
+       "name": "Near old town pasadena",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:arroyo_seco_park",
+       "name": "Arroyo seco park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional_stadium_architecture",
+       "name": "Traditional stadium architecture",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_seating",
+       "name": "Vip seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:college_sports",
+       "name": "College sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:festive",
+       "name": "Festive",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_stands",
+       "name": "Merchandise stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:iconic",
+       "name": "Iconic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:history",
+       "name": "History",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lockers",
+       "name": "Lockers",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lots",
+       "name": "Parking lots",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_stadium",
+       "name": "Outdoor stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:old_town_pasadena",
+       "name": "Old town pasadena",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.7320508075688772
+      }
+     },
+     "disambiguation": "1001 Rose Bowl Dr Pasadena, CA 91103",
+     "external": {
+      "google_place": [
+       {
+        "id": "4c4ffdc71c2abf2f",
+        "place_id": "ChIJkRS5KKTDwoARL78qHMf9T0w"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "C12E78F6-B8B3-422B-9706-8FBD7DACB4BA",
+      "name": "Pasadena",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 34.1596509015533,
+       "lon": -118.13887162126925
+      },
+      "popularity": 0.9950401,
+      "disambiguation": "Pasadena, Los Angeles County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

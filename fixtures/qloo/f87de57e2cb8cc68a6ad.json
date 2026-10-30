@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Mountain View, California",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "B90A5501-3D44-4371-9675-02425AD6F615",
+      "name": "Mountain View",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 37.40035640573318,
+       "lon": -122.07945191926301
+      },
+      "popularity": 0.99295944,
+      "disambiguation": "Mountain View, Santa Clara County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

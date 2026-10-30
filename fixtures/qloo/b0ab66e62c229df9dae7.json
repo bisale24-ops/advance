@@ -1,0 +1,5093 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Salt Lake City",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Rice-Eccles Stadium",
+     "entity_id": "1780830A-EDA3-4897-A802-01ED32D68BC3",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18012132588",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/1780830A-EDA3-4897-A802-01ED32D68BC3-1HGaNH-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "451 1400 E Salt Lake City, UT 84112",
+      "geocode": {
+       "city": "Salt Lake City",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": true,
+      "website": "http://www.riceecclesstadium.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "monster jam",
+        "count": 40
+       },
+       {
+        "name": "garth brooks concert",
+        "count": 60
+       },
+       {
+        "name": "crowd",
+        "count": 68
+       },
+       {
+        "name": "supercross",
+        "count": 52
+       },
+       {
+        "name": "imagine dragons concert",
+        "count": 20
+       },
+       {
+        "name": "bleacher seats",
+        "count": 14
+       },
+       {
+        "name": "friendly staff",
+        "count": 45
+       },
+       {
+        "name": "college football venue",
+        "count": 6
+       },
+       {
+        "name": "luke combs concert",
+        "count": 10
+       },
+       {
+        "name": "mountain views",
+        "count": 8
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "84112",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "A2F3FCCC-0910-46E4-88C8-3DAD3986C002",
+        "admin_level": 9,
+        "locality_id": "z84112",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Outdoor college football stadium offering panoramic Wasatch Mountain views, home to University of Utah football and a venue for concerts and major events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Outdoor college football stadium offering panoramic Wasatch Mountain views, home to University of Utah football and a venue for concerts and major events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Rice-Eccles Stadium is a premier athletic and entertainment venue located on the University of Utah campus in Salt Lake City. Known for hosting collegiate football, professional motor sports, and world-class concert tours, the stadium offers a high-capacity experience defined by its stunning panoramic mountain views. While it functions as a central hub for major community events and Olympic legacy, it also features modern amenities including upgraded seating and state-of-the-art facilities. Visitors often rely on public transit to navigate the busy event days, making it an accessible and iconic landmark for fans and travelers alike.",
+      "service_description": null,
+      "ambience_description": "The stadium offers an electric, high-energy atmosphere during peak events, characterized by roaring crowds and a shared sense of community spirit. The facility is generally well-maintained and modern, providing a clean environment for large-scale gatherings.",
+      "amenities_description": "The facility features state-of-the-art locker rooms, various food and beverage concessions, and conveniently located water refill stations throughout the perimeter. Guests can easily access the venue via local light rail transit systems.",
+      "unique_selling_points": "The venue is distinguished by its panoramic Wasatch Mountain vistas and its historic significance as a former Olympic site. It is recognized for its recently upgraded South end zone facilities and high-capacity staging for major global entertainment tours.",
+      "neighborhood_description": "The stadium is located within the vibrant and academic-focused grounds of a university, creating a bustling environment during event days that remains well-integrated with the campus landscape.",
+      "physical_setting_description": "Situated on the University of Utah campus, this open-air stadium is defined by its dramatic panoramic views of the surrounding Wasatch Mountains. It serves as a prominent athletic and performance hub within a major city environment.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/1780830A-EDA3-4897-A802-01ED32D68BC3-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9987244163573358,
+     "location": {
+      "lat": 40.759974199999995,
+      "lon": -111.84884009999999,
+      "geohash": "9x0ryu4hj4hu"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:interests:qloo:college_football",
+       "name": "College football",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:university_culture",
+       "name": "University culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:college_stadium",
+       "name": "College stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary_stadium_architecture",
+       "name": "Contemporary stadium architecture",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:jon_m_huntsman_center",
+       "name": "Jon m huntsman center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:motor_sports",
+       "name": "Motor sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wedding_services",
+       "name": "Wedding services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_transit_access",
+       "name": "Public transit access",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:mountain",
+       "name": "Mountain",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:locker_rooms",
+       "name": "Locker rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:campus_setting",
+       "name": "Campus setting",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:panoramic_mountain_vistas",
+       "name": "Panoramic mountain vistas",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:football_games",
+       "name": "Football games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:water_refill_stations",
+       "name": "Water refill stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:kingsbury_hall",
+       "name": "Kingsbury hall",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:motor_sports",
+       "name": "Motor sports",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "451 1400 E Salt Lake City, UT 84112",
+     "external": {
+      "google_place": [
+       {
+        "id": "2d69b7fba018f77c",
+        "place_id": "ChIJT68eF_NfUocRfPcYoPu3aS0"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Smith's Ballpark",
+     "entity_id": "DA987EA1-0470-4987-811E-47B90AC9F5EF",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18015357704",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/DA987EA1-0470-4987-811E-47B90AC9F5EF-3HJhN3-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "77 W 1300 S St Salt Lake City, UT 84115",
+      "geocode": {
+       "city": "Salt Lake City",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": true,
+      "website": "https://www.milb.com/salt-lake/tickets/promotions",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "84115",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3E99F2E6-6BB7-470F-9C3E-EAC7B10EDA66",
+        "admin_level": 9,
+        "locality_id": "z84115",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Outdoor stadium beneath mountain views hosting minor-league baseball, concerts, and community events in Salt Lake City.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Outdoor stadium beneath mountain views hosting minor-league baseball, concerts, and community events in Salt Lake City.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Smith's Ballpark is a highly regarded minor-league baseball stadium known for its exceptional scenery and intimate, family-friendly atmosphere. Situated in Salt Lake City, it offers fans a unique opportunity to watch live sports against the breathtaking backdrop of the Wasatch Mountain range. The venue provides a range of amenities including diverse concessions and kid-friendly play areas, making it a popular destination for summer outings. While the stadium has served as a central community hub for decades, it is currently transitioning toward a new chapter as the local baseball team prepares to relocate.",
+      "service_description": null,
+      "ambience_description": "The venue offers a welcoming and casual atmosphere perfect for families and sports enthusiasts alike. It maintains an intimate feel, fostering a lively and friendly community vibe during games and public gatherings.",
+      "amenities_description": "The facility features diverse food and beverage options, ranging from specialty snacks to full meals. Families particularly enjoy the dedicated playground area and small train ride, while visitors can choose between stadium seating or comfortable lawn spots.",
+      "unique_selling_points": "The stadium is renowned as one of the most beautiful ballparks in the country due to its stunning, unobstructed views of the Wasatch Mountains. Its intimate design and high-quality field maintenance provide a professional baseball experience that feels close to the action.",
+      "neighborhood_description": "The neighborhood surrounding the stadium is a bustling, central part of Salt Lake City that attracts many tourists and locals. While it offers a convenient, walkable urban atmosphere, it is part of a transitioning district undergoing long-term urban planning and revitalization.",
+      "physical_setting_description": "Located in an urban area near downtown Salt Lake City, the stadium is widely celebrated for its spectacular views of the snow-capped Wasatch Mountain range beyond the outfield. The open-air design captures the natural beauty of the surrounding peaks, creating a scenic backdrop for events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/DA987EA1-0470-4987-811E-47B90AC9F5EF-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9974971221362051,
+     "location": {
+      "lat": 40.7409581,
+      "lon": -111.8931358,
+      "geohash": "9x0rvb9vkcpr"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:minor_league_baseball",
+       "name": "Minor league baseball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lawn_seating",
+       "name": "Lawn seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:kids_train",
+       "name": "Kids train",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:summer_activities",
+       "name": "Summer activities",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:community_focused",
+       "name": "Community focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:open_air_venue",
+       "name": "Open air venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_tourism",
+       "name": "Local tourism",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_salt_lake_city",
+       "name": "Downtown salt lake city",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:playground",
+       "name": "Playground",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fireworks_displays",
+       "name": "Fireworks displays",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:field_trip_options",
+       "name": "Field trip options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:urban_center",
+       "name": "Urban center",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:mountain",
+       "name": "Mountain",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:ballpark_neighborhood",
+       "name": "Ballpark neighborhood",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:professional_atmosphere",
+       "name": "Professional atmosphere",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_stadium_design",
+       "name": "Open air stadium design",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:minor_league_baseball_stadium",
+       "name": "Minor league baseball stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fireworks_viewing_area",
+       "name": "Fireworks viewing area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "77 W 1300 S St Salt Lake City, UT 84115",
+     "external": {
+      "google_place": [
+       {
+        "id": "ab85295ac1ed8fc8",
+        "place_id": "ChIJRy7f1TH1UocRyI_twVophas"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Jon M. Huntsman Center",
+     "entity_id": "EE2FB700-77B5-4555-82B1-B43CBBFA1FAD",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18015815445",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/EE2FB700-77B5-4555-82B1-B43CBBFA1FAD-23dUHB-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1825 S Campus Dr Salt Lake City, UT 84112",
+      "geocode": {
+       "city": "Salt Lake City",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": true,
+      "website": null,
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "graduation",
+        "count": 75
+       },
+       {
+        "name": "gymnastics",
+        "count": 48
+       },
+       {
+        "name": "crowd",
+        "count": 9
+       },
+       {
+        "name": "womens basketball",
+        "count": 12
+       },
+       {
+        "name": "no bad seats",
+        "count": 2
+       },
+       {
+        "name": "basketball venue",
+        "count": 2
+       },
+       {
+        "name": "easy to find restrooms",
+        "count": 2
+       },
+       {
+        "name": "handicapped accessible",
+        "count": 4
+       },
+       {
+        "name": "dated venue",
+        "count": 2
+       },
+       {
+        "name": "volleyball",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "84112",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "A2F3FCCC-0910-46E4-88C8-3DAD3986C002",
+        "admin_level": 9,
+        "locality_id": "z84112",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large on-campus indoor arena hosting University of Utah basketball, volleyball, and gymnastics in Salt Lake City.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large on-campus indoor arena hosting University of Utah basketball, volleyball, and gymnastics in Salt Lake City.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Jon M. Huntsman Center is a prominent indoor arena situated on the University of Utah campus in Salt Lake City. It serves as the primary home for the Utes' basketball, volleyball, and gymnastics programs, drawing fans for high-energy collegiate sports and university graduation ceremonies. The venue is highly regarded for its superior seating design, ensuring that every spectator enjoys an excellent view of the event. It stands as a central gathering place that fosters school pride and community engagement through its long-standing history as a collegiate sports hub.",
+      "service_description": null,
+      "ambience_description": "The venue offers an energetic and lively atmosphere, particularly during major collegiate games. It provides a comfortable viewing experience where fans feel engaged in the team spirit and collective excitement.",
+      "amenities_description": "The arena provides standard stadium amenities, including concessions for snacks and beverages and parking facilities for guests. The facility has undergone recent updates to improve its internal amenities, such as restroom upgrades.",
+      "unique_selling_points": "The arena is renowned for its excellent sightlines, where every section offers a clear, unobstructed view of the court. It functions as a signature landmark for the university's athletic legacy.",
+      "neighborhood_description": "The surrounding area is characterized by the academic energy of the University of Utah campus. It offers a convenient location for students, faculty, and local sports fans visiting for campus events.",
+      "physical_setting_description": "Located on the University of Utah campus in Salt Lake City, this large indoor arena serves as the primary home for collegiate athletic programs. The facility is situated within an academic environment, providing a central hub for sports and community gatherings.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/EE2FB700-77B5-4555-82B1-B43CBBFA1FAD-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9919354808753461,
+     "location": {
+      "lat": 40.7620587,
+      "lon": -111.8387491,
+      "geohash": "9x0rzh980nms"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_stadium",
+       "name": "Sports stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:collegiate_athletics",
+       "name": "Collegiate athletics",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:campus_culture",
+       "name": "Campus culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:university_of_utah_campus",
+       "name": "University of utah campus",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_arena",
+       "name": "Indoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:academic_campus",
+       "name": "Academic campus",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_entertainment",
+       "name": "Live entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:graduation_ceremonies",
+       "name": "Graduation ceremonies",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:rice_eccles_stadium",
+       "name": "Rice eccles stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:college_sports",
+       "name": "College sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:team_loyalty",
+       "name": "Team loyalty",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sports_arena",
+       "name": "Sports arena",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1825 S Campus Dr Salt Lake City, UT 84112",
+     "external": {
+      "google_place": [
+       {
+        "id": "2eb90b87a4ec0e1a",
+        "place_id": "ChIJ-44EYetfUocRGg7spIcLuS4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Delta Center",
+     "entity_id": "40E48C84-30E4-465E-AC52-E6D69D85FCEF",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+18013252000",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/40E48C84-30E4-465E-AC52-E6D69D85FCEF-3oTsDf-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "301 S Temple Salt Lake City, UT 84101",
+      "geocode": {
+       "city": "Salt Lake City",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": true,
+      "website": "http://www.deltacenter.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "84101",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "27FF0086-44C3-45AC-A675-D62CE7243A19",
+        "admin_level": 9,
+        "locality_id": "z84101",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Downtown arena and entertainment venue, home to the Utah Jazz, featuring high-tech facilities, luxury suites, and major concerts and touring shows.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Downtown arena and entertainment venue, home to the Utah Jazz, featuring high-tech facilities, luxury suites, and major concerts and touring shows.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Delta Center stands as a premier downtown arena and a central entertainment landmark in Salt Lake City. Serving as the home for professional basketball and hockey, it provides a high-energy, modern venue for a wide variety of sporting events, concerts, and major touring shows. Guests benefit from a well-organized facility featuring diverse concessions, comfortable seating, and convenient proximity to downtown amenities and public transit.",
+      "service_description": null,
+      "ambience_description": "The arena offers an energetic and modern atmosphere, characterized by clean facilities, efficient organization, and a high-tech environment that keeps fans engaged during live events.",
+      "amenities_description": "The venue features extensive high-tech amenities, including numerous food and beverage concessions, comfortable seating, luxury suites, and accessible facilities like elevators and escalators to ensure guest convenience.",
+      "unique_selling_points": "As the home of the Utah Jazz and professional hockey, this iconic arena is known for its high-energy atmosphere, professional basketball and hockey legacy, and its central role in hosting major touring concerts and events.",
+      "neighborhood_description": "The surrounding downtown district is a bustling, highly walkable area that provides convenient access to various parking facilities, hotels, and local dining options, making it a lively hub for event-goers.",
+      "physical_setting_description": "Located in the heart of downtown Salt Lake City, this major arena is a prominent urban landmark situated near convention centers and public transit hubs. Its accessible city-center location makes it a central focal point for large-scale sports and entertainment gatherings.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/40E48C84-30E4-465E-AC52-E6D69D85FCEF-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.988615768873456,
+     "location": {
+      "lat": 40.7682681,
+      "lon": -111.9010874,
+      "geohash": "9x0rvtsh7sp6"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:downtown",
+       "name": "Downtown",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:escalators",
+       "name": "Escalators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_tech",
+       "name": "High tech",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor_view",
+       "name": "Arena floor view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_venue",
+       "name": "Entertainment venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:high_tech",
+       "name": "High tech",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:team_sports",
+       "name": "Team sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:club_seats",
+       "name": "Club seats",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:basketball",
+       "name": "Basketball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:luxury_suites",
+       "name": "Luxury suites",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:organized",
+       "name": "Organized",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:city_creek_center",
+       "name": "City creek center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:professional_hockey",
+       "name": "Professional hockey",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:professional_basketball",
+       "name": "Professional basketball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:the_gateway",
+       "name": "The gateway",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:temple_square",
+       "name": "Temple square",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "301 S Temple Salt Lake City, UT 84101",
+     "external": {
+      "google_place": [
+       {
+        "id": "f0e545531f11b120",
+        "place_id": "ChIJTfDrAwH1UocRILERH1NF5fA"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Utah State Fairpark",
+     "entity_id": "EADC3AE9-6EDD-427E-8145-30BBC6758AFD",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T16:30:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T16:30:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T16:30:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T16:30:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T16:30:00"
+        }
+       ]
+      },
+      "phone": "+18015388400",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/EADC3AE9-6EDD-427E-8145-30BBC6758AFD-3qHuzP-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "155 1000 W Salt Lake City, UT 84116",
+      "geocode": {
+       "city": "Salt Lake City",
+       "name": "Fairpark",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": true,
+      "website": "http://www.utahstatefairpark.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "demolition derby",
+        "count": 10
+       },
+       {
+        "name": "rodeo",
+        "count": 146
+       },
+       {
+        "name": "state fair",
+        "count": 85
+       },
+       {
+        "name": "concerts",
+        "count": 39
+       },
+       {
+        "name": "long lines",
+        "count": 24
+       },
+       {
+        "name": "exhibits",
+        "count": 79
+       },
+       {
+        "name": "beerfest",
+        "count": 16
+       },
+       {
+        "name": "reptile expo",
+        "count": 9
+       },
+       {
+        "name": "warped tour",
+        "count": 7
+       },
+       {
+        "name": "farm animals",
+        "count": 15
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Fairpark",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "93AA6BCD-02E1-475C-B1E5-E79CD2EA2948",
+        "admin_level": 10,
+        "locality_id": "n2187941014",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "84116",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "D9ECD04A-F476-4427-8F47-EBB8447D883F",
+        "admin_level": 9,
+        "locality_id": "z84116",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Fairpark",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "93AA6BCD-02E1-475C-B1E5-E79CD2EA2948",
+        "admin_level": 10,
+        "locality_id": "n2187941014",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large urban fairgrounds and event complex hosting annual fair, rodeos, exhibitions, rides, animal displays, and outdoor recreational space in Salt Lake City.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Fairpark",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:event_venue",
+       "akas": [
+        {
+         "value": "\"\u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Tapahtumapaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Evenementenlocatie\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10e6\u10dd\u10dc\u10d8\u10e1\u10eb\u10d8\u10d4\u10d1\u10d4\u10d1\u10d8\u10e1 \u10e1\u10d8\u10d5\u10e0\u10ea\u10d4\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Lugar de eventos\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de dogodkov\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bbf\u0b95\u0bb4\u0bcd\u0bb5\u0bc1 \u0b87\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Espai per a esdeveniments\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Tempat acara\"",
+         "languages": [
+          "ms",
+          "id"
+         ]
+        },
+        {
+         "value": "\"Veranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Centro de eventos\"",
+         "languages": [
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0440\u043e\u0441\u0442\u043e\u0440 \u0437\u0430 \u0434\u043e\u0433\u0430\u0452\u0430\u0458\u0435\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Priestor na podujatia\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Espacio para eventos\"",
+         "languages": [
+          "es"
+         ]
+        },
+        {
+         "value": "\"Miejsce wydarze\u0144\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\uc774\ubca4\ud2b8 \uc7a5\uc18c\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u179a\u17c0\u1794\u1785\u17c6\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0e88\u0eb1\u0e94\u0e87\u0eb2\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u1015\u103d\u1032\u1000\u103b\u1004\u103a\u1038\u1015\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Rengini\u0173 vieta\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0440\u043e\u0441\u0442\u043e\u0440 \u0437\u0430 \u043d\u0430\u0441\u0442\u0430\u043d\u0438\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u00dcrituste toimumiskoht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Vendi i ngjarjeve\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Geleentheidslokaal\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"T\u0259dbir m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Etkinlik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u6d3b\u52a8\u573a\u5730\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Rendezv\u00e9nyhelysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Evenemangslokal\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0987\u09ad\u09c7\u09a8\u09cd\u099f \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0406\u0441-\u0448\u0430\u0440\u0430 \u04e9\u0442\u043a\u0456\u0437\u0443 \u043e\u0440\u043d\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m t\u1ed5 ch\u1ee9c s\u1ef1 ki\u1ec7n\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Event venue\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Pas\u0101kumu norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u041c\u044f\u0441\u0442\u043e \u0437\u0430 \u0441\u044a\u0431\u0438\u0442\u0438\u044f\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0456\u0441\u0446\u0435 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043d\u044f \u0437\u0430\u0445\u043e\u0434\u0456\u0432\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie pentru evenimente\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b5\u03ba\u03b4\u03b7\u03bb\u03ce\u03c3\u03b5\u03c9\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0c08\u0c35\u0c46\u0c02\u0c1f\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u6d3b\u52d5\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Espa\u00e7o de eventos\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Lugar ng kaganapan\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Location per eventi\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u041f\u043b\u043e\u0449\u0430\u0434\u043a\u0430 \u0434\u043b\u044f \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0439\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e08\u0e31\u0e14\u0e07\u0e32\u0e19\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Ekitaldi-aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Eventsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Prostor za doga\u0111aje\"",
+         "languages": [
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u30a4\u30d9\u30f3\u30c8\u4f1a\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Salle de r\u00e9ception\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa hafla\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Prostor pro kon\u00e1n\u00ed akc\u00ed\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Arrangementslokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05d5\u05dc\u05dd \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Sal\u00f3n de eventos\"",
+         "languages": [
+          "es_ar",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0625\u0642\u0627\u0645\u0629 \u0641\u0639\u0627\u0644\u064a\u0627\u062a\"",
+         "languages": [
+          "ar"
+         ]
+        }
+       ],
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large urban fairgrounds and event complex hosting annual fair, rodeos, exhibitions, rides, animal displays, and outdoor recreational space in Salt Lake City.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Utah State Fairpark is a prominent, large-scale event and exhibition complex in the heart of Salt Lake City. It hosts a wide variety of public gatherings including the annual state fair, professional rodeos, music festivals, and trade expos like reptile shows. The venue features a mix of indoor and outdoor spaces, designed to accommodate large crowds and diverse activities ranging from carnival rides to agricultural displays. It serves as a central community hub that attracts families and enthusiasts from across the region for seasonal entertainment and learning opportunities.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and dynamic, particularly during major events, creating a classic fair-like experience. It balances bustling, high-activity zones with more relaxed areas for viewing exhibits and livestock.",
+      "amenities_description": "The facility is equipped with large indoor exhibition buildings, outdoor arenas, and designated parking areas. It offers various dining options including food trucks and traditional fair food vendors, with site-wide accessibility for strollers and wheelchairs.",
+      "unique_selling_points": "As a multi-purpose urban venue, it is distinguished by its ability to host diverse programming ranging from the annual state fair and professional rodeos to large-scale music festivals and specialized trade expos.",
+      "neighborhood_description": "The surrounding area is a functional urban environment in Salt Lake City that serves as a central hub for large-scale public events and community gatherings.",
+      "physical_setting_description": "Located in central Salt Lake City, this sprawling urban complex features a mix of paved grounds, grassy areas, and indoor exhibition halls. The park provides a versatile outdoor space with mature trees that offer pockets of shade amidst open event arenas.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/EADC3AE9-6EDD-427E-8145-30BBC6758AFD-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9811869985561463,
+     "location": {
+      "lat": 40.7736893,
+      "lon": -111.92315669999999,
+      "geohash": "9x0rvns5cqtd"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:agriculture",
+       "name": "Agriculture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_festivals",
+       "name": "Local festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:skatepark",
+       "name": "Skatepark",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:urban_setting",
+       "name": "Urban setting",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:garden_view",
+       "name": "Garden view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:livestock_shows",
+       "name": "Livestock shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:fairground",
+       "name": "Fairground",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:kilby_court",
+       "name": "Kilby court",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stroller_accessible",
+       "name": "Stroller accessible",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:rodeo_arena",
+       "name": "Rodeo arena",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:skatepark",
+       "name": "Skatepark",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wheelchair_accessible",
+       "name": "Wheelchair accessible",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:event_complex",
+       "name": "Event complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:animal_husbandry",
+       "name": "Animal husbandry",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:rodeos",
+       "name": "Rodeos",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:carnivals",
+       "name": "Carnivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:fairground_view",
+       "name": "Fairground view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:exhibitions",
+       "name": "Exhibitions",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ticket_booths",
+       "name": "Ticket booths",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_view",
+       "name": "Arena view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:indoor_exhibition_halls",
+       "name": "Indoor exhibition halls",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_trucks",
+       "name": "Food trucks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:fairgrounds",
+       "name": "Fairgrounds",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:festive",
+       "name": "Festive",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:fairground",
+       "name": "Fairground",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:gaming_amusement",
+       "name": "Gaming amusement",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wedding_services",
+       "name": "Wedding services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.7320508075688774
+      }
+     },
+     "disambiguation": "155 1000 W Salt Lake City, UT 84116",
+     "external": {
+      "google_place": [
+       {
+        "id": "bdb8629391298937",
+        "place_id": "ChIJ0QeajVz0UocRN4kpkZNiuL0"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Days Of 47 Stadium",
+     "entity_id": "390BEE8D-5AB5-47E8-874A-C2EB50519705",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/390BEE8D-5AB5-47E8-874A-C2EB50519705-0kXI3Z-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "Salt Lake City, UT 84116",
+      "geocode": {
+       "city": "Salt Lake City",
+       "name": "Fairpark",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": null,
+      "website": "http://daysof47.com/%23events",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "rodeo",
+        "count": 80
+       },
+       {
+        "name": "concert",
+        "count": 28
+       },
+       {
+        "name": "parking",
+        "count": 17
+       },
+       {
+        "name": "demolition derby",
+        "count": 13
+       },
+       {
+        "name": "entertainment",
+        "count": 8
+       },
+       {
+        "name": "monster trucks",
+        "count": 7
+       },
+       {
+        "name": "state fair",
+        "count": 7
+       },
+       {
+        "name": "restrooms",
+        "count": 7
+       },
+       {
+        "name": "fireworks",
+        "count": 6
+       },
+       {
+        "name": "fun",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Fairpark",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "93AA6BCD-02E1-475C-B1E5-E79CD2EA2948",
+        "admin_level": 10,
+        "locality_id": "n2187941014",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "84116",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "D9ECD04A-F476-4427-8F47-EBB8447D883F",
+        "admin_level": 9,
+        "locality_id": "z84116",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+        "admin_level": 8,
+        "locality_id": "r198770",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Fairpark",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "93AA6BCD-02E1-475C-B1E5-E79CD2EA2948",
+        "admin_level": 10,
+        "locality_id": "n2187941014",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Outdoor stadium used for large community events and performances, known for its open-air setting in Salt Lake City.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Fairpark",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Outdoor stadium used for large community events and performances, known for its open-air setting in Salt Lake City.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/390BEE8D-5AB5-47E8-874A-C2EB50519705-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.6192427401497937,
+     "location": {
+      "lat": 40.77429,
+      "lon": -111.92468509999999,
+      "geohash": "9x0rvndzmy5x"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "Salt Lake City, UT 84116",
+     "external": {
+      "google_place": [
+       {
+        "id": "74dd58ea9d931181",
+        "place_id": "ChIJj44q3Vz0UocRgRGTnepY3XQ"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "4A5FE37E-2CAD-4D58-909B-17A8236B4CCC",
+      "name": "Salt Lake City",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 40.77754535528181,
+       "lon": -111.93130641698738
+      },
+      "popularity": 0.998007,
+      "disambiguation": "Salt Lake City, Salt Lake County, Utah, United States"
+     }
+    ]
+   }
+  }
+ }
+}

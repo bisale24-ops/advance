@@ -1,0 +1,34 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "D1AE8792-9129-46E0-AEE7-2C3A81E91385",
+  "take": 50,
+  "filter.location.query": "George, Washington",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "0C763D9D-325F-45B7-9A60-339937D390A7",
+      "name": "George Washington University",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 38.89955662754029,
+       "lon": -77.04793588824359
+      },
+      "popularity": 0.94428587,
+      "disambiguation": "George Washington University, Ward 2, Washington, District of Columbia, United States"
+     }
+    ]
+   }
+  }
+ }
+}

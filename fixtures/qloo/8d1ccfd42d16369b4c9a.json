@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Hollywood, Florida",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "C52507F4-AD43-4BED-8A79-C28BD9F1BC93",
+      "name": "Hollywood",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 26.029448912884604,
+       "lon": -80.16773320230698
+      },
+      "popularity": 0.9966099,
+      "disambiguation": "Hollywood, Broward County, Florida, United States"
+     }
+    ]
+   }
+  }
+ }
+}

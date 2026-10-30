@@ -1,0 +1,966 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Mountain View, California",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Shoreline Amphitheatre",
+     "entity_id": "2342C20B-5843-4657-9DC7-F3D8894095B7",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+16509674040",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/2342C20B-5843-4657-9DC7-F3D8894095B7-3H4hvC-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "One Amphitheatre Pkwy Mountain View, CA 94043",
+      "geocode": {
+       "city": "Mountain View",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Santa Clara County"
+      },
+      "parking": true,
+      "website": "https://www.shorelineamphitheatre.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "lawn",
+        "count": 527
+       },
+       {
+        "name": "traffic",
+        "count": 287
+       },
+       {
+        "name": "drinks",
+        "count": 99
+       },
+       {
+        "name": "fireworks",
+        "count": 57
+       },
+       {
+        "name": "warped tour",
+        "count": 33
+       },
+       {
+        "name": "korn",
+        "count": 29
+       },
+       {
+        "name": "carlos santana",
+        "count": 19
+       },
+       {
+        "name": "the doobie brothers",
+        "count": 18
+       },
+       {
+        "name": "stevie nicks",
+        "count": 14
+       },
+       {
+        "name": "brad paisley",
+        "count": 8
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Mountain View",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "B90A5501-3D44-4371-9675-02425AD6F615",
+        "admin_level": 8,
+        "locality_id": "r1544956",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Santa Clara County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "02E19E68-BE4A-4B78-8EA0-67599F0460D2",
+        "admin_level": 6,
+        "locality_id": "r396501",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "Mountain View",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "B90A5501-3D44-4371-9675-02425AD6F615",
+        "admin_level": 8,
+        "locality_id": "r1544956",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "94043",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "FFE6D77B-E798-45FF-A24C-D478E782A789",
+        "admin_level": 9,
+        "locality_id": "z94043",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Santa Clara County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "02E19E68-BE4A-4B78-8EA0-67599F0460D2",
+        "admin_level": 6,
+        "locality_id": "r396501",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large open-air amphitheater in Mountain View, hosting major concerts, festivals, and premium season-ticket events with lawn and reserved seating.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:amphitheater",
+       "akas": [
+        {
+         "value": "\"Amfiteata\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0456\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\u179a\u17b6\u1784\u1798\u17bc\u179b\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e1t ngo\u00e0i tr\u1eddi\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u090f\u092e\u094d\u092b\u0940\u0925\u093f\u090f\u091f\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u5706\u5f62\u5267\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Amphitheater\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Amfiteatr\"",
+         "languages": [
+          "pl",
+          "az"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1ter\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Amfiteatras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0985\u09cd\u09af\u09be\u09ae\u09cd\u09ab\u09bf\u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1trum\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0ead\u0eb3\u0e9f\u0eb4\u0ec0\u0e97\u0ec0\u0e95\u0eb5\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05de\u05e4\u05d9\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0c2f\u0c3e\u0c02\u0c2b\u0c3f\u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1tr\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\uc6d0\ud615 \uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Amfite\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03bc\u03c6\u03b9\u03b8\u03ad\u03b1\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Amfiteatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Amfiteatre\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0e2d\u0e31\u0e12\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Amphitheatre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "ru",
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Amphith\u00e9\u00e2tre\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u062f\u0631\u062c\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u044a\u0440\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0430\u0440\"",
+         "languages": [
+          "mk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Anfiteatro\"",
+         "languages": [
+          "gl",
+          "es",
+          "es_ar",
+          "es_la",
+          "pt",
+          "eu",
+          "pt_pt",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u1021\u1019\u103a\u1016\u102e\u101e\u102e\u101a\u102c\u1010\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Amfiteatro\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u5186\u5f62\u5287\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Amfiteater\"",
+         "languages": [
+          "ms",
+          "da",
+          "nb",
+          "sv",
+          "sl",
+          "id",
+          "af",
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10db\u10e4\u10d8\u10d7\u10d4\u10d0\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Amfiteat\u00ebr\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Amfitheater\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Amfitiyatro\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u5713\u5f62\u5287\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Amfiteatar\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Amfiteatru\"",
+         "languages": [
+          "ro"
+         ]
+        }
+       ],
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large open-air amphitheater in Mountain View, hosting major concerts, festivals, and premium season-ticket events with lawn and reserved seating.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Shoreline Amphitheatre is a prominent open-air music venue in Mountain View, serving as a significant entertainment landmark in the Bay Area since 1986. The facility hosts a wide variety of major concerts, festivals, and special events, offering both traditional stadium seating and a spacious lawn area for a relaxed concert experience. While it is well-regarded for its scale and production quality, visitors should plan for potential traffic during peak exit times and explore various dining options like the on-site food trucks. The venue is designed to accommodate large crowds, providing an energetic atmosphere for music lovers to enjoy high-profile performances under the open sky.",
+      "service_description": null,
+      "ambience_description": "The venue offers a lively and social atmosphere, perfect for experiencing large-scale live performances in an outdoor setting. It is generally a casual environment where concertgoers can enjoy music from the stands or relax on the grass.",
+      "amenities_description": "The venue provides extensive facilities, including multiple concession stands, food trucks, and dedicated merchandise areas. It offers both reserved stadium seating and general admission lawn areas, alongside accessible options for visitors.",
+      "unique_selling_points": "As a long-standing Bay Area music landmark, the venue provides a massive open-air concert experience that combines high-energy headline acts with a classic lawn-seating atmosphere.",
+      "neighborhood_description": "The surrounding area is characterized by its convenient location near major transit routes and open park-like spaces. It functions primarily as a commercial and entertainment hub for the region.",
+      "physical_setting_description": "A large, open-air amphitheater situated in a spacious outdoor setting in Mountain View. The venue features a mix of reserved stadium-style seating and a expansive grass lawn area.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/2342C20B-5843-4657-9DC7-F3D8894095B7-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9998946919153479,
+     "location": {
+      "lat": 37.4268342,
+      "lon": -122.0807023,
+      "geohash": "9q9hvvre17t9"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:interests:qloo:pop_culture",
+       "name": "Pop culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_trucks",
+       "name": "Food trucks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:reserved_seating",
+       "name": "Reserved seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:festivals",
+       "name": "Festivals",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:highway_101",
+       "name": "Highway 101",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_stalls",
+       "name": "Merchandise stalls",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessibility_features",
+       "name": "Accessibility features",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:nature",
+       "name": "Nature",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stage",
+       "name": "Stage",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lawn_seating",
+       "name": "Lawn seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_amphitheater",
+       "name": "Outdoor amphitheater",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:open_sky_view",
+       "name": "Open sky view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air",
+       "name": "Open air",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_highway_101",
+       "name": "Near highway 101",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:open_air_venue",
+       "name": "Open air venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:socializing",
+       "name": "Socializing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:monitor_screens",
+       "name": "Monitor screens",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:music_festivals",
+       "name": "Music festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "One Amphitheatre Pkwy Mountain View, CA 94043",
+     "external": {
+      "google_place": [
+       {
+        "id": "1ddf014a1b553f3d",
+        "place_id": "ChIJZeH1dve5j4ARPT9VG0oB3x0"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "B90A5501-3D44-4371-9675-02425AD6F615",
+      "name": "Mountain View",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 37.40035640573318,
+       "lon": -122.07945191926301
+      },
+      "popularity": 0.99295944,
+      "disambiguation": "Mountain View, Santa Clara County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

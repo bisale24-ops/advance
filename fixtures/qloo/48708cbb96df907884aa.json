@@ -1,0 +1,5257 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Portland, OR",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Providence Park",
+     "entity_id": "9EB39B64-FDBF-4EB9-8C03-E05A63F9B30F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+15035535400",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/9EB39B64-FDBF-4EB9-8C03-E05A63F9B30F-2nhNbA-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1844 SW Morrison St Portland, OR 97205",
+      "geocode": {
+       "city": "Portland",
+       "name": "Goose Hollow",
+       "metro": "Portland",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Oregon",
+       "admin2_region": "Multnomah County"
+      },
+      "parking": true,
+      "website": "https://www.timbers.com/providencepark",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "post malone concert",
+        "count": 20
+       },
+       {
+        "name": "crowd",
+        "count": 77
+       },
+       {
+        "name": "timbers",
+        "count": 646
+       },
+       {
+        "name": "foo fighters concert",
+        "count": 15
+       },
+       {
+        "name": "timbers game",
+        "count": 15
+       },
+       {
+        "name": "soccer venue",
+        "count": 43
+       },
+       {
+        "name": "friendly staff",
+        "count": 111
+       },
+       {
+        "name": "watching soccer",
+        "count": 37
+       },
+       {
+        "name": "view of the field",
+        "count": 13
+       },
+       {
+        "name": "chants",
+        "count": 18
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Goose Hollow",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "65DCEBB1-D1F6-4739-BEF7-F95CFCC8132E",
+        "admin_level": 10,
+        "locality_id": "r7732442",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "97205",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "7E991F74-1F95-4AF3-9798-B539D720FA39",
+        "admin_level": 9,
+        "locality_id": "z97205",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Goose Hollow",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "65DCEBB1-D1F6-4739-BEF7-F95CFCC8132E",
+        "admin_level": 10,
+        "locality_id": "r7732442",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       }
+      ],
+      "description": "Downtown multi-purpose stadium hosting Major League Soccer, college football, concerts, and private events with vibrant fan culture and hospitality options.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Goose Hollow",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Downtown multi-purpose stadium hosting Major League Soccer, college football, concerts, and private events with vibrant fan culture and hospitality options.",
+      "number_of_stations": null,
+      "cuisine_description": "Providence Park offers a variety of stadium-style concessions, highlighting local Oregon brands such as Tillamook and Killer Burger. The venue provides barbecue options, various snack items, and an extensive selection of local beers alongside a full bar. Gluten-free options are available at specific stalls to accommodate dietary needs.",
+      "overall_description": "Providence Park is a historic, multi-purpose stadium nestled in the heart of downtown Portland, renowned for its intense energy and vibrant, passionate fan culture. As a premier destination for soccer and high-profile live entertainment, it offers a distinct, intimate experience where every seat provides a great view of the action. The venue integrates local food and drink culture with modern amenities, creating a quintessential urban sporting atmosphere that is highly accessible via public transit.",
+      "service_description": "Providence Park functions as a multi-purpose stadium hosting professional soccer matches, college football, and concerts. It provides diverse hospitality experiences including private suites, event spaces, and general admission seating. The venue offers onsite food and beverage concessions, accessible sensory-friendly suites, and is well-integrated with Portland's public transit systems.",
+      "ambience_description": "The atmosphere is defined by intense, infectious energy and passionate fan engagement, blending historic architectural charm with modern amenities to create a social and celebratory vibe.",
+      "amenities_description": "The stadium offers a variety of food and local beverage options, dedicated hospitality suites, sensory-friendly accommodations, and convenient access to public transit via the nearby light rail.",
+      "unique_selling_points": "This venue is famous for its intimate, historic design that positions every seat close to the action while fostering a world-renowned, high-energy supporters culture. It successfully blends traditional architecture with modern upgrades like the Tanner Ridge section to provide a quintessential Pacific Northwest sports experience.",
+      "neighborhood_description": "The surrounding area is a busy, transit-oriented urban district that is highly walkable, though visitors often navigate significant congestion during major events.",
+      "physical_setting_description": "Situated directly in the heart of downtown, this historic multi-purpose facility is integrated into the urban fabric with proximity to major public transit lines and the city center. The stadium features an open-air design that keeps spectators connected to the surrounding city environment.",
+      "customer_demographics_description": "The stadium attracts a broad spectrum of attendees, ranging from passionate, long-term soccer fans and families to tourists and concert-goers. The environment is popular among local Portland residents, young adults, and groups of friends who value the high-energy, community-focused atmosphere of the venue.",
+      "image": {
+       "url": "https://images.qloo.com/i/9EB39B64-FDBF-4EB9-8C03-E05A63F9B30F-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9993703802346198,
+     "location": {
+      "lat": 45.521532,
+      "lon": -122.69179709999999,
+      "geohash": "c20fbnfw1uq8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:rowdy",
+       "name": "Rowdy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sportswear_store",
+       "name": "Sportswear store",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:tillamook_mac_n_cheese",
+       "name": "Tillamook mac n cheese",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:soft_drinks",
+       "name": "Soft drinks",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:bbq",
+       "name": "Bbq",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_soccer",
+       "name": "Professional soccer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:bottled_water",
+       "name": "Bottled water",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_transit_access",
+       "name": "Public transit access",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:suite_level",
+       "name": "Suite level",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_brewing",
+       "name": "Craft brewing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:pitch_view",
+       "name": "Pitch view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_shop",
+       "name": "Merchandise shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:transit_accessible",
+       "name": "Transit accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sportswear_store",
+       "name": "Sportswear store",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:multnomah_athletic_club",
+       "name": "Multnomah athletic club",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:sensory_friendly_space",
+       "name": "Sensory friendly space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:hot_dogs",
+       "name": "Hot dogs",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:barbecue",
+       "name": "Barbecue",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:killer_burger",
+       "name": "Killer burger",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1844 SW Morrison St Portland, OR 97205",
+     "external": {
+      "google_place": [
+       {
+        "id": "ffc461bc589cc5ce",
+        "place_id": "ChIJ2SA5mB0KlVQRzsWcWLxhxP8"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Moda Center",
+     "entity_id": "931E142C-9262-4C44-A2DC-A52512CCA2FC",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+15032358771",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/931E142C-9262-4C44-A2DC-A52512CCA2FC-27dlvG-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1 N Center Ct St Portland, OR 97227",
+      "geocode": {
+       "city": "Portland",
+       "name": "Lloyd District",
+       "metro": "Portland",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Oregon",
+       "admin2_region": "Multnomah County"
+      },
+      "parking": true,
+      "website": "http://www.rosequarter.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "concerts",
+        "count": 983
+       },
+       {
+        "name": "trans siberian orchestra",
+        "count": 42
+       },
+       {
+        "name": "basketball game",
+        "count": 197
+       },
+       {
+        "name": "blazers game",
+        "count": 27
+       },
+       {
+        "name": "friendly staff",
+        "count": 346
+       },
+       {
+        "name": "wheelchair accessibility",
+        "count": 35
+       },
+       {
+        "name": "crowded",
+        "count": 86
+       },
+       {
+        "name": "disney on ice",
+        "count": 21
+       },
+       {
+        "name": "live music",
+        "count": 24
+       },
+       {
+        "name": "concert venue",
+        "count": 79
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Lloyd District",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "0E7E1C42-CBD0-482F-9F37-D5CBA4475B55",
+        "admin_level": 10,
+        "locality_id": "r7690369",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "97227",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "A0E63C6A-C197-4247-9E91-0E9A939AFA21",
+        "admin_level": 9,
+        "locality_id": "z97227",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Lloyd District",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "0E7E1C42-CBD0-482F-9F37-D5CBA4475B55",
+        "admin_level": 10,
+        "locality_id": "r7690369",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       }
+      ],
+      "description": "Large Rose Quarter arena hosting NBA basketball, hockey, concerts, and major touring events in downtown Portland.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Lloyd District",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large Rose Quarter arena hosting NBA basketball, hockey, concerts, and major touring events in downtown Portland.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Moda Center is a prominent multi-purpose arena located in Portland's Rose Quarter, serving as a primary hub for professional sports, concerts, and touring events. Known for its energetic atmosphere and efficient operations, the venue features modern amenities and excellent accessibility via the city's public transit network. While visitors often highlight the high quality of entertainment and the helpfulness of the staff, the venue is also frequently recognized for its convenient, albeit premium-priced, parking and food services. It remains a central fixture in Portland's cultural and recreational landscape, hosting unforgettable events for a diverse range of fans.",
+      "service_description": null,
+      "ambience_description": "The arena offers a lively and social atmosphere, characterized by high energy during games and concerts while maintaining an efficient, well-run operation. The environment is generally perceived as safe, clean, and welcoming for guests of all ages.",
+      "amenities_description": "The facility is equipped with comprehensive amenities including numerous food and beverage concessions, accessible seating options, and extensive parking structures. Modern conveniences such as digital ticketing and clear navigational signage are integrated throughout the concourses.",
+      "unique_selling_points": "As the home of the Portland Trail Blazers, this arena serves as a landmark destination for professional basketball and major touring acts. Its flexible seating configurations allow for an intimate experience even in a large venue.",
+      "neighborhood_description": "The surrounding Rose Quarter neighborhood is a bustling, transit-connected area that functions as a primary entertainment hub for the city. It provides convenient access to various transportation options and sits immediately adjacent to the downtown core.",
+      "physical_setting_description": "Located in the Rose Quarter just outside of downtown Portland, this large-scale indoor arena sits within an active commercial district. It is highly accessible via the city's public transit system, including the MAX light rail line.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/931E142C-9262-4C44-A2DC-A52512CCA2FC-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9971681968841436,
+     "location": {
+      "lat": 45.531565099999995,
+      "lon": -122.6668423,
+      "geohash": "c20g08u8x7ny"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_arena",
+       "name": "Sports arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_complex",
+       "name": "Entertainment complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:transit_oriented",
+       "name": "Transit oriented",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:willamette_river",
+       "name": "Willamette river",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:assistive_hearing_loop",
+       "name": "Assistive hearing loop",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:atmospheric",
+       "name": "Atmospheric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sports_arena_aesthetic",
+       "name": "Sports arena aesthetic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:efficient",
+       "name": "Efficient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:theater_of_the_clouds",
+       "name": "Theater of the clouds",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:jumbotron",
+       "name": "Jumbotron",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:gender_neutral_restroom",
+       "name": "Gender neutral restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ticket_office",
+       "name": "Ticket office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:court_view",
+       "name": "Court view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_culture",
+       "name": "Concert culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_shop",
+       "name": "Merchandise shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_transit_travel",
+       "name": "Public transit travel",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:veterans_memorial_coliseum",
+       "name": "Veterans memorial coliseum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor_view",
+       "name": "Arena floor view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_transit_access",
+       "name": "Public transit access",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_stalls",
+       "name": "Food stalls",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1
+      }
+     },
+     "disambiguation": "1 N Center Ct St Portland, OR 97227",
+     "external": {
+      "google_place": [
+       {
+        "id": "ac4da428b0c0c9a7",
+        "place_id": "ChIJvfIK2VKnlVQRp8nAsCikTaw"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Rose Quarter",
+     "entity_id": "9D741112-EEBF-40F6-82EA-003CC42F49F8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+15032358771",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/9D741112-EEBF-40F6-82EA-003CC42F49F8-4zdiDM-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1 N Center Ct St #150 Portland, OR 97227",
+      "geocode": {
+       "city": "Portland",
+       "name": "Lloyd District",
+       "metro": "Portland",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Oregon",
+       "admin2_region": "Multnomah County"
+      },
+      "parking": true,
+      "website": "http://www.rosequarter.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "game",
+        "count": 21
+       },
+       {
+        "name": "concert",
+        "count": 19
+       },
+       {
+        "name": "prices",
+        "count": 12
+       },
+       {
+        "name": "parking",
+        "count": 9
+       },
+       {
+        "name": "drinks",
+        "count": 7
+       },
+       {
+        "name": "security",
+        "count": 6
+       },
+       {
+        "name": "basketball",
+        "count": 5
+       },
+       {
+        "name": "purse",
+        "count": 3
+       },
+       {
+        "name": "cash",
+        "count": 3
+       },
+       {
+        "name": "tickets",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Lloyd District",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "0E7E1C42-CBD0-482F-9F37-D5CBA4475B55",
+        "admin_level": 10,
+        "locality_id": "r7690369",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "97227",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "A0E63C6A-C197-4247-9E91-0E9A939AFA21",
+        "admin_level": 9,
+        "locality_id": "z97227",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Lloyd District",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "0E7E1C42-CBD0-482F-9F37-D5CBA4475B55",
+        "admin_level": 10,
+        "locality_id": "r7690369",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       }
+      ],
+      "description": "Transit-oriented entertainment district anchoring two major arenas (Moda Center and Veterans Memorial Coliseum) with concerts, sports, dining, and direct MAX light-rail access.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Lloyd District",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Transit-oriented entertainment district anchoring two major arenas (Moda Center and Veterans Memorial Coliseum) with concerts, sports, dining, and direct MAX light-rail access.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Rose Quarter is a premier entertainment destination in Portland, Oregon, featuring a sprawling complex that includes the Moda Center and the Veterans Memorial Coliseum. It acts as a central hub for major concerts, professional sporting events, and large-scale performances. The venue is highly regarded for its connectivity to public transportation and its role as a cornerstone of the city's entertainment scene.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and fast-paced, characterized by the excitement of live crowds and major performances. It offers a classic, large-scale arena experience designed for high-impact social gatherings.",
+      "amenities_description": "The complex offers a variety of amenities to support large events, including diverse dining and concession choices, premium seating options, and onsite parking facilities. Visitors have access to box office services and transit connections to ensure a streamlined arrival.",
+      "unique_selling_points": "The complex serves as a primary regional anchor for major entertainment, hosting world-class concerts and professional sports teams in a centralized, transit-accessible location.",
+      "neighborhood_description": "The surrounding neighborhood is a vibrant and high-traffic area primarily defined by its role as a commercial and entertainment nexus. It serves as a central point for commuters and event-goers alike.",
+      "physical_setting_description": "Located in a bustling urban entertainment district, this complex serves as a major hub for sports and concerts. It is designed for easy accessibility, featuring direct connection to public light-rail transit.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/9D741112-EEBF-40F6-82EA-003CC42F49F8-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9846055181436357,
+     "location": {
+      "lat": 45.531724999999994,
+      "lon": -122.6661006,
+      "geohash": "c20g08v389nf"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_entertainment",
+       "name": "Urban entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor",
+       "name": "Arena floor",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_transportation",
+       "name": "Public transportation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:transit_oriented_development",
+       "name": "Transit oriented development",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:veterans_memorial_coliseum",
+       "name": "Veterans memorial coliseum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:premium_seating",
+       "name": "Premium seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:transit_oriented",
+       "name": "Transit oriented",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:theater_of_the_clouds",
+       "name": "Theater of the clouds",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:moda_center",
+       "name": "Moda center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:box_office",
+       "name": "Box office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dining_options",
+       "name": "Dining options",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary_arena",
+       "name": "Contemporary arena",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_management",
+       "name": "Event management",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1 N Center Ct St #150 Portland, OR 97227",
+     "external": {
+      "google_place": [
+       {
+        "id": "1dd508259a8b9e3",
+        "place_id": "ChIJ88WkH1OnlVQR47moWYJQ3QE"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Chiles Center",
+     "entity_id": "C1012557-711E-49DD-96B4-0A53E990B3EE",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+15039437525",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/C1012557-711E-49DD-96B4-0A53E990B3EE-3dgwH0-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5000 N Willamette Blvd Portland, OR 97203",
+      "geocode": {
+       "city": "Portland",
+       "name": "University Park",
+       "metro": "Portland",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Oregon",
+       "admin2_region": "Multnomah County"
+      },
+      "parking": true,
+      "website": "https://portlandpilots.com/sports/2008/8/11/MBB_0811084643.aspx",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "basketball game",
+        "count": 31
+       },
+       {
+        "name": "up pilots",
+        "count": 6
+       },
+       {
+        "name": "indoor track",
+        "count": 2
+       },
+       {
+        "name": "teams",
+        "count": 9
+       },
+       {
+        "name": "experience on campus",
+        "count": 2
+       },
+       {
+        "name": "fast exit",
+        "count": 3
+       },
+       {
+        "name": "sporting event",
+        "count": 2
+       },
+       {
+        "name": "security",
+        "count": 6
+       },
+       {
+        "name": "event venue",
+        "count": 2
+       },
+       {
+        "name": "seating",
+        "count": 15
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "University Park",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "ED9A3DCA-3C9B-4972-9B0A-4B72C215DCC0",
+        "admin_level": 10,
+        "locality_id": "r7723900",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "97203",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "DC2CC12A-00FB-4FE1-A3FB-F0B2560B779F",
+        "admin_level": 9,
+        "locality_id": "z97203",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "University Park",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "ED9A3DCA-3C9B-4972-9B0A-4B72C215DCC0",
+        "admin_level": 10,
+        "locality_id": "r7723900",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       }
+      ],
+      "description": "Indoor collegiate arena on the University of Portland campus hosting basketball, volleyball, and community events; seating roughly 4,852.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "University Park",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Indoor collegiate arena on the University of Portland campus hosting basketball, volleyball, and community events; seating roughly 4,852.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Chiles Center is a premier indoor collegiate arena located on the University of Portland campus. It serves as the home for Pilots basketball and volleyball programs while frequently hosting community events and graduation ceremonies. Characterized by its unique wooden-ribbed dome architecture, the venue balances athletic intensity with an efficient and family-friendly atmosphere.",
+      "service_description": null,
+      "ambience_description": "The venue offers a lively and well-organized atmosphere, known for efficient security and a friendly, welcoming staff that makes large events feel accessible.",
+      "amenities_description": "The arena provides essential facilities for large crowds, including designated parking areas and streamlined entry systems to ensure smooth access for events.",
+      "unique_selling_points": "The arena is distinguished by its unique dome architecture featuring exposed wooden ribs, creating a memorable visual centerpiece for any event.",
+      "neighborhood_description": "The arena is situated within a scenic and well-maintained university setting, providing a focused environment conducive to sports and community ceremonies.",
+      "physical_setting_description": "Located on the University of Portland campus, this indoor collegiate arena features a distinctive dome structure with exposed wooden ribs. It serves as a central hub for university athletics and community gatherings.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/C1012557-711E-49DD-96B4-0A53E990B3EE-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9670287258910419,
+     "location": {
+      "lat": 45.5750931,
+      "lon": -122.7284971,
+      "geohash": "c20er0xy4svr"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_arena",
+       "name": "Indoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:security",
+       "name": "Security",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:educational_environment",
+       "name": "Educational environment",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:architecture",
+       "name": "Architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:education",
+       "name": "Education",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_sports",
+       "name": "Live sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:spacious",
+       "name": "Spacious",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:collegiate_athletics",
+       "name": "Collegiate athletics",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:efficient",
+       "name": "Efficient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:bluff_trail",
+       "name": "Bluff trail",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ceremonies",
+       "name": "Ceremonies",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_building",
+       "name": "Community building",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:athletic_facility",
+       "name": "Athletic facility",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:university_of_portland",
+       "name": "University of portland",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5000 N Willamette Blvd Portland, OR 97203",
+     "external": {
+      "google_place": [
+       {
+        "id": "34c805b9151fa79d",
+        "place_id": "ChIJ62homIunlVQRnacfFbkFyDQ"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Pickles-Walker Stadium",
+     "entity_id": "28B1EE2E-C8C9-4B5E-AE45-5666CD74C2B2",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+15037753080",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/28B1EE2E-C8C9-4B5E-AE45-5666CD74C2B2-3XoTII-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "4727 SE 92nd Ave #4601 Portland, OR 97266",
+      "geocode": {
+       "city": "Portland",
+       "name": "Lents",
+       "metro": "Portland",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Oregon",
+       "admin2_region": "Multnomah County"
+      },
+      "parking": null,
+      "website": "https://www.portland.gov/parks/lents-park-walker-stadium",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "baseball",
+        "count": 62
+       },
+       {
+        "name": "parking",
+        "count": 31
+       },
+       {
+        "name": "watch",
+        "count": 19
+       },
+       {
+        "name": "fun",
+        "count": 17
+       },
+       {
+        "name": "summer",
+        "count": 16
+       },
+       {
+        "name": "beer",
+        "count": 16
+       },
+       {
+        "name": "hot dogs",
+        "count": 9
+       },
+       {
+        "name": "berm",
+        "count": 8
+       },
+       {
+        "name": "college",
+        "count": 8
+       },
+       {
+        "name": "ballgame",
+        "count": 7
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Lents",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "86D5DDFA-0277-4665-ACC9-DD0E72D82163",
+        "admin_level": 10,
+        "locality_id": "r2676520",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Lents",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "86D5DDFA-0277-4665-ACC9-DD0E72D82163",
+        "admin_level": 10,
+        "locality_id": "r2676520",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "97266",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "BC89DD36-D4E8-4028-8812-F19A00894441",
+        "admin_level": 9,
+        "locality_id": "z97266",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       }
+      ],
+      "description": "Small, renovated 1,500-seat ballpark in Lents Park hosting collegiate summer baseball with family-friendly amenities, concessions, playground, and easy transit access.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Lents",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Small, renovated 1,500-seat ballpark in Lents Park hosting collegiate summer baseball with family-friendly amenities, concessions, playground, and easy transit access.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/28B1EE2E-C8C9-4B5E-AE45-5666CD74C2B2-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.705884363179539,
+     "location": {
+      "lat": 45.488337,
+      "lon": -122.56957829999999,
+      "geohash": "c20ffbgscbbu"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "4727 SE 92nd Ave #4601 Portland, OR 97266",
+     "external": {
+      "google_place": [
+       {
+        "id": "fb951684341a7986",
+        "place_id": "ChIJy06Q4i-glVQRhnkaNIQWlfs"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Veterans Memorial Coliseum",
+     "entity_id": "7DA15494-FE15-4EDE-A510-4CBACB1C562B",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+15032358771",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/7DA15494-FE15-4EDE-A510-4CBACB1C562B-4s2ANc-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "300 N Ramsay Wy Portland, OR 97227",
+      "geocode": {
+       "city": "Portland",
+       "name": "Lloyd District",
+       "metro": "Portland",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Oregon",
+       "admin2_region": "Multnomah County"
+      },
+      "parking": true,
+      "website": "http://www.rosequarter.com/plan-your-visit/directions",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Lloyd District",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "0E7E1C42-CBD0-482F-9F37-D5CBA4475B55",
+        "admin_level": 10,
+        "locality_id": "r7690369",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Portland",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "C8B93F3B-6D30-4E51-BCA9-C77D2A3A0378",
+        "admin_level": 12,
+        "locality_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "97227",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "A0E63C6A-C197-4247-9E91-0E9A939AFA21",
+        "admin_level": 9,
+        "locality_id": "z97227",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Portland",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+        "admin_level": 8,
+        "locality_id": "r186579",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Lloyd District",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "0E7E1C42-CBD0-482F-9F37-D5CBA4475B55",
+        "admin_level": 10,
+        "locality_id": "r7690369",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Multnomah County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "129E93DB-1BE7-4F82-A32D-376273B8346B",
+        "admin_level": 6,
+        "locality_id": "r1837126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Oregon",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "585DB52B-EDE6-4FE4-B15E-CEC8411C4541",
+        "admin_level": 4,
+        "locality_id": "r165476",
+        "abbreviation": "Ore.",
+        "country_code": null
+       }
+      ],
+      "description": "12,000-seat arena in Portland's Rose Quarter, primary home of the Western Hockey League's Winterhawks and host to concerts, shows, and community events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Lloyd District",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "12,000-seat arena in Portland's Rose Quarter, primary home of the Western Hockey League's Winterhawks and host to concerts, shows, and community events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Veterans Memorial Coliseum is a historic, glass-walled arena in Portland that serves as the primary home for the WHL's Portland Winterhawks. Renowned for its intimate atmosphere, the venue hosts a variety of concerts, community shows, and sporting events. While it retains a nostalgic charm, the arena is fully functional for modern events, offering convenient access via public transit and proximity to the city's downtown core.",
+      "service_description": null,
+      "ambience_description": "The arena offers an intimate and nostalgic atmosphere, characterized by its classic design and long history of hosting iconic performances and local sports. The vibe is generally energetic and welcoming, centered around community-focused events.",
+      "amenities_description": "The venue provides essential amenities including varied concession stands, accessible seating areas for guests with disabilities, and multiple nearby parking options with elevator access. It is a cashless facility that emphasizes streamlined entry through security checkpoints.",
+      "unique_selling_points": "The arena is distinguished by its iconic glass-walled architecture and deep historical legacy, having hosted legendary artists since the 1960s. It provides an exceptionally intimate viewing experience for both WHL hockey games and live concerts.",
+      "neighborhood_description": "The surrounding Rose Quarter area is a bustling commercial hub conveniently served by multiple light rail and bus lines, making it easily accessible from across the city. It functions as a central destination for major sports, entertainment, and community gatherings.",
+      "physical_setting_description": "Located in Portland's Rose Quarter, this historic arena features a unique glass-walled exterior that provides views of the downtown skyline and river. The venue serves as a prominent landmark in the city's urban core.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/7DA15494-FE15-4EDE-A510-4CBACB1C562B-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 45.532140999999996,
+      "lon": -122.6693299,
+      "geohash": "c20g08fgvw86"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:river_view",
+       "name": "River view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_transit",
+       "name": "Public transit",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:glass_walled_arena",
+       "name": "Glass walled arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hockey_games",
+       "name": "Hockey games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ev_charging_stations",
+       "name": "Ev charging stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:moda_center",
+       "name": "Moda center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:steel_bridge",
+       "name": "Steel bridge",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:assistive_hearing_loop",
+       "name": "Assistive hearing loop",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ada_accessible_seating",
+       "name": "Ada accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:mid_century_modern",
+       "name": "Mid century modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_portland",
+       "name": "Downtown portland",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garages",
+       "name": "Parking garages",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:transit_accessible",
+       "name": "Transit accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:gender_neutral_restroom",
+       "name": "Gender neutral restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:box_office",
+       "name": "Box office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nostalgic",
+       "name": "Nostalgic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_history",
+       "name": "Local history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "300 N Ramsay Wy Portland, OR 97227",
+     "external": {
+      "google_place": [
+       {
+        "id": "564c09f1d181b140",
+        "place_id": "ChIJb-ElDFOnlVQRPYudHOKNej4"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "E0AE6376-A732-453A-925F-80F0E2F22AA0",
+      "name": "Portland",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 45.537304763762485,
+       "lon": -122.65035907485722
+      },
+      "popularity": 0.99897826,
+      "disambiguation": "Portland, Multnomah County, Oregon, United States"
+     }
+    ]
+   }
+  }
+ }
+}

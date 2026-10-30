@@ -1,0 +1,2820 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Sparks, Nevada",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Grand Sierra Resort and Casino",
+     "entity_id": "A88422A4-A9C7-4872-A80E-F2C7B7CFD4A2",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+18005012651",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/A88422A4-A9C7-4872-A80E-F2C7B7CFD4A2-17yAfs-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2500 E 2nd St Reno, NV 89595",
+      "geocode": {
+       "city": "Reno",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Nevada",
+       "admin2_region": "Washoe County"
+      },
+      "parking": true,
+      "website": "https://www.grandsierraresort.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.9708512160228898
+       }
+      ],
+      "keywords": [
+       {
+        "name": "bowling alley",
+        "count": 412
+       },
+       {
+        "name": "arcade",
+        "count": 489
+       },
+       {
+        "name": "gambling",
+        "count": 832
+       },
+       {
+        "name": "hot tubs",
+        "count": 183
+       },
+       {
+        "name": "concert venue",
+        "count": 113
+       },
+       {
+        "name": "poker room",
+        "count": 57
+       },
+       {
+        "name": "slots",
+        "count": 712
+       },
+       {
+        "name": "driving range",
+        "count": 214
+       },
+       {
+        "name": "smoke smell",
+        "count": 90
+       },
+       {
+        "name": "escape room",
+        "count": 97
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Reno",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "14382552-BAB5-4F24-9287-F09D5776C9E3",
+        "admin_level": 8,
+        "locality_id": "r170120",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Washoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E2629563-5BA2-4E40-AD55-5C889AD71246",
+        "admin_level": 6,
+        "locality_id": "r166456",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Reno",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "14382552-BAB5-4F24-9287-F09D5776C9E3",
+        "admin_level": 8,
+        "locality_id": "r170120",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "89502",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "E4A6F99B-DB4A-4A07-BA7E-6728A7A5A48F",
+        "admin_level": 9,
+        "locality_id": "z89502",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Washoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E2629563-5BA2-4E40-AD55-5C889AD71246",
+        "admin_level": 6,
+        "locality_id": "r166456",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large casino resort near Reno\u2013Tahoe Airport featuring extensive gaming, multiple restaurants, live entertainment venues, pools, spa, and family-friendly activities.",
+      "hotel_class": 4,
+      "price_level": null,
+      "price_range": {
+       "to": 198,
+       "from": 36,
+       "currency": "usd"
+      },
+      "star_rating": 4,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": "15:00",
+      "primary_genre": {
+       "id": "urn:tag:genre:place:hotel:resort",
+       "akas": [
+        {
+         "value": "\"K\u016brortviesn\u012bca\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e23\u0e35\u0e2a\u0e2d\u0e23\u0e4c\u0e15\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u039e\u03b5\u03bd\u03bf\u03b4\u03bf\u03c7\u03b5\u03af\u03bf \u03b8\u03ad\u03c1\u03b5\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Lomahotelli\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Hotel de vacances\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u30ea\u30be\u30fc\u30c8\u30db\u30c6\u30eb\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Hotel vacacional\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "es"
+         ]
+        },
+        {
+         "value": "\"Resortn\u00ed hotel\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Kurort oteli\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Hotel de sta\u021biune\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hotel resort\"",
+         "languages": [
+          "gl",
+          "pt",
+          "es",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u09b0\u09bf\u09b8\u09cb\u09b0\u09cd\u099f \u09b9\u09cb\u099f\u09c7\u09b2\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Hotel pushimi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u5ea6\u5047\u98ef\u5e97\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Resor hotel\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Kuurorthotell\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0c30\u0c3f\u0c38\u0c3e\u0c30\u0c4d\u0c1f\u0c4d \u0c39\u0c4b\u0c1f\u0c32\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Resort-Hotel\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10d0\u10d9\u10e3\u10e0\u10dd\u10e0\u10e2\u10dd \u10e1\u10d0\u10e1\u10e2\u10e3\u10db\u10e0\u10dd\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Letovi\u0161ki hotel\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Tatil oteli\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Rezortn\u00fd hotel\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Kurortinis vie\u0161butis\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041e\u0434\u043c\u043e\u0440\u0430\u043b\u0438\u0448\u0442\u0435\u043d \u0445\u043e\u0442\u0435\u043b\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"H\u00f4tel de vill\u00e9giature\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0443\u0440\u043e\u0440\u0442\u0435\u043d \u0445\u043e\u0442\u0435\u043b\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Resorthotell\"",
+         "languages": [
+          "sv",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Hoteli ya mapumziko\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u1021\u1015\u1014\u103a\u1038\u1016\u103c\u1031\u101f\u102d\u102f\u1010\u101a\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Hotel wypoczynkowy\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u179f\u178e\u17d2\u178b\u17b6\u1782\u17b6\u179a\u179a\u1798\u178e\u17b8\u1799\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u041e\u0434\u043c\u0430\u0440\u0430\u043b\u0438\u0448\u043d\u0438 \u0445\u043e\u0442\u0435\u043b\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u5ea6\u5047\u9152\u5e97\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Odmarali\u0161ni hotel\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Oporretako hotela\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0930\u093f\u0938\u0949\u0930\u094d\u091f \u0939\u094b\u091f\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Hotel peranginan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0443\u0440\u043e\u0440\u0442\u043d\u0438\u0439 \u0433\u043e\u0442\u0435\u043b\u044c\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\ub9ac\uc870\ud2b8 \ud638\ud154\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0641\u0646\u062f\u0642 \u0645\u0646\u062a\u062c\u0639\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0b9f\u0bc1\u0ba4\u0bbf \u0bb9\u0bcb\u0b9f\u0bcd\u0b9f\u0bb2\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Resort hotel\"",
+         "languages": [
+          "en_gb",
+          "tl",
+          "it"
+         ]
+        },
+        {
+         "value": "\"Resorthotel\"",
+         "languages": [
+          "de",
+          "da",
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05dc\u05d5\u05df \u05e0\u05d5\u05e4\u05e9\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u00dcd\u00fcl\u0151sz\u00e1lloda\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0ec1\u0eae\u0ea1\u0ea3\u0eb5\u0eaa\u0ead\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0443\u0440\u043e\u0440\u0442\u043d\u044b\u0439 \u043e\u0442\u0435\u043b\u044c\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Kh\u00e1ch s\u1ea1n ngh\u1ec9 d\u01b0\u1ee1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0443\u0440\u043e\u0440\u0442\u0442\u044b\u049b \u049b\u043e\u043d\u0430\u049b \u04af\u0439\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Oordhotel\"",
+         "languages": [
+          "af"
+         ]
+        }
+       ],
+       "name": "Resort hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": "11:00",
+      "business_rating": 4.300000190734863,
+      "loyalty_program": "Infinity Rewards",
+      "number_of_rooms": 1995,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large casino resort near Reno\u2013Tahoe Airport featuring extensive gaming, multiple restaurants, live entertainment venues, pools, spa, and family-friendly activities.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Grand Sierra Resort and Casino is a massive, multifaceted destination that functions as a self-contained entertainment complex. It offers a broad spectrum of experiences, from high-stakes gaming and professional nightlife to family-oriented activities like bowling, arcades, and seasonal recreation. While it serves as a central hub for concerts and events in Northern Nevada, it aims to provide an all-under-one-roof convenience for leisure travelers, gamblers, and families alike.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is high-energy, bustling, and expansive, defined by its role as a self-contained destination that blends classic casino excitement with family-friendly recreation.",
+      "amenities_description": "The Grand Sierra Resort and Casino is a large-scale destination resort featuring extensive gaming facilities, multiple restaurants, and diverse entertainment venues including a theater and nightclub. Guest accommodations range from standard rooms to suites. On-site amenities include a spa, multiple pools, hot tubs, a fitness center, and a bowling alley. The property provides services such as airport shuttle access, business facilities, valet parking, and room service. The resort also features family-friendly attractions like an arcade and seasonal entertainment.",
+      "unique_selling_points": "This property functions as a massive, self-contained entertainment city featuring Northern Nevada's largest gaming floor, an arcade-focused fun zone, and high-profile live entertainment venues.",
+      "neighborhood_description": "The surrounding area is a busy, commercial corridor that serves as a primary hub for visitors, with proximity to the regional airport and easy highway access.",
+      "physical_setting_description": "Located in Reno, this massive resort is conveniently situated near the airport and major thoroughfares. It provides a sprawling indoor environment packed with various entertainment, dining, and gaming facilities.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/A88422A4-A9C7-4872-A80E-F2C7B7CFD4A2-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9997542811358118,
+     "location": {
+      "lat": 39.5230411,
+      "lon": -119.7812235,
+      "geohash": "9r4bf6cyrhg9"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:shopping_mall",
+       "name": "Shopping mall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:casino_gaming",
+       "name": "Casino gaming",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:upscale",
+       "name": "Upscale",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:air_conditioned",
+       "name": "Air conditioned",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:fitness_center",
+       "name": "Fitness center",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bowling_alley",
+       "name": "Bowling alley",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:free_wi_fi",
+       "name": "Free wi fi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:magician",
+       "name": "Magician",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:airport_view",
+       "name": "Airport view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:arcade_games",
+       "name": "Arcade games",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:all_day",
+       "name": "All day",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:airport_shuttle",
+       "name": "Airport shuttle",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:casino",
+       "name": "Casino",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:place_page_attributes:place:hotel_class",
+       "name": "Hotel class",
+       "type": "urn:tag:place_page_attributes:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:spa",
+       "name": "Spa",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:hotel",
+       "name": "Hotel",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:shopping_mall",
+       "name": "Shopping mall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:flat_screen_tv",
+       "name": "Flat screen tv",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:arcade_gaming_arcade",
+       "name": "Arcadegaming arcade",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:resort_like",
+       "name": "Resort like",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:spa_relaxation",
+       "name": "Spa relaxation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:buffet",
+       "name": "Buffet",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pool",
+       "name": "Pool",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:multiple_restaurants",
+       "name": "Multiple restaurants",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:laundry_service",
+       "name": "Laundry service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:vegas_style",
+       "name": "Vegas style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:golf_course",
+       "name": "Golf course",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:room_service",
+       "name": "Room service",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:bowling",
+       "name": "Bowling",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:free_parking",
+       "name": "Free parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:wellness",
+       "name": "Wellness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_pool",
+       "name": "Outdoor pool",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:busy",
+       "name": "Busy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:video_arcade",
+       "name": "Video arcade",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fitness_center",
+       "name": "Fitness center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:bowling",
+       "name": "Bowling",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel",
+       "name": "Hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:reno_tahoe_international_airport",
+       "name": "Reno tahoe international airport",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:executive_suite",
+       "name": "Executive suite",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:housekeeping",
+       "name": "Housekeeping",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:night_club",
+       "name": "Night club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:night_club",
+       "name": "Night club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:casino_hotel",
+       "name": "Casino hotel",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:air_conditioning",
+       "name": "Air conditioning",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:high_traffic",
+       "name": "High traffic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:kid_friendly",
+       "name": "Kid friendly",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:outdoor_pool",
+       "name": "Outdoor pool",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:nightclub",
+       "name": "Nightclub",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:casino_gaming",
+       "name": "Casino gaming",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_concerts",
+       "name": "Live concerts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:free_wi_fi",
+       "name": "Free wi fi",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:cafe",
+       "name": "Cafe",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:room_service",
+       "name": "Room service",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:hotel_rating:place:four_star",
+       "name": "Four star",
+       "type": "urn:tag:hotel_rating:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:golf_course",
+       "name": "Golf course",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel:casino",
+       "name": "Casino",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:lounge",
+       "name": "Lounge",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:arcade",
+       "name": "Arcade",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:hot_tub",
+       "name": "Hot tub",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:business_center",
+       "name": "Business center",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:casino",
+       "name": "Casino",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_airport",
+       "name": "Near airport",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:grand",
+       "name": "Grand",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:airport_shuttle",
+       "name": "Airport shuttle",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:tea_and_coffee_maker",
+       "name": "Tea and coffee maker",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:multiple_bars",
+       "name": "Multiple bars",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:meeting_rooms",
+       "name": "Meeting rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:spa_treatments",
+       "name": "Spa treatments",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:room_service",
+       "name": "Room service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:mini_fridge",
+       "name": "Mini fridge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:suite",
+       "name": "Suite",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concierge",
+       "name": "Concierge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:laundry_service",
+       "name": "Laundry service",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:video_arcade",
+       "name": "Video arcade",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:hot_tub",
+       "name": "Hot tub",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:standard",
+       "name": "Standard",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_reno",
+       "name": "Downtown reno",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevator",
+       "name": "Elevator",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:resort_hotel",
+       "name": "Resort hotel",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:magician",
+       "name": "Magician",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:business_center",
+       "name": "Business center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:spa",
+       "name": "Spa",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel:resort",
+       "name": "Resort hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lounge",
+       "name": "Lounge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 445.8187070205085,
+      "measurements": {
+       "audience_growth": -0.48038446141526137
+      }
+     },
+     "disambiguation": "2500 E 2nd St Reno, NV 89595",
+     "external": {
+      "expedia": [
+       {
+        "id": "16487"
+       }
+      ],
+      "tripadvisor": [
+       {
+        "id": "d802346",
+        "rating": 4.5,
+        "rating_count": 11878
+       }
+      ],
+      "google_place": [
+       {
+        "id": "1f820cd9dffbe3c1",
+        "place_id": "ChIJG7qnuls_mYARweP739kMgh8"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Generator Community Maker Space",
+     "entity_id": "D07F3F8D-30F4-4533-BF35-7AD33C4F2266",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ]
+      },
+      "phone": "+17755270633",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/D07F3F8D-30F4-4533-BF35-7AD33C4F2266-1FpUUB-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2450 Oddie Blvd Suite 110 Sparks, NV 89431",
+      "geocode": {
+       "city": "Sparks",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Nevada",
+       "admin2_region": "Washoe County"
+      },
+      "parking": null,
+      "website": "https://www.therenogenerator.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Sparks",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "758B8A26-F52A-4C30-8040-0F4030BB4703",
+        "admin_level": 8,
+        "locality_id": "r170122",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Washoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E2629563-5BA2-4E40-AD55-5C889AD71246",
+        "admin_level": 6,
+        "locality_id": "r166456",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "89431",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "9C151012-8808-453A-AFBE-BCD791F0354A",
+        "admin_level": 9,
+        "locality_id": "z89431",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Sparks",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "758B8A26-F52A-4C30-8040-0F4030BB4703",
+        "admin_level": 8,
+        "locality_id": "r170122",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Washoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E2629563-5BA2-4E40-AD55-5C889AD71246",
+        "admin_level": 6,
+        "locality_id": "r166456",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Nonprofit community makerspace offering wood, metal, textiles, and digital shops, regular art events (ArtBattle), hourly tours, classes, and membership access.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:makerspace",
+       "akas": [
+        {
+         "value": "\"Espai de creaci\u00f3\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0ec0\u0ea1\u0ec0\u0e81\u0eb5\u0eaa\u0eb0\u0ec0\u0e9b\u0eaa\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e2a\u0e23\u0e23\u0e04\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u1019\u1031\u1000\u102c\u1005\u1015\u1031\u1037\u1005\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u521b\u5ba2\u7a7a\u95f4\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u09ae\u09c7\u0995\u09be\u09b0\u09b8\u09cd\u09aa\u09c7\u09b8\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0439\u043a\u0435\u0440\u0441\u043f\u0435\u0439\u0441\"",
+         "languages": [
+          "uk",
+          "kk",
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Espa\u00e7o maker\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0458\u043a\u0435\u0440\u0441\u043f\u0435\u0458\u0441\"",
+         "languages": [
+          "sr",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0439\u043a\u044a\u0440\u0441\u043f\u0435\u0439\u0441\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"K\u016brybin\u0117s dirbtuv\u0117s\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Espacio maker\"",
+         "languages": [
+          "es",
+          "es_la",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u30e1\u30a4\u30ab\u30fc\u30b9\u30da\u30fc\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u1798\u17c1\u1783\u17be\u179a\u179f\u17cd\u179f\u17d2\u1796\u17c1\u179f\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"At\u00f6lye\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Fab lab\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u5275\u5ba2\u7a7a\u9593\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0633\u0627\u062d\u0629 \u0635\u0627\u0646\u0639\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Ruang pembuat\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Makerspace\"",
+         "languages": [
+          "it",
+          "ro",
+          "eu",
+          "vi",
+          "tl",
+          "nb",
+          "lv",
+          "et",
+          "sv",
+          "sk",
+          "hr",
+          "sw",
+          "bs",
+          "nl",
+          "en_gb",
+          "fi",
+          "sl",
+          "hu",
+          "da",
+          "id",
+          "pt_pt",
+          "gl",
+          "pl",
+          "de",
+          "af",
+          "cs",
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0bc7\u0b95\u0bcd\u0b95\u0bb0\u0bcd\u0bb8\u0bcd\u0baa\u0bc7\u0bb8\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\uba54\uc774\ucee4\uc2a4\ud398\uc774\uc2a4\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Meykerspeys\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d9\u05d9\u05e7\u05e8\u05e1\u05e4\u05d9\u05d9\u05e1\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u10db\u10d4\u10d8\u10d9\u10d4\u10e0\u10e1\u10e4\u10d4\u10d8\u10e1\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Espace de cr\u00e9ation\"",
+         "languages": [
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"\u092e\u0947\u0915\u0930\u0938\u094d\u092a\u0947\u0938\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0c2e\u0c47\u0c15\u0c30\u0c4d \u0c38\u0c4d\u0c2a\u0c47\u0c38\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        }
+       ],
+       "name": "Makerspace",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Nonprofit community makerspace offering wood, metal, textiles, and digital shops, regular art events (ArtBattle), hourly tours, classes, and membership access.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/D07F3F8D-30F4-4533-BF35-7AD33C4F2266-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.5263179204643511,
+     "location": {
+      "lat": 39.5475561,
+      "lon": -119.779879,
+      "geohash": "9r4bfr6vnx47"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:art_studio",
+       "name": "Art studio",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+       "name": "Identifies as women owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:makerspace",
+       "name": "Makerspace",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:art_center",
+       "name": "Art center",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:art_studio",
+       "name": "Art studio",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:makerspace",
+       "name": "Makerspace",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:art_center",
+       "name": "Art center",
+       "type": "urn:tag:category:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2450 Oddie Blvd Suite 110 Sparks, NV 89431",
+     "external": {
+      "google_place": [
+       {
+        "id": "2298e4080d7a0f36",
+        "place_id": "ChIJMTvsTTo_mYARNg96DQjkmCI"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Legends Bay Casino",
+     "entity_id": "1CB30AFF-93E7-45EC-856B-9F0A04EF0F9E",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+17754738000",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/1CB30AFF-93E7-45EC-856B-9F0A04EF0F9E-3UdXQD-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "100 Legends Bay Drive Sparks, NV 89434",
+      "geocode": {
+       "city": "Sparks",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Nevada",
+       "admin2_region": "Washoe County"
+      },
+      "parking": true,
+      "website": "http://www.legendsbaycasino.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.7254601226993864
+       }
+      ],
+      "keywords": [
+       {
+        "name": "food trucks",
+        "count": 47
+       },
+       {
+        "name": "new casino",
+        "count": 50
+       },
+       {
+        "name": "table games",
+        "count": 46
+       },
+       {
+        "name": "friendly staff",
+        "count": 155
+       },
+       {
+        "name": "tight slots",
+        "count": 7
+       },
+       {
+        "name": "free play",
+        "count": 18
+       },
+       {
+        "name": "steakhouse",
+        "count": 28
+       },
+       {
+        "name": "sports book",
+        "count": 18
+       },
+       {
+        "name": "oyster bar",
+        "count": 3
+       },
+       {
+        "name": "cleanliness",
+        "count": 68
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Sparks",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "758B8A26-F52A-4C30-8040-0F4030BB4703",
+        "admin_level": 8,
+        "locality_id": "r170122",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Washoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E2629563-5BA2-4E40-AD55-5C889AD71246",
+        "admin_level": 6,
+        "locality_id": "r166456",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "89434",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "2EF52390-0A77-4928-AE77-DF5AFC5CE945",
+        "admin_level": 9,
+        "locality_id": "z89434",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Sparks",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "758B8A26-F52A-4C30-8040-0F4030BB4703",
+        "admin_level": 8,
+        "locality_id": "r170122",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Washoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E2629563-5BA2-4E40-AD55-5C889AD71246",
+        "admin_level": 6,
+        "locality_id": "r166456",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Modern gaming resort in Sparks offering table games, slots, multiple restaurants, bars, and live-music entertainment adjacent to local attractions.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:hotel:casino",
+       "akas": [
+        {
+         "value": "\"\u1780\u17b6\u179f\u17ca\u17b8\u178e\u17bc\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\uce74\uc9c0\ub178\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u10d9\u10d0\u10d6\u10d8\u10dc\u10dd\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0e04\u0e32\u0e2a\u0e34\u0e42\u0e19\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u05e7\u05d6\u05d9\u05e0\u05d5\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u039a\u03b1\u03b6\u03af\u03bd\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Casin\u00f2\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Cazinou\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Cassino\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u8ced\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0e81\u0eb2\u0e8a\u0eb5\u0ec2\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"S\u00f2ng b\u1ea1c\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Kasiino\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Kasz\u00edn\u00f3\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0915\u0948\u0938\u0940\u0928\u094b\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u8d4c\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Kasyno\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0430\u0437\u0438\u043d\u043e\"",
+         "languages": [
+          "sr",
+          "uk",
+          "bg",
+          "ru",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0bc7\u0b9a\u0bbf\u0ba9\u0bcb\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0c15\u0c3e\u0c38\u0c3f\u0c28\u0c4b\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u0995\u09cd\u09af\u09be\u09b8\u09bf\u09a8\u09cb\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u30ab\u30b8\u30ce\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Casino\"",
+         "languages": [
+          "es_ar",
+          "fr",
+          "en_gb",
+          "fr_ca",
+          "pt_pt",
+          "tl",
+          "ca",
+          "tr",
+          "af",
+          "es",
+          "nl",
+          "es_la",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u0643\u0627\u0632\u064a\u0646\u0648\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1000\u102c\u1005\u102e\u1014\u102d\u102f\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Kas\u00edno\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Spielbank\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Kasino\"",
+         "languages": [
+          "id",
+          "eu",
+          "cs",
+          "sv",
+          "sw",
+          "hr",
+          "fi",
+          "ms",
+          "nb",
+          "da"
+         ]
+        },
+        {
+         "value": "\"Kazino\"",
+         "languages": [
+          "bs",
+          "az",
+          "lv",
+          "sl",
+          "sq",
+          "lt"
+         ]
+        }
+       ],
+       "name": "Casino",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 3.9000000953674316,
+      "loyalty_program": "Legends Bay Rewards",
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Modern gaming resort in Sparks offering table games, slots, multiple restaurants, bars, and live-music entertainment adjacent to local attractions.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Legends Bay Casino is a contemporary gaming resort in Sparks, Nevada, designed to offer a comprehensive entertainment experience. The property features an extensive selection of slot machines, table games, and sports betting options alongside multiple dining venues ranging from upscale steakhouses to casual cafes. Located within a major commercial district, the casino serves as a vibrant destination for both locals and travelers seeking a mix of excitement, nightlife, and convenience.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is generally modern, energetic, and casual, designed to appeal to those looking for a contemporary gaming and social experience. It provides a vibrant setting for nightlife and recreation.",
+      "amenities_description": "Legends Bay Casino features a modern gaming floor with a variety of slot machines and table games. Dining options include Dukes Steak House, an upscale restaurant, and a casual caf\u00e9. The resort provides onsite bar services and entertainment. Electric vehicle charging stations are available onsite.",
+      "unique_selling_points": "This modern resort offers a consolidated experience featuring a diverse mix of gaming, upscale and casual dining, and live sports entertainment all in one destination.",
+      "neighborhood_description": "The surrounding area is a bustling commercial and shopping district that provides easy access to retail and dining options. It is a highly convenient location for visitors exploring regional attractions.",
+      "physical_setting_description": "A modern, purpose-built gaming resort located within a commercial development area. It serves as a central hub for entertainment, dining, and gaming near local recreational areas.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/1CB30AFF-93E7-45EC-856B-9F0A04EF0F9E-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.15655059004101257,
+     "location": {
+      "lat": 39.5324536,
+      "lon": -119.72238899999999,
+      "geohash": "9r4bgssv4pu6"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel:casino",
+       "name": "Casino",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel",
+       "name": "Hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:social_nightlife",
+       "name": "Social nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:outlets_at_legends",
+       "name": "Outlets at legends",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:modern_casino_resort",
+       "name": "Modern casino resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:bistro",
+       "name": "Bistro",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:casino_gaming",
+       "name": "Casino gaming",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:gaming_amusement",
+       "name": "Gaming amusement",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lounge",
+       "name": "Lounge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:casino",
+       "name": "Casino",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:electric_vehicle_charging",
+       "name": "Electric vehicle charging",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:shopping_district",
+       "name": "Shopping district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:dining_out",
+       "name": "Dining out",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:sparks_marina",
+       "name": "Sparks marina",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:sustainability_initiative:qloo:electric_vehicle_charging",
+       "name": "Electric vehicle charging",
+       "type": "urn:tag:sustainability_initiative:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:shopping_district_view",
+       "name": "Shopping district view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_betting",
+       "name": "Sports betting",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:casino",
+       "name": "Casino",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:cafe",
+       "name": "Cafe",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_betting",
+       "name": "Sports betting",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_entertainment",
+       "name": "Live entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "100 Legends Bay Drive Sparks, NV 89434",
+     "external": {
+      "google_place": [
+       {
+        "id": "b1a17d2b3837f388",
+        "place_id": "ChIJ659VSFk_mYARiPM3OCt9obE"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "758B8A26-F52A-4C30-8040-0F4030BB4703",
+      "name": "Sparks",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.57093445997534,
+       "lon": -119.71473473813273
+      },
+      "popularity": 0.99258405,
+      "disambiguation": "Sparks, Washoe County, Nevada, United States"
+     }
+    ]
+   }
+  }
+ }
+}

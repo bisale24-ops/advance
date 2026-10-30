@@ -1,0 +1,1201 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "2D96A87B-3AE9-4950-A892-AE1B9642BB4A",
+  "take": 50,
+  "filter.location.query": "Woodinville, Washington",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Chandler Reach Woodinville Tasting Room",
+     "entity_id": "D06900AC-8D1B-45E7-820C-6AB67E59F55B",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ]
+      },
+      "phone": "+14258929999",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/D06900AC-8D1B-45E7-820C-6AB67E59F55B-4bdHO2-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "14450 Redmond - Woodinville Rd NE #107 Woodinville, WA 98072",
+      "geocode": {
+       "city": "Woodinville",
+       "name": null,
+       "metro": "Seattle",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Washington",
+       "admin2_region": "King County"
+      },
+      "parking": true,
+      "website": "http://chandlerreach.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Woodinville",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "41B7E5C6-0901-4404-9498-7304D84B57F7",
+        "admin_level": 8,
+        "locality_id": "r237387",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Seattle",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "5D2C6390-1CCA-4497-BA83-77EB63B55A4A",
+        "admin_level": 12,
+        "locality_id": "DC079C47-AB07-4ADB-9770-64BE8AAC3186",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Washington",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "249D9611-1918-4449-A0EA-F9226B551FB6",
+        "admin_level": 4,
+        "locality_id": "r165479",
+        "abbreviation": "Wash.",
+        "country_code": null
+       },
+       "county": {
+        "name": "King County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "15C54881-602E-47DA-B99A-21862DDBA4A0",
+        "admin_level": 6,
+        "locality_id": "r1153346",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Seattle",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "5D2C6390-1CCA-4497-BA83-77EB63B55A4A",
+        "admin_level": 12,
+        "locality_id": "DC079C47-AB07-4ADB-9770-64BE8AAC3186",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "King County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "15C54881-602E-47DA-B99A-21862DDBA4A0",
+        "admin_level": 6,
+        "locality_id": "r1153346",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Woodinville",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "41B7E5C6-0901-4404-9498-7304D84B57F7",
+        "admin_level": 8,
+        "locality_id": "r237387",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "98072",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "88B4F5AD-1D15-465D-9580-031E4F242DC8",
+        "admin_level": 9,
+        "locality_id": "z98072",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Washington",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "249D9611-1918-4449-A0EA-F9226B551FB6",
+        "admin_level": 4,
+        "locality_id": "r165479",
+        "abbreviation": "Wash.",
+        "country_code": null
+       }
+      ],
+      "description": "Tuscan-inspired Woodinville tasting room offering estate-grown Yakima Valley wines, tastings, wine club, and weekend live music in the Hollywood District.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:winery",
+       "akas": [
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0e87\u0eb2\u0e99\u0e9c\u0eb0\u0ea5\u0eb4\u0e94\u0ec0\u0eab\u0ebc\u0ebb\u0ec9\u0eb2\u0ec1\u0ea7\u0e87\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5e84\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0993\u09af\u09bc\u09be\u0987\u09a8\u09be\u09b0\u09bf\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Bor\u00e1szat\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Vin\u0103rie\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Kilang wain\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Celler\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Domaine viticole\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Kiwanda cha divai\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Viinitila\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0438\u043d\u043e\u0434\u0435\u043b\u044c\u043d\u044f\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Adega\"",
+         "languages": [
+          "pt_pt",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\uc640\uc774\ub108\ub9ac\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0438\u043d\u0430\u0440\u0438\u0458\u0430\"",
+         "languages": [
+          "sr",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Cantina\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0c35\u0c48\u0c28\u0c30\u0c40\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u015e\u0259rab zavodu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Vi\u00f1edo\"",
+         "languages": [
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"\u10e6\u10d5\u10d8\u10dc\u10d8\u10e1 \u10e5\u10d0\u10e0\u10ee\u10d0\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Vin\u00edcola\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Vina\u0159stv\u00ed\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Veinikelder\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0438\u043d\u0430\u0440\u043d\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u05d9\u05e7\u05d1\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u30ef\u30a4\u30ca\u30ea\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Vin\u00e1rstvo\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Winery\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e44\u0e27\u0e19\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Bodega\"",
+         "languages": [
+          "es_ar",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1785\u1780\u17d2\u179a\u1795\u179b\u17b7\u178f\u179f\u17d2\u179a\u17b6\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Vinska klet\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 m\u00e1y r\u01b0\u1ee3u vang\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Weingut\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Wynplaas\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u039f\u03b9\u03bd\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0baa\u0bbe\u0ba9 \u0b86\u0bb2\u0bc8\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0438\u043d\u043e\u0440\u043e\u0431\u043d\u044f\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Vynin\u0117\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0935\u093e\u0907\u0928\u0930\u0940\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"V\u012bna dar\u012btava\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u9152\u838a\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Kantina e ver\u00ebs\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0635\u0646\u0639 \u0646\u0628\u064a\u0630\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Wijnmakerij\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Ving\u00e5rd\"",
+         "languages": [
+          "nb",
+          "da",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Winiarnia\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u101d\u102d\u102f\u1004\u103a\u1001\u103b\u1000\u103a\u1005\u1000\u103a\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u015earap imalathanesi\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0428\u0430\u0440\u0430\u043f \u0437\u0430\u0443\u044b\u0442\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Vignoble\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Vinarija\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Upeltegi\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Pabrik anggur\"",
+         "languages": [
+          "id"
+         ]
+        }
+       ],
+       "name": "Winery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.800000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Tuscan-inspired Woodinville tasting room offering estate-grown Yakima Valley wines, tastings, wine club, and weekend live music in the Hollywood District.",
+      "number_of_stations": null,
+      "cuisine_description": "Chandler Reach Woodinville Tasting Room features estate-grown, Italian-inspired wines sourced from the Yakima Valley. The offerings focus on premium red varietals including Sangiovese, Cabernet Sauvignon, Merlot, and Syrah, alongside sparkling options and select ciders. Food offerings are limited to light refreshments such as charcuterie boards.",
+      "overall_description": "Chandler Reach Woodinville Tasting Room offers an inviting escape to Tuscany in the heart of the Hollywood District. It specializes in estate-grown, Italian-inspired wines from Washington\u2019s Yakima Valley, served by a famously friendly and knowledgeable staff. The space is well-loved for its cozy, rustic atmosphere, featuring a warm fireplace, a seasonal patio, and regular weekend live music, making it a perfect spot for both casual afternoons and social gatherings.",
+      "service_description": "The venue offers a cozy and inviting atmosphere for wine tastings and casual gatherings. Services include indoor and outdoor seating with fire tables, regular weekend live music, and the ability to host private events and paint-and-sip gatherings.",
+      "ambience_description": "The atmosphere is warm, cozy, and inviting, with a Tuscan-inspired aesthetic that features a fireplace and comfortable seating. It strikes a balance between a sophisticated wine-tasting experience and a casual, friendly social space.",
+      "amenities_description": "The venue offers a cozy interior with a fireplace, a seasonal outdoor patio with fire tables, and a selection of light bites such as charcuterie boards. Additionally, club members have access to a private space for gatherings.",
+      "unique_selling_points": "The tasting room brings an authentic Italian villa experience to the Pacific Northwest by showcasing estate-grown, Italian-inspired wines from the Yakima Valley. It is distinguished by its exceptionally friendly staff who provide an approachable, family-like atmosphere.",
+      "neighborhood_description": "The surrounding district is a popular and walkable hub for wine lovers, featuring numerous tasting rooms and local amenities that create a lively, tourist-friendly atmosphere.",
+      "physical_setting_description": "Located in the heart of the bustling Hollywood District, this tasting room offers an indoor space reminiscent of an Italian villa and an inviting outdoor patio area. The outdoor space is equipped with fire tables to ensure comfort during cooler weather.",
+      "customer_demographics_description": "The tasting room attracts a diverse mix of local wine enthusiasts, couples, and groups of friends who appreciate a relaxed, Tuscan-inspired social environment.",
+      "image": {
+       "url": "https://images.qloo.com/i/D06900AC-8D1B-45E7-820C-6AB67E59F55B-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.06335683542333664,
+     "location": {
+      "lat": 47.7322201,
+      "lon": -122.14054929999999,
+      "geohash": "c23ps97uqftv"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:decor:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:reserve_sangiovese",
+       "name": "Reserve sangiovese",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:wine_bar",
+       "name": "Wine bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:pet_owners",
+       "name": "Pet owners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:wine_tasting",
+       "name": "Wine tasting",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:wine_club",
+       "name": "Wine club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:carmenere",
+       "name": "Carmenere",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+       "name": "Trendy",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:merlot",
+       "name": "Merlot",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:wine_bar",
+       "name": "Wine bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:winery",
+       "name": "Winery",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:tuscan_villa",
+       "name": "Tuscan villa",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:private_event_room",
+       "name": "Private event room",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:winery",
+       "name": "Winery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:charcuterie_board",
+       "name": "Charcuterie board",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:hollywood_district",
+       "name": "Hollywood district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:wine_club",
+       "name": "Wine club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:wine_enthusiasts",
+       "name": "Wine enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:hollywood_district",
+       "name": "Hollywood district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:heritage_cafe",
+       "name": "Heritage cafe",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:wine_tasting_destination",
+       "name": "Wine tasting destination",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:charcuterie",
+       "name": "Charcuterie",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:italian",
+       "name": "Italian",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:sparkling_riesling",
+       "name": "Sparkling riesling",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:viticulture",
+       "name": "Viticulture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:villa_rossa",
+       "name": "Villa rossa",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:italian_culture",
+       "name": "Italian culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:wine_tasting",
+       "name": "Wine tasting",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fire_tables",
+       "name": "Fire tables",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:charcuterie_board",
+       "name": "Charcuterie board",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:charming",
+       "name": "Charming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:paint_and_sip",
+       "name": "Paint and sip",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:moderately_expensive",
+       "name": "Moderately expensive",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:wine_tasting",
+       "name": "Wine tasting",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:specialty_alcoholic",
+       "name": "Specialty alcoholic",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:reserve_cabernet",
+       "name": "Reserve cabernet",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar_seating",
+       "name": "Bar seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:patio",
+       "name": "Patio",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:tuscan_inspired",
+       "name": "Tuscan inspired",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:walk_ins",
+       "name": "Walk ins",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:washington_state_wines",
+       "name": "Washington state wines",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7152132127813414,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "14450 Redmond - Woodinville Rd NE #107 Woodinville, WA 98072",
+     "external": {
+      "google_place": [
+       {
+        "id": "1b3723d1f2e58a9c",
+        "place_id": "ChIJZUCuMbMNkFQRnIrl8tEjNxs"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "41B7E5C6-0901-4404-9498-7304D84B57F7",
+      "name": "Woodinville",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 47.7569260478284,
+       "lon": -122.1477710877537
+      },
+      "popularity": 0.97828436,
+      "disambiguation": "Woodinville, King County, Washington, United States"
+     }
+    ]
+   }
+  }
+ }
+}

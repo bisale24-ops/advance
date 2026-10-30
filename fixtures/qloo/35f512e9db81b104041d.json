@@ -1,0 +1,748 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Virginia Beach",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Virginia Beach Sportsplex",
+     "entity_id": "6729E7FE-A086-48C3-9CE6-8425918BAC39",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+17574272990",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/6729E7FE-A086-48C3-9CE6-8425918BAC39-0HjhgV-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2044 Landstown Centre Wy Virginia Beach, VA 23456",
+      "geocode": {
+       "city": "Virginia Beach",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Virginia",
+       "admin2_region": "Virginia Beach"
+      },
+      "parking": null,
+      "website": "https://beachsportsplex.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "nitro circus",
+        "count": 6
+       },
+       {
+        "name": "family friendly",
+        "count": 65
+       },
+       {
+        "name": "soccer",
+        "count": 51
+       },
+       {
+        "name": "tournament",
+        "count": 17
+       },
+       {
+        "name": "lacrosse camp",
+        "count": 3
+       },
+       {
+        "name": "competitive volleyball league",
+        "count": 2
+       },
+       {
+        "name": "band competition",
+        "count": 2
+       },
+       {
+        "name": "volleyball courts",
+        "count": 2
+       },
+       {
+        "name": "variety of sports",
+        "count": 3
+       },
+       {
+        "name": "tournament venue",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Virginia Beach",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "B479CFCD-D2C3-4AB4-9C3D-085817D064CC",
+        "admin_level": 6,
+        "locality_id": "r206670",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Virginia",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F59587F8-E79A-409E-A3EB-88CEEFF30782",
+        "admin_level": 4,
+        "locality_id": "r224042",
+        "abbreviation": "Va.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Virginia Beach",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "B479CFCD-D2C3-4AB4-9C3D-085817D064CC",
+        "admin_level": 6,
+        "locality_id": "r206670",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Virginia",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F59587F8-E79A-409E-A3EB-88CEEFF30782",
+        "admin_level": 4,
+        "locality_id": "r224042",
+        "abbreviation": "Va.",
+        "country_code": null
+       },
+       {
+        "name": "23456",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "C4079E40-B22D-4B30-8B31-3ACECDC87847",
+        "admin_level": 9,
+        "locality_id": "z23456",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Virginia Beach",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "B479CFCD-D2C3-4AB4-9C3D-085817D064CC",
+        "admin_level": 6,
+        "locality_id": "r206670",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Large multi-sport complex near Virginia Beach Oceanfront offering a stadium, regional training center and water-based Astroturf fields for tournaments, training, and community events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:sports_complex",
+       "akas": [
+        {
+         "value": "\"Khu li\u00ean h\u1ee3p th\u1ec3 thao\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u4e2d\u5fc3\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Complesso sportivo\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0bb5\u0bb3\u0bbe\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Sportskompleks\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0438\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Complexo esportivo\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Spordikompleks\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Kompleks sukan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Sportcomplex\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Sporta komplekss\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0160portni kompleks\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Spor kompleksi\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u09aa\u09cb\u09b0\u09cd\u099f\u09b8 \u0995\u09ae\u09aa\u09cd\u09b2\u09c7\u0995\u09cd\u09b8\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03b8\u03bb\u03b7\u03c4\u03b9\u03ba\u03cc \u03ba\u03ad\u03bd\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u904b\u52d5\u4e2d\u5fc3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0160portov\u00fd komplex\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0c15\u0c4d\u0c30\u0c40\u0c21\u0c3e \u0c38\u0c2e\u0c41\u0c26\u0c3e\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05ea\u05d7\u05dd \u05e1\u05e4\u05d5\u05e8\u05d8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Idrettsanlegg\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Sports complex\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Urheilukeskus\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Sportk\u00f6zpont\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Uwanja wa michezo\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Sportkomplex\"",
+         "languages": [
+          "de",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Kompleks sportiv\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Sportkompleks\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u0645\u062c\u0645\u0639 \u0631\u064a\u0627\u0636\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\uc2a4\ud3ec\uce20 \ucf64\ud50c\ub809\uc2a4\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Sportanlage\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u0130dman kompleksi\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442 \u043a\u0435\u0448\u0435\u043d\u0456\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Kompleks olahraga\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Sporto kompleksas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Complexo deportivo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Complejo deportivo\"",
+         "languages": [
+          "es",
+          "es_la",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"Kirol-gunea\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0435\u043d \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Sportovn\u00ed komplex\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Complexe sportif\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0441\u043a\u0438 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "mk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Complexo desportivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10de\u10dd\u10e0\u10e2\u10e3\u10da\u10d8 \u10d9\u10dd\u10db\u10de\u10da\u10d4\u10e5\u10e1\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Sportski kompleks\"",
+         "languages": [
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Complex esportiu\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0916\u0947\u0932 \u092a\u0930\u093f\u0938\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Complex sportiv\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Kompleks sportowy\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30dd\u30fc\u30c4\u8907\u5408\u65bd\u8a2d\"",
+         "languages": [
+          "ja"
+         ]
+        }
+       ],
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large multi-sport complex near Virginia Beach Oceanfront offering a stadium, regional training center and water-based Astroturf fields for tournaments, training, and community events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/6729E7FE-A086-48C3-9CE6-8425918BAC39-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.859627294815462,
+     "location": {
+      "lat": 36.766966599999996,
+      "lon": -76.09016009999999,
+      "geohash": "dq9cht0z4ge1"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2044 Landstown Centre Wy Virginia Beach, VA 23456",
+     "external": {
+      "google_place": [
+       {
+        "id": "b9acedab47504d9",
+        "place_id": "ChIJ8xsUkny_uokR2QR1tNrOmgs"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "B479CFCD-D2C3-4AB4-9C3D-085817D064CC",
+      "name": "Virginia Beach",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 36.76574489889596,
+       "lon": -76.02895764834749
+      },
+      "popularity": 0.99821824,
+      "disambiguation": "Virginia Beach, Virginia, United States"
+     }
+    ]
+   }
+  }
+ }
+}

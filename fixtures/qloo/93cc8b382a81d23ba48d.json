@@ -1,0 +1,932 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "ED7388A1-E004-4FC6-A70E-C6AD990A1B12",
+  "take": 50,
+  "filter.location.query": "Bonner Springs",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Azura Amphitheater",
+     "entity_id": "0DC70FC7-135B-4541-A657-850935CBBF8B",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+19138253400",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0DC70FC7-135B-4541-A657-850935CBBF8B-4mu6pk-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "633 N 130th St Bonner Springs, KS 66012",
+      "geocode": {
+       "city": "Bonner Springs",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Kansas",
+       "admin2_region": "Wyandotte County"
+      },
+      "parking": true,
+      "website": "https://www.azuraamp.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "sandstone",
+        "count": 106
+       },
+       {
+        "name": "renaissance festival",
+        "count": 50
+       },
+       {
+        "name": "shinedown",
+        "count": 32
+       },
+       {
+        "name": "warped tour",
+        "count": 16
+       },
+       {
+        "name": "the foo fighters",
+        "count": 15
+       },
+       {
+        "name": "papa roach",
+        "count": 14
+       },
+       {
+        "name": "hozier",
+        "count": 13
+       },
+       {
+        "name": "jelly roll",
+        "count": 11
+       },
+       {
+        "name": "korn",
+        "count": 10
+       },
+       {
+        "name": "slipknot",
+        "count": 10
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Bonner Springs",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "37DCCD46-A478-40B4-A226-A989D16128DB",
+        "admin_level": 8,
+        "locality_id": "r129556",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Kansas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "B6986363-7AC7-4C13-AEB9-CB5330FC31A0",
+        "admin_level": 4,
+        "locality_id": "r161644",
+        "abbreviation": "Kan.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Wyandotte County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "39389ED1-9E41-4F79-995D-C60341FB941C",
+        "admin_level": 6,
+        "locality_id": "r1070421",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Wyandotte County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "39389ED1-9E41-4F79-995D-C60341FB941C",
+        "admin_level": 6,
+        "locality_id": "r1070421",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Bonner Springs",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "37DCCD46-A478-40B4-A226-A989D16128DB",
+        "admin_level": 8,
+        "locality_id": "r129556",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "66012",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "91150AD2-200A-4147-8626-6A49DD37CF1C",
+        "admin_level": 9,
+        "locality_id": "z66012",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Kansas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "B6986363-7AC7-4C13-AEB9-CB5330FC31A0",
+        "admin_level": 4,
+        "locality_id": "r161644",
+        "abbreviation": "Kan.",
+        "country_code": null
+       }
+      ],
+      "description": "Seasonal open-air amphitheater near Kansas City hosting rock concerts, festivals and events with reserved, VIP and lawn seating for up to 18,000.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:amphitheater",
+       "akas": [
+        {
+         "value": "\"Amfiteata\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0456\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\u179a\u17b6\u1784\u1798\u17bc\u179b\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e1t ngo\u00e0i tr\u1eddi\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u090f\u092e\u094d\u092b\u0940\u0925\u093f\u090f\u091f\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u5706\u5f62\u5267\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Amphitheater\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Amfiteatr\"",
+         "languages": [
+          "pl",
+          "az"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1ter\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Amfiteatras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0985\u09cd\u09af\u09be\u09ae\u09cd\u09ab\u09bf\u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1trum\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0ead\u0eb3\u0e9f\u0eb4\u0ec0\u0e97\u0ec0\u0e95\u0eb5\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05de\u05e4\u05d9\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0c2f\u0c3e\u0c02\u0c2b\u0c3f\u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1tr\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\uc6d0\ud615 \uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Amfite\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03bc\u03c6\u03b9\u03b8\u03ad\u03b1\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Amfiteatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Amfiteatre\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0e2d\u0e31\u0e12\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Amphitheatre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "ru",
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Amphith\u00e9\u00e2tre\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u062f\u0631\u062c\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u044a\u0440\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0430\u0440\"",
+         "languages": [
+          "mk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Anfiteatro\"",
+         "languages": [
+          "gl",
+          "es",
+          "es_ar",
+          "es_la",
+          "pt",
+          "eu",
+          "pt_pt",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u1021\u1019\u103a\u1016\u102e\u101e\u102e\u101a\u102c\u1010\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Amfiteatro\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u5186\u5f62\u5287\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Amfiteater\"",
+         "languages": [
+          "ms",
+          "da",
+          "nb",
+          "sv",
+          "sl",
+          "id",
+          "af",
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10db\u10e4\u10d8\u10d7\u10d4\u10d0\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Amfiteat\u00ebr\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Amfitheater\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Amfitiyatro\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u5713\u5f62\u5287\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Amfiteatar\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Amfiteatru\"",
+         "languages": [
+          "ro"
+         ]
+        }
+       ],
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Seasonal open-air amphitheater near Kansas City hosting rock concerts, festivals and events with reserved, VIP and lawn seating for up to 18,000.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Azura Amphitheater is a premier seasonal open-air venue located near Kansas City, known for hosting major rock concerts, festivals, and community events. With a capacity of up to 18,000, it offers a variety of seating experiences ranging from VIP and reserved sections to an expansive general admission lawn. The venue is a hub for music enthusiasts, providing an energetic atmosphere for summer entertainment in a spacious outdoor setting.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and communal, particularly during high-profile concerts and festivals where music fans gather under the open sky. It provides a quintessential summer concert vibe characterized by a social, outdoor experience.",
+      "amenities_description": "The venue provides tiered seating options including reserved, VIP, and general admission lawn areas, complemented by on-site food and beverage vendors and dedicated security personnel.",
+      "unique_selling_points": "As the largest open-air amphitheater in the Kansas City area, it offers a distinct, high-capacity summer concert experience. The venue is particularly noted for its expansive lawn and its ability to host major national touring acts and festivals.",
+      "neighborhood_description": "The venue is located in a quiet, sprawling area of Bonner Springs that provides a natural, open-air backdrop for large-scale outdoor events.",
+      "physical_setting_description": "Azura Amphitheater is a seasonal, open-air venue situated in a spacious rural setting just west of Kansas City. It features a large sloping lawn and reserved seating areas designed to accommodate thousands of guests.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0DC70FC7-135B-4541-A657-850935CBBF8B-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9982320499862375,
+     "location": {
+      "lat": 39.114045999999995,
+      "lon": -94.87712549999999,
+      "geohash": "9yuw902xfdm3"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:nature_outdoors",
+       "name": "Nature outdoors",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_seating",
+       "name": "Vip seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:beverage_stands",
+       "name": "Beverage stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:concert_focused",
+       "name": "Concert focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:open_air_venue",
+       "name": "Open air venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_stands",
+       "name": "Food stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:natural",
+       "name": "Natural",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lawn_seating",
+       "name": "Lawn seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_stadium",
+       "name": "Open air stadium",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:bonner_springs",
+       "name": "Bonner springs",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:kansas_city",
+       "name": "Kansas city",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:rural",
+       "name": "Rural",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:reserved_seating",
+       "name": "Reserved seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_culture",
+       "name": "Concert culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:suburban_fringe",
+       "name": "Suburban fringe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:festival_attendance",
+       "name": "Festival attendance",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:security",
+       "name": "Security",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:festivals",
+       "name": "Festivals",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.8717090117641739,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "633 N 130th St Bonner Springs, KS 66012",
+     "external": {
+      "google_place": [
+       {
+        "id": "bbb2c7d893ba5ff8",
+        "place_id": "ChIJtxXSNWqPwIcR-F-6k9jHsrs"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "37DCCD46-A478-40B4-A226-A989D16128DB",
+      "name": "Bonner Springs",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.08192678517735,
+       "lon": -94.87767888839505
+      },
+      "popularity": 0.9512474,
+      "disambiguation": "Bonner Springs, Wyandotte County, Kansas, United States"
+     }
+    ]
+   }
+  }
+ }
+}

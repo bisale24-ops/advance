@@ -1,0 +1,34 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "ED7388A1-E004-4FC6-A70E-C6AD990A1B12",
+  "take": 50,
+  "filter.location.query": "The Woodlands, Texas",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "AFB20546-E129-46A8-9B46-F54E5AC12A29",
+      "name": "The Woodlands",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 30.173740325869748,
+       "lon": -95.51338596133158
+      },
+      "popularity": 0.993746,
+      "disambiguation": "The Woodlands, Montgomery County, Texas, United States"
+     }
+    ]
+   }
+  }
+ }
+}

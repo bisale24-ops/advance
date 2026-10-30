@@ -1,0 +1,976 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Camden, New Jersey",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "The 2300 Arena",
+     "entity_id": "23B02230-CAFB-4728-9D18-3AD087BB2225",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+12672730945",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/23B02230-CAFB-4728-9D18-3AD087BB2225-31C4Yj-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2300 S Swanson St Philadelphia, PA 19148",
+      "geocode": {
+       "city": "Philadelphia",
+       "name": "South Philadelphia",
+       "metro": "Philadelphia",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Philadelphia County"
+      },
+      "parking": true,
+      "website": "http://2300arena.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "wrestling",
+        "count": 88
+       },
+       {
+        "name": "boxing",
+        "count": 12
+       },
+       {
+        "name": "fashion show",
+        "count": 10
+       },
+       {
+        "name": "wrestling venue",
+        "count": 4
+       },
+       {
+        "name": "concerts",
+        "count": 12
+       },
+       {
+        "name": "good seats",
+        "count": 8
+       },
+       {
+        "name": "watching fights",
+        "count": 3
+       },
+       {
+        "name": "friendly staff",
+        "count": 29
+       },
+       {
+        "name": "wrestling history",
+        "count": 2
+       },
+       {
+        "name": "small arena",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Philadelphia",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0EEA01C2-D68F-40C7-B5FE-DEF6529569D3",
+        "admin_level": 8,
+        "locality_id": "r188022",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Philadelphia",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "42F4A1B8-A3A2-406F-8C67-E5CF800EA5DE",
+        "admin_level": 12,
+        "locality_id": "0EEA01C2-D68F-40C7-B5FE-DEF6529569D3",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Philadelphia County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FB2C1BB6-291C-4C90-B1FC-9B65B9393490",
+        "admin_level": 6,
+        "locality_id": "r417845",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "South Philadelphia",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "6D27BF97-D5B7-4E09-BFBF-45585B68770B",
+        "admin_level": 10,
+        "locality_id": "r7962835",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Pennsylvania",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D9018829-F596-46FC-B944-611AA25D5AA1",
+        "admin_level": 4,
+        "locality_id": "r162109",
+        "abbreviation": "Pa.",
+        "country_code": null
+       },
+       {
+        "name": "Philadelphia",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "42F4A1B8-A3A2-406F-8C67-E5CF800EA5DE",
+        "admin_level": 12,
+        "locality_id": "0EEA01C2-D68F-40C7-B5FE-DEF6529569D3",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "19148",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "13467907-9700-4B24-A862-0901BC0B9A89",
+        "admin_level": 9,
+        "locality_id": "z19148",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Philadelphia",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "6D27BF97-D5B7-4E09-BFBF-45585B68770B",
+        "admin_level": 10,
+        "locality_id": "r7962835",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Philadelphia County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "FB2C1BB6-291C-4C90-B1FC-9B65B9393490",
+        "admin_level": 6,
+        "locality_id": "r417845",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Philadelphia",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0EEA01C2-D68F-40C7-B5FE-DEF6529569D3",
+        "admin_level": 8,
+        "locality_id": "r188022",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Intimate South Philadelphia indoor arena hosting concerts, boxing, wrestling, and other live-sport events with a strong independent wrestling heritage.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "South Philadelphia",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Intimate South Philadelphia indoor arena hosting concerts, boxing, wrestling, and other live-sport events with a strong independent wrestling heritage.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "2300 Arena is a landmark indoor venue in South Philadelphia known for its deep roots in the professional wrestling circuit and its versatile capabilities for hosting combat sports, concerts, and conventions. The arena offers an intimate experience where the crowd is close to the action, fostering a vibrant and high-energy environment for fans and performers alike. While it provides essential amenities like a full bar and onsite concessions, the venue is most cherished for its historical significance and its role as a premier destination for live independent events. Whether attending a boxing match, a wrestling show, or a large-scale gala, guests can expect a unique and memorable event experience in a space that feels both historic and evolving.",
+      "service_description": null,
+      "ambience_description": "The arena offers a high-energy and intimate atmosphere, characterized by its storied past in professional wrestling. It balances a casual, social vibe with the thrill of live combat sports and concerts, making it feel like a community-focused hub for fans.",
+      "amenities_description": "The venue provides essential amenities including a full-service bar, a snack bar offering basic food options, and an integrated lounge space. Facilities also include accessible restrooms and various parking options, including valet services during major events.",
+      "unique_selling_points": "Widely celebrated as the historic 'Home of ECW,' this venue remains a legendary destination for independent professional wrestling and combat sports. Its intimate layout ensures that virtually every attendee has a clear view of the action.",
+      "neighborhood_description": "Situated in a functional and accessible part of South Philadelphia, the area is known for its cultural heritage and proximity to local food establishments. The neighborhood serves as a convenient hub for sports fans and event-goers visiting the landmark venue.",
+      "physical_setting_description": "An intimate, industrial-style indoor arena located in South Philadelphia that maintains its historic significance as a long-standing venue for sports and live entertainment. The site features an open floor plan, a dedicated lounge area, and an attached restaurant and bar space.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/23B02230-CAFB-4728-9D18-3AD087BB2225-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9955295139372558,
+     "location": {
+      "lat": 39.9180695,
+      "lon": -75.14702249999999,
+      "geohash": "dr4e1fzee7hn"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:cultural_landmark",
+       "name": "Cultural landmark",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:conventions",
+       "name": "Conventions",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:proximity_to_major_highways",
+       "name": "Proximity to major highways",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:combat_sports",
+       "name": "Combat sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:snack_bar",
+       "name": "Snack bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:citizens_bank_park",
+       "name": "Citizens bank park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:lincoln_financial_field",
+       "name": "Lincoln financial field",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:corporate_events",
+       "name": "Corporate events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:subculture_conventions",
+       "name": "Subculture conventions",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stage",
+       "name": "Stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_arena",
+       "name": "Indoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:arena_style",
+       "name": "Arena style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fashion_shows",
+       "name": "Fashion shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:craft_bazaars",
+       "name": "Craft bazaars",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:boxing",
+       "name": "Boxing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wedding_services",
+       "name": "Wedding services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:mma_matches",
+       "name": "Mma matches",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lounge_area",
+       "name": "Lounge area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_wrestling",
+       "name": "Professional wrestling",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:philadelphia_fashion_district",
+       "name": "Philadelphia fashion district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ring_side_view",
+       "name": "Ring side view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:raw",
+       "name": "Raw",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:boxing",
+       "name": "Boxing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:professional_wrestling",
+       "name": "Professional wrestling",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 954.9305068083519,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2300 S Swanson St Philadelphia, PA 19148",
+     "external": {
+      "google_place": [
+       {
+        "id": "ba19c07aacf748b3",
+        "place_id": "ChIJGYBPxqzIxokRs0j3rHrAGbo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "158F7E03-2E40-44AC-995B-04213E9DC66F",
+      "name": "Camden County",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.803547435149106,
+       "lon": -74.95978850974691
+      },
+      "popularity": 0.9976463,
+      "disambiguation": "Camden County, New Jersey, United States"
+     }
+    ]
+   }
+  }
+ }
+}

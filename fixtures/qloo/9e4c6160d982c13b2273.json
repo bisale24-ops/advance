@@ -1,0 +1,2229 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "West Valley City, Utah",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Utah First Credit Union Amphitheatre",
+     "entity_id": "0511B2AB-661E-4DEA-AEDB-B81F4649BF2A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18013555522",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0511B2AB-661E-4DEA-AEDB-B81F4649BF2A-3ZIhHL-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5150 Upper Ridge Rd West Valley City, UT 84118",
+      "geocode": {
+       "city": "West Valley City",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": true,
+      "website": "https://www.utahfirstcreditunionamphitheatre.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "West Valley City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E600BB87-E5F4-4EBE-A761-628751351CB4",
+        "admin_level": 8,
+        "locality_id": "r198761",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "84118",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "50D3DDA4-7840-43BA-9366-EFF473ED1E1F",
+        "admin_level": 9,
+        "locality_id": "z84118",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "West Valley City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E600BB87-E5F4-4EBE-A761-628751351CB4",
+        "admin_level": 8,
+        "locality_id": "r198761",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Eco-friendly outdoor concert venue on the Wasatch Front hosting major touring acts with reserved and lawn seating.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:amphitheater",
+       "akas": [
+        {
+         "value": "\"Amfiteata\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0456\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\u179a\u17b6\u1784\u1798\u17bc\u179b\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e1t ngo\u00e0i tr\u1eddi\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u090f\u092e\u094d\u092b\u0940\u0925\u093f\u090f\u091f\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u5706\u5f62\u5267\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Amphitheater\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Amfiteatr\"",
+         "languages": [
+          "pl",
+          "az"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1ter\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Amfiteatras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0985\u09cd\u09af\u09be\u09ae\u09cd\u09ab\u09bf\u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1trum\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0ead\u0eb3\u0e9f\u0eb4\u0ec0\u0e97\u0ec0\u0e95\u0eb5\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05de\u05e4\u05d9\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0c2f\u0c3e\u0c02\u0c2b\u0c3f\u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1tr\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\uc6d0\ud615 \uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Amfite\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03bc\u03c6\u03b9\u03b8\u03ad\u03b1\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Amfiteatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Amfiteatre\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0e2d\u0e31\u0e12\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Amphitheatre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "ru",
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Amphith\u00e9\u00e2tre\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u062f\u0631\u062c\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u044a\u0440\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0430\u0440\"",
+         "languages": [
+          "mk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Anfiteatro\"",
+         "languages": [
+          "gl",
+          "es",
+          "es_ar",
+          "es_la",
+          "pt",
+          "eu",
+          "pt_pt",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u1021\u1019\u103a\u1016\u102e\u101e\u102e\u101a\u102c\u1010\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Amfiteatro\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u5186\u5f62\u5287\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Amfiteater\"",
+         "languages": [
+          "ms",
+          "da",
+          "nb",
+          "sv",
+          "sl",
+          "id",
+          "af",
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10db\u10e4\u10d8\u10d7\u10d4\u10d0\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Amfiteat\u00ebr\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Amfitheater\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Amfitiyatro\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u5713\u5f62\u5287\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Amfiteatar\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Amfiteatru\"",
+         "languages": [
+          "ro"
+         ]
+        }
+       ],
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Eco-friendly outdoor concert venue on the Wasatch Front hosting major touring acts with reserved and lawn seating.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Utah First Credit Union Amphitheatre is a premier open-air concert venue located along the scenic Wasatch Front, known for hosting major international touring acts. Featuring both reserved seating and a large general admission lawn, the venue offers an expansive, high-energy environment suitable for music enthusiasts of all ages. With recent infrastructure improvements, including larger video monitors and enhanced VIP amenities, it provides a modern and comfortable experience for crowds up to 20,000. It remains a cornerstone for live music in the region, celebrated for its unique combination of acoustic quality and natural beauty.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and social, characterized by an open-air vibe that invites fans to relax and enjoy live music under the sky. It feels welcoming to a diverse crowd, maintaining a balance between a high-energy performance space and a laid-back summer outing.",
+      "amenities_description": "The venue features diverse seating arrangements including reserved chairs and a grassy lawn, supported by large screens for visibility. Guests have access to various food and drink vendors, a full-service bar area, and dedicated VIP facilities to enhance the experience.",
+      "unique_selling_points": "Distinguished by its stunning backdrop of the Wasatch mountains, this large outdoor amphitheatre provides a high-capacity, open-air setting for major national touring acts. Recent upgrades have introduced immersive VIP experiences, expansive food and beverage areas, and advanced audiovisual technology for improved spectator engagement.",
+      "neighborhood_description": "The venue is situated in a spacious suburban setting that provides a relaxed, scenic atmosphere for concert-goers. It functions as a primary entertainment hub for the region while remaining accessible within the larger metropolitan area.",
+      "physical_setting_description": "This outdoor concert venue is nestled in a picturesque location along the Wasatch Front, offering beautiful mountain views. The open-air design provides a sense of spaciousness, with the stage and seating areas oriented to capitalize on the scenic surroundings.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0511B2AB-661E-4DEA-AEDB-B81F4649BF2A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9993924819313985,
+     "location": {
+      "lat": 40.6577811,
+      "lon": -112.03553559999999,
+      "geohash": "9x0r69d0wz2n"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:vip_areas",
+       "name": "Vip areas",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lawn_seating",
+       "name": "Lawn seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_going",
+       "name": "Concert going",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_restrooms",
+       "name": "Public restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:auditorium",
+       "name": "Auditorium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nature_outdoors",
+       "name": "Nature outdoors",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:backyard_grill",
+       "name": "Backyard grill",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:social_networking",
+       "name": "Social networking",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_venue",
+       "name": "Open air venue",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_amphitheatre",
+       "name": "Outdoor amphitheatre",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:nature",
+       "name": "Nature",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:music_festivals",
+       "name": "Music festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:large_video_screens",
+       "name": "Large video screens",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:security",
+       "name": "Security",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:suburban",
+       "name": "Suburban",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:reserved_seating",
+       "name": "Reserved seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:open_air",
+       "name": "Open air",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5150 Upper Ridge Rd West Valley City, UT 84118",
+     "external": {
+      "google_place": [
+       {
+        "id": "335b2f731059605a",
+        "place_id": "ChIJDeIenYaNUocRWmBZEHMvWzM"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Westerner",
+     "entity_id": "1A87EBA7-5527-44F0-AA93-6A08D309ECDD",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T18:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T18:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T18:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T18:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ]
+      },
+      "phone": "+18019725447",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/1A87EBA7-5527-44F0-AA93-6A08D309ECDD-2HOkMH-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "3360 S Redwood Rd West Valley City, UT 84119",
+      "geocode": {
+       "city": "West Valley City",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Utah",
+       "admin2_region": "Salt Lake County"
+      },
+      "parking": true,
+      "website": "http://www.westernerslc.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.8875
+       }
+      ],
+      "keywords": [
+       {
+        "name": "line dancing",
+        "count": 77
+       },
+       {
+        "name": "karaoke",
+        "count": 40
+       },
+       {
+        "name": "live music",
+        "count": 55
+       },
+       {
+        "name": "mechanical bull",
+        "count": 46
+       },
+       {
+        "name": "dance floor",
+        "count": 39
+       },
+       {
+        "name": "country music",
+        "count": 13
+       },
+       {
+        "name": "swing dancing",
+        "count": 21
+       },
+       {
+        "name": "outdoor patio",
+        "count": 3
+       },
+       {
+        "name": "fire pits",
+        "count": 11
+       },
+       {
+        "name": "dance lessons",
+        "count": 15
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "West Valley City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E600BB87-E5F4-4EBE-A761-628751351CB4",
+        "admin_level": 8,
+        "locality_id": "r198761",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "84119",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1A0EA175-B133-4FC4-9D67-198D2736320E",
+        "admin_level": 9,
+        "locality_id": "z84119",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Salt Lake County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "147C0C84-AC61-435A-A5F3-D48A43063E2E",
+        "admin_level": 6,
+        "locality_id": "r1744366",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "West Valley City",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E600BB87-E5F4-4EBE-A761-628751351CB4",
+        "admin_level": 8,
+        "locality_id": "r198761",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Utah",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "CE1E1C3B-0728-4B4E-8C53-36F810D42BA9",
+        "admin_level": 4,
+        "locality_id": "r161993",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Longstanding country dance hall with a full bar, pub eats, live music, mechanical bull, pool and karaoke in West Valley City.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:night_club",
+       "akas": [
+        {
+         "value": "\"No\u0107ni klub\"",
+         "languages": [
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Naktsklubs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u041d\u043e\u0449\u0435\u043d \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"C\u00e2u l\u1ea1c b\u1ed9 \u0111\u00eam\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u00d6\u00f6klubi\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u10e6\u10d0\u10db\u10d8\u10e1 \u10d9\u10da\u10e3\u10d1\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Y\u00f6kerho\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u1780\u17d2\u179b\u17b9\u1794\u1780\u1798\u17d2\u179f\u17b6\u1793\u17d2\u178f\u1796\u17c1\u179b\u1799\u1794\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"No\u010dn\u00fd klub\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Boliche\"",
+         "languages": [
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"Nattklubb\"",
+         "languages": [
+          "sv",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u041d\u043e\u0447\u043d\u043e\u0439 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0e44\u0e19\u0e17\u0e4c\u0e04\u0e25\u0e31\u0e1a\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Club nocturn\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Club de noapte\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Boate\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"No\u010dn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u100a\u1000\u101c\u1015\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u041d\u043e\u045c\u0435\u043d \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Gec\u0259 klubu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Night club\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Discoteca\"",
+         "languages": [
+          "gl",
+          "es_la",
+          "it",
+          "pt_pt",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0b87\u0bb0\u0bb5\u0bc1 \u0bb5\u0bbf\u0b9f\u0bc1\u0ba4\u0bbf\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Nagklub\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05dc\u05d9\u05dc\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Naktinis klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0646\u0627\u062f\u064a \u0644\u064a\u0644\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Gaueko klub\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u00c9jszakai klub\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0c28\u0c48\u0c1f\u0c4d \u0c15\u0c4d\u0c32\u0c2c\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gece kul\u00fcb\u00fc\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0928\u093e\u0907\u091f \u0915\u094d\u0932\u092c\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Klub nate\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u041d\u043e\u045b\u043d\u0438 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Kelab malam\"",
+         "languages": [
+          "ms",
+          "id"
+         ]
+        },
+        {
+         "value": "\"Natklub\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Nachtclub\"",
+         "languages": [
+          "nl",
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u09a8\u09be\u0987\u099f \u0995\u09cd\u09b2\u09be\u09ac\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u30ca\u30a4\u30c8\u30af\u30e9\u30d6\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klabu ya usiku\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u039d\u03c5\u03c7\u03c4\u03b5\u03c1\u03b9\u03bd\u03cc \u03ba\u03ad\u03bd\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0ec4\u0e99\u0e84\u0ea5\u0eb1\u0e9a\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Klub nocny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\ub098\uc774\ud2b8\ud074\ub7fd\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u041d\u0456\u0447\u043d\u0438\u0439 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"No\u010dni klub\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Nightclub\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Bo\u00eete de nuit\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"\u591c\u5e97\"",
+         "languages": [
+          "zh_tw",
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0422\u04af\u043d\u0433\u0456 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "kk"
+         ]
+        }
+       ],
+       "name": "Night club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Longstanding country dance hall with a full bar, pub eats, live music, mechanical bull, pool and karaoke in West Valley City.",
+      "number_of_stations": null,
+      "cuisine_description": "The Westerner offers a traditional bar and grill experience featuring pub grub and classic American favorites, paired with a full bar service that includes beer, wine, cocktails, and spirits.",
+      "overall_description": "Steeped in history as a premier country dance destination since 1962, this expansive venue offers an authentic experience for fans of country music and western dance. The space is well-known for its lively dance floor, regular live music performances, and unique entertainment offerings like mechanical bull rides and various dance lessons. While it provides a full menu of pub eats and a variety of alcoholic beverages, it remains focused on fostering a fun, social environment for locals and visitors alike to enjoy a night out.",
+      "service_description": "The Westerner functions as a long-standing dance hall, bar, and grill, offering dine-in, takeout, and delivery services, along with outdoor seating. It is a hub for nightlife, hosting live music, dance lessons, karaoke, and various recreational activities.",
+      "ambience_description": "The environment is characterized by an upbeat and energetic spirit, centered around a traditional country-western theme that encourages social interaction and dancing.",
+      "amenities_description": "The venue features a expansive dance floor, a full-service bar serving pub fare and cocktails, and various entertainment facilities including pool tables and a mechanical bull.",
+      "unique_selling_points": "As Utah's original country dance hall since 1962, the venue is a historic landmark known for hosting legendary country artists before they gained mainstream fame. It offers a unique combination of free dance lessons, mechanical bull rides, and live country music.",
+      "neighborhood_description": "The surrounding area is primarily a commercial corridor in West Valley City, offering convenient access to local patrons traveling along Redwood Road.",
+      "physical_setting_description": "Located along a major roadway in West Valley City, this venue operates as a long-standing fixture in the local entertainment landscape. Its spacious interior is designed specifically to accommodate a large dance floor and stage for live performances.",
+      "customer_demographics_description": "The establishment attracts a diverse crowd ranging from locals and regular patrons to groups of friends and nightlife enthusiasts interested in dancing, country music, and a lively social atmosphere.",
+      "image": {
+       "url": "https://images.qloo.com/i/1A87EBA7-5527-44F0-AA93-6A08D309ECDD-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.38164077053572654,
+     "location": {
+      "lat": 40.6992887,
+      "lon": -111.9392089,
+      "geohash": "9x0rsc06e3h4"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:pool_hall",
+       "name": "Pool hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:live_music_bar",
+       "name": "Live music bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:regulars",
+       "name": "Regulars",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:10_to_50",
+       "name": "$10 to $50",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar_grill",
+       "name": "Bar + grill",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:bar_games",
+       "name": "Bar games",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:billiards",
+       "name": "Billiards",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:night_club",
+       "name": "Night club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dance_floor",
+       "name": "Dance floor",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:trendy_crowd",
+       "name": "Trendy crowd",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stage",
+       "name": "Stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar_grill",
+       "name": "Bar grill",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:party_goers",
+       "name": "Party goers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:indoor_dance_floor",
+       "name": "Indoor dance floor",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:classic_favorites",
+       "name": "Classic favorites",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:dance_club",
+       "name": "Dance club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_bar",
+       "name": "Live music bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coat_check",
+       "name": "Coat check",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:mechanical_bull",
+       "name": "Mechanical bull",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pub_grub",
+       "name": "Pub grub",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:mechanical_bull_riding",
+       "name": "Mechanical bull riding",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:night_club",
+       "name": "Night club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:steakhouse",
+       "name": "Steakhouse",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pool_tables",
+       "name": "Pool tables",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:dance_club",
+       "name": "Dance club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:dance_hall",
+       "name": "Dance hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pub_grub",
+       "name": "Pub grub",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:dance_hall",
+       "name": "Dance hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:usana_amphitheatre",
+       "name": "Usana amphitheatre",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:dance_hall",
+       "name": "Dance hall",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:pool_hall",
+       "name": "Pool hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:country_music",
+       "name": "Country music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:social_dancing",
+       "name": "Social dancing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:line_dancing",
+       "name": "Line dancing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:country_western",
+       "name": "Country western",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:themed",
+       "name": "Themed",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:55_",
+       "name": "55+",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_entertainment",
+       "name": "Live entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bar_grill",
+       "name": "Bar grill",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:country_western",
+       "name": "Country western",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "3360 S Redwood Rd West Valley City, UT 84119",
+     "external": {
+      "google_place": [
+       {
+        "id": "14fff8f085abfd35",
+        "place_id": "ChIJvWSMWm-LUocRNf2rhfD4_xQ"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "E600BB87-E5F4-4EBE-A761-628751351CB4",
+      "name": "West Valley City",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 40.6885477331671,
+       "lon": -112.01224001660069
+      },
+      "popularity": 0.99453855,
+      "disambiguation": "West Valley City, Salt Lake County, Utah, United States"
+     }
+    ]
+   }
+  }
+ }
+}

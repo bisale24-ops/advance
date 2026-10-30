@@ -1,0 +1,4998 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Milwaukee, WI",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "American Family Field",
+     "entity_id": "787CA3C6-BA8C-4E92-8D66-FFAC88A6E8CC",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+14149024452",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/787CA3C6-BA8C-4E92-8D66-FFAC88A6E8CC-0Erzsf-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1 Brewers Way Milwaukee, WI 53214",
+      "geocode": {
+       "city": "Milwaukee",
+       "name": "Story Hill",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Wisconsin",
+       "admin2_region": "Milwaukee County"
+      },
+      "parking": true,
+      "website": "https://www.mlb.com/brewers/ballpark/events",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "tailgating",
+        "count": 464
+       },
+       {
+        "name": "retractable roof",
+        "count": 202
+       },
+       {
+        "name": "concert",
+        "count": 179
+       },
+       {
+        "name": "friendly staff",
+        "count": 530
+       },
+       {
+        "name": "brewers game",
+        "count": 25
+       },
+       {
+        "name": "sausage race",
+        "count": 32
+       },
+       {
+        "name": "miller park",
+        "count": 10
+       },
+       {
+        "name": "family friendly",
+        "count": 298
+       },
+       {
+        "name": "brats",
+        "count": 97
+       },
+       {
+        "name": "crowd",
+        "count": 78
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Story Hill",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "EA2948D6-A713-4B7F-8F45-0C51480DA94A",
+        "admin_level": 10,
+        "locality_id": "r5944541",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "53214",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "AFF24B90-FE89-4BDF-B716-A9392BCA2208",
+        "admin_level": 9,
+        "locality_id": "z53214",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Story Hill",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "EA2948D6-A713-4B7F-8F45-0C51480DA94A",
+        "admin_level": 10,
+        "locality_id": "r5944541",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Modern baseball stadium with a retractable roof serving as the home field for the Milwaukee Brewers and hosting concerts, events, and tours.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Story Hill",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Modern baseball stadium with a retractable roof serving as the home field for the Milwaukee Brewers and hosting concerts, events, and tours.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "American Family Field is a premier, multi-purpose baseball stadium in Milwaukee, known for its massive scale and distinctive retractable roof that ensures comfortable year-round events. It offers a unique fan experience centered on a rich local tailgating culture, high-quality concessions, and various interactive activities like stadium tours and the famous mascot slide. The venue is highly regarded for its accessibility, cleanliness, and the friendly, efficient staff that support both sporting events and large-scale private gatherings.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is vibrant and social, especially during game days, with a clean and well-maintained facility that blends modern amenities with a historic feel. It provides a comfortable environment for fans and event-goers alike, fostering a strong sense of community.",
+      "amenities_description": "The facility offers comprehensive amenities including a wide variety of food and beverage options, clean restrooms, specialized club-level seating, and dedicated spaces for events. Guests can also enjoy unique experiences like stadium tours and interactive features like the mascot's slide.",
+      "unique_selling_points": "The stadium is defined by its iconic retractable roof and the legendary Bernie's Slide, which celebrates home runs in style. It is also highly regarded for its deep-rooted tailgating culture and exceptionally clean, spacious facilities.",
+      "neighborhood_description": "The surrounding area is characterized by its convenience and function as a major entertainment hub, particularly noted for the vibrant tailgating culture that permeates the parking lots before events.",
+      "physical_setting_description": "A massive, modern baseball stadium featuring a retractable roof and expansive grounds. It is set within a primarily commercial area, with proximity to the city and a spacious surrounding parking environment that facilitates traditional pre-game tailgating.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/787CA3C6-BA8C-4E92-8D66-FFAC88A6E8CC-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9980489216414986,
+     "location": {
+      "lat": 43.0284222,
+      "lon": -87.9716492,
+      "geohash": "dp9ky1j48p2n"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bernie_s_slide",
+       "name": "Bernies slide",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ballpark_tours",
+       "name": "Ballpark tours",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:smoking_area",
+       "name": "Smoking area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:multi_purpose_venue",
+       "name": "Multi purpose venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_services",
+       "name": "Event services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:retractable_roof",
+       "name": "Retractable roof",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:helfaer_field",
+       "name": "Helfaer field",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:baseball_stadium",
+       "name": "Baseball stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:barbecue",
+       "name": "Barbecue",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:suites",
+       "name": "Suites",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_stores",
+       "name": "Team stores",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:catering",
+       "name": "Catering",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:tailgating_focused",
+       "name": "Tailgating focused",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:baseball_themed",
+       "name": "Baseball themed",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lots",
+       "name": "Parking lots",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:miller_brewery",
+       "name": "Miller brewery",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:chill",
+       "name": "Chill",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_spaces",
+       "name": "Event spaces",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:club_level",
+       "name": "Club level",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:playground",
+       "name": "Playground",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_sports",
+       "name": "Local sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.6674882721335544
+      }
+     },
+     "disambiguation": "1 Brewers Way Milwaukee, WI 53214",
+     "external": {
+      "google_place": [
+       {
+        "id": "c1b447de9450d0b4",
+        "place_id": "ChIJ9XP-qlkaBYgRtNBQlN5HtME"
+       }
+      ]
+     }
+    },
+    {
+     "name": "UW-Milwaukee Panther Arena",
+     "entity_id": "6A412797-BACC-4E59-A67C-F40DCC8E9598",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+14149086000",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/6A412797-BACC-4E59-A67C-F40DCC8E9598-11r1ul-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "400 W Kilbourn Ave Milwaukee, WI 53203",
+      "geocode": {
+       "city": "Milwaukee",
+       "name": "Theater District",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Wisconsin",
+       "admin2_region": "Milwaukee County"
+      },
+      "parking": true,
+      "website": "https://uwmilwaukeepantherarena.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "hockey game",
+        "count": 177
+       },
+       {
+        "name": "graduation",
+        "count": 93
+       },
+       {
+        "name": "concert",
+        "count": 66
+       },
+       {
+        "name": "friendly staff",
+        "count": 74
+       },
+       {
+        "name": "comfortable seats",
+        "count": 25
+       },
+       {
+        "name": "crowd",
+        "count": 24
+       },
+       {
+        "name": "playoff hockey",
+        "count": 8
+       },
+       {
+        "name": "old school arena",
+        "count": 5
+       },
+       {
+        "name": "leg room",
+        "count": 7
+       },
+       {
+        "name": "metal detectors",
+        "count": 5
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Theater District",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "938553EC-3A88-47DF-B304-BBFACD954574",
+        "admin_level": 10,
+        "locality_id": "r14958381",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "53203",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1C1276EB-6D3D-4E65-81A8-AE5E30A65258",
+        "admin_level": 9,
+        "locality_id": "z53203",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Theater District",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "938553EC-3A88-47DF-B304-BBFACD954574",
+        "admin_level": 10,
+        "locality_id": "r14958381",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Westown",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "80C218D9-9B3C-43D0-BA90-8A20293465E7",
+        "admin_level": 10,
+        "locality_id": "r5970147",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Historic 12,700-seat downtown arena hosting college basketball, AHL hockey, arena soccer, concerts, and large-scale events with flexible event spaces.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Theater District",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Historic 12,700-seat downtown arena hosting college basketball, AHL hockey, arena soccer, concerts, and large-scale events with flexible event spaces.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "UW-Milwaukee Panther Arena is a historic, multi-purpose venue in downtown Milwaukee that serves as a beloved home for local sports teams, including the AHL Milwaukee Admirals, MASL Milwaukee Wave, and UWM college basketball. Despite its age, the facility is well-maintained and highly regarded for its excellent sightlines, ensuring a great view from any seat in the house. In addition to regular sports seasons, the arena hosts a variety of concerts, large-scale events, and family-friendly entertainment. Its central location and vibrant atmosphere make it a staple of Milwaukee's urban entertainment scene.",
+      "service_description": null,
+      "ambience_description": "The arena offers an energetic and welcoming atmosphere where fans can enjoy high-paced sporting events and live entertainment in a classic, historic setting.",
+      "amenities_description": "The arena provides essential guest facilities including a variety of food and beverage concessions, an official team gift shop, and functional, well-maintained restrooms to ensure a comfortable experience for attendees.",
+      "unique_selling_points": "As Milwaukee's iconic original sports complex, the arena offers an intimate viewing experience where there is effectively no bad seat in the house. It is the proud home of high-energy local teams including AHL hockey, MASL soccer, and collegiate basketball.",
+      "neighborhood_description": "Situated in the vibrant downtown area, the arena is surrounded by local attractions, restaurants, and hotels, making it a highly accessible and walkable destination for visitors.",
+      "physical_setting_description": "The UW-Milwaukee Panther Arena is a historic indoor sports and entertainment complex located in the heart of downtown Milwaukee. It features a classic design that has been well-maintained over the decades while serving as a central hub for professional and collegiate sports.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/6A412797-BACC-4E59-A67C-F40DCC8E9598-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9968500438876551,
+     "location": {
+      "lat": 43.042227499999996,
+      "lon": -87.9168359,
+      "geohash": "dp9kz7sgjhuz"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:court",
+       "name": "Court",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:gift_shop",
+       "name": "Gift shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:college_basketball",
+       "name": "College basketball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:indoor_soccer",
+       "name": "Indoor soccer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:reservable_parking",
+       "name": "Reservable parking",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:miller_high_life_theatre",
+       "name": "Miller high life theatre",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sporty",
+       "name": "Sporty",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hockey",
+       "name": "Hockey",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:downtown",
+       "name": "Downtown",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:wrestling",
+       "name": "Wrestling",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:soccer",
+       "name": "Soccer",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor",
+       "name": "Arena floor",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_arena",
+       "name": "Indoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_spaces",
+       "name": "Event spaces",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:fiserv_forum",
+       "name": "Fiserv forum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:basketball",
+       "name": "Basketball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:retro",
+       "name": "Retro",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_performance",
+       "name": "Live performance",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_entrances",
+       "name": "Accessible entrances",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ice_rink",
+       "name": "Ice rink",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "400 W Kilbourn Ave Milwaukee, WI 53203",
+     "external": {
+      "google_place": [
+       {
+        "id": "b9dc31043adff",
+        "place_id": "ChIJV-rH9XQZBYgR_61DEMOdCwA"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Al McGuire Center",
+     "entity_id": "96AEF691-6170-40C5-A073-68F30622D4E3",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+14142886303",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/96AEF691-6170-40C5-A073-68F30622D4E3-1tai51-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "770 N 12th St Milwaukee, WI 53233",
+      "geocode": {
+       "city": "Milwaukee",
+       "name": "Avenues West",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Wisconsin",
+       "admin2_region": "Milwaukee County"
+      },
+      "parking": true,
+      "website": "https://gomarquette.com/facilities/%3Fid%3D1",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "game",
+        "count": 13
+       },
+       {
+        "name": "basketball",
+        "count": 11
+       },
+       {
+        "name": "concession",
+        "count": 3
+       },
+       {
+        "name": "school",
+        "count": 3
+       },
+       {
+        "name": "facility",
+        "count": 2
+       },
+       {
+        "name": "parking garage",
+        "count": 2
+       },
+       {
+        "name": "cash",
+        "count": 2
+       },
+       {
+        "name": "lighting",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Avenues West",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "8E9A4E67-26FA-4D5A-B8EB-364EB36FF01D",
+        "admin_level": 10,
+        "locality_id": "r7210096",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Avenues West",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "8E9A4E67-26FA-4D5A-B8EB-364EB36FF01D",
+        "admin_level": 10,
+        "locality_id": "r7210096",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Near West Side",
+        "place": "suburb",
+        "boundary": "administrative",
+        "entity_id": "5B90BD94-BE5F-43CE-92BA-1D71BA09261D",
+        "admin_level": 10,
+        "locality_id": "r18096025",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "53233",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4820F02F-86CD-405E-B29D-2CF207B42A55",
+        "admin_level": 9,
+        "locality_id": "z53233",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "University Hill",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "6B30B0FE-AAC7-4A3F-A3C7-38738E6BAFE0",
+        "admin_level": 10,
+        "locality_id": "r6011176",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "On-campus Marquette University athletics facility featuring indoor volleyball courts, a practice gym, and fitness and training support spaces.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Avenues West",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "On-campus Marquette University athletics facility featuring indoor volleyball courts, a practice gym, and fitness and training support spaces.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Al McGuire Center serves as a premier athletic facility for Marquette University, specifically designed to support volleyball programs and general student-athlete training. Beyond its functional role, the arena acts as a shrine to university athletic history, featuring extensive memorabilia that creates a proud and spirited environment. It serves as a focal point for university sports culture and competitive events in the heart of the campus.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and focused, reflecting the intense spirit of collegiate athletics. It feels professional and well-maintained, serving as a hub for both training and tournament play.",
+      "amenities_description": "The facility provides high-quality athletic amenities including dedicated volleyball courts, a practice gym, and comprehensive fitness and training support areas.",
+      "unique_selling_points": "The center is uniquely distinguished by its significant collection of wall-to-wall Marquette University athletics memorabilia, providing an immersive experience for fans of the program.",
+      "neighborhood_description": "The center is situated within the bustling Marquette University campus, surrounded by collegiate buildings and student-focused facilities.",
+      "physical_setting_description": "Located on the Marquette University campus, this athletic facility houses indoor volleyball courts and training spaces. The interior features extensive university-themed memorabilia celebrating local sports history.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/96AEF691-6170-40C5-A073-68F30622D4E3-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9112470148779708,
+     "location": {
+      "lat": 43.039633699999996,
+      "lon": -87.92694709999999,
+      "geohash": "dp9kz5js197j"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:urban_campus",
+       "name": "Urban campus",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:volleyball_court",
+       "name": "Volleyball court",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fitness_center",
+       "name": "Fitness center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:physical_training",
+       "name": "Physical training",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:academic",
+       "name": "Academic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tournament_hosting",
+       "name": "Tournament hosting",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_management",
+       "name": "Event management",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:university_branding",
+       "name": "University branding",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_milwaukee",
+       "name": "Downtown milwaukee",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:athletic",
+       "name": "Athletic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_history",
+       "name": "Sports history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:school_spirit",
+       "name": "School spirit",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:practice_gym",
+       "name": "Practice gym",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:gym",
+       "name": "Gym",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:business_friendly",
+       "name": "Business friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:indoor_arena_view",
+       "name": "Indoor arena view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:athletic_training",
+       "name": "Athletic training",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sports_themed",
+       "name": "Sports themed",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:volleyball_court",
+       "name": "Volleyball court",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:college_sports",
+       "name": "College sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:athletic_facility",
+       "name": "Athletic facility",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:volleyball_courts",
+       "name": "Volleyball courts",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:locker_rooms",
+       "name": "Locker rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:training_rooms",
+       "name": "Training rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:marquette_university_campus",
+       "name": "Marquette university campus",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:gym",
+       "name": "Gym",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_arena",
+       "name": "Sports arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:student_life",
+       "name": "Student life",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:personal_care",
+       "name": "Personal care",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "770 N 12th St Milwaukee, WI 53233",
+     "external": {
+      "google_place": [
+       {
+        "id": "ace04c0864630b6",
+        "place_id": "ChIJn00Hg3gZBYgRtjBGhsAEzgo"
+       }
+      ]
+     }
+    },
+    {
+     "name": "MSOE Kern Center",
+     "entity_id": "9BF247E7-65A6-4C7F-A081-4B2FE56EC991",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T06:30:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T06:30:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T06:30:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T06:30:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T06:30:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ]
+      },
+      "phone": "+14142772850",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/9BF247E7-65A6-4C7F-A081-4B2FE56EC991-31wp4V-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1245 N Broadway Milwaukee, WI 53202",
+      "geocode": {
+       "city": "Milwaukee",
+       "name": "Juneautown",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Wisconsin",
+       "admin2_region": "Milwaukee County"
+      },
+      "parking": true,
+      "website": "https://www.msoe.edu/kern-center/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "game",
+        "count": 11
+       },
+       {
+        "name": "rink",
+        "count": 10
+       },
+       {
+        "name": "hockey",
+        "count": 6
+       },
+       {
+        "name": "school",
+        "count": 6
+       },
+       {
+        "name": "chili",
+        "count": 5
+       },
+       {
+        "name": "equipment",
+        "count": 4
+       },
+       {
+        "name": "campus",
+        "count": 4
+       },
+       {
+        "name": "basketball",
+        "count": 4
+       },
+       {
+        "name": "building",
+        "count": 4
+       },
+       {
+        "name": "university",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Juneautown",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "3A947809-2C42-4F11-AE03-5C812F37A960",
+        "admin_level": 10,
+        "locality_id": "r5908799",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Juneautown",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "3A947809-2C42-4F11-AE03-5C812F37A960",
+        "admin_level": 10,
+        "locality_id": "r5908799",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "53202",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "AB7950D6-82FA-4F1D-A710-4A2A1E25BA39",
+        "admin_level": 9,
+        "locality_id": "z53202",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Park East",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "A05794AF-B0E5-4DB3-80AC-50DCA5EA48D5",
+        "admin_level": 10,
+        "locality_id": "r7332916",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large campus recreation and athletics complex with ice arena, field house, fitness center, and running track serving MSOE students, faculty, and athletes.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Juneautown",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:sports_complex",
+       "akas": [
+        {
+         "value": "\"Khu li\u00ean h\u1ee3p th\u1ec3 thao\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u4e2d\u5fc3\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Complesso sportivo\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0bb5\u0bb3\u0bbe\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Sportskompleks\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0438\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Complexo esportivo\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Spordikompleks\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Kompleks sukan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Sportcomplex\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Sporta komplekss\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0160portni kompleks\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Spor kompleksi\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u09aa\u09cb\u09b0\u09cd\u099f\u09b8 \u0995\u09ae\u09aa\u09cd\u09b2\u09c7\u0995\u09cd\u09b8\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03b8\u03bb\u03b7\u03c4\u03b9\u03ba\u03cc \u03ba\u03ad\u03bd\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u904b\u52d5\u4e2d\u5fc3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0160portov\u00fd komplex\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0c15\u0c4d\u0c30\u0c40\u0c21\u0c3e \u0c38\u0c2e\u0c41\u0c26\u0c3e\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05ea\u05d7\u05dd \u05e1\u05e4\u05d5\u05e8\u05d8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Idrettsanlegg\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Sports complex\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Urheilukeskus\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Sportk\u00f6zpont\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Uwanja wa michezo\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Sportkomplex\"",
+         "languages": [
+          "de",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Kompleks sportiv\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Sportkompleks\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u0645\u062c\u0645\u0639 \u0631\u064a\u0627\u0636\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\uc2a4\ud3ec\uce20 \ucf64\ud50c\ub809\uc2a4\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Sportanlage\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u0130dman kompleksi\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442 \u043a\u0435\u0448\u0435\u043d\u0456\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Kompleks olahraga\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Sporto kompleksas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Complexo deportivo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Complejo deportivo\"",
+         "languages": [
+          "es",
+          "es_la",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"Kirol-gunea\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0435\u043d \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Sportovn\u00ed komplex\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Complexe sportif\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0421\u043f\u043e\u0440\u0442\u0441\u043a\u0438 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\"",
+         "languages": [
+          "mk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Complexo desportivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10de\u10dd\u10e0\u10e2\u10e3\u10da\u10d8 \u10d9\u10dd\u10db\u10de\u10da\u10d4\u10e5\u10e1\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Sportski kompleks\"",
+         "languages": [
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Complex esportiu\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0916\u0947\u0932 \u092a\u0930\u093f\u0938\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Complex sportiv\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Kompleks sportowy\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30dd\u30fc\u30c4\u8907\u5408\u65bd\u8a2d\"",
+         "languages": [
+          "ja"
+         ]
+        }
+       ],
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large campus recreation and athletics complex with ice arena, field house, fitness center, and running track serving MSOE students, faculty, and athletes.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The MSOE Kern Center is a prominent 210,000-square-foot athletic and wellness facility serving both the university community and the public in downtown Milwaukee. It houses diverse amenities including an ice arena, field house, multi-floor fitness center, and health services. Renowned for its clean, modern, and well-maintained environment, it hosts everything from collegiate sports and private workouts to community fundraisers and robotics competitions. The center stands as a central hub for health, education, and social gatherings within the city.",
+      "service_description": null,
+      "ambience_description": "The center offers a clean, modern, and high-energy environment that caters to a diverse range of fitness and community activities. It strikes a balance between a high-functioning athletic space and a welcoming community hub.",
+      "amenities_description": "The facility is fully equipped with professional-grade athletic amenities, including a comprehensive fitness center, ice arena, field house, and dedicated health and counseling services.",
+      "unique_selling_points": "As a premier NCAA Division III athletic and wellness complex, it uniquely combines university-level sports facilities with broader community access in a modern, well-maintained downtown setting.",
+      "neighborhood_description": "Situated in a central, accessible area of Milwaukee, the facility benefits from a convenient urban location that is easily reachable for students, local athletes, and event attendees.",
+      "physical_setting_description": "The Kern Center is a sprawling, 210,000-square-foot multi-use facility located in the heart of a university campus in downtown Milwaukee. It features a wide variety of state-of-the-art sports and athletic spaces under one roof.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/9BF247E7-65A6-4C7F-A081-4B2FE56EC991-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.8638992370642855,
+     "location": {
+      "lat": 43.046655799999996,
+      "lon": -87.9089499,
+      "geohash": "dp9kzs6suyx6"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:university_life",
+       "name": "University life",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_arena",
+       "name": "Ice arena",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:basketball_arena",
+       "name": "Basketball arena",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:exhibitions",
+       "name": "Exhibitions",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:athletic_complex",
+       "name": "Athletic complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:ice_hockey_rink",
+       "name": "Ice hockey rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:academic",
+       "name": "Academic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:indoor_sports_arenas",
+       "name": "Indoor sports arenas",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:wellness",
+       "name": "Wellness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:personal_wellness",
+       "name": "Personal wellness",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:personal_care",
+       "name": "Personal care",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fitness_training",
+       "name": "Fitness training",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:gym",
+       "name": "Gym",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fitness_center",
+       "name": "Fitness center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wheelchair_accessible",
+       "name": "Wheelchair accessible",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:health_services",
+       "name": "Health services",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wrestling_room",
+       "name": "Wrestling room",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:well_maintained",
+       "name": "Well maintained",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:efficient",
+       "name": "Efficient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ice_skating",
+       "name": "Ice skating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:running_track",
+       "name": "Running track",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:counseling_services",
+       "name": "Counseling services",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:downtown",
+       "name": "Downtown",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_athletic",
+       "name": "Industrial athletic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:early_morning",
+       "name": "Early morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:milwaukee_school_of_engineering_campus",
+       "name": "Milwaukee school of engineering campus",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:weight_training_area",
+       "name": "Weight training area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:minimalist",
+       "name": "Minimalist",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:locker_rooms",
+       "name": "Locker rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:ice_hockey_rink",
+       "name": "Ice hockey rink",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:field_house",
+       "name": "Field house",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cardio_area",
+       "name": "Cardio area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:gym",
+       "name": "Gym",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1245 N Broadway Milwaukee, WI 53202",
+     "external": {
+      "google_place": [
+       {
+        "id": "a6663c4d5ef9bbee",
+        "place_id": "ChIJUehMgQ4ZBYgR7rv5Xk08ZqY"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fiserv Forum",
+     "entity_id": "37381E53-FB66-43C7-89DD-C881F54216FB",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+14142270511",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/37381E53-FB66-43C7-89DD-C881F54216FB-2e1tan-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1111 N Vel R. Phillips Ave Milwaukee, WI 53203",
+      "geocode": {
+       "city": "Milwaukee",
+       "name": "Westown",
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Wisconsin",
+       "admin2_region": "Milwaukee County"
+      },
+      "parking": true,
+      "website": "https://www.fiservforum.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "venue",
+        "count": 214
+       },
+       {
+        "name": "vendors",
+        "count": 53
+       },
+       {
+        "name": "trans siberian orchestra",
+        "count": 33
+       },
+       {
+        "name": "monster jam",
+        "count": 32
+       },
+       {
+        "name": "disney on ice",
+        "count": 29
+       },
+       {
+        "name": "metallica",
+        "count": 26
+       },
+       {
+        "name": "escalators",
+        "count": 26
+       },
+       {
+        "name": "playoffs",
+        "count": 25
+       },
+       {
+        "name": "elton john",
+        "count": 19
+       },
+       {
+        "name": "skywalk",
+        "count": 10
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Westown",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "80C218D9-9B3C-43D0-BA90-8A20293465E7",
+        "admin_level": 10,
+        "locality_id": "r5970147",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Wisconsin",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "0F3A3477-21B3-4866-8721-8ACF4F029A3E",
+        "admin_level": 4,
+        "locality_id": "r165466",
+        "abbreviation": "Wis.",
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+        "admin_level": 6,
+        "locality_id": "r270623",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "53203",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1C1276EB-6D3D-4E65-81A8-AE5E30A65258",
+        "admin_level": 9,
+        "locality_id": "z53203",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Westown",
+        "place": "quarter",
+        "boundary": "administrative",
+        "entity_id": "80C218D9-9B3C-43D0-BA90-8A20293465E7",
+        "admin_level": 10,
+        "locality_id": "r5970147",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Deer District",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "1F332E77-8977-490D-8BAC-DBBA6D6F1801",
+        "admin_level": 10,
+        "locality_id": "r9453530",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Park East",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "A05794AF-B0E5-4DB3-80AC-50DCA5EA48D5",
+        "admin_level": 10,
+        "locality_id": "r7332916",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Milwaukee",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0B5E34CB-1668-44D6-8DF9-A54BD22BA9EC",
+        "admin_level": 8,
+        "locality_id": "r251075",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Major downtown arena hosting NBA games, large concerts, and premium club experiences, with an on-site Ticketmaster box office and ample parking.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Westown",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Major downtown arena hosting NBA games, large concerts, and premium club experiences, with an on-site Ticketmaster box office and ample parking.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Fiserv Forum is a modern, world-class arena located in downtown Milwaukee, serving as the official home of the Milwaukee Bucks. The venue is celebrated for its clean, state-of-the-art facilities, excellent seating sightlines, and high-quality production values for concerts and sporting events. Equipped with automated amenities and diverse food and beverage options, it offers a streamlined experience for visitors. Whether attending an NBA game or a major music tour, guests consistently appreciate the high-tech atmosphere and professional service.",
+      "service_description": null,
+      "ambience_description": "The venue offers a sleek, modern atmosphere that is both clean and highly organized. It maintains an energized and exciting vibe during major sporting events and large-scale concerts.",
+      "amenities_description": "The facility features high-tech amenities including automated food kiosks, various bar and dining options, and accessible seating arrangements. Numerous restrooms and merchandise points are positioned throughout the arena to manage large crowds efficiently.",
+      "unique_selling_points": "As the premier home of the Milwaukee Bucks, this state-of-the-art arena is known for its exceptional sightlines from every seat and a high-end, modern interior. Its integrated digital experience, from automated ordering to advanced sound and lighting systems, creates a top-tier event experience.",
+      "neighborhood_description": "The arena is situated in a vibrant, walkable downtown area filled with surrounding parking facilities, hotels, and urban amenities. It serves as a central anchor for the city's sports and entertainment district.",
+      "physical_setting_description": "Fiserv Forum is a state-of-the-art, modern arena located in the heart of downtown Milwaukee. It serves as a central hub for major sports and entertainment within an accessible urban environment.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/37381E53-FB66-43C7-89DD-C881F54216FB-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 43.0450802,
+      "lon": -87.9173862,
+      "geohash": "dp9kzkheb2gk"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_milwaukee",
+       "name": "Downtown milwaukee",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sophisticated",
+       "name": "Sophisticated",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_booths",
+       "name": "Merchandise booths",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_entertainment",
+       "name": "Urban entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energy_filled",
+       "name": "Energy filled",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_planning",
+       "name": "Urban planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:downtown_arena",
+       "name": "Downtown arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:state_of_the_art",
+       "name": "State of the art",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:skywalk",
+       "name": "Skywalk",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energized",
+       "name": "Energized",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ada_accessible_seating",
+       "name": "Ada accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lcd_screens",
+       "name": "Lcd screens",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:culinary_exploration",
+       "name": "Culinary exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bars",
+       "name": "Bars",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_store",
+       "name": "Team store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:event_district",
+       "name": "Event district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:state_of_the_art",
+       "name": "State of the art",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:deer_district",
+       "name": "Deer district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_wi_fi",
+       "name": "Public wi fi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:club_lounges",
+       "name": "Club lounges",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:box_office",
+       "name": "Box office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_touring",
+       "name": "Concert touring",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:newly_developed",
+       "name": "Newly developed",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_photography",
+       "name": "Event photography",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:national_bobblehead_hall_of_fame_and_museum",
+       "name": "National bobblehead hall of fame and museum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:milwaukee_riverwalk",
+       "name": "Milwaukee riverwalk",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_clubs",
+       "name": "Vip clubs",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_kiosks",
+       "name": "Food kiosks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1111 N Vel R. Phillips Ave Milwaukee, WI 53203",
+     "external": {
+      "google_place": [
+       {
+        "id": "e5361394957bf3d6",
+        "place_id": "ChIJcT3-inQZBYgRu3myuupgryA"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "2960BAD5-B4A3-4243-A2DF-689EA747665D",
+      "name": "Milwaukee County",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 43.01555056658815,
+       "lon": -87.58039145381467
+      },
+      "popularity": 0.9987836,
+      "disambiguation": "Milwaukee County, Wisconsin, United States"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,4550 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Orlando, Florida",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Kia Center",
+     "entity_id": "E2FCCE3D-8D06-48E9-A191-704DD43D8956",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+14074407900",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/E2FCCE3D-8D06-48E9-A191-704DD43D8956-47OqYO-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "400 W Church St Orlando, FL 32801",
+      "geocode": {
+       "city": "Orlando",
+       "name": "Parramore",
+       "metro": "Orlando",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Orange County"
+      },
+      "parking": true,
+      "website": "https://www.kiacenter.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "32805",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "F91AA594-C297-4877-9B64-A93118A6DDE5",
+        "admin_level": 9,
+        "locality_id": "z32805",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Downtown Orlando arena hosting the NBA's Orlando Magic, concerts, and large-scale sporting events with diverse food vendors and premium seating.",
+      "hotel_class": null,
+      "price_level": 3,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Parramore",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Downtown Orlando arena hosting the NBA's Orlando Magic, concerts, and large-scale sporting events with diverse food vendors and premium seating.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Kia Center is a state-of-the-art arena located in downtown Orlando, serving as a premier venue for professional sports, including the Orlando Magic and Solar Bears, as well as major concerts and live shows. The facility is praised for its modern, clean infrastructure, wide concourses, and efficient crowd management, making it a popular destination for both local fans and visiting tourists. While visitors note that food and ticket prices can be high, the overall experience is consistently described as professional and highly entertaining, supported by a friendly and helpful staff. Its convenient location and connectivity to parking garages via pedestrian bridges further enhance its appeal as a central hub for city entertainment.",
+      "service_description": null,
+      "ambience_description": "The arena offers an electric and high-energy atmosphere during events, bolstered by a welcoming and helpful staff. The facility maintains a grand, modern feel that feels both well-organized and vibrant.",
+      "amenities_description": "The venue features a wide variety of concession stands, premium seating options, and accessible facilities, including transcripts for the hearing impaired. Conveniently linked to local parking garages via pedestrian bridges, the arena is designed to manage high volumes of visitors efficiently.",
+      "unique_selling_points": "As the home of the Orlando Magic, the arena is famous for its electric atmosphere and high-quality sightlines from almost every seat. It also serves as a premier destination for major concerts and events, featuring a dedicated Hall of Fame display.",
+      "neighborhood_description": "The surrounding downtown area is a lively district characterized by high levels of activity, especially on event nights. It features proximity to various bars, stadiums, and city infrastructure, creating a dense urban environment.",
+      "physical_setting_description": "Located in the heart of downtown Orlando, this multi-purpose arena is a prominent landmark surrounded by city streets and parking garages. It serves as a central hub for entertainment, easily accessible via pedestrian bridges from nearby parking structures.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/E2FCCE3D-8D06-48E9-A191-704DD43D8956-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9999206939115582,
+     "location": {
+      "lat": 28.5392214,
+      "lon": -81.3838535,
+      "geohash": "djn4k56j4b75"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:major_public_events",
+       "name": "Major public events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:team_spirit",
+       "name": "Team spirit",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor",
+       "name": "Arena floor",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_production",
+       "name": "Event production",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stadium_style",
+       "name": "Stadium style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:camping_world_stadium",
+       "name": "Camping world stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:inter_co_stadium",
+       "name": "Inter co stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lockers",
+       "name": "Lockers",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:downtown",
+       "name": "Downtown",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:church_street",
+       "name": "Church street",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:grand",
+       "name": "Grand",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:corporate_events",
+       "name": "Corporate events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:hall_of_fame_display",
+       "name": "Hall of fame display",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:premium_seating",
+       "name": "Premium seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:hearing_impaired_transcripts",
+       "name": "Hearing impaired transcripts",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_culture",
+       "name": "Sports culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_tourism",
+       "name": "Urban tourism",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hockey_games",
+       "name": "Hockey games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_bridge",
+       "name": "Parking bridge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:city_life",
+       "name": "City life",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessibility_features",
+       "name": "Accessibility features",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:expensive",
+       "name": "Expensive",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:geico_garage",
+       "name": "Geico garage",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:court_view",
+       "name": "Court view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:basketball_games",
+       "name": "Basketball games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:upbeat",
+       "name": "Upbeat",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_basketball",
+       "name": "Professional basketball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:transcripts_for_hearing_impaired",
+       "name": "Transcripts for hearing impaired",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -0.23638968624924625
+      }
+     },
+     "disambiguation": "400 W Church St Orlando, FL 32801",
+     "external": {
+      "google_place": [
+       {
+        "id": "f7c90b9225939190",
+        "place_id": "ChIJVcr7Ufp654gRkJGTJZILyfc"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Camping World Stadium",
+     "entity_id": "FFDB8FCE-8BBF-4648-8B64-640CC6065F80",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+14074405700",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/FFDB8FCE-8BBF-4648-8B64-640CC6065F80-0uP7lm-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1 Citrus Bowl Place Orlando, FL 32805",
+      "geocode": {
+       "city": "Orlando",
+       "name": null,
+       "metro": "Orlando",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Orange County"
+      },
+      "parking": true,
+      "website": "http://www.campingworldstadium.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "garth brooks concert",
+        "count": 26
+       },
+       {
+        "name": "def leppard",
+        "count": 22
+       },
+       {
+        "name": "helpful staff",
+        "count": 167
+       },
+       {
+        "name": "paul mccartney concert",
+        "count": 23
+       },
+       {
+        "name": "monster jam",
+        "count": 135
+       },
+       {
+        "name": "bleachers",
+        "count": 26
+       },
+       {
+        "name": "karol g concert",
+        "count": 12
+       },
+       {
+        "name": "bowl game",
+        "count": 73
+       },
+       {
+        "name": "traffic",
+        "count": 125
+       },
+       {
+        "name": "renovations",
+        "count": 75
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "32805",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "F91AA594-C297-4877-9B64-A93118A6DDE5",
+        "admin_level": 9,
+        "locality_id": "z32805",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Large multi-purpose outdoor stadium in Orlando seating over 65,000, hosting concerts, soccer, football, and major events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large multi-purpose outdoor stadium in Orlando seating over 65,000, hosting concerts, soccer, football, and major events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Camping World Stadium is a prominent, multi-purpose outdoor venue in Orlando known for hosting large-scale events, including professional football, international soccer matches, and major concerts. With a seating capacity exceeding 65,000, it serves as a central entertainment hub that offers a classic, open-air experience for diverse audiences. While the venue is highly regarded for its history and ability to facilitate major spectacles, it features a mix of modernized facilities and legacy infrastructure. Guests can expect a vibrant atmosphere, complemented by stadium-wide video displays and various accessibility services designed to enhance the experience for all attendees.",
+      "service_description": null,
+      "ambience_description": "The venue offers an energetic and lively atmosphere, particularly during major sporting matches and large-scale concerts. It maintains a classic, open-air stadium feel that fosters a shared, enthusiastic experience among massive crowds.",
+      "amenities_description": "The stadium features a variety of standard event amenities, including numerous concession stands, restrooms, and escalators for upper-deck access. It also provides accessible services such as handicap shuttles and transcripts for the hearing impaired.",
+      "unique_selling_points": "As an 88-year-old historic venue, it provides a classic open-air experience that has hosted iconic concerts and major sporting events for decades. Its capacity for over 65,000 spectators creates an electric environment for large-scale performances and championship games.",
+      "neighborhood_description": "The stadium is located in a central urban area of Orlando, positioned west of the city's primary sports and entertainment district. The surrounding vicinity features a mix of residential and commercial spaces, with various off-site parking options available nearby.",
+      "physical_setting_description": "Camping World Stadium is a large-scale, historic outdoor multi-purpose stadium situated in the West Lakes neighborhood of Downtown Orlando. As an open-air venue, it provides attendees with expansive views of the field from most seating areas, though it lacks roof coverage for protection against the elements.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/FFDB8FCE-8BBF-4648-8B64-640CC6065F80-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9956585952755859,
+     "location": {
+      "lat": 28.5390417,
+      "lon": -81.4027486,
+      "geohash": "djn47ek7fqzt"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lots",
+       "name": "Parking lots",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:shuttle_service",
+       "name": "Shuttle service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric_atmosphere",
+       "name": "Electric atmosphere",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:large_video_screens",
+       "name": "Large video screens",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_orlando",
+       "name": "Downtown orlando",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:football_field",
+       "name": "Football field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:escalators",
+       "name": "Escalators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:football_field",
+       "name": "Football field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:kia_center",
+       "name": "Kia center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_stadium",
+       "name": "Outdoor stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:multi_purpose_venue",
+       "name": "Multi purpose venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_services",
+       "name": "Event services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:transcripts_for_hearing_impaired",
+       "name": "Transcripts for hearing impaired",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:urban_setting",
+       "name": "Urban setting",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:corporate_events",
+       "name": "Corporate events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stadium_architecture",
+       "name": "Stadium architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_stadium_design",
+       "name": "Open air stadium design",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1
+      }
+     },
+     "disambiguation": "1 Citrus Bowl Place Orlando, FL 32805",
+     "external": {
+      "google_place": [
+       {
+        "id": "28fd8f95e049f5de",
+        "place_id": "ChIJExJCtLR754gR3vVJ4JWP_Sg"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Inter.co Stadium",
+     "entity_id": "DC10A400-76AB-4099-8DDE-479C6B1F9C7F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+14074804702",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/DC10A400-76AB-4099-8DDE-479C6B1F9C7F-0Nluzv-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "655 W Church St Orlando, FL 32805",
+      "geocode": {
+       "city": "Orlando",
+       "name": "Parramore",
+       "metro": "Orlando",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Orange County"
+      },
+      "parking": true,
+      "website": "https://www.intercostadium.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "soccer game",
+        "count": 64
+       },
+       {
+        "name": "soccer stadium",
+        "count": 18
+       },
+       {
+        "name": "friendly staff",
+        "count": 101
+       },
+       {
+        "name": "beer selection",
+        "count": 43
+       },
+       {
+        "name": "lions",
+        "count": 27
+       },
+       {
+        "name": "view of the field",
+        "count": 15
+       },
+       {
+        "name": "watching soccer",
+        "count": 24
+       },
+       {
+        "name": "stadium design",
+        "count": 20
+       },
+       {
+        "name": "atmosphere",
+        "count": 283
+       },
+       {
+        "name": "tailgating",
+        "count": 9
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "32805",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "F91AA594-C297-4877-9B64-A93118A6DDE5",
+        "admin_level": 9,
+        "locality_id": "z32805",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "25,000-seat downtown soccer-specific stadium, home to Orlando City (MLS), Orlando Pride (NWSL), and Orlando Storm (UFL), opened in March 2017.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Parramore",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "25,000-seat downtown soccer-specific stadium, home to Orlando City (MLS), Orlando Pride (NWSL), and Orlando Storm (UFL), opened in March 2017.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Inter&Co Stadium is a premier 25,000-seat, soccer-specific venue located in the heart of downtown Orlando. Home to major professional soccer clubs, the stadium is celebrated for its intimate sightlines, electric atmosphere, and state-of-the-art facilities. It serves as a central hub for sports and entertainment, offering a comprehensive experience that includes diverse dining options, premium hospitality areas, and vibrant pre-match festivities. While providing a modern and clean environment for fans, its strategic urban location ensures that visitors can easily transition from the excitement of a match to the surrounding city's nightlife.",
+      "service_description": null,
+      "ambience_description": "The stadium offers an electric and vibrant atmosphere, particularly during match days when chants and drumming from the supporters' section fill the air. It is well-maintained and provides a professional, engaging environment for sports fans and families alike.",
+      "amenities_description": "The venue features state-of-the-art facilities, including diverse food and beverage options, multiple premium seating areas, and a cashless payment system throughout the stadium. Well-maintained restrooms and clear signage support a seamless guest experience.",
+      "unique_selling_points": "As a soccer-specific stadium, it offers superior sightlines that keep spectators close to the field, fostering an intense, intimate atmosphere. Its prime location in downtown Orlando allows for a vibrant pre-match tailgating culture and easy access to local nightlife.",
+      "neighborhood_description": "The surrounding area is a lively urban environment within the downtown district, offering easy access to various amenities, bars, and local attractions. It functions as a primary hub for sports, community events, and social gatherings.",
+      "physical_setting_description": "Located in the heart of downtown Orlando, this soccer-specific venue is situated within walking distance of the city's bar district. The stadium features a 25,000-seat capacity with an architectural design that provides excellent sightlines and a feeling of proximity to the action.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/DC10A400-76AB-4099-8DDE-479C6B1F9C7F-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9677103496488431,
+     "location": {
+      "lat": 28.5411106,
+      "lon": -81.38927819999999,
+      "geohash": "djn47gy0h2wn"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_areas",
+       "name": "Vip areas",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:premium_seating",
+       "name": "Premium seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:soccer",
+       "name": "Soccer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:downtown",
+       "name": "Downtown",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:pitch_view",
+       "name": "Pitch view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_sports",
+       "name": "Live sports",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stadium_architecture",
+       "name": "Stadium architecture",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:subscription",
+       "name": "Subscription",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_nightlife",
+       "name": "Local nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:supporter_section",
+       "name": "Supporter section",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_bar_district",
+       "name": "Downtown bar district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "655 W Church St Orlando, FL 32805",
+     "external": {
+      "google_place": [
+       {
+        "id": "cf5f870d3178c1a8",
+        "place_id": "ChIJLfUtmFR654gRqMF4MQ2HX88"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Orlando City Soccer Club",
+     "entity_id": "0AE73A0D-2EFA-4F59-A84B-88484C88F390",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ]
+      },
+      "phone": "+18556752489",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0AE73A0D-2EFA-4F59-A84B-88484C88F390-30Spuc-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "655 W Church St Orlando, FL 32805",
+      "geocode": {
+       "city": "Orlando",
+       "name": "Parramore",
+       "metro": "Orlando",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Orange County"
+      },
+      "parking": null,
+      "website": "http://www.orlandocitysc.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "stadium",
+        "count": 110
+       },
+       {
+        "name": "atmosphere",
+        "count": 40
+       },
+       {
+        "name": "crowd",
+        "count": 9
+       },
+       {
+        "name": "security",
+        "count": 6
+       },
+       {
+        "name": "fans",
+        "count": 2
+       },
+       {
+        "name": "location",
+        "count": 2
+       },
+       {
+        "name": "season",
+        "count": 8
+       },
+       {
+        "name": "watching a match",
+        "count": 2
+       },
+       {
+        "name": "fan experience",
+        "count": 4
+       },
+       {
+        "name": "players",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "32805",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "F91AA594-C297-4877-9B64-A93118A6DDE5",
+        "admin_level": 9,
+        "locality_id": "z32805",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Major League Soccer franchise and downtown Orlando stadium hosting professional men's and women's soccer, fan events, and concerts.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Parramore",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:soccer_club",
+       "akas": [
+        {
+         "value": "\"Football club\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Club de fotbal\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0424\u0443\u0442\u0431\u043e\u043b\u0435\u043d \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0ec2\u0ea1\u0eaa\u0ead\u0e99\u0e9a\u0eb2\u0e99\u0ec0\u0e95\u0eb0\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Klub sepak bola\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Futbol kluba\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Club de football\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Nogometni klub\"",
+         "languages": [
+          "sl",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"C\u00e2u l\u1ea1c b\u1ed9 b\u00f3ng \u0111\u00e1\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10d0\u10e4\u10d4\u10ee\u10d1\u10e3\u10e0\u10d7\u10dd \u10d9\u10da\u10e3\u10d1\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Futbolo klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Fotbalov\u00fd klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u8db3\u7403\u4ff1\u4e50\u90e8\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Klabu ya soka\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Sokkerklub\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Futbol klubu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u09ab\u09c1\u099f\u09ac\u09b2 \u0995\u09cd\u09b2\u09be\u09ac\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05db\u05d3\u05d5\u05e8\u05d2\u05dc\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0424\u0443\u0442\u0431\u043e\u043b\u044c\u043d\u044b\u0439 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Jalgpalliklubi\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Club de soccer\"",
+         "languages": [
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Klub pi\u0142karski\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u0646\u0627\u062f\u064a \u0643\u0631\u0629 \u0642\u062f\u0645\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0424\u0443\u0442\u0431\u043e\u043b\u044c\u043d\u0438\u0439 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Club de futbol\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0bbe\u0bb2\u0bcd\u0baa\u0ba8\u0bcd\u0ba4\u0bc1 \u0b95\u0bbf\u0bb3\u0baa\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Club di calcio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\ucd95\uad6c \ud074\ub7fd\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0c2b\u0c41\u0c1f\u0c4d\u200c\u0c2c\u0c3e\u0c32\u0c4d \u0c15\u0c4d\u0c32\u0c2c\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Fotbollsklubb\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u1018\u1031\u102c\u101c\u102f\u1036\u1038\u1000\u101c\u1015\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Futbola klubs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0424\u0443\u0434\u0431\u0430\u043b\u0441\u043a\u0438 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "sr",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Kelab bola sepak\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Klub futbolli\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u30b5\u30c3\u30ab\u30fc\u30af\u30e9\u30d6\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Fotballklubb\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Labdar\u00fag\u00f3klub\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Voetbalclub\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u092b\u0941\u091f\u092c\u0949\u0932 \u0915\u094d\u0932\u092c\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Futbalov\u00fd klub\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0424\u0443\u0442\u0431\u043e\u043b \u043a\u043b\u0443\u0431\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u03a0\u03bf\u03b4\u03bf\u03c3\u03c6\u03b1\u03b9\u03c1\u03b9\u03ba\u03cc\u03c2 \u03c3\u03cd\u03bb\u03bb\u03bf\u03b3\u03bf\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e42\u0e21\u0e2a\u0e23\u0e1f\u0e38\u0e15\u0e1a\u0e2d\u0e25\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Fu\u00dfballverein\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Fodboldklub\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u1780\u17d2\u179b\u17b9\u1794\u1794\u17b6\u179b\u17cb\u1791\u17b6\u178f\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Fudbalski klub\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u8db3\u7403\u4ff1\u6a02\u90e8\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Clube de futebol\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Club de f\u00fatbol\"",
+         "languages": [
+          "es_la",
+          "es",
+          "es_ar",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Futbol kul\u00fcb\u00fc\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Jalkapalloseura\"",
+         "languages": [
+          "fi"
+         ]
+        }
+       ],
+       "name": "Soccer club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Major League Soccer franchise and downtown Orlando stadium hosting professional men's and women's soccer, fan events, and concerts.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0AE73A0D-2EFA-4F59-A84B-88484C88F390-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.7619052925577458,
+     "location": {
+      "lat": 28.5411525,
+      "lon": -81.3900002,
+      "geohash": "djn47gv8789c"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:corporate_office",
+       "name": "Corporate office",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:soccer_club",
+       "name": "Soccer club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:soccer_club",
+       "name": "Soccer club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "655 W Church St Orlando, FL 32805",
+     "external": {
+      "google_place": [
+       {
+        "id": "64f5332208ef9f5a",
+        "place_id": "ChIJC-lFuHVw54gRWp_vCCIz9WQ"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Kia Center",
+     "entity_id": "D4950C24-3B4F-40CD-B768-50B3F9423473",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+14075364597",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/D4950C24-3B4F-40CD-B768-50B3F9423473-1YdQAA-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "400 W Church St Orlando, FL 32801",
+      "geocode": {
+       "city": "Orlando",
+       "name": "Parramore",
+       "metro": "Orlando",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Florida",
+       "admin2_region": "Orange County"
+      },
+      "parking": true,
+      "website": "http://www.platinumparking.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "basketball game",
+        "count": 4
+       },
+       {
+        "name": "orlando magic",
+        "count": 2
+       },
+       {
+        "name": "concerts",
+        "count": 3
+       },
+       {
+        "name": "helpful staff",
+        "count": 5
+       },
+       {
+        "name": "acoustics",
+        "count": 2
+       },
+       {
+        "name": "cleanliness",
+        "count": 2
+       },
+       {
+        "name": "seating",
+        "count": 3
+       },
+       {
+        "name": "venue",
+        "count": 4
+       },
+       {
+        "name": "stadium",
+        "count": 2
+       },
+       {
+        "name": "game",
+        "count": 8
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Florida",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "733E5EA2-68EF-4647-AE0A-4631E19EECE3",
+        "admin_level": 4,
+        "locality_id": "r162050",
+        "abbreviation": "Fla.",
+        "country_code": null
+       },
+       {
+        "name": "Parramore",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A1693533-E65D-4C5F-A8DB-E85FD0739CF9",
+        "admin_level": 10,
+        "locality_id": "r1188119",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "9D38CECD-6258-4079-A88A-61FEFF5FC480",
+        "admin_level": 12,
+        "locality_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "32805",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "F91AA594-C297-4877-9B64-A93118A6DDE5",
+        "admin_level": 9,
+        "locality_id": "z32805",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orlando",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+        "admin_level": 8,
+        "locality_id": "r1128379",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Orange County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "5E034D9E-189B-4CAC-8DCA-71C3D13558CC",
+        "admin_level": 6,
+        "locality_id": "r389011",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Downtown Orlando indoor arena hosting NBA basketball, concerts, and large events with modern amenities on West Church Street.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Parramore",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Downtown Orlando indoor arena hosting NBA basketball, concerts, and large events with modern amenities on West Church Street.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Located in downtown Orlando, this prominent indoor arena serves as a versatile venue for major entertainment and professional sporting events. It is recognized for its modern architectural design and comprehensive facilities that cater to large crowds. The site acts as a key anchor in the city's downtown district, providing a hub for cultural and social activity. It is widely frequented for its capacity to host everything from international concert tours to league-sanctioned basketball games.",
+      "service_description": null,
+      "ambience_description": "The arena maintains an energetic and professional atmosphere suitable for large-scale public gatherings. It is designed to be highly functional, facilitating smooth crowds while providing an exciting environment for live performances and sports.",
+      "amenities_description": "The venue offers a wide range of modern amenities including diverse concession stands, accessible seating options, and comprehensive event management services to ensure a comfortable experience. Spacious concourses and clear signage facilitate easy navigation throughout the building.",
+      "unique_selling_points": "As the premier indoor arena in Orlando, it is distinguished by its state-of-the-art facilities and its central role in hosting major professional sports and headline entertainment tours.",
+      "neighborhood_description": "The surrounding neighborhood is a vibrant urban hub characterized by its energetic atmosphere and high density of entertainment and professional business venues. It serves as a central social and commercial nexus within the city.",
+      "physical_setting_description": "Located in the heart of downtown Orlando, this large-scale indoor arena sits along West Church Street. Its modern architecture dominates the surrounding commercial cityscape.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/D4950C24-3B4F-40CD-B768-50B3F9423473-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 28.5392528,
+      "lon": -81.38396019999999,
+      "geohash": "djn4k56j0q7k"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:church_street_station",
+       "name": "Church street station",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_arena",
+       "name": "Indoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:efficient",
+       "name": "Efficient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:grand",
+       "name": "Grand",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:downtown_skyline",
+       "name": "Downtown skyline",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:exploria_stadium",
+       "name": "Exploria stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:box_office",
+       "name": "Box office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:public_spectacle",
+       "name": "Public spectacle",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:business",
+       "name": "Business",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_wifi",
+       "name": "Public wifi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:security",
+       "name": "Security",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:dr_phillips_center_for_the_performing_arts",
+       "name": "Dr phillips center for the performing arts",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "400 W Church St Orlando, FL 32801",
+     "external": {
+      "google_place": [
+       {
+        "id": "cde4d5bcf591a0f",
+        "place_id": "ChIJGcndrwd754gRDxpZz1tN3gw"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "D029E622-B514-4866-9166-35C0C1801794",
+      "name": "Orlando",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 28.5421109,
+       "lon": -81.3790304
+      },
+      "popularity": 0.99864274,
+      "disambiguation": "Orlando, Belle Isle, Orange County, Florida, United States"
+     }
+    ]
+   }
+  }
+ }
+}

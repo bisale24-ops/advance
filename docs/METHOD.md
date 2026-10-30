@@ -19,6 +19,8 @@
 
 Per tour (113 with at least one opener known to Qloo): taste finds at least one real opener in its top 100 in 61 tours, the LLM in 22, the genre chart in 11. Counting openers found per tour, taste beats the LLM in 49 tours, the LLM beats taste in 8, 56 tie (mostly both find none).
 
+**Rooms, tested the same way.** `docs/VENUE_BACKTEST.md`: 417 US stops from 107 real tours; the room the tour played is in Qloo's taste list (first 8) in 37% of cases, in the city's popular rooms in 50%. Advance therefore shows both lists. Taste is not the better predictor of where tours play; it is the signal for which room suits these fans.
+
 **What this does not show**
 - Recall is low: 109 of 619 is 17.6%. Most real openers are not in the top 100 of any method, because tours are booked on routing, agents and availability, not only on taste.
 - The LLM is better at the very top (median rank 9 against 31): when it knows the tour, it knows it. These tours are on Wikipedia, so any leakage favours the LLM, not Qloo.

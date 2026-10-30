@@ -1,0 +1,4522 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "9F1FC72B-9B11-4D17-8848-FBCC57442B0B",
+  "take": 50,
+  "filter.location.query": "Columbia, Maryland",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Nottingham's Tavern",
+     "entity_id": "DD9C64ED-2AC6-4C66-B2AC-5F36CA974981",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T17:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ]
+      },
+      "phone": "+14102900077",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/DD9C64ED-2AC6-4C66-B2AC-5F36CA974981-0DOVO5-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "8850 Stanford Blvd Columbia, MD 21045",
+      "geocode": {
+       "city": "Columbia",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Maryland",
+       "admin2_region": "Howard County"
+      },
+      "parking": true,
+      "website": "http://www.nottinghams.net/",
+      "good_for": [
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.9624652455977757
+       }
+      ],
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Columbia",
+        "place": "city",
+        "boundary": "statistical",
+        "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+        "admin_level": 8,
+        "locality_id": "r133606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Maryland",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D85E11A7-E988-41FC-8532-EC12FBDB7BE9",
+        "admin_level": 4,
+        "locality_id": "r162112",
+        "abbreviation": "MD",
+        "country_code": null
+       },
+       "county": {
+        "name": "Howard County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F7EF5D1B-B72A-47DA-8502-1159BFD23FB4",
+        "admin_level": 6,
+        "locality_id": "r936304",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Howard County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F7EF5D1B-B72A-47DA-8502-1159BFD23FB4",
+        "admin_level": 6,
+        "locality_id": "r936304",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Columbia",
+        "place": "city",
+        "boundary": "statistical",
+        "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+        "admin_level": 8,
+        "locality_id": "r133606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "21045",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A751ECC-9B4C-4391-AEC3-D74D1C43A65C",
+        "admin_level": 9,
+        "locality_id": "z21045",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Maryland",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D85E11A7-E988-41FC-8532-EC12FBDB7BE9",
+        "admin_level": 4,
+        "locality_id": "r162112",
+        "abbreviation": "MD",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Lively sports bar and pool-hall serving pub fare with an outdoor tiki bar, nightly DJs, comedy and live music, plus karaoke, arcade games and cocktails.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "akas": [
+        {
+         "value": "\"Baar\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Baari\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e1a\u0e32\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0628\u0627\u0631\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Bar\"",
+         "languages": [
+          "pt_pt",
+          "sv",
+          "tl",
+          "da",
+          "en_gb",
+          "sk",
+          "pl",
+          "de",
+          "bs",
+          "it",
+          "ca",
+          "cs",
+          "nb",
+          "ms",
+          "sq",
+          "tr",
+          "es_la",
+          "fr",
+          "az",
+          "gl",
+          "sl",
+          "hr",
+          "pt",
+          "fr_ca",
+          "ro",
+          "id",
+          "es_ar",
+          "nl",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\"",
+         "languages": [
+          "ru",
+          "kk",
+          "bg",
+          "mk",
+          "sr",
+          "uk"
+         ]
+        },
+        {
+         "value": "\"B\u00e1r\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0e9a\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u30d0\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"B\u0101rs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c3e\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5427\"",
+         "languages": [
+          "zh_tw",
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102c\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d0\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Qu\u00e1n bar\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1794\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u05d1\u05e8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kroeg\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u092c\u093e\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\ubc14\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Taberna\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u039c\u03c0\u03b1\u03c1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Ba\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Baras\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 3.9000000953674316,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Lively sports bar and pool-hall serving pub fare with an outdoor tiki bar, nightly DJs, comedy and live music, plus karaoke, arcade games and cocktails.",
+      "number_of_stations": null,
+      "cuisine_description": "Nottingham's Tavern offers a casual menu of American pub fare including pizza, wings, nachos, quesadillas, and specialty bar bites, complemented by a full bar serving beer, wine, and cocktails.",
+      "overall_description": "This dynamic venue serves as a multi-purpose entertainment hub, offering a blend of pub-style dining, sports viewing, and varied nighttime activities. Visitors can enjoy a range of experiences from casual meals and drinks to high-energy karaoke and dancing events. With both indoor arcade and pool facilities alongside an outdoor tiki bar, the spot caters to a variety of social preferences and group sizes.",
+      "service_description": "A lively sports bar and entertainment venue offering dine-in and takeout service, outdoor seating, and a robust nightlife scene featuring karaoke, nightly DJs, comedy, live music, and pool tables.",
+      "ambience_description": "The atmosphere is vibrant and energetic, characterized by a mix of music, sports, and social interaction that changes depending on the specific event or DJ.",
+      "amenities_description": "Guests have access to an outdoor tiki bar, multiple pool tables, various arcade games, and a dance floor, creating a versatile environment for both entertainment and relaxation.",
+      "unique_selling_points": "The establishment distinguishes itself with a lively combination of nightly DJs, frequent live music, comedy nights, and karaoke, all complemented by an outdoor tiki bar experience.",
+      "neighborhood_description": "Located in a busy commercial district, the surroundings offer convenient access to various retail shops and other local establishments.",
+      "physical_setting_description": "Situated within a shopping plaza, the venue features a spacious interior with pool tables and arcade games alongside an outdoor tiki bar for warmer weather.",
+      "customer_demographics_description": "A diverse crowd of local residents, friends, and social groups who frequent the venue for sports viewing, nightlife, and casual entertainment.",
+      "image": {
+       "url": "https://images.qloo.com/i/DD9C64ED-2AC6-4C66-B2AC-5F36CA974981-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9302791760041692,
+     "location": {
+      "lat": 39.190152,
+      "lon": -76.814922,
+      "geohash": "dqcqun354ttq"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:tiki_inspired",
+       "name": "Tiki inspired",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:party_goers",
+       "name": "Party goers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:private_dining_room",
+       "name": "Private dining room",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:wings",
+       "name": "Wings",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:quesadillas",
+       "name": "Quesadillas",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:arcade_games",
+       "name": "Arcade games",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dance_floor",
+       "name": "Dance floor",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:casual_dining",
+       "name": "Casual dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:arcade_games",
+       "name": "Arcade games",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:southwest_rolls",
+       "name": "Southwest rolls",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:sports_fans",
+       "name": "Sports fans",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:suburban_commercial_area",
+       "name": "Suburban commercial area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:lgbtq_",
+       "name": "Lgbtq+",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_viewing",
+       "name": "Sports viewing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:pub_dog_columbia",
+       "name": "Pub dog columbia",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pub_fare",
+       "name": "Pub fare",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife_culture",
+       "name": "Nightlife culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:karaoke_night",
+       "name": "Karaoke night",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:pool_hall",
+       "name": "Pool hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:nachos",
+       "name": "Nachos",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:20_to_30",
+       "name": "$20 to $30",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:white_wine_mussels",
+       "name": "White wine mussels",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:hype",
+       "name": "Hype",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:pool_hall",
+       "name": "Pool hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:shopping_plaza",
+       "name": "Shopping plaza",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:television_screens",
+       "name": "Television screens",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bar_food",
+       "name": "Bar food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:gaming",
+       "name": "Gaming",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:mini_pizzas",
+       "name": "Mini pizzas",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pool_tables",
+       "name": "Pool tables",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sports_bar_style",
+       "name": "Sports bar style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:patio_view",
+       "name": "Patio view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_tiki_bar",
+       "name": "Outdoor tiki bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7232339389619494,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "8850 Stanford Blvd Columbia, MD 21045",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d1079134",
+        "rating": 3,
+        "rating_count": 38
+       }
+      ],
+      "google_place": [
+       {
+        "id": "21f8bc2c67083e61",
+        "place_id": "ChIJpfuOL33gt4kRYT4IZyy8-CE"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Ale House Columbia",
+     "entity_id": "A8559353-3BCC-4EBB-981E-61148C209E30",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": "+14435463640",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/A8559353-3BCC-4EBB-981E-61148C209E30-36drEz-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "6480 Dobbin Center Way Columbia, MD 21045",
+      "geocode": {
+       "city": "Columbia",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Maryland",
+       "admin2_region": "Howard County"
+      },
+      "parking": true,
+      "website": "https://thealehousecolumbia.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:event:place:anniversary",
+        "name": "Anniversary",
+        "type": "urn:tag:event:place",
+        "weight": 0
+       },
+       {
+        "id": "urn:tag:event:place:work_dinner",
+        "name": "Work Dinner",
+        "type": "urn:tag:event:place",
+        "weight": 0.5
+       },
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": 0.5
+       },
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 0.9888888888888889
+       }
+      ],
+      "keywords": [
+       {
+        "name": "bottomless mimosas",
+        "count": 60
+       },
+       {
+        "name": "outdoor seating",
+        "count": 48
+       },
+       {
+        "name": "beer selection",
+        "count": 112
+       },
+       {
+        "name": "pretzel",
+        "count": 27
+       },
+       {
+        "name": "happy hour",
+        "count": 83
+       },
+       {
+        "name": "fried oreos",
+        "count": 9
+       },
+       {
+        "name": "blackened chicken pasta",
+        "count": 6
+       },
+       {
+        "name": "watching games",
+        "count": 3
+       },
+       {
+        "name": "pickle fries",
+        "count": 5
+       },
+       {
+        "name": "shrimp tacos",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Columbia",
+        "place": "city",
+        "boundary": "statistical",
+        "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+        "admin_level": 8,
+        "locality_id": "r133606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Maryland",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D85E11A7-E988-41FC-8532-EC12FBDB7BE9",
+        "admin_level": 4,
+        "locality_id": "r162112",
+        "abbreviation": "MD",
+        "country_code": null
+       },
+       "county": {
+        "name": "Howard County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F7EF5D1B-B72A-47DA-8502-1159BFD23FB4",
+        "admin_level": 6,
+        "locality_id": "r936304",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Howard County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F7EF5D1B-B72A-47DA-8502-1159BFD23FB4",
+        "admin_level": 6,
+        "locality_id": "r936304",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Columbia",
+        "place": "city",
+        "boundary": "statistical",
+        "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+        "admin_level": 8,
+        "locality_id": "r133606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "21045",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3A751ECC-9B4C-4391-AEC3-D74D1C43A65C",
+        "admin_level": 9,
+        "locality_id": "z21045",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Maryland",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D85E11A7-E988-41FC-8532-EC12FBDB7BE9",
+        "admin_level": 4,
+        "locality_id": "r162112",
+        "abbreviation": "MD",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Sprawling watering hole with dozens of craft beers on tap and an extensive American menu, plus live music and bar-grill fare.",
+      "hotel_class": null,
+      "price_level": 2,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:american",
+       "akas": [
+        {
+         "value": "\"American\"",
+         "languages": [
+          "ro",
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Amerikaans\"",
+         "languages": [
+          "nl",
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03bc\u03b5\u03c1\u03b9\u03ba\u03b1\u03bd\u03b9\u03ba\u03cc\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Am\u00e9ricain\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Ameryka\u0144ski\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Amerik\u0101\u0146u\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Kimarekani\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Estadunidense\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Amerikarra\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30e1\u30ea\u30ab\u6599\u7406\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u1021\u1019\u1031\u101b\u102d\u1000\u1014\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Amerikieti\u0161kas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Amerikansk\"",
+         "languages": [
+          "da",
+          "sv",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0986\u09ae\u09c7\u09b0\u09bf\u0995\u09be\u09a8\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Ameri\u010dki\"",
+         "languages": [
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Ameerika\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ead\u0eb2\u0ec0\u0ea1\u0ea3\u0eb4\u0e81\u0eb1\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bae\u0bc6\u0bb0\u0bbf\u0b95\u0bcd\u0b95\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Americano\"",
+         "languages": [
+          "gl",
+          "pt",
+          "it",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Ki\u1ec3u M\u1ef9\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u7f8e\u5f0f\"",
+         "languages": [
+          "zh",
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Amerikanisch\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Americk\u00fd\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c2e\u0c46\u0c30\u0c3f\u0c15\u0c28\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Americ\u00e0\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0623\u0645\u0631\u064a\u0643\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043b\u044b\u049b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u044c\u043a\u0438\u0439\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u0905\u092e\u0947\u0930\u093f\u0915\u0940\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0435\u0440\u0438\u0447\u043a\u0438\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Ameri\u0161ki\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10db\u10d4\u10e0\u10d8\u10d9\u10e3\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Amerikkalainen\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Estadounidense\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Amerikano\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Amerikai\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Americk\u00e9\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\"",
+         "languages": [
+          "bg",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\ubbf8\uad6d\uc2dd\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Amerika\"",
+         "languages": [
+          "id",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Amerikan\"",
+         "languages": [
+          "tr",
+          "sq",
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u0e2d\u0e40\u0e21\u0e23\u0e34\u0e01\u0e31\u0e19\"",
+         "languages": [
+          "th"
+         ]
+        }
+       ],
+       "name": "American restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.199999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": [
+       {
+        "id": "urn:tag:specialty_dish:place:ale_house_steak_sandwich",
+        "name": "Ale House Steak Sandwich",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 1
+       },
+       {
+        "id": "urn:tag:specialty_dish:place:chicken_waffles",
+        "name": "Chicken And Waffles",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 0.6666666666666666
+       },
+       {
+        "id": "urn:tag:specialty_dish:place:eggs_w_sausage_bacon_potatoes",
+        "name": "Eggs W Sausage Bacon And Potatoes",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 0.3333333333333333
+       }
+      ],
+      "short_description": "Sprawling watering hole with dozens of craft beers on tap and an extensive American menu, plus live music and bar-grill fare.",
+      "number_of_stations": null,
+      "cuisine_description": "The Ale House Columbia serves a broad American menu featuring pub-style comfort food, including brunch favorites, sandwiches, salads, pasta, and seafood dishes. The establishment is well-known for an extensive selection of craft beers on tap, a mimosa and bloody mary bar, and diverse dining options that accommodate vegetarian, vegan, gluten-free, and halal dietary preferences.",
+      "overall_description": "This establishment is a prominent local restaurant and bar in Columbia, Maryland, recognized for its extensive craft beer list and diverse American pub menu. It provides a lively, sports-centric atmosphere perfect for group outings, game days, and weekend brunch, complete with a popular bottomless mimosa bar. While it serves as a go-to spot for many locals, the experience is defined by its social, casual environment, outdoor seating, and commitment to being a central gathering hub within the Dobbin Center commercial district.",
+      "service_description": "The restaurant provides a casual, high-energy environment suitable for various social gatherings, including sports watching, trivia nights, and group celebrations. Services include indoor and outdoor patio seating, takeout, delivery, and a drive-through, with staff available for private event planning.",
+      "ambience_description": "The atmosphere is energetic and social, centered around a sports-focused decor with large screens and a vibrant, pub-style environment.",
+      "amenities_description": "The establishment offers extensive indoor and outdoor dining areas, multiple bars, and numerous screens for sports entertainment.",
+      "unique_selling_points": "Known for a vast selection of craft beers on tap and a bottomless brunch experience, this venue is a staple for those seeking a lively sports-bar environment.",
+      "neighborhood_description": "Situated in a busy retail and commercial corridor, the surrounding area is convenient and serves as a primary hub for local dining and shopping.",
+      "physical_setting_description": "Located within a bustling commercial shopping area, this venue features a spacious interior with multiple bars and patio seating. The design emphasizes large-scale sports viewing with numerous screens.",
+      "customer_demographics_description": "The restaurant attracts a diverse crowd ranging from locals and families to young professionals and groups of friends. It is particularly popular with sports enthusiasts, diners looking for casual brunch or happy hour spots, and groups celebrating birthdays or social events.",
+      "image": {
+       "url": "https://images.qloo.com/i/A8559353-3BCC-4EBB-981E-61148C209E30-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9772612543140098,
+     "location": {
+      "lat": 39.198436199999996,
+      "lon": -76.8197921,
+      "geohash": "dqcqgzve3n4p"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:offerings:place:small_plates",
+       "name": "Small plates",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:televisions",
+       "name": "Televisions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:ale_house_steak_sandwich",
+       "name": "Ale house steak sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:dobbin_center",
+       "name": "Dobbin center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:patio_seating",
+       "name": "Patio seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_cider",
+       "name": "Hard cider",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar_grill",
+       "name": "Bar grill",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar_grill",
+       "name": "Bar + grill",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:retail_hub",
+       "name": "Retail hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:order_ahead",
+       "name": "Order ahead",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:anniversary",
+       "name": "Anniversary",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:brunch_restaurant",
+       "name": "Brunch restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:trivia_nights",
+       "name": "Trivia nights",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:poutine",
+       "name": "Poutine",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:salmon_blt",
+       "name": "Salmon blt",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:spinach_artichoke_dip",
+       "name": "Spinach artichoke dip",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:trivia",
+       "name": "Trivia",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:tex_mex_rolls",
+       "name": "Tex mex rolls",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:late_night_food",
+       "name": "Late night food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:quick_bite",
+       "name": "Quick bite",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:drive_thru",
+       "name": "Drive thru",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:american_restaurant",
+       "name": "American restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:celebratory_diners",
+       "name": "Celebratory diners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:trendy",
+       "name": "Trendy",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:blackened_chicken_pasta",
+       "name": "Blackened chicken pasta",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:young_professionals",
+       "name": "Young professionals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:catering",
+       "name": "Catering",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:moderately_expensive",
+       "name": "Moderately expensive",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:work_dinner",
+       "name": "Work dinner",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:lobster_roll",
+       "name": "Lobster roll",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:american",
+       "name": "American",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pub_grub",
+       "name": "Pub grub",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:sports_fans",
+       "name": "Sports fans",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:walk_ins",
+       "name": "Walk ins",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wheelchair_accessible",
+       "name": "Wheelchair accessible",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:chicken_and_waffles",
+       "name": "Chicken and waffles",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:gastropub",
+       "name": "Gastropub",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:banana_praline_french_toast",
+       "name": "Banana praline french toast",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sports_bar_vibe",
+       "name": "Sports bar vibe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:brunch_culture",
+       "name": "Brunch culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:45_54",
+       "name": "45 54",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:eggs_with_sausage_bacon_and_potatoes",
+       "name": "Eggs with sausage bacon and potatoes",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:tex_mex_omelet",
+       "name": "Tex mex omelet",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:parking_lot_view",
+       "name": "Parking lot view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:fried_green_tomatoes",
+       "name": "Fried green tomatoes",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_sports_viewing",
+       "name": "Live sports viewing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:shopping_center",
+       "name": "Shopping center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:halal",
+       "name": "Halal",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:breakfast_blt",
+       "name": "Breakfast blt",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:business_friendly",
+       "name": "Business friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:healthy_options",
+       "name": "Healthy options",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed_outside",
+       "name": "Dogs allowed outside",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:brunch_reservations_recommended",
+       "name": "Brunch reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:french_toast_bites",
+       "name": "French toast bites",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pub_food",
+       "name": "Pub food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:wings",
+       "name": "Wings",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kids_menu",
+       "name": "Kids menu",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:columbia_mall",
+       "name": "Columbia mall",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7222307590726549,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 1.7320508075688774
+      }
+     },
+     "disambiguation": "6480 Dobbin Center Way Columbia, MD 21045",
+     "external": {
+      "opentable": [
+       {
+        "id": "96364",
+        "url": "https://www.opentable.com/restaurant/profile/96364"
+       }
+      ],
+      "google_place": [
+       {
+        "id": "dc81c3875a6e0b4d",
+        "place_id": "ChIJH-h0AXrgt4kRTQtuWofDgdw"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Great Sage",
+     "entity_id": "3AEC7257-1441-4A32-9379-0FDE4BDCF53C",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T21:30:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T20:30:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T20:30:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:30:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T20:30:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T20:30:00"
+        }
+       ]
+      },
+      "phone": "+14435359400",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/3AEC7257-1441-4A32-9379-0FDE4BDCF53C-4mGBSH-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5809 Clarksville Square Dr Clarksville, MD 21029",
+      "geocode": {
+       "city": "Columbia",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Maryland",
+       "admin2_region": "Howard County"
+      },
+      "parking": true,
+      "website": "http://greatsage.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:event:place:anniversary",
+        "name": "Anniversary",
+        "type": "urn:tag:event:place",
+        "weight": 0
+       },
+       {
+        "id": "urn:tag:event:place:work_dinner",
+        "name": "Work Dinner",
+        "type": "urn:tag:event:place",
+        "weight": 0.5
+       },
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 0.9431818181818181
+       },
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": 0.5555555555555556
+       }
+      ],
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Columbia",
+        "place": "city",
+        "boundary": "statistical",
+        "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+        "admin_level": 8,
+        "locality_id": "r133606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Maryland",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D85E11A7-E988-41FC-8532-EC12FBDB7BE9",
+        "admin_level": 4,
+        "locality_id": "r162112",
+        "abbreviation": "MD",
+        "country_code": null
+       },
+       "county": {
+        "name": "Howard County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F7EF5D1B-B72A-47DA-8502-1159BFD23FB4",
+        "admin_level": 6,
+        "locality_id": "r936304",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Howard County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F7EF5D1B-B72A-47DA-8502-1159BFD23FB4",
+        "admin_level": 6,
+        "locality_id": "r936304",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "21029",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "F89310B5-5292-4086-98F0-AF6C9426A98A",
+        "admin_level": 9,
+        "locality_id": "z21029",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Columbia",
+        "place": "city",
+        "boundary": "statistical",
+        "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+        "admin_level": 8,
+        "locality_id": "r133606",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Maryland",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "D85E11A7-E988-41FC-8532-EC12FBDB7BE9",
+        "admin_level": 4,
+        "locality_id": "r162112",
+        "abbreviation": "MD",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Bright organic plant-based restaurant and live-music bar offering vegan small plates, cocktails, and allergy-friendly wheat-, soy-, and nut-free options.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:vegan",
+       "akas": [
+        {
+         "value": "\"\u7eaf\u7d20\u9910\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Restaurant veg\u00e0\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Veganistisch restaurant\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0c35\u0c40\u0c17\u0c28\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Vegano\"",
+         "languages": [
+          "pt",
+          "es",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0637\u0639\u0645 \u0646\u0628\u0627\u062a\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Vegaanse restaurant\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Veg\u00e1n\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Vegani\u0161kas restoranas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0435\u0433\u0430\u043d\u0441\u044c\u043a\u0438\u0439\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Vegan restaurant\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0435\u0433\u0430\u043d\u0441\u043a\u0438 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Restaurant v\u00e9g\u00e9talien\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Vegan restoran\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Restaurante vegano\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "pt",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Vegan \u03b5\u03c3\u03c4\u03b9\u03b1\u03c4\u03cc\u03c1\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0435\u0433\u0430\u043d\u0441\u043a\u0438\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0435\u0433\u0430\u043d\u0441\u043a\u0438 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0442\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Vegaaninen\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"V\u00e9gane\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Veg\u0101nu\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Restoran vegan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u09ad\u09c7\u0997\u09be\u09a8\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0435\u0433\u0430\u043d\u0441\u043a\u0438\u0439 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Restorant vegan\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Vegansk\u00e1 restaurace\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Vexano\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u101e\u1000\u103a\u101e\u1010\u103a\u101c\u103d\u1010\u103a\u1005\u102c\u1038\u101e\u1031\u102c\u1000\u103a\u1006\u102d\u102f\u1004\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Jatetxe beganoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Veganes Restaurant\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Vegansk restaurant\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Veganski\"",
+         "languages": [
+          "sl",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Veganski restoran\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0412\u0435\u0433\u0435\u0442\u0430\u0440\u0438\u0430\u043d\u0434\u044b\u049b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\ube44\uac74\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0935\u0940\u0917\u0928 \u0930\u0947\u0938\u094d\u0924\u0930\u093e\u0902\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u10d5\u10d4\u10d2\u10d0\u10dc\u10e3\u10e0\u10d8 \u10e0\u10d4\u10e1\u10e2\u10dd\u10e0\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Vegan\"",
+         "languages": [
+          "ro",
+          "de",
+          "tl",
+          "et",
+          "az",
+          "sw",
+          "id"
+         ]
+        },
+        {
+         "value": "\"Thu\u1ea7n chay\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Wega\u0144ski\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Vegansk\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u30f4\u30a3\u30fc\u30ac\u30f3\u30ec\u30b9\u30c8\u30e9\u30f3\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u1797\u17c4\u1787\u1793\u17b8\u1799\u178a\u17d2\u178b\u17b6\u1793\u1794\u17bd\u179f\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Vegansk restaurang\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Veg\u00e1nsky\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Ristorante vegano\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0e23\u0e49\u0e32\u0e19\u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e27\u0e35\u0e41\u0e01\u0e19\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u0b9a\u0bc8\u0bb5 \u0b89\u0ba3\u0bb5\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u7d14\u7d20\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eae\u0ec9\u0eb2\u0e99\u0ead\u0eb2\u0eab\u0eb2\u0e99\u0ec0\u0e88\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u05d8\u05d1\u05e2\u05d5\u05e0\u05d9\"",
+         "languages": [
+          "he"
+         ]
+        }
+       ],
+       "name": "Vegan restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Bright organic plant-based restaurant and live-music bar offering vegan small plates, cocktails, and allergy-friendly wheat-, soy-, and nut-free options.",
+      "number_of_stations": null,
+      "cuisine_description": "Great Sage is a bright, organic, plant-based restaurant featuring a seasonal menu that emphasizes inventive, flavorful dishes suitable for vegans and omnivores alike. The kitchen crafts gourmet comfort food, offering highlights such as signature spinach artichoke dip, nachos, mac and cheese, various plant-based sandwiches like the Reuben and crab cake, and decadent vegan desserts including carrot cake and lava cakes. The menu is highly inclusive, providing extensive allergy-friendly options such as wheat-free, soy-free, and nut-free choices, alongside specialty cocktails, wine, and beer.",
+      "overall_description": "This restaurant is a celebrated destination for high-quality, plant-based dining, offering a diverse and seasonally shifting menu that appeals to both vegans and omnivores alike. Known for its sophisticated takes on comfort food staples and commitment to catering to complex food allergies, it provides a unique culinary experience in a bright, relaxed suburban setting. While it serves as a popular venue for special occasions and live music, it remains deeply focused on creative, flavorful, and ingredient-conscious cooking. Its blend of innovative dishes, inclusive atmosphere, and welcoming aesthetic continues to draw a loyal following of health-conscious diners.",
+      "service_description": "The restaurant offers a full range of service options including indoor and outdoor dine-in seating, takeout, and delivery. It is a popular destination for celebratory meals, date nights, and casual gatherings. While they accept walk-ins, reservations are recommended due to the restaurant's popularity during peak hours. The staff provides service across multiple areas including a bar, private dining options, and counter service for takeout orders.",
+      "ambience_description": "The atmosphere is generally cozy, stylish, and relaxed, featuring a bright interior and a pleasant patio space complemented by the soothing sounds of an on-site waterfall.",
+      "amenities_description": "The establishment provides a variety of amenities including dedicated outdoor patio seating, a full bar serving cocktails, and private event space. It is designed to be accessible with features like braille menus and convenient surface parking.",
+      "unique_selling_points": "As a premier plant-based destination, it is known for gourmet, seasonally rotating menus that expertly mimic non-vegan comfort foods. It remains a standout safe haven for those with complex dietary restrictions, particularly those avoiding wheat, soy, or nuts.",
+      "neighborhood_description": "Situated within a bustling suburban retail and commercial corridor, the surrounding area is convenient and easily accessible for local residents and visitors alike.",
+      "physical_setting_description": "Located in a suburban shopping plaza, this establishment provides a bright, open-air environment with both indoor and patio seating. It offers a calm, scenic atmosphere enhanced by the presence of a decorative waterfall.",
+      "customer_demographics_description": "Great Sage attracts a diverse crowd of locals and visitors, including vegans, vegetarians, and omnivorous foodies interested in plant-based dining. The restaurant is a popular choice for couples on dates, families seeking healthy meal options, and groups of friends gathering for special celebrations or brunch. Its welcoming atmosphere and extensive dietary accommodations draw in diners with specific food sensitivities and those looking for creative, health-conscious culinary experiences.",
+      "image": {
+       "url": "https://images.qloo.com/i/3AEC7257-1441-4A32-9379-0FDE4BDCF53C-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9700447717229034,
+     "location": {
+      "lat": 39.2131027,
+      "lon": -76.939082,
+      "geohash": "dqcr14w8vs2q"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kids_menu",
+       "name": "Kids menu",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:vegans",
+       "name": "Vegans",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_cider",
+       "name": "Hard cider",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:ultimate_nachos",
+       "name": "Ultimate nachos",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:carrot_cake",
+       "name": "Carrot cake",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:suburban_commercial_area",
+       "name": "Suburban commercial area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:vegan_options",
+       "name": "Vegan meals",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:vegetarian_options",
+       "name": "Vegetarian meals",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pumpkin_mousse",
+       "name": "Pumpkin mousse",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:catering",
+       "name": "Catering",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:brunch_reservations_recommended",
+       "name": "Brunch reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:plant_based",
+       "name": "Plant based",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:vibrant",
+       "name": "Vibrant",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:private_dining_room",
+       "name": "Private dining room",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:breakfast",
+       "name": "Breakfast",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:healthy_options",
+       "name": "Healthy options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:farm_to_table",
+       "name": "Farm to table",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:counter_service",
+       "name": "Counter service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:dinner_reservations_recommended",
+       "name": "Dinner reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:creative_culinary_arts",
+       "name": "Creative culinary arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:suburban",
+       "name": "Suburban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:holistic_wellness",
+       "name": "Holistic wellness",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:45_54",
+       "name": "45 54",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:chai_milkshake",
+       "name": "Chai milkshake",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:order_ahead",
+       "name": "Order ahead",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:bright",
+       "name": "Bright",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:work_dinner",
+       "name": "Work dinner",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:mac_and_cheese",
+       "name": "Mac and cheese",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:specialty_cocktails",
+       "name": "Specialty cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:bright",
+       "name": "Bright",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:reuben_sandwich",
+       "name": "Reuben sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:patio_view",
+       "name": "Patio view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:soy_free",
+       "name": "Soy free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:vegetarians",
+       "name": "Vegetarians",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:braille_menu",
+       "name": "Braille menu",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:buffalo_cauliflower_bites",
+       "name": "Buffalo cauliflower bites",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:gluten_free_options",
+       "name": "Gluten free options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:allergy_friendly_dining",
+       "name": "Allergy friendly dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:organic_dishes",
+       "name": "Organic dishes",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:roots_market",
+       "name": "Roots market",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:shopping_center",
+       "name": "Shopping center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:small_plates",
+       "name": "Small plates",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:celebratory_diners",
+       "name": "Celebratory diners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:20_to_30",
+       "name": "$20 to $30",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sustainable_eating",
+       "name": "Sustainable eating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:vegan_restaurant",
+       "name": "Vegan restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:anniversary",
+       "name": "Anniversary",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:vegetarian_restaurant",
+       "name": "Vegetarian restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:plant_focused",
+       "name": "Plant focused",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:garden_view",
+       "name": "Garden view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:plant_based",
+       "name": "Plant based",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:gourmet",
+       "name": "Gourmet",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:spinach_artichoke_dip",
+       "name": "Spinach artichoke dip",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:global_fusion",
+       "name": "Global fusion",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:crab_cake_sandwich",
+       "name": "Crab cake sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:plant_based_living",
+       "name": "Plant based living",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed_outside",
+       "name": "Dogs allowed outside",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:nut_free",
+       "name": "Nut free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:no_contact_delivery",
+       "name": "No contact delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hot_tea",
+       "name": "Hot tea",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_service",
+       "name": "Counter service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:celiac_friendly",
+       "name": "Celiac friendly",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:allergy_friendly",
+       "name": "Allergy friendly",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:seasonal",
+       "name": "Seasonal",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7052117905942555,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5809 Clarksville Square Dr Clarksville, MD 21029",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d784517",
+        "rating": 4.5,
+        "rating_count": 233
+       }
+      ],
+      "google_place": [
+       {
+        "id": "724ebe96bb5b4846",
+        "place_id": "ChIJTdnpNN3Yt4kRRkhbu5a-TnI"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "8520E460-422A-42A5-82E0-164E1F70D878",
+      "name": "Columbia",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.20046795204916,
+       "lon": -76.85898151682127
+      },
+      "popularity": 0.9941519,
+      "disambiguation": "Columbia, Howard County, Maryland, United States"
+     }
+    ]
+   }
+  }
+ }
+}

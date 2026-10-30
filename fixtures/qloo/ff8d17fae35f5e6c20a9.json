@@ -1,0 +1,5960 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Montclair, New Jersey",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "The Wellmont Theater",
+     "entity_id": "754140A1-7A89-4D16-A0DE-BD665A9F5C5A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ]
+      },
+      "phone": "+19737839500",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/754140A1-7A89-4D16-A0DE-BD665A9F5C5A-2o0331-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5 Seymour St Montclair, NJ 07042",
+      "geocode": {
+       "city": "Montclair",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Jersey",
+       "admin2_region": "Essex County"
+      },
+      "parking": true,
+      "website": "https://wellmonttheater.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "balcony seating",
+        "count": 70
+       },
+       {
+        "name": "uncomfortable seats",
+        "count": 20
+       },
+       {
+        "name": "old theater",
+        "count": 19
+       },
+       {
+        "name": "small theater",
+        "count": 18
+       },
+       {
+        "name": "cover bands",
+        "count": 4
+       },
+       {
+        "name": "leg room",
+        "count": 10
+       },
+       {
+        "name": "acoustics",
+        "count": 39
+       },
+       {
+        "name": "concert venue",
+        "count": 29
+       },
+       {
+        "name": "merch setup",
+        "count": 4
+       },
+       {
+        "name": "comedy show",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "07042",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4907FAE1-EB62-4655-8A2C-F5AFD7EC6F85",
+        "admin_level": 9,
+        "locality_id": "z07042",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Historic Montclair theater hosting concerts, comedians, and special events in an intimate, renovated venue near downtown dining and easy parking.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Historic Montclair theater hosting concerts, comedians, and special events in an intimate, renovated venue near downtown dining and easy parking.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Wellmont Theater is a historic, beautifully restored performance venue in the center of downtown Montclair, known for hosting a diverse array of concerts, comedy shows, and special community events. With a capacity of approximately 2,500, it offers an intimate experience where patrons can enjoy high-quality lighting and sound within an architecturally stunning space. The theater serves as a cultural cornerstone for the area, conveniently located near various restaurants and shops. While the venue is celebrated for its atmosphere and programming, visitors should plan ahead for off-site parking and be prepared for a compact, historic seating layout.",
+      "service_description": null,
+      "ambience_description": "The venue offers an intimate and culturally rich atmosphere defined by its historic architecture and ornate interior details. It maintains a lively energy suitable for music, comedy, and community gatherings.",
+      "amenities_description": "The theater features multiple bars, concession services for snacks and drinks, and upgraded audio-visual technology. Facilities are designed to accommodate large crowds for diverse types of live performances.",
+      "unique_selling_points": "As a beautifully renovated 1922 historic landmark, the theater combines its ornate, vintage charm with modern sound and lighting capabilities. Its intimate scale ensures an up-close connection between performers and the audience.",
+      "neighborhood_description": "The surrounding neighborhood is a bustling, walkable area filled with diverse dining options and local shops, creating a lively environment for visitors before and after events. It functions as a cultural destination within the community.",
+      "physical_setting_description": "Located in the heart of downtown Montclair, this historic venue is situated within a vibrant pedestrian-friendly arts district. The setting is surrounded by various restaurants and shops, making it a central hub for entertainment.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/754140A1-7A89-4D16-A0DE-BD665A9F5C5A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9973841991812343,
+     "location": {
+      "lat": 40.812647399999996,
+      "lon": -74.2166355,
+      "geohash": "dr70pjtngj0s"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:nearby_attraction:qloo:montclair_downtown",
+       "name": "Montclair downtown",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:dining_hub",
+       "name": "Dining hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:vintage",
+       "name": "Vintage",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:architecture",
+       "name": "Architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stand",
+       "name": "Concession stand",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:south_fullerton_parking_plaza",
+       "name": "South fullerton parking plaza",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stand_up_comedy",
+       "name": "Stand up comedy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:arts_district",
+       "name": "Arts district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unique",
+       "name": "Unique",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arts_district",
+       "name": "Arts district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+       "name": "Trendy",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:audio_visual_system",
+       "name": "Audio visual system",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:pedestrian_plaza",
+       "name": "Pedestrian plaza",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_culture",
+       "name": "Concert culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_shows",
+       "name": "Comedy shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:ornate",
+       "name": "Ornate",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stage_lighting",
+       "name": "Stage lighting",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_dining",
+       "name": "Local dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cultural",
+       "name": "Cultural",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:ornate",
+       "name": "Ornate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5 Seymour St Montclair, NJ 07042",
+     "external": {
+      "google_place": [
+       {
+        "id": "896c100b055984e8",
+        "place_id": "ChIJc2GCYEtVwokR6IRZBQsQbIk"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Van Vleck House & Gardens",
+     "entity_id": "7AF791FC-3822-4320-8FD9-68771FAD56B7",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ]
+      },
+      "phone": "+19737444752",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/7AF791FC-3822-4320-8FD9-68771FAD56B7-2YDM7K-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "21 Van Vleck St Montclair, NJ 07042",
+      "geocode": {
+       "city": "Montclair",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Jersey",
+       "admin2_region": "Essex County"
+      },
+      "parking": true,
+      "website": "https://vanvleck.org/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "flowers",
+        "count": 27
+       },
+       {
+        "name": "donations only",
+        "count": 15
+       },
+       {
+        "name": "short walk",
+        "count": 46
+       },
+       {
+        "name": "wisteria",
+        "count": 12
+       },
+       {
+        "name": "free admission",
+        "count": 27
+       },
+       {
+        "name": "butterfly garden",
+        "count": 3
+       },
+       {
+        "name": "peaceful atmosphere",
+        "count": 21
+       },
+       {
+        "name": "mansion",
+        "count": 6
+       },
+       {
+        "name": "fairy garden",
+        "count": 2
+       },
+       {
+        "name": "wedding venue",
+        "count": 12
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "07042",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4907FAE1-EB62-4655-8A2C-F5AFD7EC6F85",
+        "admin_level": 9,
+        "locality_id": "z07042",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Historic 1868 Italianate villa with 5.8 acres of admission-free formal gardens featuring tours, classes, seasonal concerts, and community programs.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:botanical_garden",
+       "akas": [
+        {
+         "value": "\"\u062d\u062f\u064a\u0642\u0629 \u0646\u0628\u0627\u062a\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0411\u043e\u0442\u0430\u043d\u0456\u0447\u043d\u0438\u0439 \u0441\u0430\u0434\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u0411\u043e\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430 \u0433\u0440\u0430\u0434\u0438\u043d\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0ba4\u0bbe\u0bb5\u0bb0\u0bb5\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0bc2\u0b99\u0bcd\u0b95\u0bbe\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Botanick\u00e1 z\u00e1hrada\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Orto botanico\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Botanisk have\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u690d\u7269\u5712\"",
+         "languages": [
+          "ja",
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lorategi botanikoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Jard\u00edn bot\u00e1nico\"",
+         "languages": [
+          "es_la",
+          "es",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u101b\u102f\u1000\u1039\u1001\u1017\u1031\u1012\u1025\u101a\u103b\u102c\u1009\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Jard\u00ed bot\u00e0nic\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Kasvitieteellinen puutarha\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Botani\u010dki vrt\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Botaanikaaed\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Botanick\u00e1 zahrada\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u690d\u7269\u56ed\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Botaniese tuin\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u0411\u043e\u0442\u0430\u043d\u0438\u0447\u043a\u0430 \u0433\u0440\u0430\u0434\u0438\u043d\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"V\u01b0\u1eddn b\u00e1ch th\u1ea3o\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Botani\u010dka ba\u0161ta\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Botanical garden\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Gr\u0103din\u0103 botanic\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0411\u043e\u0442\u0430\u043d\u0438\u0447\u043a\u0430 \u0431\u0430\u0448\u0442\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Botanikos sodas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u05d2\u05df \u05d1\u05d5\u05d8\u05e0\u05d9\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0411\u043e\u0442\u0430\u043d\u0438\u043a\u0430\u043b\u044b\u049b \u0431\u0430\u049b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09cb\u099f\u09be\u09a8\u09bf\u0995\u09cd\u09af\u09be\u09b2 \u0997\u09be\u09b0\u09cd\u09a1\u09c7\u09a8\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10dd\u10e2\u10d0\u10dc\u10d8\u10d9\u10e3\u10e0\u10d8 \u10d1\u10d0\u10e6\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Botanischer Garten\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Botanisk tr\u00e4dg\u00e5rd\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Jardim bot\u00e2nico\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Botani\u010dni vrt\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e27\u0e19\u0e1e\u0e24\u0e01\u0e29\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Kebun raya\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u179f\u17bd\u1793\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Botanisk hage\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Botanikus kert\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Bot\u0101niskais d\u0101rzs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0935\u0928\u0938\u094d\u092a\u0924\u093f \u0909\u0926\u094d\u092f\u093e\u0928\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Botanik bah\u00e7esi\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Taman botani\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0ea7\u0e99\u0e9e\u0eb6\u0e81\u0eaa\u0eb2\u0eaa\u0eb2\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Jardin botanique\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Ogr\u00f3d botaniczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\uc2dd\ubb3c\uc6d0\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Kopsht botanik\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Bustani ya mimea\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Botanische tuin\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0411\u043e\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u0430\u0434\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Xard\u00edn bot\u00e1nico\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Botanika ba\u011f\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u0c35\u0c43\u0c15\u0c4d\u0c37\u0c36\u0c3e\u0c38\u0c4d\u0c24\u0c4d\u0c30 \u0c09\u0c26\u0c4d\u0c2f\u0c3e\u0c28\u0c35\u0c28\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u0392\u03bf\u03c4\u03b1\u03bd\u03b9\u03ba\u03cc\u03c2 \u03ba\u03ae\u03c0\u03bf\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        }
+       ],
+       "name": "Botanical garden",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Historic 1868 Italianate villa with 5.8 acres of admission-free formal gardens featuring tours, classes, seasonal concerts, and community programs.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Van Vleck House & Gardens is a historic 1868 Italianate estate in Montclair, New Jersey, offering 5.8 acres of admission-free formal gardens to the public. Serving as a peaceful oasis, it features a rich variety of seasonal plantings, including azaleas and wisteria, alongside dedicated spaces for nature-themed classes and community events. Managed by The Montclair Foundation, the site blends historic preservation with active educational and cultural programming. It is a favored destination for locals and tourists alike who seek a serene environment for walking, photography, and community engagement.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is calm and inviting, making it a perfect destination for those seeking solitude, reflection, or a leisurely walk surrounded by nature. It maintains a refined, elegant feel suitable for both quiet contemplation and curated community events.",
+      "amenities_description": "The facility provides access to extensive formal gardens, marked walking paths, and various outdoor seating areas for relaxation. On-site amenities include a visitor center, restroom facilities, and designated parking areas.",
+      "unique_selling_points": "The property is distinguished by its well-preserved 1868 Italianate villa and a diverse collection of flowering plants, including signature azaleas and wisteria. It functions as both a public botanical oasis and a hub for community arts and educational programming.",
+      "neighborhood_description": "The site is located within a peaceful, established residential area that provides a serene backdrop for the gardens. It serves as a natural retreat while remaining accessible to the surrounding community.",
+      "physical_setting_description": "This historic property features 5.8 acres of beautifully landscaped formal gardens surrounding an 1868 Italianate villa. The grounds offer a tranquil, oasis-like environment tucked away in a quiet residential neighborhood.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/7AF791FC-3822-4320-8FD9-68771FAD56B7-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9825277729178808,
+     "location": {
+      "lat": 40.824026599999996,
+      "lon": -74.2211677,
+      "geohash": "dr70ppcc1qms"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:setting:qloo:suburban",
+       "name": "Suburban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:birding",
+       "name": "Birding",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:botanical_garden",
+       "name": "Botanical garden",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:mindfulness",
+       "name": "Mindfulness",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:nature",
+       "name": "Nature",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:brookdale_park_rose_garden",
+       "name": "Brookdale park rose garden",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:gardens",
+       "name": "Gardens",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:yoga",
+       "name": "Yoga",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:garden_view",
+       "name": "Garden view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:quiet",
+       "name": "Quiet",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:italianate",
+       "name": "Italianate",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:education_center",
+       "name": "Education center",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:serene",
+       "name": "Serene",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:scenic_spot",
+       "name": "Scenic spot",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:tranquil",
+       "name": "Tranquil",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:botanical_garden",
+       "name": "Botanical garden",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_gardening",
+       "name": "Community gardening",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:charming",
+       "name": "Charming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:elegant",
+       "name": "Elegant",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:birdwatching",
+       "name": "Birdwatching",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:garden",
+       "name": "Garden",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:non_profit_organization",
+       "name": "Non profit organization",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:horticulture",
+       "name": "Horticulture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:quiet",
+       "name": "Quiet",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:historic_architecture",
+       "name": "Historic architecture",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nature_focused",
+       "name": "Nature focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:historic_architecture",
+       "name": "Historic architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:peaceful",
+       "name": "Peaceful",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nature_outdoors",
+       "name": "Nature outdoors",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:photography",
+       "name": "Photography",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:reeve_s_reed_arboretum",
+       "name": "Reeves reed arboretum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:presby_iris_garden",
+       "name": "Presby iris garden",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:visitor_center",
+       "name": "Visitor center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating_areas",
+       "name": "Seating areas",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:scenic_spot",
+       "name": "Scenic spot",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:serene",
+       "name": "Serene",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:botanical_garden",
+       "name": "Botanical garden",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:garden",
+       "name": "Garden",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "21 Van Vleck St Montclair, NJ 07042",
+     "external": {
+      "google_place": [
+       {
+        "id": "4d45bbbc021297f2",
+        "place_id": "ChIJqdFijquqw4kR8pcSAry7RU0"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Just Jake's",
+     "entity_id": "50E17425-58FA-4F6D-9562-E9FF65A8DC1A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T11:30:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ]
+      },
+      "phone": "+19736558987",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/50E17425-58FA-4F6D-9562-E9FF65A8DC1A-1h4cCe-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "30 Park St Montclair, NJ 07042",
+      "geocode": {
+       "city": "Montclair",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Jersey",
+       "admin2_region": "Essex County"
+      },
+      "parking": false,
+      "website": "http://www.justjakes.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 0.9054054054054055
+       },
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.9417989417989417
+       }
+      ],
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "07042",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4907FAE1-EB62-4655-8A2C-F5AFD7EC6F85",
+        "admin_level": 9,
+        "locality_id": "z07042",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Cozy family-run neighborhood pub with a lively bar scene, weekend live music, dog-friendly patio, and extended happy hour near the Wellmont Theater.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "akas": [
+        {
+         "value": "\"Baar\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Baari\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e1a\u0e32\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0628\u0627\u0631\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Bar\"",
+         "languages": [
+          "pt_pt",
+          "sv",
+          "tl",
+          "da",
+          "en_gb",
+          "sk",
+          "pl",
+          "de",
+          "bs",
+          "it",
+          "ca",
+          "cs",
+          "nb",
+          "ms",
+          "sq",
+          "tr",
+          "es_la",
+          "fr",
+          "az",
+          "gl",
+          "sl",
+          "hr",
+          "pt",
+          "fr_ca",
+          "ro",
+          "id",
+          "es_ar",
+          "nl",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\"",
+         "languages": [
+          "ru",
+          "kk",
+          "bg",
+          "mk",
+          "sr",
+          "uk"
+         ]
+        },
+        {
+         "value": "\"B\u00e1r\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0e9a\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u30d0\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"B\u0101rs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c3e\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5427\"",
+         "languages": [
+          "zh_tw",
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102c\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d0\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Qu\u00e1n bar\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1794\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u05d1\u05e8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kroeg\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u092c\u093e\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\ubc14\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Taberna\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u039c\u03c0\u03b1\u03c1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Ba\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Baras\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": [
+       {
+        "id": "urn:tag:specialty_dish:place:buffalo_wings",
+        "name": "Buffalo Wings",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 1
+       },
+       {
+        "id": "urn:tag:specialty_dish:place:chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 0.5
+       },
+       {
+        "id": "urn:tag:specialty_dish:place:taco_day_2",
+        "name": "Taco Of The Day 2",
+        "type": "urn:tag:specialty_dish:place",
+        "weight": 0
+       }
+      ],
+      "short_description": "Cozy family-run neighborhood pub with a lively bar scene, weekend live music, dog-friendly patio, and extended happy hour near the Wellmont Theater.",
+      "number_of_stations": null,
+      "cuisine_description": "Just Jake's offers a casual dining experience featuring traditional American pub fare, including burgers, wings, and pizza, alongside Korean-inspired fusion dishes. The menu is designed for casual snacking and meals, complemented by a full bar offering a wide selection of beer, wine, and cocktails. Vegetarian-friendly options are available, and the restaurant is known for its happy hour specials.",
+      "overall_description": "A cornerstone of the local community since 1997, this family-run establishment offers a welcoming blend of casual dining and lively nightlife. Visitors can enjoy a variety of bar-style dishes and an extensive drink selection, whether sitting on the dog-friendly patio or catching a performance by a local band. Its proximity to a major historic theater makes it an ideal meeting point for pre-show meals and late-night drinks.",
+      "service_description": "Just Jake's provides a relaxed environment suitable for various occasions, from family meals to nightlife. Guests can enjoy dining indoors or on the dog-friendly patio, with options for takeout and delivery. The venue frequently hosts live music on weekends and serves as a popular spot before or after nearby theater events, offering dedicated private event hosting.",
+      "ambience_description": "The atmosphere is warm and inviting, blending the feel of a friendly neighborhood pub with a high-energy bar scene that ramps up on weekend nights. It shifts from a relaxed dining spot for families and sports fans during the day to a spirited music venue as the night progresses.",
+      "amenities_description": "The venue offers a pet-friendly outdoor patio equipped with flat-screen televisions for sports, alongside comfortable indoor dining areas. It serves a full range of bar fare and drinks, catering to both casual diners and nightlife crowds.",
+      "unique_selling_points": "A long-standing, family-run neighborhood staple that perfectly bridges the gap between a classic sports pub and a live music venue. It is especially noted for being a go-to gathering spot for concert-goers visiting the nearby historic theater.",
+      "neighborhood_description": "The surrounding area is a vibrant, walkable community hub known for its concentration of restaurants, bars, and entertainment venues. It serves as a central social destination for locals and theater-goers alike.",
+      "physical_setting_description": "Located in a lively town center, the establishment is situated just blocks from a major performance venue and features both indoor seating and an outdoor patio space. The setting is central and highly accessible to the surrounding neighborhood.",
+      "customer_demographics_description": "The customer base is primarily composed of local residents, families, and young adults from the Montclair area. It attracts a mix of college students, millennials, and concert-goers from the nearby Wellmont Theater looking for a neighborhood pub atmosphere.",
+      "image": {
+       "url": "https://images.qloo.com/i/50E17425-58FA-4F6D-9562-E9FF65A8DC1A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9543789404632292,
+     "location": {
+      "lat": 40.816186699999996,
+      "lon": -74.2184225,
+      "geohash": "dr70pn7g92me"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:menu_highlight:qloo:white_clam_pizza",
+       "name": "White clam pizza",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_hub",
+       "name": "Entertainment hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar_seating",
+       "name": "Bar seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:main_street",
+       "name": "Main street",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:bar_culture",
+       "name": "Bar culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:mexican_fusion",
+       "name": "Mexican fusion",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:televisions",
+       "name": "Televisions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:fried_rice_with_kimchi_and_sausage",
+       "name": "Fried rice with kimchi and sausage",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:wellmont_theater",
+       "name": "Wellmont theater",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:fish_and_chips",
+       "name": "Fish and chips",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:cheesesteak_sandwich",
+       "name": "Cheesesteak sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:pub_style",
+       "name": "Pub style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:buffalo_wings",
+       "name": "Buffalo wings",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:20_to_30",
+       "name": "$20 to $30",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music_stage",
+       "name": "Live music stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:street_view",
+       "name": "Street view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:young_adults",
+       "name": "Young adults",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:socializing",
+       "name": "Socializing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:chicken_quesadilla",
+       "name": "Chicken quesadilla",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:downtown",
+       "name": "Downtown",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_viewing",
+       "name": "Sports viewing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:convenience_stop",
+       "name": "Convenience stop",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:korean_fusion",
+       "name": "Korean fusion",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sports_bar_energy",
+       "name": "Sports bar energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:nachos",
+       "name": "Nachos",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:carrot_cake",
+       "name": "Carrot cake",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:mask_required",
+       "name": "Mask required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:private_dining_room",
+       "name": "Private dining room",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:neighborhood_pub_vibe",
+       "name": "Neighborhood pub vibe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_patio",
+       "name": "Outdoor patio",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "30 Park St Montclair, NJ 07042",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d3380940",
+        "rating": 4,
+        "rating_count": 39
+       }
+      ],
+      "google_place": [
+       {
+        "id": "e55615d8fa13fc2",
+        "place_id": "ChIJM_EIzbKqw4kRwj-hj11hVQ4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Meatlocker",
+     "entity_id": "D56A0B59-5094-456C-AB99-38B0D3159C90",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ]
+      },
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/D56A0B59-5094-456C-AB99-38B0D3159C90-3pjqrr-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "8 Park St Montclair, NJ 07042",
+      "geocode": {
+       "city": "Montclair",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Jersey",
+       "admin2_region": "Essex County"
+      },
+      "parking": true,
+      "website": "http://www.themeatlocker.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "live underground music",
+        "count": 2
+       },
+       {
+        "name": "graffiti",
+        "count": 4
+       },
+       {
+        "name": "punk music",
+        "count": 7
+       },
+       {
+        "name": "local bands",
+        "count": 3
+       },
+       {
+        "name": "basementy",
+        "count": 6
+       },
+       {
+        "name": "fun atmosphere",
+        "count": 6
+       },
+       {
+        "name": "basement venue",
+        "count": 4
+       },
+       {
+        "name": "closed",
+        "count": 2
+       },
+       {
+        "name": "shows",
+        "count": 6
+       },
+       {
+        "name": "cleanliness",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "07042",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4907FAE1-EB62-4655-8A2C-F5AFD7EC6F85",
+        "admin_level": 9,
+        "locality_id": "z07042",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Intimate live-music venue in downtown Montclair hosting local and touring bands in a small, energetic performance space.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Intimate live-music venue in downtown Montclair hosting local and touring bands in a small, energetic performance space.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Meatlocker is a legendary, long-standing DIY music venue in downtown Montclair that functions as a raw and unpretentious basement space for local and touring bands. Known for its intense, graffiti-covered walls and communal spirit, it attracts fans of punk, hardcore, and metal looking for an authentic, high-energy live music experience. While the venue is intentionally low-frills and maintains a gritty, underground character, it serves as a vital pillar for the regional music community and independent artists. Visitors should expect a loud, sweaty, and informal atmosphere that prioritizes musical passion over modern luxury.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is intense, unpretentious, and highly energetic, characterized by a gritty DIY aesthetic that feels like a home for outsiders and music lovers. It is a no-frills, loud, and communal space that prioritizes the raw experience of live performance over polished amenities.",
+      "amenities_description": "The venue offers a functional performance space with a basic sound system for live bands; it operates as a BYOB establishment without formal food or bar service.",
+      "unique_selling_points": "Famous for its decades-long history as a legendary DIY underground music hub, the venue is defined by its iconic graffiti-covered walls and its authentic, raw commitment to independent music.",
+      "neighborhood_description": "The venue is situated in a vibrant and affluent downtown area characterized by boutique shops and cafes, providing a stark, edgy contrast to its immediate surroundings.",
+      "physical_setting_description": "Located in the heart of downtown Montclair, this intimate and tucked-away basement venue offers an extremely raw, industrial, and unpretentious environment. The space is defined by its graffiti-covered walls, dimly lit atmosphere, and compact performance area.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/D56A0B59-5094-456C-AB99-38B0D3159C90-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9499125404284608,
+     "location": {
+      "lat": 40.8154614,
+      "lon": -74.2189573,
+      "geohash": "dr70pn5rkcpr"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:interior_view_only",
+       "name": "Interior view only",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:performance_stage",
+       "name": "Performance stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:graffiti_art",
+       "name": "Graffiti art",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:underground_venue",
+       "name": "Underground venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unique",
+       "name": "Unique",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:gritty",
+       "name": "Gritty",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:mosh_pitting",
+       "name": "Mosh pitting",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:vinyl_collecting",
+       "name": "Vinyl collecting",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:underground_music_performances",
+       "name": "Underground music performances",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:punk_rock_culture",
+       "name": "Punk rock culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:just_jake_s",
+       "name": "Just jakes",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:sound_system",
+       "name": "Sound system",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:secluded",
+       "name": "Secluded",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:raw",
+       "name": "Raw",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:basement",
+       "name": "Basement",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:independent_music",
+       "name": "Independent music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:basement_venue",
+       "name": "Basement venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:diy_art",
+       "name": "Diy art",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:affluent_neighborhood",
+       "name": "Affluent neighborhood",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:diy_aesthetic",
+       "name": "Diy aesthetic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_music_scenes",
+       "name": "Local music scenes",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:dive_bar_style",
+       "name": "Dive bar style",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:underground",
+       "name": "Underground",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:diy",
+       "name": "Diy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "8 Park St Montclair, NJ 07042",
+     "external": {
+      "google_place": [
+       {
+        "id": "2f79ae831f302a9d",
+        "place_id": "ChIJo7j-JrOqw4kRnSowH4OueS8"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Halcyon",
+     "entity_id": "B3BFFC05-D4FC-4B11-ABD4-CC93B0830BC5",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T15:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T16:30:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T11:30:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T16:30:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T11:30:00",
+         "closed": false,
+         "closes": "T15:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T16:30:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T16:30:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ]
+      },
+      "phone": "+19737444450",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/B3BFFC05-D4FC-4B11-ABD4-CC93B0830BC5-2DmdtC-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "114 Walnut St Montclair, NJ 07042",
+      "geocode": {
+       "city": "Montclair",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Jersey",
+       "admin2_region": "Essex County"
+      },
+      "parking": true,
+      "website": "https://www.halcyonmontclair.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:event:place:anniversary",
+        "name": "Anniversary",
+        "type": "urn:tag:event:place",
+        "weight": 0
+       },
+       {
+        "id": "urn:tag:event:place:work_dinner",
+        "name": "Work Dinner",
+        "type": "urn:tag:event:place",
+        "weight": 0.5
+       },
+       {
+        "id": "urn:tag:event:place:date_night",
+        "name": "Date Night",
+        "type": "urn:tag:event:place",
+        "weight": 1
+       },
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 0.8461538461538461
+       }
+      ],
+      "keywords": [
+       {
+        "name": "crab cake",
+        "count": 16
+       },
+       {
+        "name": "paella",
+        "count": 22
+       },
+       {
+        "name": "outdoor seating",
+        "count": 4
+       },
+       {
+        "name": "grilled oysters",
+        "count": 6
+       },
+       {
+        "name": "truffle fries",
+        "count": 6
+       },
+       {
+        "name": "halibut",
+        "count": 6
+       },
+       {
+        "name": "grilled octopus",
+        "count": 4
+       },
+       {
+        "name": "coconut shrimp roll",
+        "count": 2
+       },
+       {
+        "name": "kimchi fried rice",
+        "count": 3
+       },
+       {
+        "name": "lobster spaghetti",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Montclair",
+        "place": "township",
+        "boundary": "administrative",
+        "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+        "admin_level": 8,
+        "locality_id": "r170783",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Essex County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "84ABA65E-939C-48FD-AD66-8D4C8761EBF9",
+        "admin_level": 6,
+        "locality_id": "r957235",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "07042",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4907FAE1-EB62-4655-8A2C-F5AFD7EC6F85",
+        "admin_level": 9,
+        "locality_id": "z07042",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Jersey",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "508A178F-0EE4-48BF-8839-56246FC2CEA9",
+        "admin_level": 4,
+        "locality_id": "r224951",
+        "abbreviation": "N.J.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Upscale-casual, seafood-focused restaurant with a raw bar, craft cocktails, and an upstairs private lounge.",
+      "hotel_class": null,
+      "price_level": 3,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:seafood",
+       "akas": [
+        {
+         "value": "\"Restorant me ushqim deti\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Restavracija z morskimi sade\u017ei\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Mgahawa wa vyakula vya baharini\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e0ng h\u1ea3i s\u1ea3n\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u6d77\u9c9c\u9910\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u10d6\u10e6\u10d5\u10d8\u10e1 \u10de\u10e0\u10dd\u10d3\u10e3\u10e5\u10e2\u10d4\u10d1\u10d8\u10e1 \u10e0\u10d4\u10e1\u10e2\u10dd\u10e0\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u1015\u1004\u103a\u101c\u101a\u103a\u1005\u102c\u1005\u102c\u1038\u101e\u1031\u102c\u1000\u103a\u1006\u102d\u102f\u1004\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u04a3\u0456\u0437 \u04e9\u043d\u0456\u043c\u0434\u0435\u0440\u0456 \u043c\u0435\u0439\u0440\u0430\u043c\u0445\u0430\u043d\u0430\u0441\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c40\u0c2b\u0c41\u0c21\u0c4d \u0c30\u0c46\u0c38\u0c4d\u0c1f\u0c3e\u0c30\u0c46\u0c02\u0c1f\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Restaurant cu fructe de mare\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u1797\u17c4\u1787\u1793\u17b8\u1799\u178a\u17d2\u178b\u17b6\u1793\u17a2\u17b6\u17a0\u17b6\u179a\u179f\u1798\u17bb\u1791\u17d2\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Itsaskien jatetxea\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\ud574\uc0b0\ubb3c \uc2dd\ub2f9\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0437\u0430 \u043c\u043e\u0440\u0441\u043a\u0430 \u0445\u0440\u0430\u043d\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Seekosrestaurant\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Seafood restaurant\"",
+         "languages": [
+          "tl",
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u043c\u043e\u0440\u0435\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Tengeri \u00e9telek \u00e9tterme\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Restoran makanan laut\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Restauracja z owocami morza\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Re\u0161taur\u00e1cia s morsk\u00fdmi plodmi\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0637\u0639\u0645 \u0645\u0623\u0643\u0648\u0644\u0627\u062a \u0628\u062d\u0631\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Deniz \u00fcr\u00fcnleri restoran\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Visrestaurant\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0eae\u0ec9\u0eb2\u0e99\u0ead\u0eb2\u0eab\u0eb2\u0e99\u0e97\u0eb0\u0ec0\u0ea5\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Restoran hidangan laut\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Poissonnerie\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09be\u09ae\u09c1\u09a6\u09cd\u09b0\u09bf\u0995 \u0996\u09be\u09ac\u09be\u09b0\u09c7\u09b0 \u09b0\u09c7\u09b8\u09cd\u09a4\u09cb\u09b0\u09be\u0981\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Restaurant de marisc\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u6d77\u9bae\u9910\u5ef3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u30b7\u30fc\u30d5\u30fc\u30c9\u30ec\u30b9\u30c8\u30e9\u30f3\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Restaurante de frutos do mar\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05e1\u05e2\u05d3\u05ea \u05d3\u05d2\u05d9\u05dd \u05d5\u05e4\u05d9\u05e8\u05d5\u05ea \u05d9\u05dd\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Fisk- och skaldjursrestaurang\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Fiskerestaurant\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Kalaravintola\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u043c\u043e\u0440\u0441\u043a\u0435 \u0445\u0440\u0430\u043d\u0435\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Mereannirestoran\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0b9f\u0bb2\u0bcd \u0b89\u0ba3\u0bb5\u0bc1 \u0b89\u0ba3\u0bb5\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0e23\u0e49\u0e32\u0e19\u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e17\u0e30\u0e40\u0e25\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Restoran morske hrane\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0438\u0431\u0435\u043d \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0442\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"D\u0259niz m\u0259hsullar\u0131 restoran\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"J\u016bros g\u0117rybi\u0173 restoranas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Fischrestaurant\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Ristorante di pesce\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Marisqueira\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Restaurant de fruits de mer\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Riblji restoran\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"J\u016bras vel\u0161u restor\u0101ns\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Marisquer\u00eda\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "gl",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Restaurace s mo\u0159sk\u00fdmi plody\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u0395\u03c3\u03c4\u03b9\u03b1\u03c4\u03cc\u03c1\u03b9\u03bf \u03b8\u03b1\u03bb\u03b1\u03c3\u03c3\u03b9\u03bd\u03ce\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0938\u0940\u092b\u0942\u0921 \u0930\u0947\u0938\u094d\u091f\u094b\u0930\u0947\u0902\u091f\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Sj\u00f8matrestaurant\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u043c\u043e\u0440\u0435\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0456\u0432\"",
+         "languages": [
+          "uk"
+         ]
+        }
+       ],
+       "name": "Seafood restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Upscale-casual, seafood-focused restaurant with a raw bar, craft cocktails, and an upstairs private lounge.",
+      "number_of_stations": null,
+      "cuisine_description": "Halcyon serves a Modern New American menu with a focus on fresh seafood, including a raw bar, and brasserie-inspired plates. Guests can enjoy chef-prepared entrees, fresh oysters, and sushi rolls alongside an extensive beverage program featuring craft cocktails, martinis, and a curated wine list. Dietary accommodations such as vegan, gluten-free, and dairy-free options are available upon request.",
+      "overall_description": "This refined dining destination specializes in modern New American cuisine with a heavy focus on fresh seafood and raw bar offerings. The venue balances an elegant, upscale-casual dining experience with a vibrant, stylish bar atmosphere, making it a popular choice for both celebratory dinners and casual social outings. With a commitment to quality, the restaurant also provides sophisticated private event capabilities and hosts regular live jazz performances, cementing its place as a cornerstone of the local community.",
+      "service_description": "The restaurant provides dine-in, takeout, and delivery services, with a formal setting suitable for special occasions, date nights, and celebratory events. It features a private lounge for events, hosts weekly live jazz, and offers designated happy hour times.",
+      "ambience_description": "The interior exudes a sophisticated yet welcoming vibe, characterized by an aesthetic decor featuring a signature rose wall and a beautiful, central bar.",
+      "amenities_description": "The establishment provides a full bar experience with craft cocktails and martinis, a dedicated raw bar, and an upstairs event lounge that is fully wheelchair accessible.",
+      "unique_selling_points": "Distinguished by its upscale yet accessible New American seafood menu and a stunning interior featuring a unique decorative floral wall.",
+      "neighborhood_description": "The surrounding area is a lively, pedestrian-friendly district known for its diverse culinary scene and community-focused atmosphere.",
+      "physical_setting_description": "Situated in the heart of the town, this establishment features an elegant bar and main dining level with an accessible entrance leading to a second-floor private lounge.",
+      "customer_demographics_description": "The restaurant attracts a diverse crowd of locals, couples on date nights, groups of friends celebrating milestones, and food enthusiasts who appreciate upscale-casual seafood dining and a refined cocktail atmosphere.",
+      "image": {
+       "url": "https://images.qloo.com/i/B3BFFC05-D4FC-4B11-ABD4-CC93B0830BC5-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.5558736466425294,
+     "location": {
+      "lat": 40.817592999999995,
+      "lon": -74.21151499999999,
+      "geohash": "dr70pq8gdqcb"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:espresso_martinis",
+       "name": "Espresso martinis",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:vegetarian_options",
+       "name": "Vegetarian meals",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+       "name": "Trendy",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:private_event_space",
+       "name": "Private event space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:upscale",
+       "name": "Upscale",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:brunch_restaurant",
+       "name": "Brunch restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:wellmont_theater",
+       "name": "Wellmont theater",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:cocktail_bar",
+       "name": "Cocktail bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:cocktail_bar",
+       "name": "Cocktail bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:elegant",
+       "name": "Elegant",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:dairy_free",
+       "name": "Dairy free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:mixology",
+       "name": "Mixology",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_jazz",
+       "name": "Live jazz",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:upscale_restaurant",
+       "name": "Upscale restaurant",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:small_plates",
+       "name": "Small plates",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:seafood_culinary_arts",
+       "name": "Seafood culinary arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:brunch_reservations_recommended",
+       "name": "Brunch reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:elegant",
+       "name": "Elegant",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:swordfish",
+       "name": "Swordfish",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:scallops",
+       "name": "Scallops",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sophisticated",
+       "name": "Sophisticated",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:seafood_restaurant",
+       "name": "Seafood restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:cod",
+       "name": "Cod",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:fine_dining",
+       "name": "Fine dining restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:dinner_reservations_recommended",
+       "name": "Dinner reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:work_dinner",
+       "name": "Work dinner",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:raw_bar",
+       "name": "Raw bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:romantic",
+       "name": "Romantic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:takeout",
+       "name": "Takeout restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevator",
+       "name": "Elevator",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:chic",
+       "name": "Chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:professional",
+       "name": "Professional",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:american",
+       "name": "American",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:paella",
+       "name": "Paella",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_dining",
+       "name": "Outdoor dining",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:pickup",
+       "name": "Pickup",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:catering",
+       "name": "Catering",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed_outside",
+       "name": "Dogs allowed outside",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:party_planner",
+       "name": "Party planner",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:oyster_bar_restaurant",
+       "name": "Oyster bar restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:lounge_bar",
+       "name": "Lounge bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+       "name": "Identifies as women owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:50_to_100",
+       "name": "$50 to $100",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:upscale_casual",
+       "name": "Upscale casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:fine_dining_restaurant",
+       "name": "Fine dining restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:celebratory_diners",
+       "name": "Celebratory diners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:montclair_art_museum",
+       "name": "Montclair art museum",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:american_restaurant",
+       "name": "American restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:anniversary",
+       "name": "Anniversary",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:no_contact_delivery",
+       "name": "No contact delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_get_temperature_checks",
+       "name": "Staff get temperature checks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kids_menu",
+       "name": "Kids menu",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pei_mussels",
+       "name": "Pei mussels",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:lamb_chops",
+       "name": "Lamb chops",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:halibut",
+       "name": "Halibut",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:new_american",
+       "name": "New american",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:oysters",
+       "name": "Oysters",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:organic_dishes",
+       "name": "Organic dishes",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:sophisticated",
+       "name": "Sophisticated",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:takeout_restaurant",
+       "name": "Takeout restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:vibrant",
+       "name": "Vibrant",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:street_view",
+       "name": "Street view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:sushi",
+       "name": "Sushi",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:grilled_octopus",
+       "name": "Grilled octopus",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:oyster_bar",
+       "name": "Oyster bar restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:brasserie",
+       "name": "Brasserie",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:lounge_bar",
+       "name": "Lounge bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:healthy_options",
+       "name": "Healthy options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:order_ahead",
+       "name": "Order ahead",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:private_dining_room",
+       "name": "Private dining room",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fine_dining",
+       "name": "Fine dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:upscale_casual",
+       "name": "Upscale casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "114 Walnut St Montclair, NJ 07042",
+     "external": {
+      "opentable": [
+       {
+        "id": "1026340",
+        "url": "https://www.opentable.com/restaurant/profile/1026340"
+       }
+      ],
+      "tripadvisor": [
+       {
+        "id": "d1984045",
+        "rating": 3.5,
+        "rating_count": 96
+       }
+      ],
+      "google_place": [
+       {
+        "id": "9d3b34b8f7d694e8",
+        "place_id": "ChIJWV31-VFVwokR6JTW97g0O50"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "A4337163-35BE-4BFB-BD26-6EC7E4564F38",
+      "name": "Montclair",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 40.82543939312954,
+       "lon": -74.21111371223961
+      },
+      "popularity": 0.98235273,
+      "disambiguation": "Montclair, Essex County, New Jersey, United States"
+     }
+    ]
+   }
+  }
+ }
+}

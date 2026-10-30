@@ -1,0 +1,3410 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "488C7F63-9D38-49A2-9544-51A802B4FE35",
+  "take": 50,
+  "filter.location.query": "Concord, California",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Toyota Pavilion at Concord",
+     "entity_id": "7DB695E7-6D29-474D-AEA9-1354846A76A5",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+19256768742",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/7DB695E7-6D29-474D-AEA9-1354846A76A5-0Sp9jl-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2000 Kirker Pass Rd Concord, CA 94521",
+      "geocode": {
+       "city": "Concord",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Contra Costa County"
+      },
+      "parking": true,
+      "website": "https://www.toyotapavilionatconcord.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": null
+       }
+      ],
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Concord",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4F8FFC23-B8BF-4A86-A433-25725B2AEEDF",
+        "admin_level": 8,
+        "locality_id": "r3705569",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Contra Costa County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3B8CC2D1-3030-4B57-99B3-C7E1F9569EB6",
+        "admin_level": 6,
+        "locality_id": "r396462",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "Concord",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4F8FFC23-B8BF-4A86-A433-25725B2AEEDF",
+        "admin_level": 8,
+        "locality_id": "r3705569",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "94521",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1E500ACD-29B1-411C-9757-2B97B1E504D8",
+        "admin_level": 9,
+        "locality_id": "z94521",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Contra Costa County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3B8CC2D1-3030-4B57-99B3-C7E1F9569EB6",
+        "admin_level": 6,
+        "locality_id": "r396462",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large, 12,000-plus-seat outdoor amphitheater hosting concerts, festivals, and community events in Concord's East Bay since 1975.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large, 12,000-plus-seat outdoor amphitheater hosting concerts, festivals, and community events in Concord's East Bay since 1975.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Toyota Pavilion at Concord is a premier outdoor amphitheater nestled in the hills of the East Bay, hosting a wide array of musical acts and community events since 1975. The venue features a split layout with covered seating near the stage and an expansive, open-air lawn area for a more casual experience. Guests appreciate the excellent sound quality and the unique policy allowing them to bring their own food and beverages. While the venue is known for its beautiful natural setting and lively atmosphere, visitors should plan for potential traffic congestion and uphill walking upon arrival.",
+      "service_description": null,
+      "ambience_description": "The venue offers a relaxed and social atmosphere where fans can enjoy live music in an open-air environment. The vibe ranges from high-energy during headlining acts to peaceful while lounging on the lawn.",
+      "amenities_description": "The venue features a variety of food and drink vendors, including food trucks and a VIP lounge with table service. It provides essential facilities such as clean restrooms, shuttle services, and rental options for lawn chairs.",
+      "unique_selling_points": "As a long-standing East Bay landmark, this venue uniquely permits guests to bring their own food and drinks, creating a budget-friendly and accessible experience. Its natural hillside setting offers panoramic views and excellent acoustics that have hosted legendary performances since 1975.",
+      "neighborhood_description": "The pavilion is situated in a hilly, residential-adjacent area of Concord that provides a natural backdrop for performances. The environment is largely quiet outside of event hours.",
+      "physical_setting_description": "Located in the hills of Concord, this large open-air amphitheater offers beautiful views of the surrounding landscape. The venue features a mix of covered stadium seating and a spacious open lawn area.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/7DB695E7-6D29-474D-AEA9-1354846A76A5-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9984185214447749,
+     "location": {
+      "lat": 37.959728999999996,
+      "lon": -121.9382308,
+      "geohash": "9q9rcnr73npz"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:hillside_location",
+       "name": "Hillside location",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:shuttle_service",
+       "name": "Shuttle service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_trucks",
+       "name": "Food trucks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:festivals",
+       "name": "Festivals",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:reservable_parking",
+       "name": "Reservable parking",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:music_festivals",
+       "name": "Music festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nostalgic",
+       "name": "Nostalgic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_amphitheater",
+       "name": "Outdoor amphitheater",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stadium_seating",
+       "name": "Stadium seating",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:mount_diablo",
+       "name": "Mount diablo",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:quiet",
+       "name": "Quiet",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:yeti_water_stations",
+       "name": "Yeti water stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stage",
+       "name": "Stage",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:garden_view",
+       "name": "Garden view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_club",
+       "name": "Vip club",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:subscription",
+       "name": "Subscription",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lawn_chair_rentals",
+       "name": "Lawn chair rentals",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:picnicking",
+       "name": "Picnicking",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:concord_bart_station",
+       "name": "Concord bart station",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:nature",
+       "name": "Nature",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:hillside_setting",
+       "name": "Hillside setting",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nature_focused",
+       "name": "Nature focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:hillside_view",
+       "name": "Hillside view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wheelchair_access",
+       "name": "Wheelchair access",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:socializing",
+       "name": "Socializing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:outdoor_arena",
+       "name": "Outdoor arena",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nature_outdoors",
+       "name": "Nature outdoors",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.8152870137671495,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2000 Kirker Pass Rd Concord, CA 94521",
+     "external": {
+      "google_place": [
+       {
+        "id": "aed76352fefc960f",
+        "place_id": "ChIJS9PZaPxehYARD5b8_lJj164"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Clayton Club Saloon",
+     "entity_id": "B2AEED05-BAC6-4B0F-B136-094B9BB54B59",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T13:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T13:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+19256730440",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/B2AEED05-BAC6-4B0F-B136-094B9BB54B59-09V5Zb-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "6096 Main St Clayton, CA 94517",
+      "geocode": {
+       "city": "Clayton",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Contra Costa County"
+      },
+      "parking": null,
+      "website": "http://www.claytonclubsaloon.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.9601873536299765
+       },
+       {
+        "id": "urn:tag:cost_description:place:inexpensive",
+        "name": "Inexpensive",
+        "type": "urn:tag:cost_description:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "live music",
+        "count": 20
+       },
+       {
+        "name": "back patio",
+        "count": 7
+       },
+       {
+        "name": "pool table",
+        "count": 4
+       },
+       {
+        "name": "fire pits",
+        "count": 5
+       },
+       {
+        "name": "friendly crowd",
+        "count": 7
+       },
+       {
+        "name": "dive bar",
+        "count": 3
+       },
+       {
+        "name": "beer selection",
+        "count": 3
+       },
+       {
+        "name": "dancing",
+        "count": 8
+       },
+       {
+        "name": "local bar",
+        "count": 4
+       },
+       {
+        "name": "cozy bar",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Clayton",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "C1B51E50-7669-41C2-A404-B39A7A8290E6",
+        "admin_level": 8,
+        "locality_id": "r3705568",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Contra Costa County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3B8CC2D1-3030-4B57-99B3-C7E1F9569EB6",
+        "admin_level": 6,
+        "locality_id": "r396462",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "Clayton",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "C1B51E50-7669-41C2-A404-B39A7A8290E6",
+        "admin_level": 8,
+        "locality_id": "r3705568",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "94517",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "93EF8165-0B1E-4BDE-BE05-2252DA31919C",
+        "admin_level": 9,
+        "locality_id": "z94517",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Contra Costa County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3B8CC2D1-3030-4B57-99B3-C7E1F9569EB6",
+        "admin_level": 6,
+        "locality_id": "r396462",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Neighborhood saloon and pool hall offering live music, affordable bar food, cocktails, and outdoor seating; veteran- and women-owned, LGBTQ+ friendly.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": false,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "akas": [
+        {
+         "value": "\"Baar\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Baari\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e1a\u0e32\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0628\u0627\u0631\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Bar\"",
+         "languages": [
+          "pt_pt",
+          "sv",
+          "tl",
+          "da",
+          "en_gb",
+          "sk",
+          "pl",
+          "de",
+          "bs",
+          "it",
+          "ca",
+          "cs",
+          "nb",
+          "ms",
+          "sq",
+          "tr",
+          "es_la",
+          "fr",
+          "az",
+          "gl",
+          "sl",
+          "hr",
+          "pt",
+          "fr_ca",
+          "ro",
+          "id",
+          "es_ar",
+          "nl",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\"",
+         "languages": [
+          "ru",
+          "kk",
+          "bg",
+          "mk",
+          "sr",
+          "uk"
+         ]
+        },
+        {
+         "value": "\"B\u00e1r\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0e9a\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u30d0\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"B\u0101rs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c3e\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5427\"",
+         "languages": [
+          "zh_tw",
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102c\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d0\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Qu\u00e1n bar\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1794\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u05d1\u05e8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kroeg\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u092c\u093e\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\ubc14\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Taberna\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u039c\u03c0\u03b1\u03c1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Ba\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Baras\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Neighborhood saloon and pool hall offering live music, affordable bar food, cocktails, and outdoor seating; veteran- and women-owned, LGBTQ+ friendly.",
+      "number_of_stations": null,
+      "cuisine_description": "The Clayton Club Saloon is a historic neighborhood saloon that serves a variety of alcoholic beverages, including beer, wine, cocktails, and hard liquor, alongside casual, inexpensive bar food.",
+      "overall_description": "This historic saloon, established in 1873, serves as a cornerstone of its small-town community. It offers a lively social experience centered around live music, pool, and a relaxed, inclusive atmosphere that welcomes everyone. With both indoor seating and a large outdoor beer garden, it remains a popular destination for those seeking an authentic, unpretentious place to enjoy a drink and connect with others.",
+      "service_description": "This historic saloon provides a casual dining and drinking experience with both indoor seating and a spacious outdoor beer garden. The venue serves as a social hub featuring live music, dancing, and pool tables, catering to those looking for a laid-back local atmosphere.",
+      "ambience_description": "The atmosphere is defined by its historic character and casual, friendly vibe, making it a comfortable spot for both regulars and newcomers. Live music and the lively outdoor garden contribute to a high-energy yet relaxed social setting.",
+      "amenities_description": "The establishment provides a full-service bar with a variety of alcoholic beverages, alongside pool tables and a pleasant outdoor beer garden area for seating.",
+      "unique_selling_points": "Recognized as the second oldest bar in California, this landmark destination combines historical significance with a welcoming community atmosphere. It is also distinguished by being a veteran-owned and women-owned business that is proudly LGBTQ+ friendly.",
+      "neighborhood_description": "The neighborhood maintains a traditional small-town feel, serving as a central hub for the local community.",
+      "physical_setting_description": "Situated in a historic building that dates back to the 19th century, this establishment features a cozy interior and a spacious outdoor beer garden. It is located on the main street of a small town, offering a classic, rustic environment.",
+      "customer_demographics_description": "The establishment serves a mix of local community members and regular patrons who frequent the saloon for its historic atmosphere and social environment. It is known for being LGBTQ+ friendly and welcoming to those interested in live music and a classic small-town bar experience.",
+      "image": {
+       "url": "https://images.qloo.com/i/B2AEED05-BAC6-4B0F-B136-094B9BB54B59-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.5949299450503529,
+     "location": {
+      "lat": 37.941085799999996,
+      "lon": -121.9350468,
+      "geohash": "9q9rc6cwge1b"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bar_food",
+       "name": "Bar food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:rural",
+       "name": "Rural",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unpretentious",
+       "name": "Unpretentious",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:bar_food",
+       "name": "Bar food",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed",
+       "name": "Dogs allowed",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:pool_hall",
+       "name": "Pool hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:small_town",
+       "name": "Small town",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:regulars",
+       "name": "Regulars",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:beer_garden",
+       "name": "Beer garden",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:pool_hall",
+       "name": "Pool hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:pool",
+       "name": "Pool",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:small_town",
+       "name": "Small town",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:outside_food_allowed",
+       "name": "Outside food allowed",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:street_view",
+       "name": "Street view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_socializing",
+       "name": "Community socializing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pool_table",
+       "name": "Pool table",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pool_games",
+       "name": "Pool games",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_veteran_owned",
+       "name": "Identifies as veteran owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:55_",
+       "name": "55+",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:old_timey",
+       "name": "Old timey",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_history",
+       "name": "Local history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:music_enthusiasts",
+       "name": "Music enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:lgbtq_",
+       "name": "Lgbtq+",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+       "name": "Identifies as women owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:cocktail_enthusiasts",
+       "name": "Cocktail enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:mount_diablo_state_park",
+       "name": "Mount diablo state park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:10_to_20",
+       "name": "$10 to $20",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:casual_dining",
+       "name": "Casual dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:saloon",
+       "name": "Saloon",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.751859644118617,
+      "distance": 809.4097172667881,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "6096 Main St Clayton, CA 94517",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d14175860",
+        "rating": null,
+        "rating_count": null
+       }
+      ],
+      "google_place": [
+       {
+        "id": "4205df8cfb67d883",
+        "place_id": "ChIJTaE1jxJfhYARg9hn-4zfBUI"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Red Hat Sports Bar",
+     "entity_id": "EDA13B69-2700-4ED2-BC93-2781A75BB626",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T23:30:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T23:30:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ]
+      },
+      "phone": "+19256852122",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/EDA13B69-2700-4ED2-BC93-2781A75BB626-3fIOiT-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1860 Monument Blvd Concord, CA 94520",
+      "geocode": {
+       "city": "Concord",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Contra Costa County"
+      },
+      "parking": true,
+      "website": "http://www.facebook.com/redhatsportsbar",
+      "good_for": [
+       {
+        "id": "urn:tag:cost_description:place:inexpensive",
+        "name": "Inexpensive",
+        "type": "urn:tag:cost_description:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "live music",
+        "count": 19
+       },
+       {
+        "name": "dive bar",
+        "count": 5
+       },
+       {
+        "name": "pool table",
+        "count": 8
+       },
+       {
+        "name": "back patio",
+        "count": 7
+       },
+       {
+        "name": "bands",
+        "count": 15
+       },
+       {
+        "name": "karaoke",
+        "count": 5
+       },
+       {
+        "name": "darts",
+        "count": 3
+       },
+       {
+        "name": "mexican food",
+        "count": 3
+       },
+       {
+        "name": "vibes",
+        "count": 18
+       },
+       {
+        "name": "bouncer",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Concord",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4F8FFC23-B8BF-4A86-A433-25725B2AEEDF",
+        "admin_level": 8,
+        "locality_id": "r3705569",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Contra Costa County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3B8CC2D1-3030-4B57-99B3-C7E1F9569EB6",
+        "admin_level": 6,
+        "locality_id": "r396462",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       {
+        "name": "94518",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "03FFA4B8-D61F-4471-87F4-A773DD8CF25A",
+        "admin_level": 9,
+        "locality_id": "z94518",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Concord",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "4F8FFC23-B8BF-4A86-A433-25725B2AEEDF",
+        "admin_level": 8,
+        "locality_id": "r3705569",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Contra Costa County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3B8CC2D1-3030-4B57-99B3-C7E1F9569EB6",
+        "admin_level": 6,
+        "locality_id": "r396462",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Laid-back classic tavern-style sports bar with a pool table, regular live music and karaoke nights, affordable drinks and casual bar food.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": false,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "akas": [
+        {
+         "value": "\"Baar\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Baari\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e1a\u0e32\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0628\u0627\u0631\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Bar\"",
+         "languages": [
+          "pt_pt",
+          "sv",
+          "tl",
+          "da",
+          "en_gb",
+          "sk",
+          "pl",
+          "de",
+          "bs",
+          "it",
+          "ca",
+          "cs",
+          "nb",
+          "ms",
+          "sq",
+          "tr",
+          "es_la",
+          "fr",
+          "az",
+          "gl",
+          "sl",
+          "hr",
+          "pt",
+          "fr_ca",
+          "ro",
+          "id",
+          "es_ar",
+          "nl",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\"",
+         "languages": [
+          "ru",
+          "kk",
+          "bg",
+          "mk",
+          "sr",
+          "uk"
+         ]
+        },
+        {
+         "value": "\"B\u00e1r\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0e9a\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u30d0\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"B\u0101rs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c3e\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5427\"",
+         "languages": [
+          "zh_tw",
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102c\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d0\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Qu\u00e1n bar\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1794\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u05d1\u05e8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kroeg\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u092c\u093e\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\ubc14\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Taberna\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u039c\u03c0\u03b1\u03c1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Ba\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Baras\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Laid-back classic tavern-style sports bar with a pool table, regular live music and karaoke nights, affordable drinks and casual bar food.",
+      "number_of_stations": null,
+      "cuisine_description": "Red Hat Sports Bar offers classic, casual tavern-style bar food paired with an extensive beverage selection including beer, wine, cocktails, and hard spirits.",
+      "overall_description": "This classic, laid-back tavern provides a welcoming space for locals to gather for affordable drinks and casual fare. Known for its lively atmosphere, it serves as a community hub featuring regular live music, karaoke nights, and social games like pool and arcade classics. With its inclusive and unpretentious vibe, it remains a go-to spot for those looking to relax in a familiar, straightforward environment.",
+      "service_description": "Red Hat Sports Bar provides a relaxed, social atmosphere with dine-in, takeout, and delivery service options, featuring regular live music, karaoke, dancing, and recreational activities like arcade games and pool.",
+      "ambience_description": "The space offers a laid-back, classic tavern feel where the focus is on comfort and social interaction. It maintains a welcoming and energetic atmosphere fueled by music and regular entertainment.",
+      "amenities_description": "Guests can enjoy a range of entertainment options including pool tables, arcade games, and designated areas for dancing and outdoor seating. The bar provides a full selection of beer, wine, cocktails, and casual food options.",
+      "unique_selling_points": "The establishment is defined by its long-standing reputation as an unpretentious neighborhood staple that combines affordable drinks with consistent live music and karaoke. It fosters an inclusive environment that welcomes everyone.",
+      "neighborhood_description": "The surrounding area is a convenient commercial corridor that serves the local community with easy accessibility and a straightforward, functional vibe.",
+      "physical_setting_description": "Situated along a main boulevard, this establishment occupies a classic tavern space that emphasizes a functional and comfortable indoor environment. It serves as a localized hub for the surrounding community.",
+      "customer_demographics_description": "The venue attracts a diverse local crowd, including members of the LGBTQ+ community, party-goers, and patrons interested in live music, karaoke, and casual sports bar entertainment.",
+      "image": {
+       "url": "https://images.qloo.com/i/EDA13B69-2700-4ED2-BC93-2781A75BB626-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.8201246907155415,
+     "location": {
+      "lat": 37.955287899999995,
+      "lon": -122.0396804,
+      "geohash": "9q9pyvt3t66x"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:jcb",
+       "name": "Jcb",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:pool_games",
+       "name": "Pool games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed",
+       "name": "Dogs allowed",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:classic_tavern_culture",
+       "name": "Classic tavern culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:gender_neutral_restroom",
+       "name": "Gender neutral restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:music_enthusiasts",
+       "name": "Music enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:arcade_games",
+       "name": "Arcade games",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:55_",
+       "name": "55+",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_cider",
+       "name": "Hard cider",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bar_food",
+       "name": "Bar food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pool_and_billiards",
+       "name": "Pool and billiards",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:local_commercial_strip",
+       "name": "Local commercial strip",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:arcade_games",
+       "name": "Arcade games",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:party_goers",
+       "name": "Party goers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:laid_back",
+       "name": "Laid back",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:20_to_30",
+       "name": "$20 to $30",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:tavern_aesthetic",
+       "name": "Tavern aesthetic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pool_table",
+       "name": "Pool table",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:tavern",
+       "name": "Tavern",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dance_floor",
+       "name": "Dance floor",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_viewing",
+       "name": "Sports viewing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_wear_masks",
+       "name": "Staff wear masks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:lgbtq_",
+       "name": "Lgbtq+",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:casual_bar_food",
+       "name": "Casual bar food",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:diners_club",
+       "name": "Diners club",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_get_temperature_checks",
+       "name": "Staff get temperature checks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7493071775722789,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1860 Monument Blvd Concord, CA 94520",
+     "external": {
+      "google_place": [
+       {
+        "id": "49469eeca407210",
+        "place_id": "ChIJ4eczaShhhYAREHJAyu5plAQ"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "4F8FFC23-B8BF-4A86-A433-25725B2AEEDF",
+      "name": "Concord",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 37.97220578187016,
+       "lon": -122.00161234537006
+      },
+      "popularity": 0.9920068,
+      "disambiguation": "Concord, Contra Costa County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

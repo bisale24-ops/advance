@@ -22,8 +22,8 @@ def test_ask_plans_builds_and_advises_and_says_which_step_ran(monkeypatch):
     r = web.ask("Mitski in Austin and Dallas, smaller opener", q=Stub())
     assert r["plan"] == {"headliner": "Mitski", "cities": ["Austin", "Dallas"], "opener_share": 0.6, "market": ""}
     assert r["plan_meta"]["planner"] == "patterns" and r["advice_meta"]["adviser"] == "template"
-    assert [s["key"] for s in r["brief"]["sections"]] == ["cities", "openers", "venue", "after", "venue", "after", "brands"]
-    assert r["qloo_calls"] == 7 and r["qloo_cached"] == 0
+    assert [s["key"] for s in r["brief"]["sections"]] == ["cities", "openers", "venue", "booked", "after", "venue", "booked", "after", "brands"]
+    assert r["qloo_calls"] == 9 and r["qloo_cached"] == 0
     assert all(a["about"].startswith("Top ") for a in r["advice"])
 
 

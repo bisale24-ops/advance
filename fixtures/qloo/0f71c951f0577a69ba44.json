@@ -1,0 +1,6044 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "FC4F7908-E4F0-41DD-8D5E-92928AE42457",
+  "take": 50,
+  "filter.location.query": "Irving, Texas",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "The Pavilion At Toyota Music Factory",
+     "entity_id": "24CC9862-2248-4947-8E9B-750647F9E0B9",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ]
+      },
+      "phone": "+12149784888",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/24CC9862-2248-4947-8E9B-750647F9E0B9-0rJozN-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "300 W Las Colinas Blvd. Irving, TX 75039",
+      "geocode": {
+       "city": "Irving",
+       "name": null,
+       "metro": "Dallas",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Texas",
+       "admin2_region": "Dallas County"
+      },
+      "parking": true,
+      "website": "https://www.thepaviliontmf.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "lawn seating",
+        "count": 70
+       },
+       {
+        "name": "concert venue",
+        "count": 116
+       },
+       {
+        "name": "merch lines",
+        "count": 11
+       },
+       {
+        "name": "intimate venue",
+        "count": 26
+       },
+       {
+        "name": "floor seats",
+        "count": 12
+       },
+       {
+        "name": "bands",
+        "count": 50
+       },
+       {
+        "name": "acoustics",
+        "count": 38
+       },
+       {
+        "name": "friendly staff",
+        "count": 174
+       },
+       {
+        "name": "pavilion",
+        "count": 17
+       },
+       {
+        "name": "no bad seats",
+        "count": 4
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Irving",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+        "admin_level": 8,
+        "locality_id": "r5748832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Irving",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+        "admin_level": 8,
+        "locality_id": "r5748832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "75039",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "2F1C0C4E-8F75-416D-B109-0A1E7D4C5F2B",
+        "admin_level": 9,
+        "locality_id": "z75039",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       }
+      ],
+      "description": "Three-venue concert complex within Toyota Music Factory hosting national touring acts, festivals, and live events in Irving, Texas.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Three-venue concert complex within Toyota Music Factory hosting national touring acts, festivals, and live events in Irving, Texas.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The Pavilion at Toyota Music Factory is a prominent concert venue located in the heart of Irving, Texas, within the larger Toyota Music Factory entertainment complex. It serves as a major destination for national touring acts and diverse live performances, offering a multi-stage layout that accommodates large crowds. While guests frequently praise the high-quality sound and the convenience of its surrounding restaurants, the venue is known for its high-energy, crowded atmosphere. Visitors can expect a full night of entertainment centered on music and social engagement in a modern, urban setting.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is high-energy and social, centered around the excitement of live music and performance. It is a lively environment where crowds gather for shared cultural experiences.",
+      "amenities_description": "The venue offers multiple concessions for food and drinks, merchandise stations, and accessible facilities for guests with disabilities. Attendees can also utilize various nearby parking options.",
+      "unique_selling_points": "This site stands out as a three-in-one entertainment complex that offers a high-capacity, multi-stage concert experience in a central location. It creates memorable live music experiences through national touring acts and diverse event programming.",
+      "neighborhood_description": "The surrounding neighborhood is a bustling, highly walkable entertainment destination filled with various dining and nightlife options. It functions as a central hub for visitors to enjoy pre-show or post-show activities.",
+      "physical_setting_description": "This concert complex is situated in the heart of the Dallas-Fort Worth area within a vibrant entertainment district. The venue features a versatile layout, including an amphitheater, and is surrounded by numerous restaurants and bars.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/24CC9862-2248-4947-8E9B-750647F9E0B9-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9990358831262275,
+     "location": {
+      "lat": 32.8734149,
+      "lon": -96.9446358,
+      "geohash": "9vg51brjd23g"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_hub",
+       "name": "Entertainment hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:performance_arts",
+       "name": "Performance arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:toyota_music_factory",
+       "name": "Toyota music factory",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:dining_out",
+       "name": "Dining out",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_complex",
+       "name": "Entertainment complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_stands",
+       "name": "Merchandise stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.8617193728019618,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "300 W Las Colinas Blvd. Irving, TX 75039",
+     "external": {
+      "google_place": [
+       {
+        "id": "d7ea2175e1f25f41",
+        "place_id": "ChIJK6LQoZeCToYRQV_y4XUh6tc"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Toyota Music Factory",
+     "entity_id": "2758930B-1909-452C-B846-FA9797D47565",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T00:00:00",
+         "closed": false,
+         "closes": "T00:00:00"
+        }
+       ]
+      },
+      "phone": "+14698409730",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/2758930B-1909-452C-B846-FA9797D47565-2fAWsF-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "316 W Las Colinas Blvd. Irving, TX 75039",
+      "geocode": {
+       "city": "Irving",
+       "name": null,
+       "metro": "Dallas",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Texas",
+       "admin2_region": "Dallas County"
+      },
+      "parking": true,
+      "website": "https://toyotamusicfactory.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": 0.6111111111111112
+       },
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.9372294372294372
+       }
+      ],
+      "keywords": [
+       {
+        "name": "lawn",
+        "count": 265
+       },
+       {
+        "name": "parking garage",
+        "count": 95
+       },
+       {
+        "name": "restrooms",
+        "count": 77
+       },
+       {
+        "name": "concessions",
+        "count": 38
+       },
+       {
+        "name": "stadium",
+        "count": 24
+       },
+       {
+        "name": "pavilion",
+        "count": 22
+       },
+       {
+        "name": "dave chappelle",
+        "count": 14
+       },
+       {
+        "name": "zz top",
+        "count": 14
+       },
+       {
+        "name": "dos equis",
+        "count": 10
+       },
+       {
+        "name": "trevor noah",
+        "count": 8
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Irving",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+        "admin_level": 8,
+        "locality_id": "r5748832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Irving",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+        "admin_level": 8,
+        "locality_id": "r5748832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "75039",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "2F1C0C4E-8F75-416D-B109-0A1E7D4C5F2B",
+        "admin_level": 9,
+        "locality_id": "z75039",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       }
+      ],
+      "description": "Large entertainment complex with an open-air concert pavilion, diverse restaurants and bars, an outdoor plaza, and a cinema for family nights or nights out.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large entertainment complex with an open-air concert pavilion, diverse restaurants and bars, an outdoor plaza, and a cinema for family nights or nights out.",
+      "number_of_stations": null,
+      "cuisine_description": "The Toyota Music Factory complex offers a diverse array of dining choices ranging from casual American bites like burgers, pizza, and chicken fingers to more specialized fare including steakhouse, Cajun, and sushi options. The site features various bars and restaurants throughout the plaza and inside the pavilion, catering to diverse tastes for pre- and post-event dining.",
+      "overall_description": "Toyota Music Factory is a premier entertainment destination in Irving, Texas, offering a seamless blend of live music, dining, and nightlife. Featuring a state-of-the-art hybrid indoor-outdoor pavilion, the venue is celebrated for its excellent acoustics, clear views from every seat, and efficient, well-staffed operations. Visitors can enjoy a diverse range of onsite restaurants and bars, making it a perfect spot for concerts, family movie nights, and social evenings out.",
+      "service_description": "Toyota Music Factory functions as a multi-purpose entertainment complex offering dining, live music, and cinema experiences. It provides various service options including onsite restaurant dining, bar service, and private event hosting. The venue is ideal for a wide range of occasions, from family-friendly outings and casual happy hour gatherings to large-scale concert celebrations.",
+      "ambience_description": "The atmosphere is energetic and social, characterized by a mix of high-production concert buzz and the relaxed, inviting vibe of an outdoor plaza. It feels modern and well-organized, creating a comfortable space that successfully balances large-scale crowd energy with an intimate viewing experience.",
+      "amenities_description": "The venue offers extensive amenities, including a large parking garage, various onsite dining and bar options, a movie theater, and well-maintained restroom facilities. The pavilion features advanced acoustics, clear sightlines, and ample ventilation, including large fans for comfort.",
+      "unique_selling_points": "The venue is a signature hybrid indoor-outdoor space where concert-goers can enjoy a high-quality live music experience combined with the convenience of an entire district of restaurants and bars. Its reputation for having no bad seats and efficient crowd management makes it a standout choice for performers and fans alike.",
+      "neighborhood_description": "Located in the heart of the Las Colinas area, the surrounding neighborhood is a vibrant hub of dining, professional business spaces, and hospitality services. It functions as a centralized destination that is highly walkable and accessible for both local residents and visitors.",
+      "physical_setting_description": "This expansive entertainment complex features an open-air concert pavilion and a central plaza surrounded by various restaurants, bars, and a cinema. The site is designed for easy navigation with covered parking garages and pedestrian-friendly walkways.",
+      "customer_demographics_description": "The venue attracts a broad demographic, including local residents and tourists visiting the DFW area. It is frequently visited by families, groups of friends, and couples looking for entertainment, as well as music lovers attending concerts, ranging from younger adults to middle-aged professionals.",
+      "image": {
+       "url": "https://images.qloo.com/i/2758930B-1909-452C-B846-FA9797D47565-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9871191682630035,
+     "location": {
+      "lat": 32.8737816,
+      "lon": -96.9450262,
+      "geohash": "9vg51bqz9jrf"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_district",
+       "name": "Entertainment district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:las_colinas_area",
+       "name": "Las colinas area",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:innovative",
+       "name": "Innovative",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_plaza",
+       "name": "Outdoor plaza",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:nachos",
+       "name": "Nachos",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:business",
+       "name": "Business",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:spacious",
+       "name": "Spacious",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sushi_restaurant",
+       "name": "Sushi restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:music_enthusiasts",
+       "name": "Music enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+       "name": "Trendy",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:ice_cream_shop",
+       "name": "Ice cream shop",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:business_district",
+       "name": "Business district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_elevator",
+       "name": "Wheelchair accessible elevator",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:performing_arts",
+       "name": "Performing arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_going",
+       "name": "Concert going",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:sushi",
+       "name": "Sushi",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:sushi",
+       "name": "Sushi",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:dining_out",
+       "name": "Dining out",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:ice_cream_shop",
+       "name": "Ice cream shop",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:live_music_bar",
+       "name": "Live music bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restaurants",
+       "name": "Restaurants",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concert_pavilion",
+       "name": "Concert pavilion",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:cajun",
+       "name": "Cajun",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:soft_drinks",
+       "name": "Soft drinks",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_complex",
+       "name": "Entertainment complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cinema",
+       "name": "Cinema",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:young_professionals",
+       "name": "Young professionals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:movies",
+       "name": "Movies",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:water_street",
+       "name": "Water street",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:steak_house",
+       "name": "Steak house",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:bottled_water",
+       "name": "Bottled water",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:allergy_friendly",
+       "name": "Allergy friendly",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:steak_house",
+       "name": "Steak house",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_plaza",
+       "name": "Outdoor plaza",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_bar",
+       "name": "Live music bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bars",
+       "name": "Bars",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:chicken_fingers",
+       "name": "Chicken fingers",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:steakhouse",
+       "name": "Steakhouse",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary_industrial",
+       "name": "Contemporary industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:cajun_restaurant",
+       "name": "Cajun restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:pizza_restaurant",
+       "name": "Pizza restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:tourists",
+       "name": "Tourists",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pretzels",
+       "name": "Pretzels",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:cajun",
+       "name": "Cajun",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate_feel",
+       "name": "Intimate feel",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.8328266096888097,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "316 W Las Colinas Blvd. Irving, TX 75039",
+     "external": {
+      "google_place": [
+       {
+        "id": "57ba18b0fffc923",
+        "place_id": "ChIJMVLRFC6DToYR0OO1R54aApE"
+       }
+      ]
+     }
+    },
+    {
+     "name": "The Sound at Cypress Waters",
+     "entity_id": "59B82A5C-E708-480B-9288-69C33D193241",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T07:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+19726845440",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/59B82A5C-E708-480B-9288-69C33D193241-07tckn-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "3111 Olympus Blvd Coppell, TX 75019",
+      "geocode": {
+       "city": "Dallas",
+       "name": null,
+       "metro": "Dallas",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Texas",
+       "admin2_region": "Dallas County"
+      },
+      "parking": true,
+      "website": "http://thesoundtx.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Dallas",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "admin_level": 8,
+        "locality_id": "r6571629",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Dallas",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "admin_level": 8,
+        "locality_id": "r6571629",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "75019",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "0F59F184-6D07-4D8B-B24D-ED6C52F2B64A",
+        "admin_level": 9,
+        "locality_id": "z75019",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       }
+      ],
+      "description": "Outdoor lakeside venue featuring live concerts, waterfront restaurants, walking paths, and family- and dog-friendly amenities.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:event_venue",
+       "akas": [
+        {
+         "value": "\"\u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Tapahtumapaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Evenementenlocatie\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10e6\u10dd\u10dc\u10d8\u10e1\u10eb\u10d8\u10d4\u10d1\u10d4\u10d1\u10d8\u10e1 \u10e1\u10d8\u10d5\u10e0\u10ea\u10d4\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Lugar de eventos\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de dogodkov\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bbf\u0b95\u0bb4\u0bcd\u0bb5\u0bc1 \u0b87\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Espai per a esdeveniments\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Tempat acara\"",
+         "languages": [
+          "ms",
+          "id"
+         ]
+        },
+        {
+         "value": "\"Veranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Centro de eventos\"",
+         "languages": [
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0440\u043e\u0441\u0442\u043e\u0440 \u0437\u0430 \u0434\u043e\u0433\u0430\u0452\u0430\u0458\u0435\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Priestor na podujatia\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Espacio para eventos\"",
+         "languages": [
+          "es"
+         ]
+        },
+        {
+         "value": "\"Miejsce wydarze\u0144\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\uc774\ubca4\ud2b8 \uc7a5\uc18c\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u179a\u17c0\u1794\u1785\u17c6\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0e88\u0eb1\u0e94\u0e87\u0eb2\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u1015\u103d\u1032\u1000\u103b\u1004\u103a\u1038\u1015\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Rengini\u0173 vieta\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0440\u043e\u0441\u0442\u043e\u0440 \u0437\u0430 \u043d\u0430\u0441\u0442\u0430\u043d\u0438\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u00dcrituste toimumiskoht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Vendi i ngjarjeve\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Geleentheidslokaal\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"T\u0259dbir m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Etkinlik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u6d3b\u52a8\u573a\u5730\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Rendezv\u00e9nyhelysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Evenemangslokal\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0987\u09ad\u09c7\u09a8\u09cd\u099f \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0406\u0441-\u0448\u0430\u0440\u0430 \u04e9\u0442\u043a\u0456\u0437\u0443 \u043e\u0440\u043d\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m t\u1ed5 ch\u1ee9c s\u1ef1 ki\u1ec7n\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Event venue\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Pas\u0101kumu norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u041c\u044f\u0441\u0442\u043e \u0437\u0430 \u0441\u044a\u0431\u0438\u0442\u0438\u044f\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0456\u0441\u0446\u0435 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043d\u044f \u0437\u0430\u0445\u043e\u0434\u0456\u0432\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie pentru evenimente\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b5\u03ba\u03b4\u03b7\u03bb\u03ce\u03c3\u03b5\u03c9\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0c08\u0c35\u0c46\u0c02\u0c1f\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u6d3b\u52d5\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Espa\u00e7o de eventos\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Lugar ng kaganapan\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Location per eventi\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u041f\u043b\u043e\u0449\u0430\u0434\u043a\u0430 \u0434\u043b\u044f \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0439\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e08\u0e31\u0e14\u0e07\u0e32\u0e19\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Ekitaldi-aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Eventsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Prostor za doga\u0111aje\"",
+         "languages": [
+          "hr",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u30a4\u30d9\u30f3\u30c8\u4f1a\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Salle de r\u00e9ception\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa hafla\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Prostor pro kon\u00e1n\u00ed akc\u00ed\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Arrangementslokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05d5\u05dc\u05dd \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Sal\u00f3n de eventos\"",
+         "languages": [
+          "es_ar",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0625\u0642\u0627\u0645\u0629 \u0641\u0639\u0627\u0644\u064a\u0627\u062a\"",
+         "languages": [
+          "ar"
+         ]
+        }
+       ],
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Outdoor lakeside venue featuring live concerts, waterfront restaurants, walking paths, and family- and dog-friendly amenities.",
+      "number_of_stations": null,
+      "cuisine_description": "The Sound at Cypress Waters features a collection of waterfront restaurants offering a variety of cuisines, including burgers, pizza, seafood, and wine, alongside coffee shops and cafes, all within a casual and lively outdoor setting.",
+      "overall_description": "The Sound at Cypress Waters is a premier lakeside destination in Coppell that serves as a vibrant hub for community, entertainment, and relaxation. The area features a picturesque lake surrounded by a mix of diverse restaurants, bars, and cafes, anchored by an amphitheater that hosts popular weekend concerts. With its emphasis on nature, pet-friendly amenities, and a wide array of activities including yoga, walking trails, and outdoor markets, it provides a well-rounded experience for families, couples, and local professionals alike.",
+      "service_description": "The Sound is an outdoor lakeside venue that offers dining, live music concerts at an amphitheater, walking and cycling trails, and various outdoor recreational spaces. It provides an ideal setting for family outings, dates, and social gatherings.",
+      "ambience_description": "The atmosphere is inviting and lively, characterized by a mix of energetic weekend concerts and serene, tranquil weekdays by the water. It maintains a stylish, comfortable vibe that shifts seamlessly from a peaceful daytime retreat for walkers to a bustling, social destination for evening diners.",
+      "amenities_description": "The venue is equipped with extensive recreational infrastructure, including a multi-mile walking and cycling trail around the lake, a dedicated dog park, and an amphitheater for live performances. Guests also have access to public restrooms, a play area for children, and various outdoor seating arrangements throughout the restaurant row.",
+      "unique_selling_points": "The combination of a picturesque, clear lakefront setting with an active amphitheater for free outdoor concerts and a diverse collection of local eateries creates a unique destination experience. Its seamless integration of family-friendly play areas, dog-centric amenities, and weekend social markets makes it a standout community hub.",
+      "neighborhood_description": "Located in a growing, master-planned corporate and residential area, the neighborhood offers a modern, clean, and safe environment designed for both professional workers and families. It functions as a hub for local leisure, providing a sophisticated yet accessible retreat from the surrounding business district.",
+      "physical_setting_description": "Situated within a modern, mixed-use development, this venue centers around a peaceful, clear lake surrounded by walking trails and green lawns. The area blends natural beauty with urban amenities, featuring an amphitheater and open-air spaces that offer scenic views, especially during sunset.",
+      "customer_demographics_description": "The area attracts a diverse mix of local families, young professionals, couples, and pet owners looking for a relaxed outdoor environment for dining, exercise, and entertainment.",
+      "image": {
+       "url": "https://images.qloo.com/i/59B82A5C-E708-480B-9288-69C33D193241-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9632517502129377,
+     "location": {
+      "lat": 32.9364087,
+      "lon": -96.9835925,
+      "geohash": "9vg535fsqxdk"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:romantic",
+       "name": "Romantic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:walking_trail",
+       "name": "Walking trail",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:las_colinas",
+       "name": "Las colinas",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nature_outdoors",
+       "name": "Nature outdoors",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+       "name": "Identifies as women owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:waterfront",
+       "name": "Waterfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:wine_and_tapas",
+       "name": "Wine and tapas",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:pet_owners",
+       "name": "Pet owners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:cycling",
+       "name": "Cycling",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:market",
+       "name": "Market",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:yoga",
+       "name": "Yoga",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:corporate_campus",
+       "name": "Corporate campus",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:public_park",
+       "name": "Public park",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+       "name": "Trendy",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dog_park",
+       "name": "Dog park",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:park_view",
+       "name": "Park view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:walking_and_jogging",
+       "name": "Walking and jogging",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:lake_view",
+       "name": "Lake view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:romantic",
+       "name": "Romantic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:play_area",
+       "name": "Play area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_dining",
+       "name": "Outdoor dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:jogging",
+       "name": "Jogging",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:mixed_use_development",
+       "name": "Mixed use development",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:market",
+       "name": "Market",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:lakefront",
+       "name": "Lakefront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:yoga_pavilion",
+       "name": "Yoga pavilion",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pet_care",
+       "name": "Pet care",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:0_12",
+       "name": "0 12",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_events",
+       "name": "Community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:wine_enthusiasts",
+       "name": "Wine enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary_industrial",
+       "name": "Contemporary industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:bright",
+       "name": "Bright",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:vibrant",
+       "name": "Vibrant",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bakery",
+       "name": "Bakery",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.8118753881807922,
+      "distance": 1404.1116103145184,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "3111 Olympus Blvd Coppell, TX 75019",
+     "external": {
+      "google_place": [
+       {
+        "id": "4e216895a8346c4",
+        "place_id": "ChIJeZJUTIopTIYRxEaDWokW4gQ"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Texas Trust CU Theatre",
+     "entity_id": "B45042FE-8841-4169-B654-FFF0D002228E",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": "+19728545050",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/B45042FE-8841-4169-B654-FFF0D002228E-0G5RMA-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1001 Texas Trust Wy Grand Prairie, TX 75050",
+      "geocode": {
+       "city": "Grand Prairie",
+       "name": null,
+       "metro": "Dallas",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Texas",
+       "admin2_region": "Dallas County"
+      },
+      "parking": true,
+      "website": "https://texastrustcutheatre.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "katt williams show",
+        "count": 27
+       },
+       {
+        "name": "comedy show",
+        "count": 54
+       },
+       {
+        "name": "jo koy show",
+        "count": 12
+       },
+       {
+        "name": "concert",
+        "count": 270
+       },
+       {
+        "name": "acoustics",
+        "count": 84
+       },
+       {
+        "name": "leg room",
+        "count": 19
+       },
+       {
+        "name": "short lines",
+        "count": 19
+       },
+       {
+        "name": "clean venue",
+        "count": 20
+       },
+       {
+        "name": "concessions",
+        "count": 105
+       },
+       {
+        "name": "easy access",
+        "count": 59
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Grand Prairie",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "FCF66536-A22B-4E6A-8E6C-2E8887EB9F42",
+        "admin_level": 8,
+        "locality_id": "r114449",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Grand Prairie",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "FCF66536-A22B-4E6A-8E6C-2E8887EB9F42",
+        "admin_level": 8,
+        "locality_id": "r114449",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "75050",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "38159749-2B10-4555-AE29-5D9FBD98BAFA",
+        "admin_level": 9,
+        "locality_id": "z75050",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       }
+      ],
+      "description": "Upscale 6,000-seat Grand Prairie venue hosting concerts, Broadway shows, and comedy with luxury suites and premium amenities.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Upscale 6,000-seat Grand Prairie venue hosting concerts, Broadway shows, and comedy with luxury suites and premium amenities.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Texas Trust CU Theatre is a premier 6,000-seat destination in Grand Prairie, Texas, recognized for its exceptional acoustics and well-designed seating layout that ensures clear views for all guests. The venue hosts a diverse array of entertainment, including major concert tours, Broadway productions, and high-profile comedy shows. While it offers a clean, professional, and modern environment with efficient crowd management, visitors should be prepared for event-based parking and concession costs. Overall, the theater provides a polished and immersive atmosphere that makes it a popular regional hub for live performances.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and professional, characterized by well-maintained interiors, efficient staff, and a vibrant, crowd-focused environment conducive to concert experiences.",
+      "amenities_description": "The theater features comprehensive facilities including multiple bars and food concessions, well-maintained restrooms, and high-end luxury suites. On-site parking and a dedicated box office support a seamless visitor experience.",
+      "unique_selling_points": "The venue is specifically engineered for superior acoustics and consistent sightlines from nearly every seat in the house. Its blend of large-capacity seating with an intimate, clear sound environment sets it apart for touring Broadway, comedy, and music acts.",
+      "neighborhood_description": "The surrounding area is a commercial zone optimized for high-capacity event traffic, providing a central location for visitors from across the region to gather for major performances.",
+      "physical_setting_description": "Located in Grand Prairie, Texas, this spacious 6,000-seat indoor theatre serves as a primary hub for large-scale live entertainment. The facility is designed for optimal sightlines, housing multiple tiers of seating within a clean, modern commercial structure.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/B45042FE-8841-4169-B654-FFF0D002228E-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9788574054242393,
+     "location": {
+      "lat": 32.7668573,
+      "lon": -96.9823914,
+      "geohash": "9vg43j58f2zs"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:epic_waters_indoor_waterpark",
+       "name": "Epic waters indoor waterpark",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stand_up_comedy",
+       "name": "Stand up comedy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concert_culture",
+       "name": "Concert culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classy",
+       "name": "Classy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_shows",
+       "name": "Comedy shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:spacious",
+       "name": "Spacious",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:premium_amenities",
+       "name": "Premium amenities",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:entertainment_planning",
+       "name": "Entertainment planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:box_office",
+       "name": "Box office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:epiccentral",
+       "name": "Epiccentral",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stand",
+       "name": "Concession stand",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:broadway_productions",
+       "name": "Broadway productions",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:luxury_suites",
+       "name": "Luxury suites",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:theater_arts",
+       "name": "Theater arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_elevator",
+       "name": "Wheelchair accessible elevator",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.795612296303668,
+      "distance": 1411.1407166837223,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1001 Texas Trust Wy Grand Prairie, TX 75050",
+     "external": {
+      "google_place": [
+       {
+        "id": "4cfba6fffe0459e3",
+        "place_id": "ChIJU_Waz0CEToYR41kE_v-m-0w"
+       }
+      ]
+     }
+    },
+    {
+     "name": "SLPS Community Center",
+     "entity_id": "ACDFF353-8C79-4EF3-9211-C5A303555BAE",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T15:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T15:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ]
+      },
+      "phone": "+12147742226",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/ACDFF353-8C79-4EF3-9211-C5A303555BAE-3jTwg8-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1910 N Britain Rd Irving, TX 75061",
+      "geocode": {
+       "city": "Irving",
+       "name": null,
+       "metro": "Dallas",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Texas",
+       "admin2_region": "Dallas County"
+      },
+      "parking": true,
+      "website": null,
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "wedding reception",
+        "count": 13
+       },
+       {
+        "name": "clean",
+        "count": 12
+       },
+       {
+        "name": "parking space",
+        "count": 8
+       },
+       {
+        "name": "price",
+        "count": 7
+       },
+       {
+        "name": "amenities",
+        "count": 5
+       },
+       {
+        "name": "community hall",
+        "count": 4
+       },
+       {
+        "name": "rented",
+        "count": 4
+       },
+       {
+        "name": "security",
+        "count": 4
+       },
+       {
+        "name": "acoustics",
+        "count": 3
+       },
+       {
+        "name": "convention center",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Irving",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+        "admin_level": 8,
+        "locality_id": "r5748832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Dallas County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "447C3F4A-D3F8-4231-AD60-61E46AACF3E1",
+        "admin_level": 6,
+        "locality_id": "r1837698",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Dallas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "A9075682-762F-4D57-9FE4-6B7F44807DD8",
+        "admin_level": 12,
+        "locality_id": "CC8B3D13-8687-4374-9B20-132EE80F92E9",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "75061",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "652FB1D5-CE11-4D74-8CD4-683C86787B3E",
+        "admin_level": 9,
+        "locality_id": "z75061",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Irving",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+        "admin_level": 8,
+        "locality_id": "r5748832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Texas",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "000B85AB-33A8-483F-842F-739BFCEA7B5E",
+        "admin_level": 4,
+        "locality_id": "r114690",
+        "abbreviation": "Tex.",
+        "country_code": null
+       }
+      ],
+      "description": "Multifunctional community center in Irving offering banquet, conference, concert, wedding and dining facilities for events and conventions.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:banquet_hall",
+       "akas": [
+        {
+         "value": "\"Bankett-terem\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Salle de r\u00e9ception\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 \u0bae\u0ba3\u0bcd\u0b9f\u0baa\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Sal\u0103 de banchete\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10d0\u10d1\u10d0\u10dc\u10d9\u10d4\u10e2\u10dd \u10d3\u10d0\u10e0\u10d1\u10d0\u10d6\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Banketsaal\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ospakizun aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Banket sala\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Banketn\u00ed s\u00ed\u0148\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Sal\u00f3n de fiestas\"",
+         "languages": [
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u0eab\u0ec9\u0ead\u0e87\u0e88\u0eb1\u0e94\u0ea5\u0ec9\u0ebd\u0e87\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Sala ricevimenti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Sal\u00e3o de banquetes\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Sal\u00f3n de banquetes\"",
+         "languages": [
+          "gl",
+          "es"
+         ]
+        },
+        {
+         "value": "\"Banquet hall\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u5bb4\u4f1a\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u043d\u043a\u0435\u0442\u043d\u0430 \u0441\u0430\u043b\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa karamu\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Sal\u00f3n de eventos\"",
+         "languages": [
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u043d\u043a\u0435\u0442\u043d\u044b\u0439 \u0437\u0430\u043b\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0e2b\u0e49\u0e2d\u0e07\u0e08\u0e31\u0e14\u0e40\u0e25\u0e35\u0e49\u0e22\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03af\u03b8\u03bf\u03c5\u03c3\u03b1 \u03b4\u03b5\u03be\u03b9\u03ce\u03c3\u03b5\u03c9\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u043d\u043a\u0435\u0442 \u0441\u0430\u043b\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Veranstaltungssaal\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Bankettsal\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Bankettsaal\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u043d\u043a\u0435\u0442\u043d\u0430 \u0437\u0430\u043b\u0430\"",
+         "languages": [
+          "uk",
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Selskapslokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Banketov\u00e1 s\u00e1la\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Banket zal\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Gedung pertemuan\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Juhlasali\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Sala bankietowa\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05d5\u05dc\u05dd \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Sala de banquets\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09cd\u09af\u09be\u0999\u09cd\u0995\u09cb\u09af\u09bc\u09c7\u099f \u09b9\u09b2\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c4d\u0c2f\u0c3e\u0c02\u0c15\u0c4d\u0c35\u0c46\u0c1f\u0c4d \u0c39\u0c3e\u0c32\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Sal\u00e3o de festas\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0642\u0627\u0639\u0629 \u062d\u0641\u0644\u0627\u062a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Banketsal\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u043d\u043a\u0435\u0442 \u0437\u0430\u043b\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Sall\u00eb banketesh\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Salle des f\u00eates\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u5bb4\u4f1a\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Banketna dvorana\"",
+         "languages": [
+          "hr",
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Banketu z\u0101le\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Ziyafet salonu\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\uc5f0\ud68c\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Banket\u0173 sal\u0117\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Banketisaal\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u179f\u17b6\u179b\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Dewan jamuan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Ph\u00f2ng ti\u1ec7c\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Feestzaal\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u092c\u0948\u0902\u0915\u094d\u0935\u0947\u091f \u0939\u0949\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u5bb4\u6703\u5ef3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u1027\u100a\u1037\u103a\u1001\u1036\u1015\u103d\u1032\u1001\u1014\u103a\u1038\u1019\"",
+         "languages": [
+          "my"
+         ]
+        }
+       ],
+       "name": "Banquet hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Multifunctional community center in Irving offering banquet, conference, concert, wedding and dining facilities for events and conventions.",
+      "number_of_stations": null,
+      "cuisine_description": "The center provides dining facilities for events and conventions, serving a wide range of attendees at private gatherings and professional functions.",
+      "overall_description": "The SLPS Community Center is a versatile multi-purpose facility located in Irving, designed to host a wide range of social, professional, and cultural gatherings. The center provides dedicated spaces for weddings, corporate conferences, concerts, and banquet events, ensuring a flexible layout for various attendance sizes. Beyond its event hosting capabilities, it serves the local community with integrated dining services including takeout and delivery options, cementing its role as a functional hub for the area.",
+      "service_description": "A multifunctional venue offering comprehensive services for weddings, conferences, conventions, and concerts. It provides catering and dining options for various social and professional functions with flexible service choices including takeout and delivery.",
+      "ambience_description": "The atmosphere is adaptable and functional, creating a welcoming environment that easily shifts from professional business settings to celebratory social moods.",
+      "amenities_description": "The center features comprehensive facilities for large-scale events, including flexible banquet halls, conference meeting spaces, and integrated dining services with multiple pickup and delivery options.",
+      "unique_selling_points": "As a highly multifunctional space, it stands out for its ability to seamlessly transform from a professional conference venue to a festive wedding or concert hall. Its diverse service model, including on-site dining and flexible delivery options, makes it a unique hub for various community needs.",
+      "neighborhood_description": "Located in a well-connected commercial area of Irving, the surrounding neighborhood is defined by its accessibility and functional proximity to major local transit routes.",
+      "physical_setting_description": "Situated in Irving, this facility is a spacious, multi-functional center designed to accommodate a variety of indoor gatherings ranging from concerts to formal conventions.",
+      "customer_demographics_description": "The center caters to a diverse range of event attendees, business professionals, and local groups hosting various social and corporate functions.",
+      "image": {
+       "url": "https://images.qloo.com/i/ACDFF353-8C79-4EF3-9211-C5A303555BAE-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.33816004674416006,
+     "location": {
+      "lat": 32.834548,
+      "lon": -96.943319,
+      "geohash": "9vg4f1250gs3"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:banquet_hall",
+       "name": "Banquet hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:catering_services",
+       "name": "Catering services",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:no_contact_delivery",
+       "name": "No contact delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:corporate_hosting",
+       "name": "Corporate hosting",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:outside_food_allowed",
+       "name": "Outside food allowed",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:community_facility",
+       "name": "Community facility",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_entertainment",
+       "name": "Live entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:conventions",
+       "name": "Conventions",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:banquet_facilities",
+       "name": "Banquet facilities",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:wedding_parties",
+       "name": "Wedding parties",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:corporate_clients",
+       "name": "Corporate clients",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:wedding_venue",
+       "name": "Wedding venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:interior_event_spaces",
+       "name": "Interior event spaces",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:conference_center",
+       "name": "Conference center",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:conference_rooms",
+       "name": "Conference rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:toyota_music_factory",
+       "name": "Toyota music factory",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:banquet_services",
+       "name": "Banquet services",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_engagement",
+       "name": "Community engagement",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:on_site_catering",
+       "name": "On site catering",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_support_staff",
+       "name": "Event support staff",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:versatile",
+       "name": "Versatile",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:wedding_venue",
+       "name": "Wedding venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:banquet_hall",
+       "name": "Banquet hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:event_attendees",
+       "name": "Event attendees",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:banquets",
+       "name": "Banquets",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:irving_arts_center",
+       "name": "Irving arts center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:convention_center",
+       "name": "Convention center",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dining_facilities",
+       "name": "Dining facilities",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:pickup",
+       "name": "Pickup",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:convention_center",
+       "name": "Convention center",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modular",
+       "name": "Modular",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible_location",
+       "name": "Accessible location",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:weddings",
+       "name": "Weddings",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:event_catering",
+       "name": "Event catering",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7953699923781363,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1910 N Britain Rd Irving, TX 75061",
+     "external": {
+      "google_place": [
+       {
+        "id": "8b2e30d3b285284d",
+        "place_id": "ChIJHfrIvRiDToYRTSiFstMwLos"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "EA77B206-0203-411B-99B5-F37445338E0F",
+      "name": "Irving",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 32.85806535636591,
+       "lon": -96.97025812202637
+      },
+      "popularity": 0.9973958,
+      "disambiguation": "Irving, Dallas County, Texas, United States"
+     }
+    ]
+   }
+  }
+ }
+}

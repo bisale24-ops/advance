@@ -1,0 +1,6479 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "San Diego",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Petco Park",
+     "entity_id": "06F56DB9-9100-473D-B728-311CDC01F848",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+16197955555",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/06F56DB9-9100-473D-B728-311CDC01F848-1xEJTP-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "100 Park Blvd San Diego, CA 92101",
+      "geocode": {
+       "city": "San Diego",
+       "name": "East Village",
+       "metro": "San Diego",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "San Diego County"
+      },
+      "parking": true,
+      "website": "https://www.mlb.com/padres",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "San Diego Padres Team Store",
+        "count": 12
+       },
+       {
+        "name": "dodgers",
+        "count": 247
+       },
+       {
+        "name": "friendly staff",
+        "count": 376
+       },
+       {
+        "name": "craft beer",
+        "count": 156
+       },
+       {
+        "name": "family friendly",
+        "count": 282
+       },
+       {
+        "name": "views",
+        "count": 224
+       },
+       {
+        "name": "crowd",
+        "count": 99
+       },
+       {
+        "name": "downtown location",
+        "count": 53
+       },
+       {
+        "name": "food options",
+        "count": 348
+       },
+       {
+        "name": "garth brooks concert",
+        "count": 12
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "East Village",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "2599F196-29AA-4797-85AC-DEDA50AD1B1F",
+        "admin_level": 10,
+        "locality_id": "r14393234",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "92101",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "F68AA486-68D1-49A7-BB53-0CB870173BBA",
+        "admin_level": 9,
+        "locality_id": "z92101",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "East Village",
+        "place": "neighbourhood",
+        "boundary": "administrative",
+        "entity_id": "2599F196-29AA-4797-85AC-DEDA50AD1B1F",
+        "admin_level": 10,
+        "locality_id": "r14393234",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Prominent downtown waterfront stadium hosting Major League Baseball, concerts, and special events since 2004, renowned for modern amenities and urban location.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "East Village",
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Prominent downtown waterfront stadium hosting Major League Baseball, concerts, and special events since 2004, renowned for modern amenities and urban location.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Widely recognized as one of the premier ballparks in the nation, this venue serves as a cornerstone of downtown San Diego. It functions as more than just a stadium, operating as a multipurpose space that hosts major sporting events, concerts, and community festivals throughout the year. The site is celebrated for its accessible urban location, diverse and high-quality culinary options, and a design that prioritizes both fan comfort and visual engagement with the city landscape.",
+      "service_description": null,
+      "ambience_description": "The venue offers an energetic and lively atmosphere that feels modern yet deeply rooted in local history. It is widely considered a comfortable, family-friendly space that manages to feel both expansive and intimate.",
+      "amenities_description": "The stadium features extensive amenities designed for all ages, including designated family areas like playgrounds and sand pits, premium lounge access, and a wide array of food and craft beverage vendors.",
+      "unique_selling_points": "The stadium is distinguished by its unique architectural integration of a historic warehouse building, its premier downtown location, and the inclusion of Gallagher Square, a versatile community space within the park grounds.",
+      "neighborhood_description": "The surrounding downtown area is a bustling, highly walkable district filled with local restaurants, bars, and historic points of interest that make for an energetic pre-game atmosphere.",
+      "physical_setting_description": "Located in the heart of downtown San Diego, this waterfront stadium seamlessly integrates with the city's historic architecture, most notably incorporating the Western Metal Supply building into its design. The open-air configuration offers sweeping views of the city skyline and the nearby bay.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/06F56DB9-9100-473D-B728-311CDC01F848-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9999520820355551,
+     "location": {
+      "lat": 32.707617299999995,
+      "lon": -117.1570405,
+      "geohash": "9mudn40zen09"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:view:qloo:bay_breeze",
+       "name": "Bay breeze",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:downtown_ballpark",
+       "name": "Downtown ballpark",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_cuisine",
+       "name": "Local cuisine",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:waterfront",
+       "name": "Waterfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:playground",
+       "name": "Playground",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:skyline_view",
+       "name": "Skyline view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:downtown_san_diego",
+       "name": "Downtown san diego",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_shops",
+       "name": "Merchandise shops",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wheelchair_access",
+       "name": "Wheelchair access",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:san_diego_bay",
+       "name": "San diego bay",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:gaslamp_quarter",
+       "name": "Gaslamp quarter",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:holiday_markets",
+       "name": "Holiday markets",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:architecture",
+       "name": "Architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_wifi",
+       "name": "Public wifi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lexus_lounge",
+       "name": "Lexus lounge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:chill",
+       "name": "Chill",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:baseball_games",
+       "name": "Baseball games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:gallagher_square",
+       "name": "Gallagher square",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar_areas",
+       "name": "Bar areas",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:corporate_events",
+       "name": "Corporate events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:rodeos",
+       "name": "Rodeos",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:subscription",
+       "name": "Subscription",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:seaport_village",
+       "name": "Seaport village",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:sand_pit",
+       "name": "Sand pit",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.5961637426866133
+      }
+     },
+     "disambiguation": "100 Park Blvd San Diego, CA 92101",
+     "external": {
+      "google_place": [
+       {
+        "id": "b5f26fd04a32ce5c",
+        "place_id": "ChIJ7fMsvKtU2YARXM4yStBv8rU"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Viejas Arena",
+     "entity_id": "0A6DEC3F-347B-4983-80D2-A27B2022FD15",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+16195940234",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0A6DEC3F-347B-4983-80D2-A27B2022FD15-0IfBZH-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5500 Canyon Crest Dr San Diego, CA 92182",
+      "geocode": {
+       "city": "San Diego",
+       "name": null,
+       "metro": "San Diego",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "San Diego County"
+      },
+      "parking": true,
+      "website": "https://as.sdsu.edu/viejas_arena/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "concerts",
+        "count": 165
+       },
+       {
+        "name": "view of stage",
+        "count": 14
+       },
+       {
+        "name": "stadium seating",
+        "count": 7
+       },
+       {
+        "name": "intimate arena",
+        "count": 10
+       },
+       {
+        "name": "basketball",
+        "count": 82
+       },
+       {
+        "name": "live music",
+        "count": 13
+       },
+       {
+        "name": "dave chappelle",
+        "count": 6
+       },
+       {
+        "name": "clean arena",
+        "count": 6
+       },
+       {
+        "name": "concert venue",
+        "count": 21
+       },
+       {
+        "name": "graduation ceremony",
+        "count": 51
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego State University",
+        "place": null,
+        "boundary": null,
+        "entity_id": "6ABB117E-C215-4A13-A759-DF714894D1FA",
+        "admin_level": 8,
+        "locality_id": "r11062617",
+        "abbreviation": "SDSU",
+        "country_code": null
+       },
+       {
+        "name": "92182",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "94A815CA-4677-4BE5-967D-979937547580",
+        "admin_level": 9,
+        "locality_id": "z92182",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "12,000-seat multipurpose arena on the San Diego State University campus hosting sports, concerts, and large events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "12,000-seat multipurpose arena on the San Diego State University campus hosting sports, concerts, and large events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Viejas Arena is a versatile 12,000-seat facility located on the San Diego State University campus. It serves as a primary destination for university sports, major concerts, and large-scale public events. The venue is characterized by its energetic atmosphere and efficient, clear-bag, cashless operations designed to accommodate thousands of spectators in a comfortable setting.",
+      "service_description": null,
+      "ambience_description": "The venue offers an energetic and casual atmosphere, particularly during sporting events where the focus is on team support and communal excitement. It provides a comfortable setting for large crowds to engage in shared entertainment experiences.",
+      "amenities_description": "The arena features a convenient outdoor concourse housing various food and drink vendors along with restroom facilities. It operates as a cashless, clear-bag-only venue to streamline entry and transactions.",
+      "unique_selling_points": "As a 12,000-seat facility, the arena is known for its excellent sightlines that ensure a quality view from every seat in the house. Its design is optimized to cultivate a strong home-court advantage for university sports teams.",
+      "neighborhood_description": "The arena is embedded within a lively university neighborhood, fostering an environment centered around campus life and student activity.",
+      "physical_setting_description": "Viejas Arena is situated on the San Diego State University campus, serving as a prominent multipurpose venue. The site provides a central hub for large-scale gatherings within the university environment.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0A6DEC3F-347B-4983-80D2-A27B2022FD15-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9610393517925219,
+     "location": {
+      "lat": 32.7740276,
+      "lon": -117.0746442,
+      "geohash": "9mudrykfe1b8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:campus_life",
+       "name": "Campus life",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_spirited",
+       "name": "High spirited",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:athletic_arena_design",
+       "name": "Athletic arena design",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:san_diego_state_university_campus",
+       "name": "San diego state university campus",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:athletics",
+       "name": "Athletics",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor",
+       "name": "Arena floor",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:multipurpose_arena",
+       "name": "Multipurpose arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:college_sports",
+       "name": "College sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_concourse",
+       "name": "Outdoor concourse",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:educational_district",
+       "name": "Educational district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cash_to_card_kiosks",
+       "name": "Cash to card kiosks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5500 Canyon Crest Dr San Diego, CA 92182",
+     "external": {
+      "google_place": [
+       {
+        "id": "4e8b8901636384d1",
+        "place_id": "ChIJASLBHoFW2YAR0YRjYwGJi04"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Monumental Plaza de Toros",
+     "entity_id": "EDF60529-51F4-4487-86C5-9257245EE982",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T09:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ]
+      },
+      "phone": "+526566131182",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/EDF60529-51F4-4487-86C5-9257245EE982-0NTNxo-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "Playa De Ti 551 Playas de Tijuana 22504 Tijuana, B.C. Mexico",
+      "geocode": {
+       "city": "Imperial Beach",
+       "name": "Playas de Tijuana Secc Monumental",
+       "metro": null,
+       "country": "Mexico",
+       "country_code": "MX",
+       "admin1_region": "Baja California",
+       "admin2_region": "Municipio de Tijuana"
+      },
+      "parking": true,
+      "website": "http://plazamonumentaldeplayas.com.mx/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "Baja California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "FE513FB0-3B03-4C24-8347-3607A1AB19CD",
+        "admin_level": 4,
+        "locality_id": "r2589601",
+        "abbreviation": "B.C.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Municipio de Tijuana",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "783F70F0-32E4-414B-8EDB-0DD59D8777FE",
+        "admin_level": 6,
+        "locality_id": "r5606504",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "Mexico",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "0C2901D1-FA87-4F1E-A97D-385912D6911B",
+        "admin_level": 2,
+        "locality_id": "r114686",
+        "abbreviation": null,
+        "country_code": "MX"
+       },
+       "neighborhood": {
+        "name": "Playas de Tijuana Secc Monumental",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "765E51D8-A64A-451F-B59B-832138C05463",
+        "admin_level": 10,
+        "locality_id": "n529739246",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Playas de Tijuana Secc Monumental",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "765E51D8-A64A-451F-B59B-832138C05463",
+        "admin_level": 10,
+        "locality_id": "n529739246",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Municipio de Tijuana",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "783F70F0-32E4-414B-8EDB-0DD59D8777FE",
+        "admin_level": 6,
+        "locality_id": "r5606504",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Mexico",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "0C2901D1-FA87-4F1E-A97D-385912D6911B",
+        "admin_level": 2,
+        "locality_id": "r114686",
+        "abbreviation": null,
+        "country_code": "MX"
+       },
+       {
+        "name": "Baja California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "FE513FB0-3B03-4C24-8347-3607A1AB19CD",
+        "admin_level": 4,
+        "locality_id": "r2589601",
+        "abbreviation": "B.C.",
+        "country_code": null
+       }
+      ],
+      "description": "Historic seaside bullring converted to a large concert arena near the US\u2013Mexico border, offering panoramic views and parking for up to ~27,000 spectators.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Playas de Tijuana Secc Monumental",
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:bullring",
+       "akas": [
+        {
+         "value": "\"\u6597\u725b\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u062d\u0644\u0628\u0629 \u0645\u0635\u0627\u0631\u0639\u0629 \u0627\u0644\u062b\u064a\u0631\u0627\u0646\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u95d8\u725b\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u092c\u0948\u0932-\u0932\u0921\u093c\u093e\u0908 \u0915\u093e \u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Bullring\"",
+         "languages": [
+          "kk",
+          "et",
+          "sk",
+          "tl",
+          "pt_pt",
+          "vi",
+          "fi",
+          "az",
+          "sl",
+          "mk",
+          "ro",
+          "id",
+          "en_gb",
+          "lv",
+          "sw",
+          "gl",
+          "uk",
+          "hr",
+          "hu",
+          "nb",
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0eaa\u0eb9\u0ec9\u0e87\u0ebb\u0ea7\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1 \u03c4\u03b1\u03c5\u03c1\u03bf\u03bc\u03b1\u03c7\u03b9\u03ce\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u05d1\u05d5\u05dc\u05e8\u05d9\u05e0\u05d2\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Stierkampfarena\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na pro b\u00fd\u010d\u00ed z\u00e1pasy\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Arena za borbu bikova\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb p\u00ebr demat\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Stierenvechtarena\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430 \u0437\u0430 \u0431\u043e\u0440\u0431\u0443 \u0431\u0438\u043a\u043e\u0432\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Pla\u00e7a de toros\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Tjurf\u00e4ktningsarena\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Zezen-plaza\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09c1\u09b2\u09b0\u09bf\u0982\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1014\u103d\u102c\u1038\u101e\u102d\u102f\u1038\u1010\u102d\u102f\u1000\u103a\u1015\u103d\u1032\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Plaza de toros\"",
+         "languages": [
+          "es",
+          "es_la",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e2a\u0e39\u0e49\u0e27\u0e31\u0e27\u0e01\u0e23\u0e30\u0e17\u0e34\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Arena laga lembu\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\ubd88\ub9c1\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u10ee\u10d0\u10e0\u10d4\u10d1\u10d8\u10e1 \u10d1\u10e0\u10eb\u10dd\u10da\u10d8\u10e1 \u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8nes\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Tyref\u00e6gterarena\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Bulring\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Bo\u011fa g\u00fcre\u015fi arenas\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c41\u0c32\u0c4d\u200c\u0c30\u0c3f\u0c02\u0c17\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430 \u0437\u0430 \u0431\u043e\u0440\u0431\u0430 \u0441 \u0431\u0438\u043a\u043e\u0432\u0435\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0bbe\u0bb3\u0bc8\u0b9a\u0bcd \u0b9a\u0ba3\u0bcd\u0b9f\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u9b25\u725b\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430 \u0434\u043b\u044f \u043a\u043e\u0440\u0440\u0438\u0434\u044b\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Pra\u00e7a de touros\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\u1787\u179b\u17cb\u1782\u17c4\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koridos arena\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Bullring",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Historic seaside bullring converted to a large concert arena near the US\u2013Mexico border, offering panoramic views and parking for up to ~27,000 spectators.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Monumental Plaza de Toros is a landmark historic bullring transformed into a large-scale concert arena, situated prominently on the coast where the border wall meets the sea. With a capacity of up to 27,000, it provides a unique open-air experience that combines high-energy entertainment with an evocative atmosphere of cultural and geographical division. Visitors are drawn to its architectural scale, panoramic ocean vistas, and its role as a pivotal point of human connection and historical reflection at the boundary between two countries.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and culturally significant, reflecting a blend of recreational fun and the poignant reality of its border-crossing location. It maintains a casual, open-air feel that balances large event excitement with the natural beauty of the seaside setting.",
+      "amenities_description": "The facility is equipped with comprehensive event infrastructure, including extensive parking, numerous restrooms, various food and beverage concessions, and mobile snack service during events.",
+      "unique_selling_points": "This venue is uniquely positioned as a historic bullring converted into a massive concert arena located exactly where the international border meets the Pacific Ocean. It offers a singular mix of architectural history, political significance, and stunning oceanfront views.",
+      "neighborhood_description": "The surrounding area is a vibrant and culturally rich district defined by its position at the edge of the nation, blending beach life with a bustling commercial atmosphere full of restaurants and street art. It serves as a significant intersection of international travel, tourism, and local daily life.",
+      "physical_setting_description": "Located directly on the beachfront at the US\u2013Mexico border, this historic concrete arena offers a unique coastal environment with panoramic sea views. Its proximity to the ocean and the international border wall provides a striking backdrop for large-scale outdoor events.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/EDF60529-51F4-4487-86C5-9257245EE982-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9610042490976378,
+     "location": {
+      "lat": 32.533524799999995,
+      "lon": -117.12153629999999,
+      "geohash": "9mu9nfd9w2kg"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:border_photography",
+       "name": "Border photography",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:border_zone",
+       "name": "Border zone",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:tijuana_lighthouse",
+       "name": "Tijuana lighthouse",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:street_art",
+       "name": "Street art",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:bullring",
+       "name": "Bullring",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:waterfront",
+       "name": "Waterfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:coastal",
+       "name": "Coastal",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:coastal_photography",
+       "name": "Coastal photography",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:political_history",
+       "name": "Political history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_exploration",
+       "name": "Urban exploration",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:souvenir_shops",
+       "name": "Souvenir shops",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:bright",
+       "name": "Bright",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:beach_walking",
+       "name": "Beach walking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:beer_gardens",
+       "name": "Beer gardens",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:drink_service",
+       "name": "Drink service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:friendship_park",
+       "name": "Friendship park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unique",
+       "name": "Unique",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ocean_view",
+       "name": "Ocean view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sociopolitical",
+       "name": "Sociopolitical",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cultural",
+       "name": "Cultural",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:brutalist_concrete",
+       "name": "Brutalist concrete",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:coastal_view",
+       "name": "Coastal view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:border_wall_view",
+       "name": "Border wall view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:cultural_hub",
+       "name": "Cultural hub",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:beachfront",
+       "name": "Beachfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bullring",
+       "name": "Bullring",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:border_wall_murals",
+       "name": "Border wall murals",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:pacific_ocean_beach",
+       "name": "Pacific ocean beach",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:coastal",
+       "name": "Coastal",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:border_area",
+       "name": "Border area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:early_morning",
+       "name": "Early morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 284.91889551943814,
+      "measurements": {
+       "audience_growth": -1.584811631386123
+      }
+     },
+     "disambiguation": "Playa De Ti 551 Playas de Tijuana 22504 Tijuana, B.C. Mexico",
+     "external": {
+      "google_place": [
+       {
+        "id": "c85a31bae74de032",
+        "place_id": "ChIJZ2IRBaRL2YARMuBN57oxWsg"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Torero Stadium",
+     "entity_id": "7C2ADF05-EBD1-4703-848A-88ADD1B77ECE",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+16192607550",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/7C2ADF05-EBD1-4703-848A-88ADD1B77ECE-069X2Q-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5998 Alcala Park Way San Diego, CA 92111",
+      "geocode": {
+       "city": "San Diego",
+       "name": "Morena",
+       "metro": "San Diego",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "San Diego County"
+      },
+      "parking": true,
+      "website": "http://www.usdtoreros.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "game",
+        "count": 40
+       },
+       {
+        "name": "parking",
+        "count": 23
+       },
+       {
+        "name": "rugby",
+        "count": 16
+       },
+       {
+        "name": "watch",
+        "count": 14
+       },
+       {
+        "name": "team",
+        "count": 10
+       },
+       {
+        "name": "campus",
+        "count": 8
+       },
+       {
+        "name": "food trucks",
+        "count": 6
+       },
+       {
+        "name": "beer",
+        "count": 5
+       },
+       {
+        "name": "graduation",
+        "count": 3
+       },
+       {
+        "name": "college",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Morena",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "7B298FCB-7ABF-42F0-ABCF-3B191368437F",
+        "admin_level": 10,
+        "locality_id": "n150948450",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Morena",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "7B298FCB-7ABF-42F0-ABCF-3B191368437F",
+        "admin_level": 10,
+        "locality_id": "n150948450",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "92110",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "834FE11B-3B04-425E-B5BE-AF6EF6793CCC",
+        "admin_level": 9,
+        "locality_id": "z92110",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Cozy 6,000-seat stadium on the University of San Diego campus primarily hosting collegiate soccer, football, and track events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Morena",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Cozy 6,000-seat stadium on the University of San Diego campus primarily hosting collegiate soccer, football, and track events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Torero Stadium is a cozy, 6,000-seat athletic venue located on the University of San Diego campus. Known for its unique fishbowl design, it allows fans to enter from the top, providing excellent views of the field regardless of where they sit. It primarily hosts collegiate soccer, football, and track events, serving as a hub for both the university community and local sports enthusiasts. The stadium offers a straightforward, functional environment that emphasizes the excitement of live athletic competition.",
+      "service_description": null,
+      "ambience_description": "The stadium offers a cozy and intimate atmosphere, making it a comfortable place for spectators to enjoy sporting events in a lively collegiate setting.",
+      "amenities_description": "The facility provides access to a parking garage with shuttle assistance for those with mobility concerns. Spectator seating consists primarily of bleachers, with a limited number of chairback seats available.",
+      "unique_selling_points": "The stadium's distinctive fishbowl architecture ensures that every spectator has an unobstructed, intimate view of the field from any seat in the house.",
+      "neighborhood_description": "The stadium is situated within the peaceful and scenic grounds of the university, offering an academic and well-maintained atmosphere.",
+      "physical_setting_description": "Located on the University of San Diego campus, this intimate 6,000-seat stadium is nestled within a hilly landscape. The venue features a unique fishbowl design where spectators enter at the top and walk down toward the field.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/7C2ADF05-EBD1-4703-848A-88ADD1B77ECE-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.95909421674744,
+     "location": {
+      "lat": 32.7730771,
+      "lon": -117.18363149999999,
+      "geohash": "9mudmqjmp2wy"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:athletic_facility",
+       "name": "Athletic facility",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:shuttle_service",
+       "name": "Shuttle service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_services",
+       "name": "Event services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:academic_environment",
+       "name": "Academic environment",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:university_of_san_diego",
+       "name": "University of san diego",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:team_sports",
+       "name": "Team sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_activities",
+       "name": "Outdoor activities",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_entertainment",
+       "name": "Live entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:college_sports",
+       "name": "College sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:collegiate_athletics",
+       "name": "Collegiate athletics",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:chairback_seating",
+       "name": "Chairback seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bleacher_seating",
+       "name": "Bleacher seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:college_stadium",
+       "name": "College stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:campus_view",
+       "name": "Campus view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5998 Alcala Park Way San Diego, CA 92111",
+     "external": {
+      "google_place": [
+       {
+        "id": "d6dca1447f8ec7ef",
+        "place_id": "ChIJfZDFw7eq3oAR78eOf0Sh3NY"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Romero Manzo Stadium",
+     "entity_id": "28587CAD-72B2-44B7-8633-346F2E97EB97",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/28587CAD-72B2-44B7-8633-346F2E97EB97-3Gh58N-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "Alejandro Humboldt Campos Deportivos 22430 Tijuana, B.C. Mexico",
+      "geocode": {
+       "city": "Tijuana",
+       "name": "Lago Vista",
+       "metro": null,
+       "country": "Mexico",
+       "country_code": "MX",
+       "admin1_region": "Baja California",
+       "admin2_region": "Municipio de Tijuana"
+      },
+      "parking": null,
+      "website": null,
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "Baja California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "FE513FB0-3B03-4C24-8347-3607A1AB19CD",
+        "admin_level": 4,
+        "locality_id": "r2589601",
+        "abbreviation": "B.C.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Municipio de Tijuana",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "783F70F0-32E4-414B-8EDB-0DD59D8777FE",
+        "admin_level": 6,
+        "locality_id": "r5606504",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "Mexico",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "0C2901D1-FA87-4F1E-A97D-385912D6911B",
+        "admin_level": 2,
+        "locality_id": "r114686",
+        "abbreviation": null,
+        "country_code": "MX"
+       },
+       "neighborhood": {
+        "name": "Lago Vista",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A9AF3D06-758F-4087-8F9C-68C3FD07A732",
+        "admin_level": 10,
+        "locality_id": "n1724215098",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Lago Vista",
+        "place": "neighbourhood",
+        "boundary": null,
+        "entity_id": "A9AF3D06-758F-4087-8F9C-68C3FD07A732",
+        "admin_level": 10,
+        "locality_id": "n1724215098",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Municipio de Tijuana",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "783F70F0-32E4-414B-8EDB-0DD59D8777FE",
+        "admin_level": 6,
+        "locality_id": "r5606504",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Mexico",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "0C2901D1-FA87-4F1E-A97D-385912D6911B",
+        "admin_level": 2,
+        "locality_id": "r114686",
+        "abbreviation": null,
+        "country_code": "MX"
+       },
+       {
+        "name": "Baja California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "FE513FB0-3B03-4C24-8347-3607A1AB19CD",
+        "admin_level": 4,
+        "locality_id": "r2589601",
+        "abbreviation": "B.C.",
+        "country_code": null
+       }
+      ],
+      "description": "Multifunctional sports complex in Tijuana's Campos Deportivos offering an arena and club facilities for football, athletics, and local sporting events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Lago Vista",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Multifunctional sports complex in Tijuana's Campos Deportivos offering an arena and club facilities for football, athletics, and local sporting events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/28587CAD-72B2-44B7-8633-346F2E97EB97-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9326429431882385,
+     "location": {
+      "lat": 32.539994899999996,
+      "lon": -116.9466649,
+      "geohash": "9muc4gdp1nru"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_club",
+       "name": "Sports club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_club",
+       "name": "Sports club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 1052.596373578681,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "Alejandro Humboldt Campos Deportivos 22430 Tijuana, B.C. Mexico",
+     "external": {
+      "google_place": [
+       {
+        "id": "384b88ddc86b0d49",
+        "place_id": "ChIJIfLQfKRH2YARSQ1ryN2ISzg"
+       }
+      ]
+     }
+    },
+    {
+     "name": "LionTree",
+     "entity_id": "0298B5E6-61A0-4ABB-8AC6-483A518801EF",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18585341430",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0298B5E6-61A0-4ABB-8AC6-483A518801EF-1WF8h1-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "9860 Hopkins Dr La Jolla, CA 92093",
+      "geocode": {
+       "city": "San Diego",
+       "name": "Torrey Pines",
+       "metro": "San Diego",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "San Diego County"
+      },
+      "parking": null,
+      "website": "https://ucsdtritons.com/facilities/liontree-arena/2",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "gym",
+        "count": 20
+       },
+       {
+        "name": "covid vaccine",
+        "count": 19
+       },
+       {
+        "name": "organized",
+        "count": 13
+       },
+       {
+        "name": "basketball",
+        "count": 11
+       },
+       {
+        "name": "parking",
+        "count": 11
+       },
+       {
+        "name": "equipment",
+        "count": 9
+       },
+       {
+        "name": "game",
+        "count": 7
+       },
+       {
+        "name": "campus",
+        "count": 6
+       },
+       {
+        "name": "university",
+        "count": 6
+       },
+       {
+        "name": "machines",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Torrey Pines",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "EBC50E1F-9230-4050-A849-EEE5312B3158",
+        "admin_level": 10,
+        "locality_id": "n4839531289",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       {
+        "name": "Torrey Pines",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "EBC50E1F-9230-4050-A849-EEE5312B3158",
+        "admin_level": 10,
+        "locality_id": "n4839531289",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "92093",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "CCEDA67C-4DBA-4C06-981F-4541595B9030",
+        "admin_level": 9,
+        "locality_id": "z92093",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "University campus arena hosting NCAA basketball, volleyball, concerts and events, featuring modern scoreboard, retractable seating and a VIP skybox.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Torrey Pines",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "University campus arena hosting NCAA basketball, volleyball, concerts and events, featuring modern scoreboard, retractable seating and a VIP skybox.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0298B5E6-61A0-4ABB-8AC6-483A518801EF-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.7611759365640443,
+     "location": {
+      "lat": 32.8852786,
+      "lon": -117.2391227,
+      "geohash": "9mueh4t4d7zt"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "9860 Hopkins Dr La Jolla, CA 92093",
+     "external": {
+      "google_place": [
+       {
+        "id": "3bf02eca6590b1d3",
+        "place_id": "ChIJVVcXEeoG3IAR07GQZcou8Ds"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Hourglass Community Park",
+     "entity_id": "5ADB408B-25F6-414D-AEE7-04AEDF85EF8A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+18585388153",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/5ADB408B-25F6-414D-AEE7-04AEDF85EF8A-36Vlvy-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "J-100 Gymnasium 10440 Black Mountain Rd San Diego, CA 92126",
+      "geocode": {
+       "city": "San Diego",
+       "name": "Mira Mesa",
+       "metro": "San Diego",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "San Diego County"
+      },
+      "parking": null,
+      "website": "https://www.sandiego.gov/park-and-recreation/centers/recctr/hourglass",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": 0.5
+       }
+      ],
+      "keywords": [
+       {
+        "name": "softball fields",
+        "count": 17
+       },
+       {
+        "name": "volleyball",
+        "count": 10
+       },
+       {
+        "name": "grass field",
+        "count": 9
+       },
+       {
+        "name": "cricket",
+        "count": 7
+       },
+       {
+        "name": "soccer fields",
+        "count": 3
+       },
+       {
+        "name": "quiet field",
+        "count": 4
+       },
+       {
+        "name": "exercise stations",
+        "count": 3
+       },
+       {
+        "name": "playground",
+        "count": 12
+       },
+       {
+        "name": "no animals allowed",
+        "count": 4
+       },
+       {
+        "name": "squirrels",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Mira Mesa",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "880C26CB-F37A-44CA-9630-D2EEBEBBC8F6",
+        "admin_level": 10,
+        "locality_id": "n150967239",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       {
+        "name": "Mira Mesa",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "880C26CB-F37A-44CA-9630-D2EEBEBBC8F6",
+        "admin_level": 10,
+        "locality_id": "n150967239",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "92126",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "12F30686-5166-48C7-A2E2-C8BFB83C8012",
+        "admin_level": 9,
+        "locality_id": "z92126",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Community park featuring lighted softball and multi-use fields, a field house gym, aquatic center, tot lot, picnic areas, and courts for recreation.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Mira Mesa",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:park",
+       "akas": [
+        {
+         "value": "\"Parque\"",
+         "languages": [
+          "gl",
+          "pt",
+          "es",
+          "es_la",
+          "pt_pt",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0430\u044f\u0431\u0430\u049b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Hifadhi\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0baa\u0bc2\u0b99\u0bcd\u0b95\u0bbe\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u516c\u5712\"",
+         "languages": [
+          "ja",
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Taman\"",
+         "languages": [
+          "ms",
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e27\u0e19\u0e2a\u0e32\u0e18\u0e32\u0e23\u0e13\u0e30\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"C\u00f4ng vi\u00ean\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0ea7\u0e99\u0eaa\u0eb2\u0e97\u0eb2\u0ea5\u0eb0\u0e99\u0eb0\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u062d\u062f\u064a\u0642\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u179f\u17bd\u1793\u1785\u17d2\u1794\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\uacf5\uc6d0\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Parks\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Parco\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u1015\u1014\u103a\u1038\u1001\u103c\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Puisto\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u03a0\u03ac\u03c1\u03ba\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Parke\"",
+         "languages": [
+          "tl",
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u516c\u56ed\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Park\"",
+         "languages": [
+          "cs",
+          "nb",
+          "bs",
+          "et",
+          "tr",
+          "pl",
+          "nl",
+          "sl",
+          "hu",
+          "da",
+          "hr",
+          "en_gb",
+          "az",
+          "af",
+          "de",
+          "sk",
+          "sq",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Parc\"",
+         "languages": [
+          "fr",
+          "fr_ca",
+          "ca",
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u092a\u093e\u0930\u094d\u0915\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0c2a\u0c3e\u0c30\u0c4d\u0c15\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u10de\u10d0\u10e0\u10d9\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0430\u0440\u043a\"",
+         "languages": [
+          "ru",
+          "bg",
+          "mk",
+          "uk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u05e4\u05d0\u05e8\u05e7\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u09aa\u09be\u09b0\u09cd\u0995\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Parkas\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Park",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Community park featuring lighted softball and multi-use fields, a field house gym, aquatic center, tot lot, picnic areas, and courts for recreation.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/5ADB408B-25F6-414D-AEE7-04AEDF85EF8A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.672725874697866,
+     "location": {
+      "lat": 32.9072983,
+      "lon": -117.12285159999999,
+      "geohash": "9mueny9dzv4k"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:category:place:park",
+       "name": "Park",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:park",
+       "name": "Park",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "J-100 Gymnasium 10440 Black Mountain Rd San Diego, CA 92126",
+     "external": {
+      "google_place": [
+       {
+        "id": "4bea85b678959a9b",
+        "place_id": "ChIJNSE1NCH524ARm5qVeLaF6ks"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Torero Stadium",
+     "entity_id": "69C0F605-D803-461E-885D-9CF25F2DFBFC",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/69C0F605-D803-461E-885D-9CF25F2DFBFC-0GVjov-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5998 Alcala Park Way San Diego, CA 92111",
+      "geocode": {
+       "city": "San Diego",
+       "name": "Morena",
+       "metro": "San Diego",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "San Diego County"
+      },
+      "parking": true,
+      "website": null,
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Morena",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "7B298FCB-7ABF-42F0-ABCF-3B191368437F",
+        "admin_level": 10,
+        "locality_id": "n150948450",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Morena",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "7B298FCB-7ABF-42F0-ABCF-3B191368437F",
+        "admin_level": 10,
+        "locality_id": "n150948450",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "92110",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "834FE11B-3B04-425E-B5BE-AF6EF6793CCC",
+        "admin_level": 9,
+        "locality_id": "z92110",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": null,
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Morena",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": null,
+       "akas": null,
+       "name": null,
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": null,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": null,
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Torero Stadium is a prominent outdoor sports facility located on the University of San Diego campus, known for its picturesque setting and coastal views. It hosts a variety of collegiate and professional events, serving as a hub for local athletic culture. Visitors are drawn by the unique blend of competitive sports and the scenic beauty of the surrounding hills and nearby ocean. The venue offers a grounded, community-oriented experience for those looking to enjoy matches in an open, pleasant outdoor environment.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and community-focused during match days, yet maintains a relaxed, open-air feel. It provides a welcoming environment for families, students, and sports fans alike.",
+      "amenities_description": "The facility features traditional bleacher-style stadium seating, on-site concessions for refreshments, and accessible viewing areas for spectators. It is designed to accommodate collegiate and professional athletic events with basic supporting infrastructure.",
+      "unique_selling_points": "The stadium is renowned for its stunning location atop a mesa, offering rare views of the San Diego coastline and Mission Bay from the stands. It serves as a premier venue for collegiate soccer and football, blending high-level athletics with a unique campus backdrop.",
+      "neighborhood_description": "The stadium is situated within the peaceful and academic atmosphere of the University of San Diego. The surrounding area is elevated, providing a tranquil environment removed from the bustle of downtown.",
+      "physical_setting_description": "Located on the scenic campus of the University of San Diego, this outdoor stadium is surrounded by greenery and rolling hills. It offers an open-air environment with views overlooking the nearby Mission Bay and Pacific Ocean.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/69C0F605-D803-461E-885D-9CF25F2DFBFC-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 32.773112999999995,
+      "lon": -117.1836314,
+      "geohash": "9mudmqjmprng"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nature_focused",
+       "name": "Nature focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:nature",
+       "name": "Nature",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:campus_culture",
+       "name": "Campus culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:quiet",
+       "name": "Quiet",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:college_sports",
+       "name": "College sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:community_oriented",
+       "name": "Community oriented",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:canyon_view",
+       "name": "Canyon view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_soccer",
+       "name": "Professional soccer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:balboa_park",
+       "name": "Balboa park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bleacher_seating",
+       "name": "Bleacher seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:old_town_san_diego_state_historic_park",
+       "name": "Old town san diego state historic park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_community_events",
+       "name": "Local community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:college_athletics",
+       "name": "College athletics",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:mission_bay_park",
+       "name": "Mission bay park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:minimalist",
+       "name": "Minimalist",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:bay_view",
+       "name": "Bay view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:academic",
+       "name": "Academic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_sports_venue",
+       "name": "Outdoor sports venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ocean_view",
+       "name": "Ocean view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:san_diego_zoo",
+       "name": "San diego zoo",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:professional_soccer_matches",
+       "name": "Professional soccer matches",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5998 Alcala Park Way San Diego, CA 92111",
+     "external": {
+      "google_place": [
+       {
+        "id": "e7c1248661fd91a0",
+        "place_id": "ChIJfZDFw7eq3oARoJH9YYYkwec"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Snapdragon Stadium",
+     "entity_id": "AA2A7BAB-5100-43A6-BA53-3EDA1D2C447A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/AA2A7BAB-5100-43A6-BA53-3EDA1D2C447A-0rqCsu-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2101 Stadium Wy San Diego, CA 92108",
+      "geocode": {
+       "city": "San Diego",
+       "name": null,
+       "metro": "San Diego",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "San Diego County"
+      },
+      "parking": null,
+      "website": "https://snapdragonstadium.com/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "San Diego County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "14718883-A249-405D-8BD4-C721A7DAC6EE",
+        "admin_level": 6,
+        "locality_id": "r396482",
+        "abbreviation": "San Diego",
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "59CBD2F1-EF38-4DB4-8D62-01D7DB04C776",
+        "admin_level": 12,
+        "locality_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "San Diego",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+        "admin_level": 8,
+        "locality_id": "r253832",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "92108",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "6A56EF55-CB16-4812-A7FD-A681BED4FA13",
+        "admin_level": 9,
+        "locality_id": "z92108",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Modern multi-purpose sports and entertainment stadium in San Diego hosting college football, professional soccer, concerts, and community events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Modern multi-purpose sports and entertainment stadium in San Diego hosting college football, professional soccer, concerts, and community events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Snapdragon Stadium is a modern, multi-purpose stadium in Mission Valley, San Diego, owned and operated for university and professional events. It serves as the home for SDSU football and professional soccer tenants (including San Diego Wave FC and San Diego FC), and hosts concerts and large community events. The venue enforces a clear-bag policy (permitted clear bag sizes and one small non-clear clutch rules are posted), offers bag-check lockers for purchase on the east side, provides mobile ticketing support, and promotes sustainability initiatives. The stadium sits near San Diego State University and major Mission Valley destinations such as Fashion Valley and Hotel Circle, making it accessible for locals and visiting sports and entertainment crowds.",
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/AA2A7BAB-5100-43A6-BA53-3EDA1D2C447A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 32.7841307,
+      "lon": -117.1224366,
+      "geohash": "9mudwb4j3kv9"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:university_campus",
+       "name": "University campus",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_university",
+       "name": "Near university",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:mission_valley",
+       "name": "Mission valley",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:san_diego_river",
+       "name": "San diego river",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:developing",
+       "name": "Developing",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:fashion_valley",
+       "name": "Fashion valley",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:san_diego_state_university",
+       "name": "San diego state university",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:hotel_circle",
+       "name": "Hotel circle",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2101 Stadium Wy San Diego, CA 92108",
+     "external": {
+      "google_place": [
+       {
+        "id": "8878a42d48c92d51",
+        "place_id": "ChIJ15v_AMRV2YARUS3JSC2keIg"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "7AF9610F-E567-4211-8407-548344DA99C2",
+      "name": "San Diego",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 32.81683985851374,
+       "lon": -117.13343650824474
+      },
+      "popularity": 0.9993516,
+      "disambiguation": "San Diego, San Diego County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

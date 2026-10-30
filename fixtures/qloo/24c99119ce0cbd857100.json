@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Bonner Springs",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "37DCCD46-A478-40B4-A226-A989D16128DB",
+      "name": "Bonner Springs",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.08192678517735,
+       "lon": -94.87767888839505
+      },
+      "popularity": 0.9512474,
+      "disambiguation": "Bonner Springs, Wyandotte County, Kansas, United States"
+     }
+    ]
+   }
+  }
+ }
+}

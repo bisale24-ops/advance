@@ -1,0 +1,2281 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "DD692BAE-4DA3-4E42-8331-EBB59A5634E5",
+  "take": 25,
+  "filter.location.query": "Indio, California",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Fantasy Springs Resort Casino",
+     "entity_id": "5211756E-0872-4215-9274-1EA57F431AAF",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17603425000",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/5211756E-0872-4215-9274-1EA57F431AAF-0yQ5JR-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "84-245 Indio Springs Pkwy Indio, CA 92203",
+      "geocode": {
+       "city": "Indio",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Riverside County"
+      },
+      "parking": true,
+      "website": "http://www.fantasyspringsresort.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "live music",
+        "count": 505
+       },
+       {
+        "name": "bowling",
+        "count": 207
+       },
+       {
+        "name": "buffet",
+        "count": 497
+       },
+       {
+        "name": "bingo",
+        "count": 125
+       },
+       {
+        "name": "pool",
+        "count": 142
+       },
+       {
+        "name": "Rock Yard",
+        "count": 15
+       },
+       {
+        "name": "friendly staff",
+        "count": 445
+       },
+       {
+        "name": "tribute bands",
+        "count": 24
+       },
+       {
+        "name": "concert venue",
+        "count": 37
+       },
+       {
+        "name": "smoking",
+        "count": 134
+       }
+      ],
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Riverside County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "6F5E8691-0BA5-4FC9-88A4-23642CB53830",
+        "admin_level": 6,
+        "locality_id": "r396495",
+        "abbreviation": "Riverside",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Riverside County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "6F5E8691-0BA5-4FC9-88A4-23642CB53830",
+        "admin_level": 6,
+        "locality_id": "r396495",
+        "abbreviation": "Riverside",
+        "country_code": null
+       },
+       {
+        "name": "92203",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "E5AAF235-4B3F-402C-96C1-C281646266B4",
+        "admin_level": 9,
+        "locality_id": "z92203",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Modern casino resort in Coachella Valley adjacent to an 18-hole golf course, featuring an outdoor pool, bowling alley, multiple restaurants, bars, and live music.",
+      "hotel_class": 3,
+      "price_level": null,
+      "price_range": {
+       "to": 217,
+       "from": 154,
+       "currency": "usd"
+      },
+      "star_rating": 3,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:hotel:casino",
+       "akas": [
+        {
+         "value": "\"\u1780\u17b6\u179f\u17ca\u17b8\u178e\u17bc\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\uce74\uc9c0\ub178\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u10d9\u10d0\u10d6\u10d8\u10dc\u10dd\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0e04\u0e32\u0e2a\u0e34\u0e42\u0e19\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u05e7\u05d6\u05d9\u05e0\u05d5\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u039a\u03b1\u03b6\u03af\u03bd\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Casin\u00f2\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Cazinou\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Cassino\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u8ced\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0e81\u0eb2\u0e8a\u0eb5\u0ec2\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"S\u00f2ng b\u1ea1c\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Kasiino\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Kasz\u00edn\u00f3\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0915\u0948\u0938\u0940\u0928\u094b\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u8d4c\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Kasyno\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0430\u0437\u0438\u043d\u043e\"",
+         "languages": [
+          "sr",
+          "uk",
+          "bg",
+          "ru",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u0b95\u0bc7\u0b9a\u0bbf\u0ba9\u0bcb\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0c15\u0c3e\u0c38\u0c3f\u0c28\u0c4b\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u0995\u09cd\u09af\u09be\u09b8\u09bf\u09a8\u09cb\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u30ab\u30b8\u30ce\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Casino\"",
+         "languages": [
+          "es_ar",
+          "fr",
+          "en_gb",
+          "fr_ca",
+          "pt_pt",
+          "tl",
+          "ca",
+          "tr",
+          "af",
+          "es",
+          "nl",
+          "es_la",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u0643\u0627\u0632\u064a\u0646\u0648\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1000\u102c\u1005\u102e\u1014\u102d\u102f\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Kas\u00edno\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Spielbank\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Kasino\"",
+         "languages": [
+          "id",
+          "eu",
+          "cs",
+          "sv",
+          "sw",
+          "hr",
+          "fi",
+          "ms",
+          "nb",
+          "da"
+         ]
+        },
+        {
+         "value": "\"Kazino\"",
+         "languages": [
+          "bs",
+          "az",
+          "lv",
+          "sl",
+          "sq",
+          "lt"
+         ]
+        }
+       ],
+       "name": "Casino",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": "Fantasy Rewards",
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Modern casino resort in Coachella Valley adjacent to an 18-hole golf course, featuring an outdoor pool, bowling alley, multiple restaurants, bars, and live music.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Fantasy Springs Resort Casino serves as a multifaceted destination in the Coachella Valley, offering guests an extensive array of entertainment and recreational options. The facility includes a bustling casino, a variety of dining establishments, an 18-hole golf course, and a dedicated bowling alley, making it a popular choice for both overnight stays and day trips. Guests frequently enjoy the live concert programming and the comfortable pool area, which enhances the resort's appeal as a comprehensive getaway spot.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is generally modern and welcoming, balancing the excitement of a vibrant gaming floor with more relaxed, family-friendly amenities like bowling and dining. The interior feels spacious and well-maintained, creating a comfortable environment for both guests and casual visitors.",
+      "amenities_description": "Fantasy Springs Resort Casino is a modern resort hotel in the Coachella Valley. It features an array of guest amenities, including a well-maintained outdoor pool with comfortable lounge chairs, a fitness center, and an adjacent 18-hole golf course. The facility acts as an event hub, housing a large concert and event center, banquet halls, and private ballrooms. Guest services include valet parking, a business center, and room service. The resort offers multiple dining venues, ranging from fine dining to casual eateries and an all-you-can-eat buffet. On-site entertainment includes a casino, live music venues, lounges, a bowling alley, and an arcade. The hotel provides comfortable, clean, and well-maintained guest rooms with air conditioning and kitchenettes.",
+      "unique_selling_points": "This resort stands out for its comprehensive blend of amenities, including a full-scale casino, an 18-hole golf course, a professional bowling alley, and a large event venue for concerts. It is highly regarded as a self-contained destination that caters to diverse entertainment preferences under one roof.",
+      "neighborhood_description": "Located in Indio, the resort sits within the sunny, open expanse of the Coachella Valley, providing a convenient and accessible stop for travelers passing through or visiting the region.",
+      "physical_setting_description": "Situated in the scenic Coachella Valley, this resort is adjacent to an 18-hole golf course and features a modern, expansive interior. The property offers an inviting outdoor pool area that provides a relaxing contrast to the desert landscape.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/5211756E-0872-4215-9274-1EA57F431AAF-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9984617961956108,
+     "location": {
+      "lat": 33.7211826,
+      "lon": -116.19372919999999,
+      "geohash": "9mvrgfy21uq8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:business_center",
+       "name": "Business center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:loyalty_program",
+       "name": "Loyalty program",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concierge",
+       "name": "Concierge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fitness_center",
+       "name": "Fitness center",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:empire_polo_club",
+       "name": "Empire polo club",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lounge",
+       "name": "Lounge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:casino",
+       "name": "Casino",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classy",
+       "name": "Classy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:room_service",
+       "name": "Room service",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:hot_tub",
+       "name": "Hot tub",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:air_conditioned",
+       "name": "Air conditioned",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:arcade",
+       "name": "Arcade",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:coachella_valley",
+       "name": "Coachella valley",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:bowling",
+       "name": "Bowling",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:free_parking",
+       "name": "Free parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:golf_course",
+       "name": "Golf course",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_pool",
+       "name": "Outdoor pool",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:meeting_rooms",
+       "name": "Meeting rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel",
+       "name": "Hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pool",
+       "name": "Pool",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:desert",
+       "name": "Desert",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:room_service",
+       "name": "Room service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:gaming_amusement",
+       "name": "Gaming amusement",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:casino",
+       "name": "Casino",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:casino_resort",
+       "name": "Casino resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:hot_tub",
+       "name": "Hot tub",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:business_center",
+       "name": "Business center",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:casino_hotel",
+       "name": "Casino hotel",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:golf_course",
+       "name": "Golf course",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:golf",
+       "name": "Golf",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:casino_gaming",
+       "name": "Casino gaming",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bowling_alley",
+       "name": "Bowling alley",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:kitchen_in_all_rooms",
+       "name": "Kitchen in all rooms",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_space",
+       "name": "Event space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:buffet",
+       "name": "Buffet",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:fine_dining",
+       "name": "Fine dining",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:room_type:qloo:standard",
+       "name": "Standard",
+       "type": "urn:tag:room_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:room_service",
+       "name": "Room service",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:desert_landscape",
+       "name": "Desert landscape",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:air_conditioning",
+       "name": "Air conditioning",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:banquet_hall",
+       "name": "Banquet hall",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:golf_course",
+       "name": "Golf course",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:desert_valley",
+       "name": "Desert valley",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:outdoor_pool",
+       "name": "Outdoor pool",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:casino_hotel",
+       "name": "Casino hotel",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hotel:casino",
+       "name": "Casino",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:fitness_center",
+       "name": "Fitness center",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:pool_view",
+       "name": "Pool view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:resort_chic",
+       "name": "Resort chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:golf_course",
+       "name": "Golf course",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:hotel_rating:place:three_star",
+       "name": "Three star",
+       "type": "urn:tag:hotel_rating:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:bowling",
+       "name": "Bowling",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:free_parking",
+       "name": "Free parking",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:casual_eatery",
+       "name": "Casual eatery",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:multiple_bars",
+       "name": "Multiple bars",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:multiple_restaurants",
+       "name": "Multiple restaurants",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ballroom",
+       "name": "Ballroom",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:flat_screen_tv",
+       "name": "Flat screen tv",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:checks",
+       "name": "Checks",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_garage",
+       "name": "Free parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_option:qloo:cafe",
+       "name": "Cafe",
+       "type": "urn:tag:dining_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:golf_resort",
+       "name": "Golf resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:kitchenette",
+       "name": "Kitchenette",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:place:free_wi_fi",
+       "name": "Free wi fi",
+       "type": "urn:tag:amenity:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7815238974489084,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.138989594902999
+      }
+     },
+     "disambiguation": "84-245 Indio Springs Pkwy Indio, CA 92203",
+     "external": {
+      "expedia": [
+       {
+        "id": "1138282"
+       }
+      ],
+      "google_place": [
+       {
+        "id": "21e40fd9d932df5d",
+        "place_id": "ChIJB5OlzaX32oARXd8y2dkP5CE"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Rock Yard",
+     "entity_id": "132932EB-8684-4D54-B635-CB38C0E73DD8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T19:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T19:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+17603425000",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/132932EB-8684-4D54-B635-CB38C0E73DD8-1uFuvb-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "84-245 Indio Springs Pkwy Indio, CA 92203",
+      "geocode": {
+       "city": "Indio",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "California",
+       "admin2_region": "Riverside County"
+      },
+      "parking": true,
+      "website": "https://www.fantasyspringsresort.com/rock-yard/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "tribute bands",
+        "count": 29
+       },
+       {
+        "name": "cover bands",
+        "count": 24
+       },
+       {
+        "name": "atmosphere",
+        "count": 19
+       },
+       {
+        "name": "sound",
+        "count": 15
+       },
+       {
+        "name": "bar",
+        "count": 15
+       },
+       {
+        "name": "entertainment",
+        "count": 12
+       },
+       {
+        "name": "casino",
+        "count": 11
+       },
+       {
+        "name": "friday",
+        "count": 7
+       },
+       {
+        "name": "fun",
+        "count": 7
+       },
+       {
+        "name": "security",
+        "count": 5
+       }
+      ],
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Riverside County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "6F5E8691-0BA5-4FC9-88A4-23642CB53830",
+        "admin_level": 6,
+        "locality_id": "r396495",
+        "abbreviation": "Riverside",
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Riverside County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "6F5E8691-0BA5-4FC9-88A4-23642CB53830",
+        "admin_level": 6,
+        "locality_id": "r396495",
+        "abbreviation": "Riverside",
+        "country_code": null
+       },
+       {
+        "name": "92203",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "E5AAF235-4B3F-402C-96C1-C281646266B4",
+        "admin_level": 9,
+        "locality_id": "z92203",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "California",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+        "admin_level": 4,
+        "locality_id": "r165475",
+        "abbreviation": "Calif.",
+        "country_code": null
+       }
+      ],
+      "description": "Outdoor concert venue and bar offering live music and casual dining at a resort.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Outdoor concert venue and bar offering live music and casual dining at a resort.",
+      "number_of_stations": null,
+      "cuisine_description": "Rock Yard offers a casual dining experience centered around classic American bar food, including burgers and pub-style appetizers, paired with a full bar selection at a resort-based concert venue.",
+      "overall_description": "Located within the Fantasy Springs Resort, this venue serves as a vibrant outdoor destination for live music and socializing. It offers guests a casual atmosphere where they can enjoy performances from bands and artists while taking advantage of full bar and dining services. As a popular hub for entertainment in the area, it caters to those seeking an active nightlife experience within a resort environment.",
+      "service_description": "The venue functions as an outdoor concert space and bar, providing a lively atmosphere for casual dining and nightlife, featuring regular live music performances.",
+      "ambience_description": "The atmosphere is buzzing and energetic, driven by frequent live music performances and an informal, social crowd. It provides a spirited environment ideal for relaxing and enjoying a show outdoors.",
+      "amenities_description": "The venue offers a dedicated outdoor stage for live musical acts complemented by a full-service bar and casual dining options. Comfortable seating areas allow guests to watch performances while enjoying refreshments.",
+      "unique_selling_points": "This spot is defined by its reputation as a premiere outdoor concert venue that brings live music directly to a resort setting. Its combination of energetic performances and an open-air bar makes it a standout feature of the property.",
+      "neighborhood_description": "The surrounding area is characterized by the expansive resort facilities, offering a self-contained environment for entertainment and leisure.",
+      "physical_setting_description": "Located on the grounds of a resort, this venue features an expansive outdoor concert stage and bar area. Its layout is designed to facilitate large crowds for live performances in a relaxed open-air setting.",
+      "customer_demographics_description": "The venue attracts a diverse mix of resort guests, locals, and music enthusiasts looking for an energetic, outdoor social experience.",
+      "image": {
+       "url": "https://images.qloo.com/i/132932EB-8684-4D54-B635-CB38C0E73DD8-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.38765224633102546,
+     "location": {
+      "lat": 33.7211826,
+      "lon": -116.19372919999999,
+      "geohash": "9mvrgfy21uq8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:interests:qloo:casual_dining",
+       "name": "Casual dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_concert_venue",
+       "name": "Open air concert venue",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:45_54",
+       "name": "45 54",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:mask_required",
+       "name": "Mask required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concert_watching",
+       "name": "Concert watching",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:tourists",
+       "name": "Tourists",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:resort_campus",
+       "name": "Resort campus",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:party_goers",
+       "name": "Party goers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_venue",
+       "name": "Outdoor venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bar_food",
+       "name": "Bar food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:appetizers",
+       "name": "Appetizers",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:resort_vacationing",
+       "name": "Resort vacationing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_stage",
+       "name": "Outdoor stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:sandwiches",
+       "name": "Sandwiches",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:fantasy_springs_resort_casino",
+       "name": "Fantasy springs resort casino",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:music_enthusiasts",
+       "name": "Music enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating",
+       "name": "Seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_wear_masks",
+       "name": "Staff wear masks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:hotel_guests",
+       "name": "Hotel guests",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7629221225648364,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "84-245 Indio Springs Pkwy Indio, CA 92203",
+     "external": {
+      "google_place": [
+       {
+        "id": "b25089a7fef213b6",
+        "place_id": "ChIJB5OlzaX32oARthPy_qeJULI"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "01140698-E9EF-42EB-8373-63383022078A",
+      "name": "Indio",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 33.75358188683835,
+       "lon": -116.22059620168065
+      },
+      "popularity": 0.987387,
+      "disambiguation": "Indio, Riverside, California, United States of America"
+     }
+    ]
+   }
+  }
+ }
+}

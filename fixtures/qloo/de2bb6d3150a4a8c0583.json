@@ -1,0 +1,1213 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Auburn, Washington",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Four Horsemen Brewery",
+     "entity_id": "319341B0-C36B-4168-BB0A-F97E10606C21",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+12534866155",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/319341B0-C36B-4168-BB0A-F97E10606C21-3WpJTM-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "30221 148th Ave SE Kent, WA 98042",
+      "geocode": {
+       "city": "Covington",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Washington",
+       "admin2_region": "King County"
+      },
+      "parking": true,
+      "website": "https://fourhorsemen.beer/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "house special sauce for fries",
+        "count": 3
+       },
+       {
+        "name": "mango lager",
+        "count": 3
+       },
+       {
+        "name": "portable restrooms",
+        "count": 2
+       },
+       {
+        "name": "fire pit",
+        "count": 2
+       },
+       {
+        "name": "shaded seating",
+        "count": 2
+       },
+       {
+        "name": "dog friendly",
+        "count": 14
+       },
+       {
+        "name": "wraps",
+        "count": 5
+       },
+       {
+        "name": "chickens",
+        "count": 10
+       },
+       {
+        "name": "cider",
+        "count": 7
+       },
+       {
+        "name": "outdoor seating",
+        "count": 23
+       }
+      ],
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "Washington",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "249D9611-1918-4449-A0EA-F9226B551FB6",
+        "admin_level": 4,
+        "locality_id": "r165479",
+        "abbreviation": "Wash.",
+        "country_code": null
+       },
+       "county": {
+        "name": "King County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "15C54881-602E-47DA-B99A-21862DDBA4A0",
+        "admin_level": 6,
+        "locality_id": "r1153346",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "King County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "15C54881-602E-47DA-B99A-21862DDBA4A0",
+        "admin_level": 6,
+        "locality_id": "r1153346",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "98042",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "FCA7DFA9-7EF3-4B15-AE9D-B0479C3BDE51",
+        "admin_level": 9,
+        "locality_id": "z98042",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Washington",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "249D9611-1918-4449-A0EA-F9226B551FB6",
+        "admin_level": 4,
+        "locality_id": "r165479",
+        "abbreviation": "Wash.",
+        "country_code": null
+       }
+      ],
+      "description": "Family- and dog-friendly farm-style craft brewery and taproom offering beer, live music, and food in Kent, Washington.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:brewery",
+       "akas": [
+        {
+         "value": "\"\u0421\u044b\u0440\u0430 \u0437\u0430\u0443\u044b\u0442\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Pivovar\"",
+         "languages": [
+          "cs",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Brewery\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Birrificio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Cervecer\u00eda\"",
+         "languages": [
+          "es_ar",
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u917f\u9152\u5382\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Piv\u0259 zavodu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Brouwerij\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10da\u10e3\u10d3\u10e1\u10d0\u10ee\u10d0\u10e0\u10e8\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u092c\u094d\u0930\u0942\u0905\u0930\u0940\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1785\u1780\u17d2\u179a\u1795\u179b\u17b7\u178f\u179f\u17d2\u179a\u17b6\u1794\u17c0\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Serbeserya\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102e\u101a\u102c\u1001\u103b\u1000\u103a\u1005\u1000\u103a\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Ber\u0103rie\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d1\u05e9\u05dc\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Pivovarna\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Cervejaria\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Panimo\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u91c0\u9152\u5ee0\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0635\u0646\u0639 \u062c\u0639\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Bira fabrikas\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Pivara\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e40\u0e1a\u0e35\u0e22\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Brouery\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Garagardotegia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0e87\u0eb2\u0e99\u0e9c\u0eb0\u0ea5\u0eb4\u0e94\u0ec0\u0e9a\u0e8d\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Kiwanda cha bia\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Browar\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Bryggeri\"",
+         "languages": [
+          "da",
+          "nb",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\uc591\uc870\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u043d\u0438\u0446\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Brauerei\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Kilang bir\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0396\u03c5\u03b8\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09cd\u09b0\u09c1\u09af\u09bc\u09be\u09b0\u09bf\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Pabrik bir\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Cervexar\u00eda\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Brasserie\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Cerveseria\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c4d\u0c30\u0c42\u0c35\u0c30\u0c40\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Birtari\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Alaus darykla\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u91b8\u9020\u6240\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0440\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"S\u00f6rf\u0151zde\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 m\u00e1y bia\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Pruulikoda\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Alus dar\u012btava\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0baa\u0bbe\u0ba9 \u0b86\u0bb2\u0bc8\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Pivovara\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "ru"
+         ]
+        }
+       ],
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Family- and dog-friendly farm-style craft brewery and taproom offering beer, live music, and food in Kent, Washington.",
+      "number_of_stations": null,
+      "cuisine_description": "Four Horsemen Brewery offers a casual American-style menu featuring pub classics like Reuben sandwiches and creative crunchidillas, paired with a distinct selection of house-made craft beers, including unique fruit-infused varieties like mango lager and pumpkin sour.",
+      "overall_description": "Four Horsemen Brewery is a charming, family-owned destination in Kent, Washington, that offers a unique and welcoming farm-style experience. Renowned for its distinctive, floral-inspired craft beers and high-quality food truck offerings, the brewery serves as a hub for community connection through live music, trivia nights, and various interactive games. With its inclusive, laid-back atmosphere that warmly welcomes families, children, and dogs, it provides a perfect retreat for those seeking quality drinks and authentic hospitality in a scenic, rural-inspired setting.",
+      "service_description": "The brewery provides a welcoming and family-friendly atmosphere with both indoor and outdoor seating, featuring amenities like gaming areas, racing simulators, and regular event programming such as trivia nights and open mic sessions. They offer convenient service options including takeout and delivery.",
+      "ambience_description": "The atmosphere is warm, inviting, and notably laid-back, fostering a sense of community where everyone feels at home. It combines the cozy, friendly energy of a neighborhood pub with the vibrant, playful spirit of a backyard social space filled with games.",
+      "amenities_description": "The site provides a versatile range of amenities including a spacious outdoor area for socializing, a dedicated setup for live performances, and various entertainment options like racing simulators and games. A food truck is available on-site to serve high-quality, made-to-order meals.",
+      "unique_selling_points": "The brewery is distinguished by its unique, floral-forward craft beer profiles and its authentic farm-style setting that welcomes both families and pets. It perfectly balances a sophisticated passion for brewing with the accessible, fun-loving energy of an old-world pub.",
+      "neighborhood_description": "Located in a quiet and semi-rural area of Kent, the surrounding environment offers a peaceful, authentic vibe that feels removed from typical commercial centers. Its location provides a relaxed backdrop that enhances the intimate and community-oriented nature of the property.",
+      "physical_setting_description": "Situated on a picturesque farm-style property, this brewery offers a scenic and open-air environment that feels like a hidden retreat away from the bustle of the city. The space features expansive outdoor areas where visitors can relax in a pastoral, laid-back setting.",
+      "customer_demographics_description": "The brewery attracts a diverse group of locals and craft beer enthusiasts, including families and pet owners who appreciate the farm-style, inclusive atmosphere.",
+      "image": {
+       "url": "https://images.qloo.com/i/319341B0-C36B-4168-BB0A-F97E10606C21-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.13713731394178746,
+     "location": {
+      "lat": 47.3309612,
+      "lon": -122.1449406,
+      "geohash": "c23jk82fbd31"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenities:place:gender_neutral_restroom",
+       "name": "Gender neutral restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:farm_property_views",
+       "name": "Farm property views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:thai_chicken_crunchidilla",
+       "name": "Thai chicken crunchidilla",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+       "name": "Identifies as women owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:comedy_club",
+       "name": "Comedy club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_asian_owned",
+       "name": "Identifies as asian owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:farm_style_property",
+       "name": "Farm style property",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:countryside",
+       "name": "Countryside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:trivia_nights",
+       "name": "Trivia nights",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:pet_owners",
+       "name": "Pet owners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:hidden_gem",
+       "name": "Hidden gem",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pub_food",
+       "name": "Pub food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:mango_lager",
+       "name": "Mango lager",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:informal",
+       "name": "Informal",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:tasting_flights",
+       "name": "Tasting flights",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music_stage",
+       "name": "Live music stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:rural",
+       "name": "Rural",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pub_culture",
+       "name": "Pub culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:racing_simulator",
+       "name": "Racing simulator",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:laid_back",
+       "name": "Laid back",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_truck",
+       "name": "Food truck",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:counter_service",
+       "name": "Counter service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pet_friendly_area",
+       "name": "Pet friendly area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:food_truck_cuisine",
+       "name": "Food truck cuisine",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_brewing",
+       "name": "Craft brewing",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pumpkin_sour",
+       "name": "Pumpkin sour",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:comedy_club",
+       "name": "Comedy club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:farmhouse",
+       "name": "Farmhouse",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:quiet",
+       "name": "Quiet",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:open_mic",
+       "name": "Open mic",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:reuben_sandwich",
+       "name": "Reuben sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:gaming",
+       "name": "Gaming",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:inviting",
+       "name": "Inviting",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:place_page_attributes:place:primary_chat",
+       "name": "Primary chat",
+       "type": "urn:tag:place_page_attributes:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:gaming_area",
+       "name": "Gaming area",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:pacific_raceways",
+       "name": "Pacific raceways",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:farm_style",
+       "name": "Farm style",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:tabletop_gaming",
+       "name": "Tabletop gaming",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 669.4862364139816,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "30221 148th Ave SE Kent, WA 98042",
+     "external": {
+      "google_place": [
+       {
+        "id": "17498fec6ecbc4",
+        "place_id": "ChIJgyqvjVBfkFQRxMtu7I9JFwA"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "890464C9-EB32-4FD0-A70E-D09A700A8223",
+      "name": "Auburn",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 47.30368868587655,
+       "lon": -122.21010980006167
+      },
+      "popularity": 0.99152976,
+      "disambiguation": "Auburn, King County, Washington, United States"
+     }
+    ]
+   }
+  }
+ }
+}

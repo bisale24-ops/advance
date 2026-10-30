@@ -1,0 +1,3124 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Las Vegas",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "City National Arena",
+     "entity_id": "B2253CC0-3B42-4E40-AD77-C23AE722C498",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T05:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T05:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T05:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T05:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T05:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T05:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T05:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ]
+      },
+      "phone": "+17029024904",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/B2253CC0-3B42-4E40-AD77-C23AE722C498-16hiau-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1550 S Pavilion Center Dr Las Vegas, NV 89135",
+      "geocode": {
+       "city": "Summerlin South",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Nevada",
+       "admin2_region": "Clark County"
+      },
+      "parking": true,
+      "website": "https://www.citynationalarena.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "practice",
+        "count": 100
+       },
+       {
+        "name": "watch",
+        "count": 63
+       },
+       {
+        "name": "facility",
+        "count": 56
+       },
+       {
+        "name": "bar",
+        "count": 50
+       },
+       {
+        "name": "gift shop",
+        "count": 18
+       },
+       {
+        "name": "fan",
+        "count": 9
+       },
+       {
+        "name": "beautiful",
+        "count": 8
+       },
+       {
+        "name": "merchandise",
+        "count": 7
+       },
+       {
+        "name": "players",
+        "count": 7
+       },
+       {
+        "name": "river",
+        "count": 6
+       }
+      ],
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "89135",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "7D97FB6C-2F72-4C0B-9C9C-43E27A5FA47E",
+        "admin_level": 9,
+        "locality_id": "z89135",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Indoor ice arena and training center offering public skating, youth hockey programs, pro shop, and on-site restaurant; primary practice facility for the Vegas Golden Knights.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:ice_skating_rink",
+       "akas": [
+        {
+         "value": "\"\u041c\u04b1\u0437 \u0430\u0439\u0434\u044b\u043d\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u0432\u0437\u0430\u043d\u043a\u0430\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Ishall\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u6e9c\u51b0\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u041b\u0435\u0434\u0435\u043d\u0430 \u043f\u044a\u0440\u0437\u0430\u043b\u043a\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Gelanggang es\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u043b\u0438\u0437\u0433\u0430\u043b\u0438\u0448\u0442\u0435\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n tr\u01b0\u1ee3t b\u0103ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Schaatsbaan\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043b\u0438\u0437\u0430\u043b\u0438\u0448\u0442\u0435\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u062d\u0644\u0628\u0629 \u062a\u0632\u0644\u062c \u0639\u0644\u0649 \u0627\u0644\u062c\u0644\u064a\u062f\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Uwanja wa kuteleza kwenye barafu\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Patinazh\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0906\u0907\u0938 \u0938\u094d\u0915\u0947\u091f\u093f\u0902\u0917 \u0930\u093f\u0902\u0915\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Izotz-pista\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u6e9c\u51b0\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Buz meydan\u00e7as\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Eislaufbahn\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u03a0\u03b1\u03b3\u03bf\u03b4\u03c1\u03cc\u03bc\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Pista di pattinaggio su ghiaccio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Pista de gel\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Sk\u00f8ytebane\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0eaa\u0eb0\u0ec0\u0e81\u0eb1\u0e94\u0e99\u0ec9\u0eb3\u0e81\u0ec9\u0ead\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Klizali\u0161te\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Pista de hielo\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "es"
+         ]
+        },
+        {
+         "value": "\"Drsali\u0161\u010de\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30a4\u30b9\u30b9\u30b1\u30fc\u30c8\u30ea\u30f3\u30af\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u1791\u17b8\u179b\u17b6\u1793\u1787\u17b7\u17c7\u179f\u17d2\u1782\u17b8\u179b\u17be\u1791\u17b9\u1780\u1780\u1780\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Slidotava\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Luistelukentt\u00e4\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0430\u0442\u043e\u043a\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0baa\u0ba9\u0bbf\u0b9a\u0bcd\u0b9a\u0bb1\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\uc544\uc774\uc2a4\ub9c1\ud06c\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Kluzi\u0161t\u011b\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Eishalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u101b\u1031\u1001\u1032\u1015\u103c\u1004\u103a\u1005\u1000\u102d\u1010\u103a\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Patinoire\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Uisuv\u00e4ljak\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05e9\u05d8\u05d7 \u05d4\u05d7\u05dc\u05e7\u05d4 \u05e2\u05dc \u05d4\u05e7\u05e8\u05d7\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0986\u0987\u09b8 \u09b8\u09cd\u0995\u09c7\u099f\u09bf\u0982 \u09b0\u09bf\u0999\u09cd\u0995\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Ysskaatsbaan\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ice skating rink\"",
+         "languages": [
+          "tl",
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0c10\u0c38\u0c4d \u0c38\u0c4d\u0c15\u0c47\u0c1f\u0c3f\u0c02\u0c17\u0c4d \u0c30\u0c3f\u0c02\u0c15\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u010ciuo\u017eykla\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Lodowisko\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Pista de xeo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Sk\u00f8jtebane\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u10e7\u10d8\u10dc\u10e3\u10da\u10d8\u10e1 \u10db\u10dd\u10d4\u10d3\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Patinoar\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"J\u00e9gp\u00e1lya\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Klzisko\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Pista de patina\u00e7\u00e3o no gelo\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0e25\u0e32\u0e19\u0e2a\u0e40\u0e01\u0e47\u0e15\u0e19\u0e49\u0e33\u0e41\u0e02\u0e47\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Pista de gelo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Gelanggang luncur ais\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Buz pateni pisti\"",
+         "languages": [
+          "tr"
+         ]
+        }
+       ],
+       "name": "Ice skating rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.800000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Indoor ice arena and training center offering public skating, youth hockey programs, pro shop, and on-site restaurant; primary practice facility for the Vegas Golden Knights.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "City National Arena is a premier indoor ice facility in Las Vegas that serves as the official practice home for the Vegas Golden Knights. The center features two ice rinks, hosting a wide array of activities including public skating, youth hockey leagues, and collegiate games. Visitors can enjoy well-maintained amenities, including an on-site restaurant and a team merchandise shop, making it a comprehensive destination for sports fans and families alike.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and professional, blending the intensity of competitive sports with a welcoming space for families and casual skaters. It maintains a clean, well-maintained environment where visitors can enjoy both the action on the ice and relaxing dining experiences.",
+      "amenities_description": "The facility features two professional-grade ice rinks, clean locker rooms with showers, and a pro shop for team merchandise. An on-site restaurant provides dining options for visitors to enjoy while watching games or practice sessions.",
+      "unique_selling_points": "As the official practice facility for the Vegas Golden Knights, this arena offers a unique professional sports experience alongside comprehensive public ice skating and hockey programs. It seamlessly combines high-level athletic training with community recreational facilities.",
+      "neighborhood_description": "The arena is situated in a convenient, high-traffic commercial district, offering easy access to various amenities and shopping. It serves as a central hub for sports enthusiasts and families in the Las Vegas valley.",
+      "physical_setting_description": "Located in a bustling commercial area, this modern indoor facility serves as a primary ice arena and training center. The building houses two ice rinks and is designed as a high-quality venue for both competitive hockey and recreational skating.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/B2253CC0-3B42-4E40-AD77-C23AE722C498-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9928650522398677,
+     "location": {
+      "lat": 36.1540122,
+      "lon": -115.32942039999999,
+      "geohash": "9qmvxtesmsn4"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:professional",
+       "name": "Professional",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:red_rock_canyon",
+       "name": "Red rock canyon",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:hockey_rink",
+       "name": "Hockey rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:showers",
+       "name": "Showers",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:ice_arena",
+       "name": "Ice arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:training_center",
+       "name": "Training center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fitness_training",
+       "name": "Fitness training",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:figure_skating",
+       "name": "Figure skating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:locker_rooms",
+       "name": "Locker rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ice_skating",
+       "name": "Ice skating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:athletic_facility",
+       "name": "Athletic facility",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ice_rink_view",
+       "name": "Ice rink view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:hockey_rink",
+       "name": "Hockey rink",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_rinks",
+       "name": "Ice rinks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:business_friendly",
+       "name": "Business friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pro_shop",
+       "name": "Pro shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:youth_sports_development",
+       "name": "Youth sports development",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:water_fountains",
+       "name": "Water fountains",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 466.92667639949815,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1550 S Pavilion Center Dr Las Vegas, NV 89135",
+     "external": {
+      "google_place": [
+       {
+        "id": "27dc59418430f56b",
+        "place_id": "ChIJdRW8s6y_yIARa_UwhEFZ3Cc"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Las Vegas Ballpark",
+     "entity_id": "167A8E28-84CE-46AF-8209-32DFB55FFFF8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17029437200",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/167A8E28-84CE-46AF-8209-32DFB55FFFF8-25FDcT-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1650 S Pavilion Center Dr Las Vegas, NV 89135",
+      "geocode": {
+       "city": "Summerlin South",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Nevada",
+       "admin2_region": "Clark County"
+      },
+      "parking": true,
+      "website": "http://thelvballpark.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "aviators",
+        "count": 98
+       },
+       {
+        "name": "minor league ballpark",
+        "count": 55
+       },
+       {
+        "name": "comfortable seats",
+        "count": 58
+       },
+       {
+        "name": "aviators game",
+        "count": 3
+       },
+       {
+        "name": "friendly staff",
+        "count": 131
+       },
+       {
+        "name": "splash pad",
+        "count": 14
+       },
+       {
+        "name": "clean ballpark",
+        "count": 7
+       },
+       {
+        "name": "mesh seats",
+        "count": 5
+       },
+       {
+        "name": "party deck",
+        "count": 4
+       },
+       {
+        "name": "ice skating",
+        "count": 12
+       }
+      ],
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "89135",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "7D97FB6C-2F72-4C0B-9C9C-43E27A5FA47E",
+        "admin_level": 9,
+        "locality_id": "z89135",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Modern Triple-A baseball stadium in Las Vegas hosting the Las Vegas Aviators, concerts, festivals, and community events with club level seating and suites.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Modern Triple-A baseball stadium in Las Vegas hosting the Las Vegas Aviators, concerts, festivals, and community events with club level seating and suites.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Las Vegas Ballpark is a premier, award-winning Triple-A baseball stadium that serves as the home field for the Las Vegas Aviators. Beyond baseball, the modern facility functions as a versatile venue hosting concerts, community festivals, and holiday-themed events. With its well-maintained architecture, diverse concessions, and premium seating options, it provides a comprehensive entertainment experience for sports fans and local families. Its convenient location and high-quality amenities make it a central hub for community life in the area.",
+      "service_description": null,
+      "ambience_description": "The ballpark features a clean, modern atmosphere that transitions from an energetic sports environment during games to a festive and immersive space during special events. It is a social venue that maintains a welcoming vibe for families and fans alike.",
+      "amenities_description": "The venue is equipped with a variety of amenities including premium suites, club-level seating, and numerous concession stands offering diverse food and drink options. Visitors also have access to an on-site team store and well-lit parking facilities.",
+      "unique_selling_points": "Recognized multiple times as the Triple-A Best of the Ballparks, this facility offers a top-tier minor league experience with a stadium design that ensures excellent views from every seat. It seamlessly transforms into a seasonal event destination, most notably hosting immersive light festivals.",
+      "neighborhood_description": "The surrounding neighborhood is a vibrant and convenient area designed for community engagement and entertainment. It offers easy access to local amenities and serves as a hub for both residents and visitors.",
+      "physical_setting_description": "A modern, open-air Triple-A baseball stadium situated in an urban commercial district. The facility provides clear sightlines across the field, with mountain vistas visible in the surrounding area.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/167A8E28-84CE-46AF-8209-32DFB55FFFF8-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9785815985358648,
+     "location": {
+      "lat": 36.1528078,
+      "lon": -115.3296762,
+      "geohash": "9qmvxt7mru46"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:interests:qloo:event_management",
+       "name": "Event management",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:refillable_souvenir_cups",
+       "name": "Refillable souvenir cups",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stadium_architecture",
+       "name": "Stadium architecture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:downtown_summerlin",
+       "name": "Downtown summerlin",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:athletic_field",
+       "name": "Athletic field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_entertainment",
+       "name": "Outdoor entertainment",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energizing",
+       "name": "Energizing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:athletic_field",
+       "name": "Athletic field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_parking",
+       "name": "Accessible parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:active",
+       "name": "Active",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_stadium",
+       "name": "Sports stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:club_level_seating",
+       "name": "Club level seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:red_rock_canyon_national_conservation_area",
+       "name": "Red rock canyon national conservation area",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_festivals",
+       "name": "Community festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:minor_league_baseball",
+       "name": "Minor league baseball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:suites",
+       "name": "Suites",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_store",
+       "name": "Team store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:festivals",
+       "name": "Festivals",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:mountain_view",
+       "name": "Mountain view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 598.9316471195732,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1650 S Pavilion Center Dr Las Vegas, NV 89135",
+     "external": {
+      "google_place": [
+       {
+        "id": "ee5ddff08ec56183",
+        "place_id": "ChIJbRZyu0a_yIARg2HFjvDfXe4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Cashman Complex",
+     "entity_id": "36439FB5-EDBC-433B-BCB9-B17117E4EFFC",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/36439FB5-EDBC-433B-BCB9-B17117E4EFFC-4oLX16-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "850 Las Vegas Blvd N Las Vegas, NV 89101",
+      "geocode": {
+       "city": "Las Vegas",
+       "name": "Cultural Corridor",
+       "metro": "Las Vegas",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Nevada",
+       "admin2_region": "Clark County"
+      },
+      "parking": null,
+      "website": "https://www.lasvegasnevada.gov/Business/Economic-Development/Cashman-Complex",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "fire works show",
+        "count": 16
+       },
+       {
+        "name": "soccer game",
+        "count": 23
+       },
+       {
+        "name": "basketball game",
+        "count": 18
+       },
+       {
+        "name": "kids",
+        "count": 36
+       },
+       {
+        "name": "soccer stadium",
+        "count": 5
+       },
+       {
+        "name": "covid shot",
+        "count": 8
+       },
+       {
+        "name": "covid test",
+        "count": 7
+       },
+       {
+        "name": "bleachers",
+        "count": 2
+       },
+       {
+        "name": "fan band",
+        "count": 2
+       },
+       {
+        "name": "hot dogs",
+        "count": 12
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Las Vegas",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "FA74F03D-561E-4497-AD81-FF9C1F5CA835",
+        "admin_level": 8,
+        "locality_id": "r170117",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Las Vegas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "41FC2262-6970-4AA4-A68A-C4629FF4C515",
+        "admin_level": 12,
+        "locality_id": "FA74F03D-561E-4497-AD81-FF9C1F5CA835",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Cultural Corridor",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "4F520BA8-AC9A-4968-93D4-BF57FD454625",
+        "admin_level": 10,
+        "locality_id": "n2184018255",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Las Vegas",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "FA74F03D-561E-4497-AD81-FF9C1F5CA835",
+        "admin_level": 8,
+        "locality_id": "r170117",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Las Vegas",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "41FC2262-6970-4AA4-A68A-C4629FF4C515",
+        "admin_level": 12,
+        "locality_id": "FA74F03D-561E-4497-AD81-FF9C1F5CA835",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "89101",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "3D8CEB7A-34F9-496C-BFEE-B6C4164F50FB",
+        "admin_level": 9,
+        "locality_id": "z89101",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Cultural Corridor",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "4F520BA8-AC9A-4968-93D4-BF57FD454625",
+        "admin_level": 10,
+        "locality_id": "n2184018255",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Downtown Las Vegas multi-use sports and events complex with stadium and convention facilities, home to USL's Las Vegas Lights and ample parking.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Cultural Corridor",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.400000095367432,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Downtown Las Vegas multi-use sports and events complex with stadium and convention facilities, home to USL's Las Vegas Lights and ample parking.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/36439FB5-EDBC-433B-BCB9-B17117E4EFFC-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9314247496657815,
+     "location": {
+      "lat": 36.179366,
+      "lon": -115.1303731,
+      "geohash": "9qqju4k85fv5"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:soccer_field",
+       "name": "Soccer field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "850 Las Vegas Blvd N Las Vegas, NV 89101",
+     "external": {
+      "google_place": [
+       {
+        "id": "97fee1e0b9d1d172",
+        "place_id": "ChIJ9Z4AIg7DyIARctHRueDh_pc"
+       }
+      ]
+     }
+    },
+    {
+     "name": "BattleBots",
+     "entity_id": "373DC351-4CBF-45B3-8A53-D151ED805963",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+17073362687",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/373DC351-4CBF-45B3-8A53-D151ED805963-3k54U3-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "4165 Koval Ln Las Vegas, NV 89109",
+      "geocode": {
+       "city": "Paradise",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Nevada",
+       "admin2_region": "Clark County"
+      },
+      "parking": null,
+      "website": "https://www.battlebots.com/tickets",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "robots",
+        "count": 111
+       },
+       {
+        "name": "robot battles",
+        "count": 36
+       },
+       {
+        "name": "backstage pass",
+        "count": 8
+       },
+       {
+        "name": "backstage tour",
+        "count": 23
+       },
+       {
+        "name": "show length",
+        "count": 7
+       },
+       {
+        "name": "friendly staff",
+        "count": 37
+       },
+       {
+        "name": "live show",
+        "count": 26
+       },
+       {
+        "name": "family friendly",
+        "count": 25
+       },
+       {
+        "name": "platinum seats",
+        "count": 2
+       },
+       {
+        "name": "funny hosts",
+        "count": 5
+       }
+      ],
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "county": {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "89109",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "95481F8C-9CB2-4855-9BD5-29FC907774F0",
+        "admin_level": 9,
+        "locality_id": "z89109",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Clark County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "4A83C806-C402-4E39-8FE8-121151E22471",
+        "admin_level": 6,
+        "locality_id": "r166468",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Nevada",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "4DF1CFA6-58AA-4CC7-9BEA-FCE64E64CF35",
+        "admin_level": 4,
+        "locality_id": "r165473",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Live robot-combat arena show in Las Vegas offering assigned seating, VIP credentials, and close-up views of battling machines.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:theater_production",
+       "akas": [
+        {
+         "value": "\"\u0e01\u0e32\u0e23\u0e1c\u0e25\u0e34\u0e15\u0e25\u0e30\u0e04\u0e23\u0e40\u0e27\u0e17\u0e35\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u1780\u17b6\u179a\u1795\u179b\u17b7\u178f\u179b\u17d2\u1781\u17c4\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\uadf9\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0430\u0440\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Produzione teatrale\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Divadeln\u00ed produkce\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Penerbitan teater\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Te\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Theaterproductie\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Kazali\u0161te\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440\u0430\u043b\u043d\u0430 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u044f\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Gledali\u0161\u010de\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Teatro produkcija\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Theatre production\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Producci\u00f3 teatral\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bbe\u0b9f\u0b95\u0ba4\u0bcd \u0ba4\u0baf\u0bbe\u0bb0\u0bbf\u0baa\u0bcd\u0baa\u0bc1\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Sz\u00ednh\u00e1z\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Teaterproduktion\"",
+         "languages": [
+          "da",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "kk",
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa michezo\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Teatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u10d7\u10d4\u10d0\u10e2\u10e0\u10d0\u10da\u10e3\u10e0\u10d8 \u10de\u10e0\u10dd\u10d3\u10e3\u10e5\u10ea\u10d8\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Tiyatro yap\u0131m\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Producci\u00f3n teatral\"",
+         "languages": [
+          "es",
+          "es_la",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u0928\u093e\u091f\u094d\u092f \u0928\u093f\u0930\u094d\u092e\u093e\u0923\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Pozori\u0161na produkcija\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0398\u03b5\u03b1\u03c4\u03c1\u03b9\u03ba\u03ae \u03c0\u03b1\u03c1\u03b1\u03b3\u03c9\u03b3\u03ae\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u041f\u043e\u0437\u043e\u0440\u0438\u0448\u043d\u0430 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0458\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Divadlo\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u1015\u103c\u1007\u102c\u1010\u103a\u1011\u102f\u1010\u103a\u101c\u102f\u1015\u103a\u101b\u1031\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Teaterproduksie\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e1t\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Produ\u00e7\u00e3o teatral\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Theaterproduktion\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Teatru\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Produksion teatror\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0e81\u0eb2\u0e99\u0e9c\u0eb0\u0ea5\u0eb4\u0e94\u0ea5\u0eb0\u0e84\u0ead\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Teatro\"",
+         "languages": [
+          "gl",
+          "tl",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u0625\u0646\u062a\u0627\u062c \u0645\u0633\u0631\u062d\u064a\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u5287\u9662\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Antzerki ekoizpena\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u620f\u5267\u5236\u4f5c\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Teater\"",
+         "languages": [
+          "nb",
+          "id",
+          "et"
+         ]
+        },
+        {
+         "value": "\"Teatr\"",
+         "languages": [
+          "pl",
+          "az"
+         ]
+        },
+        {
+         "value": "\"Production th\u00e9\u00e2trale\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"\u6f14\u5287\u5236\u4f5c\"",
+         "languages": [
+          "ja"
+         ]
+        }
+       ],
+       "name": "Theater production",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Live robot-combat arena show in Las Vegas offering assigned seating, VIP credentials, and close-up views of battling machines.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/373DC351-4CBF-45B3-8A53-D151ED805963-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 36.1132135,
+      "lon": -115.1650657,
+      "geohash": "9qqj7q5qewcb"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:theater_production",
+       "name": "Theater production",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 2284.9584584370373,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "4165 Koval Ln Las Vegas, NV 89109",
+     "external": {
+      "google_place": [
+       {
+        "id": "c475c46dfb32bf48",
+        "place_id": "ChIJR46bH0jEyIARSL8y-23EdcQ"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "FA74F03D-561E-4497-AD81-FF9C1F5CA835",
+      "name": "Las Vegas",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 36.24176242249276,
+       "lon": -115.27188589144318
+      },
+      "popularity": 0.9988414,
+      "disambiguation": "Las Vegas, Clark County, Nevada, United States"
+     }
+    ]
+   }
+  }
+ }
+}

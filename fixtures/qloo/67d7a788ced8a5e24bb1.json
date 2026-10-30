@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "West Hollywood, California",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "DEFED139-7D95-4E6C-8610-89E85830A7A9",
+      "name": "West Hollywood",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 34.08828510511123,
+       "lon": -118.37177116367694
+      },
+      "popularity": 0.9876069,
+      "disambiguation": "West Hollywood, Los Angeles County, California, United States"
+     }
+    ]
+   }
+  }
+ }
+}

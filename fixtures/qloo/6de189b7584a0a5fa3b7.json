@@ -1,0 +1,5301 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Foxborough, Massachusetts",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Patriot Place",
+     "entity_id": "203996CB-4189-4E43-BC28-2CC62D14175A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ]
+      },
+      "phone": "+15082032100",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/203996CB-4189-4E43-BC28-2CC62D14175A-4aHowN-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2 Patriot Pl Foxborough, MA 02035",
+      "geocode": {
+       "city": "Foxborough",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Norfolk County"
+      },
+      "parking": true,
+      "website": "http://www.patriot-place.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "covid shot",
+        "count": 44
+       },
+       {
+        "name": "stadium",
+        "count": 289
+       },
+       {
+        "name": "car show",
+        "count": 24
+       },
+       {
+        "name": "friendly staff",
+        "count": 103
+       },
+       {
+        "name": "hunting gear",
+        "count": 8
+       },
+       {
+        "name": "outdoor mall",
+        "count": 11
+       },
+       {
+        "name": "restaurants",
+        "count": 187
+       },
+       {
+        "name": "variety of shops",
+        "count": 28
+       },
+       {
+        "name": "movie theater",
+        "count": 23
+       },
+       {
+        "name": "jerseys",
+        "count": 10
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       {
+        "name": "02035",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "ED654A29-E3DE-4ADB-BBC3-A03EFA9248A4",
+        "admin_level": 9,
+        "locality_id": "z02035",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Outdoor shopping, dining and entertainment complex adjacent to Gillette Stadium offering family, pet, craft, sporting goods, services and a tea shop.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:shopping_mall",
+       "akas": [
+        {
+         "value": "\"\u0936\u0949\u092a\u093f\u0902\u0917 \u092e\u0949\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Shopping\"",
+         "languages": [
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"Pusat perbelanjaan\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Centro comercial\"",
+         "languages": [
+          "es_la",
+          "es",
+          "pt_pt",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u0422\u043e\u0440\u0433\u043e\u0432\u0438\u0439 \u0446\u0435\u043d\u0442\u0440\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Winkelsentrum\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u1795\u17d2\u179f\u17b6\u179a\u1791\u17c6\u1793\u17be\u1794\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Prekybos centras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Trung t\u00e2m th\u01b0\u01a1ng m\u1ea1i\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Centru comercial\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0440\u0433\u043e\u0432\u0441\u043a\u0438 \u0446\u0435\u043d\u0442\u0430\u0440\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Nakupovalno sredi\u0161\u010de\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Pusat beli-belah\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Bev\u00e1s\u00e1rl\u00f3k\u00f6zpont\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u05e7\u05e0\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kauppakeskus\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0ba3\u0bbf\u0b95 \u0bb5\u0bb3\u0bbe\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Kj\u00f8pesenter\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Einkaufszentrum\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Centre comercial\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0430\u0443\u0434\u0430 \u043e\u0440\u0442\u0430\u043b\u044b\u0493\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10d0\u10d5\u10d0\u10ed\u10e0\u10dd \u10ea\u10d4\u10dc\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Tirdzniec\u012bbas centrs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u30b7\u30e7\u30c3\u30d4\u30f3\u30b0\u30e2\u30fc\u30eb\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Shopping mall\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Al\u0131\u015fveri\u015f merkezi\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Qend\u00ebr tregtare\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Shopping center\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0446\u0435\u043d\u0442\u0440\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Kaubanduskeskus\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"K\u00f6pcentrum\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Obchodn\u00ed centrum\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u1008\u1031\u1038\u101d\u101a\u103a\u1005\u1004\u103a\u1010\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u0395\u03bc\u03c0\u03bf\u03c1\u03b9\u03ba\u03cc \u03ba\u03ad\u03bd\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\uc1fc\ud551\ubab0\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Ticar\u0259t m\u0259rk\u0259zi\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e01\u0e32\u0e23\u0e04\u0e49\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Winkelcentrum\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0440\u0436\u043d\u0438 \u0446\u0435\u043d\u0442\u0430\u0440\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Merkataritza-gunea\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u8cfc\u7269\u4e2d\u5fc3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Centro commerciale\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Trgova\u010dki centar\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Centrum handlowe\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Duka la maduka\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb9\u0e99\u0e81\u0eb2\u0e99\u0e84\u0ec9\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Centre commercial\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u8d2d\u7269\u4e2d\u5fc3\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0422\u044a\u0440\u0433\u043e\u0432\u0441\u043a\u0438 \u0446\u0435\u043d\u0442\u044a\u0440\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u09b6\u09aa\u09bf\u0982 \u09ae\u09b2\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Tr\u017eni centar\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0c37\u0c3e\u0c2a\u0c3f\u0c02\u0c17\u0c4d \u0c2e\u0c3e\u0c32\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"N\u00e1kupn\u00e9 centrum\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Shopping centre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Indk\u00f8bscenter\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0631\u0643\u0632 \u062a\u0633\u0648\u0642\"",
+         "languages": [
+          "ar"
+         ]
+        }
+       ],
+       "name": "Shopping mall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Outdoor shopping, dining and entertainment complex adjacent to Gillette Stadium offering family, pet, craft, sporting goods, services and a tea shop.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Patriot Place is a multifaceted outdoor destination located in Foxborough, Massachusetts, serving as a primary entertainment and commercial hub adjacent to Gillette Stadium. The site caters to a wide range of visitors by offering diverse shopping, dining, and nightlife options, alongside unique attractions like the Patriots Hall of Fame and seasonal outdoor ice skating. While it serves as a central gathering point for sports fans and concert-goers, it also provides a comfortable space for families and locals to enjoy outdoor leisure and specialized retail experiences. Its blend of high-energy event culture and everyday amenities makes it a standout destination for both short visits and day-long outings.",
+      "service_description": null,
+      "ambience_description": "Patriot Place features a lively and welcoming atmosphere, perfect for socializing, dining, and outdoor strolling. The vibe transitions from a relaxed, family-oriented environment on quiet days to a high-energy, bustling hub during major sporting events and concerts.",
+      "amenities_description": "The complex provides a wide array of amenities including diverse dining options, various retail stores, an ice skating rink, and entertainment facilities like a movie theater and arcade. Visitors can also enjoy interactive history displays at the museum or relax in outdoor seating areas near fire pits.",
+      "unique_selling_points": "Patriot Place stands out as a comprehensive, open-air destination that seamlessly integrates high-profile professional sports and concert experiences with everyday retail, dining, and leisure activities. Its location directly adjacent to an iconic stadium creates a unique environment where sports history, outdoor recreation, and modern commercial amenities converge.",
+      "neighborhood_description": "The surrounding area serves as a dedicated hub for sports fans, families, and shoppers, functioning as a vibrant destination that complements the stadium experience. It offers a convenient, high-energy atmosphere characterized by constant activity, particularly on event days.",
+      "physical_setting_description": "Patriot Place is an expansive outdoor complex situated adjacent to Gillette Stadium, featuring landscaped areas like cranberry bogs and pedestrian-friendly walkways. The setting blends commercial retail and dining environments with large-scale sports and entertainment infrastructure.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/203996CB-4189-4E43-BC28-2CC62D14175A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9984248362152831,
+     "location": {
+      "lat": 42.0912868,
+      "lon": -71.268784,
+      "geohash": "drmr6nrxsbr7"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_rental",
+       "name": "Wheelchair rental",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:shopping_mall",
+       "name": "Shopping mall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:garden_view",
+       "name": "Garden view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:patriots_hall_of_fame",
+       "name": "Patriots hall of fame",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:fire_pits",
+       "name": "Fire pits",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_walking_paths",
+       "name": "Public walking paths",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_concerts",
+       "name": "Live concerts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:retail_therapy",
+       "name": "Retail therapy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:open_air_complex",
+       "name": "Open air complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restaurants",
+       "name": "Restaurants",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_rink",
+       "name": "Ice rink",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sightseeing",
+       "name": "Sightseeing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:stadium_adjacent",
+       "name": "Stadium adjacent",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:help_desk",
+       "name": "Help desk",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:contemporary",
+       "name": "Contemporary",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:gillette_stadium",
+       "name": "Gillette stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:entertaining",
+       "name": "Entertaining",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:museum_tours",
+       "name": "Museum tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_history",
+       "name": "Local history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stadium_themed",
+       "name": "Stadium themed",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stadium_view",
+       "name": "Stadium view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ice_skating",
+       "name": "Ice skating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:in_store_shopping",
+       "name": "In store shopping",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:arcade",
+       "name": "Arcade",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:retail_shops",
+       "name": "Retail shops",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:museum",
+       "name": "Museum",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:nature",
+       "name": "Nature",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:help_desk",
+       "name": "Help desk",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bars",
+       "name": "Bars",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:the_lighthouse",
+       "name": "The lighthouse",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:natural",
+       "name": "Natural",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:shopping_mall",
+       "name": "Shopping mall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:movie_theater",
+       "name": "Movie theater",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:grocery_store",
+       "name": "Grocery store",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:cranberry_bog_view",
+       "name": "Cranberry bog view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:grocery_store",
+       "name": "Grocery store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.138989594902999
+      }
+     },
+     "disambiguation": "2 Patriot Pl Foxborough, MA 02035",
+     "external": {
+      "google_place": [
+       {
+        "id": "ee6d9f1171b8436a",
+        "place_id": "ChIJr0mhAsh85IkRakO4cRGfbe4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Gillette Stadium",
+     "entity_id": "4DEE6FA9-9AA8-4757-844B-0BD3856B0642",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+15085438200",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/4DEE6FA9-9AA8-4757-844B-0BD3856B0642-35aU7N-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1 Patriot Pl Foxborough, MA 02035",
+      "geocode": {
+       "city": "Foxborough",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Norfolk County"
+      },
+      "parking": true,
+      "website": "https://www.gillettestadium.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "concerts",
+        "count": 449
+       },
+       {
+        "name": "garth brooks concert",
+        "count": 21
+       },
+       {
+        "name": "tom brady",
+        "count": 63
+       },
+       {
+        "name": "beer selection",
+        "count": 115
+       },
+       {
+        "name": "coldplay concert",
+        "count": 25
+       },
+       {
+        "name": "concert venue",
+        "count": 44
+       },
+       {
+        "name": "traffic",
+        "count": 204
+       },
+       {
+        "name": "jumbotron",
+        "count": 11
+       },
+       {
+        "name": "tailgating",
+        "count": 34
+       },
+       {
+        "name": "hall of fame",
+        "count": 14
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       {
+        "name": "02035",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "ED654A29-E3DE-4ADB-BBC3-A03EFA9248A4",
+        "admin_level": 9,
+        "locality_id": "z02035",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large coastal-accented stadium near Boston, home to the NFL\u2019s New England Patriots and a major venue for concerts and events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large coastal-accented stadium near Boston, home to the NFL\u2019s New England Patriots and a major venue for concerts and events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Gillette Stadium is a premier outdoor venue in Foxborough, Massachusetts, serving as the home field for the New England Patriots and a major regional destination for concerts and large-scale live events. Its integration into the Patriot Place complex makes it a highly convenient and entertaining hub, offering shopping, dining, and educational experiences like the Hall of Fame. While event-day traffic can be significant, the stadium is widely praised for its modern facilities, clean environment, and electric atmosphere, making it a standout destination for sports fans and music lovers alike.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is consistently described as electric and spirited, characterized by high-energy crowds and a well-organized, clean environment that feels grand and welcoming to fans and concertgoers alike.",
+      "amenities_description": "The facility offers a variety of amenities including diverse dining options, merchandise shops, and a dedicated Hall of Fame museum. On-site logistics are supported by efficient crowd management, club lounges, and accessible parking facilities.",
+      "unique_selling_points": "The stadium is defined by its iconic lighthouse and its unique integration into the sprawling Patriot Place entertainment complex, allowing for a comprehensive visitor experience that extends well beyond game day.",
+      "neighborhood_description": "The surrounding Patriot Place area acts as a bustling, multi-purpose hub where visitors can enjoy retail shops, restaurants, and museums, creating a lively destination atmosphere beyond just the sporting events.",
+      "physical_setting_description": "Located in Foxborough, this large open-air stadium is situated within a vibrant complex that includes shopping, dining, and entertainment venues. It serves as a prominent sports and concert hub featuring a distinctive lighthouse and scenic views of the surrounding grounds.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/4DEE6FA9-9AA8-4757-844B-0BD3856B0642-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.995194273914686,
+     "location": {
+      "lat": 42.0909274,
+      "lon": -71.264363,
+      "geohash": "drmr6q6v7vt0"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:the_hall_at_patriot_place",
+       "name": "The hall at patriot place",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:corporate_events",
+       "name": "Corporate events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:fan_culture",
+       "name": "Fan culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lighthouse",
+       "name": "Lighthouse",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lounge",
+       "name": "Lounge",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:patriot_place",
+       "name": "Patriot place",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pro_shop",
+       "name": "Pro shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stadium_architecture",
+       "name": "Stadium architecture",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:shopping",
+       "name": "Shopping",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:museum_visits",
+       "name": "Museum visits",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:grand",
+       "name": "Grand",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_stadium",
+       "name": "Outdoor stadium",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tours",
+       "name": "Tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:club_lounges",
+       "name": "Club lounges",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:hall_of_fame_museum",
+       "name": "Hall of fame museum",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:beer_stations",
+       "name": "Beer stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lots",
+       "name": "Parking lots",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stadium_bowl_view",
+       "name": "Stadium bowl view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:high_tech",
+       "name": "High tech",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:sports_history",
+       "name": "Sports history",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:field_trip_options",
+       "name": "Field trip options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:football_field",
+       "name": "Football field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:self_service_beverage_stations",
+       "name": "Self service beverage stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:patriots_hall_of_fame",
+       "name": "Patriots hall of fame",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:entertainment_complex",
+       "name": "Entertainment complex",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:stadium_complex",
+       "name": "Stadium complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:field_view",
+       "name": "Field view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:suburban",
+       "name": "Suburban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:merchandise_shops",
+       "name": "Merchandise shops",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:football_field",
+       "name": "Football field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stadium_tours",
+       "name": "Stadium tours",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevators",
+       "name": "Elevators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:resort",
+       "name": "Resort",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:event_focused",
+       "name": "Event focused",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stadium_food",
+       "name": "Stadium food",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_planning",
+       "name": "Event planning",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -3
+      }
+     },
+     "disambiguation": "1 Patriot Pl Foxborough, MA 02035",
+     "external": {
+      "google_place": [
+       {
+        "id": "68f66bebfe4bcade",
+        "place_id": "ChIJZz33diRj5IkR3spL_utr9mg"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Cadillac Ice Arena",
+     "entity_id": "0E5E4ECC-C755-40F5-B83F-7A4586EACAAA",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T08:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0E5E4ECC-C755-40F5-B83F-7A4586EACAAA-0WsrdI-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2130 Providence Hwy Walpole, MA 02081",
+      "geocode": {
+       "city": "Walpole",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Norfolk County"
+      },
+      "parking": true,
+      "website": "https://cadillacicearena.com/about/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "bathrooms",
+        "count": 11
+       },
+       {
+        "name": "locker rooms",
+        "count": 11
+       },
+       {
+        "name": "olympic",
+        "count": 8
+       },
+       {
+        "name": "bar",
+        "count": 6
+       },
+       {
+        "name": "parking",
+        "count": 6
+       },
+       {
+        "name": "smell",
+        "count": 4
+       },
+       {
+        "name": "area",
+        "count": 4
+       },
+       {
+        "name": "hot water",
+        "count": 3
+       },
+       {
+        "name": "urine",
+        "count": 3
+       },
+       {
+        "name": "zamboni",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Walpole",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "F029E585-5CC6-4EB4-AD68-0EA1CC766161",
+        "admin_level": 8,
+        "locality_id": "r2389805",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Walpole",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "F029E585-5CC6-4EB4-AD68-0EA1CC766161",
+        "admin_level": 8,
+        "locality_id": "r2389805",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "02081",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "B6D3AC15-0F3E-49A6-80BC-32FA88ABAFFE",
+        "admin_level": 9,
+        "locality_id": "z02081",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Olympic-size ice arena hosting hockey, figure skating, and speed skating with public skating and training facilities in Walpole, MA.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:ice_skating_rink",
+       "akas": [
+        {
+         "value": "\"\u041c\u04b1\u0437 \u0430\u0439\u0434\u044b\u043d\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u0432\u0437\u0430\u043d\u043a\u0430\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Ishall\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u6e9c\u51b0\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u041b\u0435\u0434\u0435\u043d\u0430 \u043f\u044a\u0440\u0437\u0430\u043b\u043a\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Gelanggang es\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u043b\u0438\u0437\u0433\u0430\u043b\u0438\u0448\u0442\u0435\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n tr\u01b0\u1ee3t b\u0103ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Schaatsbaan\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043b\u0438\u0437\u0430\u043b\u0438\u0448\u0442\u0435\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u062d\u0644\u0628\u0629 \u062a\u0632\u0644\u062c \u0639\u0644\u0649 \u0627\u0644\u062c\u0644\u064a\u062f\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Uwanja wa kuteleza kwenye barafu\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Patinazh\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0906\u0907\u0938 \u0938\u094d\u0915\u0947\u091f\u093f\u0902\u0917 \u0930\u093f\u0902\u0915\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Izotz-pista\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u6e9c\u51b0\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Buz meydan\u00e7as\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Eislaufbahn\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u03a0\u03b1\u03b3\u03bf\u03b4\u03c1\u03cc\u03bc\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Pista di pattinaggio su ghiaccio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Pista de gel\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Sk\u00f8ytebane\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0eaa\u0eb0\u0ec0\u0e81\u0eb1\u0e94\u0e99\u0ec9\u0eb3\u0e81\u0ec9\u0ead\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Klizali\u0161te\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Pista de hielo\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "es"
+         ]
+        },
+        {
+         "value": "\"Drsali\u0161\u010de\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30a4\u30b9\u30b9\u30b1\u30fc\u30c8\u30ea\u30f3\u30af\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u1791\u17b8\u179b\u17b6\u1793\u1787\u17b7\u17c7\u179f\u17d2\u1782\u17b8\u179b\u17be\u1791\u17b9\u1780\u1780\u1780\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Slidotava\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Luistelukentt\u00e4\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u041a\u0430\u0442\u043e\u043a\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0baa\u0ba9\u0bbf\u0b9a\u0bcd\u0b9a\u0bb1\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\uc544\uc774\uc2a4\ub9c1\ud06c\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Kluzi\u0161t\u011b\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Eishalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u101b\u1031\u1001\u1032\u1015\u103c\u1004\u103a\u1005\u1000\u102d\u1010\u103a\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Patinoire\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Uisuv\u00e4ljak\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05e9\u05d8\u05d7 \u05d4\u05d7\u05dc\u05e7\u05d4 \u05e2\u05dc \u05d4\u05e7\u05e8\u05d7\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0986\u0987\u09b8 \u09b8\u09cd\u0995\u09c7\u099f\u09bf\u0982 \u09b0\u09bf\u0999\u09cd\u0995\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Ysskaatsbaan\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ice skating rink\"",
+         "languages": [
+          "tl",
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0c10\u0c38\u0c4d \u0c38\u0c4d\u0c15\u0c47\u0c1f\u0c3f\u0c02\u0c17\u0c4d \u0c30\u0c3f\u0c02\u0c15\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u010ciuo\u017eykla\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Lodowisko\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Pista de xeo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Sk\u00f8jtebane\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"\u10e7\u10d8\u10dc\u10e3\u10da\u10d8\u10e1 \u10db\u10dd\u10d4\u10d3\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Patinoar\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"J\u00e9gp\u00e1lya\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Klzisko\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Pista de patina\u00e7\u00e3o no gelo\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0e25\u0e32\u0e19\u0e2a\u0e40\u0e01\u0e47\u0e15\u0e19\u0e49\u0e33\u0e41\u0e02\u0e47\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Pista de gelo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Gelanggang luncur ais\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Buz pateni pisti\"",
+         "languages": [
+          "tr"
+         ]
+        }
+       ],
+       "name": "Ice skating rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.099999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Olympic-size ice arena hosting hockey, figure skating, and speed skating with public skating and training facilities in Walpole, MA.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Cadillac Ice Arena is a prominent sports facility in Walpole, Massachusetts, offering multiple ice surfaces including an Olympic-sized rink for hockey, figure skating, and speed skating. The venue functions as a community hub for athletes and families, providing necessary amenities such as locker rooms, a pro shop, and a snack bar. Despite its utilitarian design, it is well-regarded for its ice quality and active programming. Visitors should be prepared for cool indoor temperatures and high traffic during game days.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and focused on sports, characterized by the hum of hockey games and public skating sessions. It maintains a utilitarian, no-frills environment suitable for training and competitive play.",
+      "amenities_description": "The facility provides essential amenities for athletes and spectators, including locker rooms, a pro shop for equipment, and a snack bar. Viewing areas are available for those watching games or practices.",
+      "unique_selling_points": "The arena is distinguished by its Olympic-size ice surface and its status as a primary hub for various ice sports, including hockey and figure skating, within the local community.",
+      "neighborhood_description": "The arena is situated in a commercial area along a major highway, providing easy access for local commuters and families traveling for sports activities.",
+      "physical_setting_description": "Cadillac Ice Arena is a sports complex located along the highway in Walpole, featuring both Olympic-size and NHL-size ice sheets. It serves as a functional athletic facility dedicated to ice sports, requiring visitors to dress warmly due to the chilly arena temperatures.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0E5E4ECC-C755-40F5-B83F-7A4586EACAAA-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.8650864139198343,
+     "location": {
+      "lat": 42.112907,
+      "lon": -71.23948299999999,
+      "geohash": "drmrdfkvrwut"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:snack_bar",
+       "name": "Snack bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:team_competition",
+       "name": "Team competition",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:speed_skating",
+       "name": "Speed skating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:ice_hockey_rink",
+       "name": "Ice hockey rink",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:ice_hockey_rink",
+       "name": "Ice hockey rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:figure_skating",
+       "name": "Figure skating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pro_shop",
+       "name": "Pro shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:viewing_areas",
+       "name": "Viewing areas",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:rink_view",
+       "name": "Rink view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:large_parking_lot",
+       "name": "Large parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:athletic",
+       "name": "Athletic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:business_friendly",
+       "name": "Business friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_arena",
+       "name": "Sports arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:locker_rooms",
+       "name": "Locker rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:athletic_training",
+       "name": "Athletic training",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:figure_skating",
+       "name": "Figure skating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:youth_sports",
+       "name": "Youth sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 725.6557252916141,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2130 Providence Hwy Walpole, MA 02081",
+     "external": {
+      "google_place": [
+       {
+        "id": "5fb691578ca00f9f",
+        "place_id": "ChIJgQ2HWq595IkRnw-gjFeRtl8"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Howl Splitsville Golf Suites Foxborough",
+     "entity_id": "45FF7D6D-4E1D-455C-A3BB-7CB4BDD42269",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ]
+      },
+      "phone": "+15086982695",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/45FF7D6D-4E1D-455C-A3BB-7CB4BDD42269-29BGgm-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "220 Patriot Pl Foxborough, MA 02035",
+      "geocode": {
+       "city": "Foxborough",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Norfolk County"
+      },
+      "parking": true,
+      "website": "https://www.howlsplitsville.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": 0.5
+       }
+      ],
+      "keywords": [
+       {
+        "name": "bowling",
+        "count": 119
+       },
+       {
+        "name": "dueling pianos",
+        "count": 9
+       },
+       {
+        "name": "live music",
+        "count": 46
+       },
+       {
+        "name": "loaded fries",
+        "count": 3
+       },
+       {
+        "name": "chicken fingers",
+        "count": 3
+       },
+       {
+        "name": "sliders",
+        "count": 3
+       },
+       {
+        "name": "darts",
+        "count": 5
+       },
+       {
+        "name": "golf simulator",
+        "count": 2
+       },
+       {
+        "name": "finger food",
+        "count": 2
+       },
+       {
+        "name": "shuffle board",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       {
+        "name": "02035",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "ED654A29-E3DE-4ADB-BBC3-A03EFA9248A4",
+        "admin_level": 9,
+        "locality_id": "z02035",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "High-energy entertainment venue combining luxury bowling, golf suites, live music, and a full bar at Patriot Place\u2014ideal for parties and events.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:bar_&_grill",
+       "akas": null,
+       "name": "Bar & grill",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.199999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "High-energy entertainment venue combining luxury bowling, golf suites, live music, and a full bar at Patriot Place\u2014ideal for parties and events.",
+      "number_of_stations": null,
+      "cuisine_description": "The menu features a selection of casual American pub fare, including pizzas, sliders, sandwiches, and small plates. The beverage program offers a full bar with cocktails, beer, and wine.",
+      "overall_description": "Howl Splitsville Golf Suites is a high-energy entertainment destination at Patriot Place, offering a mix of luxury bowling, virtual golf simulators, and live music. It serves as a popular venue for everything from casual birthday outings and team-building events to large corporate gatherings. With a full bar and a menu of casual pub fare, it provides a one-stop-shop for social entertainment in the vicinity of a major stadium.",
+      "service_description": "Howl Splitsville Golf Suites provides a high-energy environment for dining, drinking, and entertainment. Guests can enjoy bowling, virtual golf, darts, and shuffleboard alongside dining and drinks. The venue specializes in hosting events ranging from intimate gatherings to large corporate parties for up to 800 guests, offering both indoor and outdoor seating.",
+      "ambience_description": "The atmosphere is energetic and loud, characterized by a mix of upscale bowling aesthetics, live musical performances, and a bustling bar scene that encourages social interaction.",
+      "amenities_description": "The facility features twelve luxury bowling lanes, virtual golf and sports simulators, interactive dart boards, and dedicated shuffleboard areas. It also offers a full bar, live entertainment stage, and expansive indoor and outdoor space for private and public events.",
+      "unique_selling_points": "This venue provides a versatile, multi-activity entertainment experience that combines luxury bowling and virtual sports suites with high-energy live music and private event capabilities.",
+      "neighborhood_description": "The surrounding area is a popular, high-traffic entertainment hub that serves as a primary destination for fans and event-goers visiting the adjacent stadium and concert venue.",
+      "physical_setting_description": "Located within a bustling entertainment and retail district in the shadow of a major stadium, the venue offers both indoor and outdoor seating areas. The environment is designed to handle large groups while maintaining a central location for local sports and concert-goers.",
+      "customer_demographics_description": "The restaurant attracts a diverse crowd including locals, tourists, and fans visiting Patriot Place for game days or concerts. It is popular with groups of friends, families celebrating birthdays, and professionals hosting corporate team-building events.",
+      "image": {
+       "url": "https://images.qloo.com/i/45FF7D6D-4E1D-455C-A3BB-7CB4BDD42269-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.7345810948400524,
+     "location": {
+      "lat": 42.093436,
+      "lon": -71.265906,
+      "geohash": "drmr6qcu012j"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:buffalo_chicken_sliders",
+       "name": "Buffalo chicken sliders",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:bowling_alley",
+       "name": "Bowling alley",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:lounge_bar",
+       "name": "Lounge bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed_outside",
+       "name": "Dogs allowed outside",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:showcase_live",
+       "name": "Showcase live",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pub_food",
+       "name": "Pub food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:upscale_bowling_alley",
+       "name": "Upscale bowling alley",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:golf_simulation",
+       "name": "Golf simulation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:cocktail_bar",
+       "name": "Cocktail bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:steak_and_cheese_egg_rolls",
+       "name": "Steak and cheese egg rolls",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:buffalo_chicken_pizza",
+       "name": "Buffalo chicken pizza",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:golf_simulation",
+       "name": "Golf simulation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stadium_view",
+       "name": "Stadium view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:late_night_food",
+       "name": "Late night food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:live_music_bar",
+       "name": "Live music bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:lounge_bar",
+       "name": "Lounge bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kids_menu",
+       "name": "Kids menu",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:vegetarian_options",
+       "name": "Vegetarian meals",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:bowling",
+       "name": "Bowling",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:diners_club",
+       "name": "Diners club",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_dining",
+       "name": "Private dining",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:cocktail_bar",
+       "name": "Cocktail bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dart_boards",
+       "name": "Dart boards",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:celebratory_diners",
+       "name": "Celebratory diners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:walk_ins",
+       "name": "Walk ins",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:healthy_options",
+       "name": "Healthy options",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:stadium_vicinity",
+       "name": "Stadium vicinity",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:young_professionals",
+       "name": "Young professionals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nostalgic",
+       "name": "Nostalgic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:gillette_stadium",
+       "name": "Gillette stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:event_space",
+       "name": "Event space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:golf_simulators",
+       "name": "Golf simulators",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:small_plates",
+       "name": "Small plates",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:macho_nachos",
+       "name": "Macho nachos",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:order_ahead",
+       "name": "Order ahead",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:event_hosting",
+       "name": "Event hosting",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar_grill",
+       "name": "Bar grill",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_bar",
+       "name": "Live music bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:bowling",
+       "name": "Bowling",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:tourists",
+       "name": "Tourists",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:piano_bar",
+       "name": "Piano bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:shuffleboard",
+       "name": "Shuffleboard",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:darts",
+       "name": "Darts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar_grill",
+       "name": "Bar + grill",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bowling_alley",
+       "name": "Bowling alley",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:shuffleboard",
+       "name": "Shuffleboard",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:10_to_50",
+       "name": "$10 to $50",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:entertainment_complex",
+       "name": "Entertainment complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_band_stage",
+       "name": "Live band stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bowling_lanes",
+       "name": "Bowling lanes",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:business_professionals",
+       "name": "Business professionals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:corporate_clients",
+       "name": "Corporate clients",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:reservations",
+       "name": "Reservations",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "220 Patriot Pl Foxborough, MA 02035",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d7231370",
+        "rating": 3.5,
+        "rating_count": 67
+       }
+      ],
+      "google_place": [
+       {
+        "id": "b4018670deff34e0",
+        "place_id": "ChIJAY7DsLl85IkR4DT_3nCGAbQ"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Foxboro Sports Center",
+     "entity_id": "14E78997-0707-43FE-91A7-F9053FB1D9B7",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+15086980505",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/14E78997-0707-43FE-91A7-F9053FB1D9B7-1pAV3Q-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "10 E Belcher Rd Foxborough, MA 02035",
+      "geocode": {
+       "city": "Foxborough",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Norfolk County"
+      },
+      "parking": true,
+      "website": "https://www.foxborosportscenter.net/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Massachusetts",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "7B7A9D02-9E94-4024-9501-12B03B1DDA38",
+        "admin_level": 4,
+        "locality_id": "r61315",
+        "abbreviation": "Mass.",
+        "country_code": null
+       },
+       {
+        "name": "02035",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "ED654A29-E3DE-4ADB-BBC3-A03EFA9248A4",
+        "admin_level": 9,
+        "locality_id": "z02035",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Foxborough",
+        "place": "town",
+        "boundary": "administrative",
+        "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+        "admin_level": 8,
+        "locality_id": "r1948160",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Norfolk County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "3588DECD-5C06-43EC-920A-ABABF72137AA",
+        "admin_level": 6,
+        "locality_id": "r1840539",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Large sports complex with two NHL-sized ice rinks, a synthetic-ice practice room, pro shop, cafe, and on-site sports medicine and physical therapy services.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.300000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large sports complex with two NHL-sized ice rinks, a synthetic-ice practice room, pro shop, cafe, and on-site sports medicine and physical therapy services.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Foxboro Sports Center is a premier multi-sheet ice arena serving as a dedicated hub for hockey players and figure skaters in the region. Beyond its rinks, the complex integrates professional sports medicine and physical therapy services alongside a well-stocked pro shop and cafe. It is highly valued for its year-round training capabilities and its role as a practice home for local competitive programs.",
+      "service_description": null,
+      "ambience_description": "The center offers an active and casual atmosphere, bustling with athletes and families engaged in hockey, figure skating, and recreational training.",
+      "amenities_description": "The facility is equipped with three NHL-sized ice sheets, a specialized training gym, an on-site pro shop for gear and sharpening, and a cafe. Accessibility features include elevator access to upper viewing areas and designated parking.",
+      "unique_selling_points": "The center is distinguished by its multiple ice sheets, on-site sports medicine and rehabilitation services, and specialized skill development areas like the synthetic-ice room.",
+      "neighborhood_description": "The facility is located in an accessible, suburban environment that serves the local community as a central hub for winter sports and physical training.",
+      "physical_setting_description": "A comprehensive sports complex situated in a suburban commercial area, featuring multiple large indoor ice rinks. The facility includes climate-controlled viewing areas, providing a comfortable environment for spectators to watch on-ice activities.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/14E78997-0707-43FE-91A7-F9053FB1D9B7-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 42.0621601,
+      "lon": -71.2294306,
+      "geohash": "drmr71hmcgn8"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:interests:qloo:sports_training",
+       "name": "Sports training",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:figure_skating",
+       "name": "Figure skating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_medicine_clinic",
+       "name": "Sports medicine clinic",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cafe",
+       "name": "Cafe",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:gym",
+       "name": "Gym",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_medicine_clinic",
+       "name": "Sports medicine clinic",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:fitness",
+       "name": "Fitness",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:sports_medicine_clinic",
+       "name": "Sports medicine clinic",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:patriot_place",
+       "name": "Patriot place",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:physical_therapy",
+       "name": "Physical therapy",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:personal_care",
+       "name": "Personal care",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:electric_vehicle_charging_stations",
+       "name": "Electric vehicle charging stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:physical_therapist",
+       "name": "Physical therapist",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:locker_rooms",
+       "name": "Locker rooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:elevator",
+       "name": "Elevator",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:ice_skating_rink",
+       "name": "Ice skating rink",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pro_shop",
+       "name": "Pro shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:sporty",
+       "name": "Sporty",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:suburban",
+       "name": "Suburban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:arcade",
+       "name": "Arcade",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ice_rinks",
+       "name": "Ice rinks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:physical_therapist",
+       "name": "Physical therapist",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:gillette_stadium",
+       "name": "Gillette stadium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:morning",
+       "name": "Morning",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:accessible",
+       "name": "Accessible",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:has_free_admission",
+       "name": "Has free admission",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:ice_hockey",
+       "name": "Ice hockey",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:youth_athletics",
+       "name": "Youth athletics",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:physical_therapy",
+       "name": "Physical therapy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:figure_skating",
+       "name": "Figure skating",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "10 E Belcher Rd Foxborough, MA 02035",
+     "external": {
+      "google_place": [
+       {
+        "id": "544f1dc80b8f9a98",
+        "place_id": "ChIJVVl1SYpj5IkRXDEWtK_y2Eg"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "5D8B44D4-4435-4389-B8B5-6B135AD7BF67",
+      "name": "Foxborough",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 42.06266025665342,
+       "lon": -71.2461331367998
+      },
+      "popularity": 0.97404,
+      "disambiguation": "Foxborough, Norfolk County, Massachusetts, United States"
+     }
+    ]
+   }
+  }
+ }
+}

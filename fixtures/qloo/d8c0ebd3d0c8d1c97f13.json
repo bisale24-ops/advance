@@ -1,0 +1,4129 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Gilford, New Hampshire",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "BankNH Pavilion",
+     "entity_id": "181B1CC1-21F9-459D-830F-2576B117163D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+16032934700",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/181B1CC1-21F9-459D-830F-2576B117163D-1XnQyQ-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "80 Recycle Wy Gilford, NH 03249",
+      "geocode": {
+       "city": "Gilford",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Hampshire",
+       "admin2_region": "Belknap County"
+      },
+      "parking": true,
+      "website": "https://www.banknhpavilion.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "lawn",
+        "count": 173
+       },
+       {
+        "name": "drinks",
+        "count": 130
+       },
+       {
+        "name": "tailgate",
+        "count": 37
+       },
+       {
+        "name": "chris stapleton",
+        "count": 32
+       },
+       {
+        "name": "luke bryan",
+        "count": 18
+       },
+       {
+        "name": "campground",
+        "count": 17
+       },
+       {
+        "name": "shinedown",
+        "count": 12
+       },
+       {
+        "name": "arrest",
+        "count": 10
+       },
+       {
+        "name": "paddle boats",
+        "count": 9
+       },
+       {
+        "name": "keith urban",
+        "count": 8
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Gilford",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "FBF55FA1-A9F7-4690-AF08-2E317AF0A427",
+        "admin_level": 8,
+        "locality_id": "r366810",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Hampshire",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "1B675204-7D8D-4616-A2CF-B0C0A700167F",
+        "admin_level": 4,
+        "locality_id": "r67213",
+        "abbreviation": "N.H.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Belknap County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F9374678-A12B-459B-81FA-62AC6A513C85",
+        "admin_level": 6,
+        "locality_id": "r365495",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Belknap County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F9374678-A12B-459B-81FA-62AC6A513C85",
+        "admin_level": 6,
+        "locality_id": "r365495",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "03249",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "CE97A787-2FAD-46F8-8574-5F22CB3905F4",
+        "admin_level": 9,
+        "locality_id": "z03249",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Gilford",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "FBF55FA1-A9F7-4690-AF08-2E317AF0A427",
+        "admin_level": 8,
+        "locality_id": "r366810",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Hampshire",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "1B675204-7D8D-4616-A2CF-B0C0A700167F",
+        "admin_level": 4,
+        "locality_id": "r67213",
+        "abbreviation": "N.H.",
+        "country_code": null
+       }
+      ],
+      "description": "Seasonal outdoor 8,000-seat amphitheater hosting touring big-name bands and rising music acts in Gilford, New Hampshire.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:amphitheater",
+       "akas": [
+        {
+         "value": "\"Amfiteata\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0456\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\u179a\u17b6\u1784\u1798\u17bc\u179b\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e1t ngo\u00e0i tr\u1eddi\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u090f\u092e\u094d\u092b\u0940\u0925\u093f\u090f\u091f\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u5706\u5f62\u5267\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Amphitheater\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Amfiteatr\"",
+         "languages": [
+          "pl",
+          "az"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1ter\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Amfiteatras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u0985\u09cd\u09af\u09be\u09ae\u09cd\u09ab\u09bf\u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1trum\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0ead\u0eb3\u0e9f\u0eb4\u0ec0\u0e97\u0ec0\u0e95\u0eb5\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05de\u05e4\u05d9\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0c2f\u0c3e\u0c02\u0c2b\u0c3f\u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Amfite\u00e1tr\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\uc6d0\ud615 \uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Amfite\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03bc\u03c6\u03b9\u03b8\u03ad\u03b1\u03c4\u03c1\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Amfiteatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Amfiteatre\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0e2d\u0e31\u0e12\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Amphitheatre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0440\"",
+         "languages": [
+          "ru",
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Amphith\u00e9\u00e2tre\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u062f\u0631\u062c\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u044a\u0440\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0410\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0430\u0440\"",
+         "languages": [
+          "mk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Anfiteatro\"",
+         "languages": [
+          "gl",
+          "es",
+          "es_ar",
+          "es_la",
+          "pt",
+          "eu",
+          "pt_pt",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u1021\u1019\u103a\u1016\u102e\u101e\u102e\u101a\u102c\u1010\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Amfiteatro\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u5186\u5f62\u5287\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Amfiteater\"",
+         "languages": [
+          "ms",
+          "da",
+          "nb",
+          "sv",
+          "sl",
+          "id",
+          "af",
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10db\u10e4\u10d8\u10d7\u10d4\u10d0\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Amfiteat\u00ebr\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Amfitheater\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Amfitiyatro\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u5713\u5f62\u5287\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Amfiteatar\"",
+         "languages": [
+          "bs",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Amfiteatru\"",
+         "languages": [
+          "ro"
+         ]
+        }
+       ],
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Seasonal outdoor 8,000-seat amphitheater hosting touring big-name bands and rising music acts in Gilford, New Hampshire.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "BankNH Pavilion is a premier outdoor amphitheater in Gilford, New Hampshire, known for hosting top-tier touring acts in a scenic, forest-filled environment. The venue is highly regarded for its excellent acoustics, expansive covered pavilion, and the ability to comfortably accommodate thousands of fans across both reserved seating and lawn areas. Beyond the stage, the venue offers a lively pre-show atmosphere, including tailgating, on-site dining, and seasonal camping options, making it a major regional destination for live music lovers.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and celebratory, defined by the open-air concert environment and lush, forest-adjacent surroundings. It balances a casual, social vibe with the excitement of hosting large-scale live performances.",
+      "amenities_description": "The venue provides a mix of covered pavilion and lawn seating, along with premium VIP club access and on-site food and drink vendors. Additional amenities include parking options, accessible restrooms, and seasonal tent camping facilities.",
+      "unique_selling_points": "As a multi-award-winning outdoor amphitheater, the venue combines large-scale concert capabilities with an intimate, wooded setting. Its design features a massive overhead roof for the majority of seating, ensuring shows continue during inclement weather.",
+      "neighborhood_description": "Located in a peaceful and scenic rural area of Gilford, the venue is surrounded by forest and natural landscapes that contribute to an intimate outdoor concert experience.",
+      "physical_setting_description": "The venue is a seasonal outdoor amphitheater situated in a rural, wooded setting in New Hampshire. It features an expansive lawn area and a large pavilion structure that provides significant overhead coverage for seating.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/181B1CC1-21F9-459D-830F-2576B117163D-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.979522313613048,
+     "location": {
+      "lat": 43.5800766,
+      "lon": -71.4129773,
+      "geohash": "drtpyvw8kgrk"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kid_friendly_activities",
+       "name": "Kid friendly activities",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_get_temperature_checks",
+       "name": "Staff get temperature checks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:gender_neutral_restroom",
+       "name": "Gender neutral restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:temperature_check_required",
+       "name": "Temperature check required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:on_site_camping",
+       "name": "On site camping",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:appointment_required",
+       "name": "Appointment required",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_pavilion",
+       "name": "Open air pavilion",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:covered_pavilion",
+       "name": "Covered pavilion",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:summer_festivals",
+       "name": "Summer festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:rural",
+       "name": "Rural",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:wooded",
+       "name": "Wooded",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:festive",
+       "name": "Festive",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:lake_winnipesaukee",
+       "name": "Lake winnipesaukee",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:amphitheater",
+       "name": "Amphitheater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:vip_club",
+       "name": "Vip club",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:concert_venue",
+       "name": "Concert venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:outdoor_arena",
+       "name": "Outdoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:tailgating",
+       "name": "Tailgating",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:forest",
+       "name": "Forest",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:rural",
+       "name": "Rural",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:camping",
+       "name": "Camping",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:water_refill_stations",
+       "name": "Water refill stations",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:forest_view",
+       "name": "Forest view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:nature_focused",
+       "name": "Nature focused",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:road_trips",
+       "name": "Road trips",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:checks",
+       "name": "Checks",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:social_dining",
+       "name": "Social dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nature_outdoors",
+       "name": "Nature outdoors",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:natural",
+       "name": "Natural",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:open_air",
+       "name": "Open air",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lawn_seating",
+       "name": "Lawn seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_wear_masks",
+       "name": "Staff wear masks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessibility_features",
+       "name": "Accessibility features",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_view",
+       "name": "Stage view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:nursing_room",
+       "name": "Nursing room",
+       "type": "urn:tag:children:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "80 Recycle Wy Gilford, NH 03249",
+     "external": {
+      "google_place": [
+       {
+        "id": "6e11d0d29ed5eab0",
+        "place_id": "ChIJF7YrrSo3s0wRsOrVntLQEW4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Patrick's",
+     "entity_id": "F7BF9020-50C6-4ABB-B4F0-15868C45DE0E",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ]
+      },
+      "phone": "+16032930841",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/F7BF9020-50C6-4ABB-B4F0-15868C45DE0E-297gp2-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "18 Weirs Rd Gilford, NH 03249",
+      "geocode": {
+       "city": "Gilford",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Hampshire",
+       "admin2_region": "Belknap County"
+      },
+      "parking": true,
+      "website": "http://www.patrickspub.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 0.9871794871794872
+       },
+       {
+        "id": "urn:tag:event:place:work_dinner",
+        "name": "Work Dinner",
+        "type": "urn:tag:event:place",
+        "weight": 0.75
+       },
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": 0.6111111111111112
+       },
+       {
+        "id": "urn:tag:event:place:anniversary",
+        "name": "Anniversary",
+        "type": "urn:tag:event:place",
+        "weight": 0.25
+       }
+      ],
+      "keywords": [
+       {
+        "name": "mac and cheese",
+        "count": 31
+       },
+       {
+        "name": "french dip",
+        "count": 20
+       },
+       {
+        "name": "bar seating",
+        "count": 19
+       },
+       {
+        "name": "haddock plate",
+        "count": 15
+       },
+       {
+        "name": "mozzarella sticks",
+        "count": 23
+       },
+       {
+        "name": "outdoor seating",
+        "count": 9
+       },
+       {
+        "name": "prime rib",
+        "count": 14
+       },
+       {
+        "name": "seafood chowder",
+        "count": 11
+       },
+       {
+        "name": "live music",
+        "count": 26
+       },
+       {
+        "name": "french onion soup",
+        "count": 12
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Gilford",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "FBF55FA1-A9F7-4690-AF08-2E317AF0A427",
+        "admin_level": 8,
+        "locality_id": "r366810",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Hampshire",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "1B675204-7D8D-4616-A2CF-B0C0A700167F",
+        "admin_level": 4,
+        "locality_id": "r67213",
+        "abbreviation": "N.H.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Belknap County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F9374678-A12B-459B-81FA-62AC6A513C85",
+        "admin_level": 6,
+        "locality_id": "r365495",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Belknap County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F9374678-A12B-459B-81FA-62AC6A513C85",
+        "admin_level": 6,
+        "locality_id": "r365495",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "03249",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "CE97A787-2FAD-46F8-8574-5F22CB3905F4",
+        "admin_level": 9,
+        "locality_id": "z03249",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Gilford",
+        "place": null,
+        "boundary": "administrative",
+        "entity_id": "FBF55FA1-A9F7-4690-AF08-2E317AF0A427",
+        "admin_level": 8,
+        "locality_id": "r366810",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Hampshire",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "1B675204-7D8D-4616-A2CF-B0C0A700167F",
+        "admin_level": 4,
+        "locality_id": "r67213",
+        "abbreviation": "N.H.",
+        "country_code": null
+       }
+      ],
+      "description": "Buzzy, kid-friendly Irish saloon serving American pub fare with weekend live music, full bar, and family-friendly lakes-region atmosphere.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:irish_pub",
+       "akas": [
+        {
+         "value": "\"Irsk\u00e1 hospoda\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Irlandar pub-a\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0130rlandiya pab\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Qu\u00e1n r\u01b0\u1ee3u Ireland\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Irischer Pub\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Pub irlandez\"",
+         "languages": [
+          "sq",
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u611b\u723e\u862d\u9152\u5427\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0c10\u0c30\u0c3f\u0c37\u0c4d \u0c2a\u0c2c\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u0418\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438 \u043f\u044a\u0431\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Ierse kroeg\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Pub irland\u00e9s\"",
+         "languages": [
+          "es",
+          "gl",
+          "es_ar",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30a4\u30ea\u30c3\u30b7\u30e5\u30d1\u30d6\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Iiri pubi\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f \u043f\u0430\u0431\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"\u0906\u092f\u0930\u093f\u0936 \u092a\u092c\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0406\u0440\u043b\u0430\u043d\u0434\u0441\u044c\u043a\u0438\u0439 \u043f\u0430\u0431\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Airi\u0161kas baras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Irski pub\"",
+         "languages": [
+          "sl",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"\u1795\u17b6\u1794\u17cb\u17a2\u17c0\u179a\u17a1\u1784\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u05e4\u05d0\u05d1 \u05d0\u05d9\u05e8\u05d9\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Pub Irlandia\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Irl\u00e4ndsk pub\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u00cdr kocsma\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Pub irland\u00eas\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Pub irland\u00e8s\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Pub irlandzki\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u0418\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439 \u043f\u0430\u0431\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0b90\u0bb0\u0bbf\u0bb7\u0bcd \u0baa\u0baa\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0986\u0987\u09b0\u09bf\u09b6 \u09aa\u09be\u09ac\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u10d8\u10e0\u10da\u10d0\u10dc\u10d3\u10d8\u10e3\u10e0\u10d8 \u10de\u10d0\u10d1\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Irlantilainen pubi\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102d\u102f\u1004\u103a\u101a\u102c\u101c\u1014\u103a\u1015\u102b\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u00cdrsky pub\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Pub irlandese\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0399\u03c1\u03bb\u03b1\u03bd\u03b4\u03b9\u03ba\u03ae \u03c0\u03b1\u03bc\u03c0\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Pub ya Kiayalandi\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Irish pub\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u062d\u0627\u0646\u0629 \u0623\u064a\u0631\u0644\u0646\u062f\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Pub Ireland\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Irski pab\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Ierse pub\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u7231\u5c14\u5170\u9152\u5427\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u012aru krogs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0130rlanda bar\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0418\u0440\u0441\u043a\u0438 \u043f\u0430\u0431\"",
+         "languages": [
+          "sr",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u0e44\u0e2d\u0e23\u0e34\u0e0a\u0e1c\u0e31\u0e1a\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Pub irlandais\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Irsk pub\"",
+         "languages": [
+          "da",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\uc544\uc774\ub9ac\uc2dc \ud38d\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0ec4\u0ead\u0ea3\u0eb4\u0e8a\u0e9c\u0eb1\u0e9a\"",
+         "languages": [
+          "lo"
+         ]
+        }
+       ],
+       "name": "Irish pub",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Buzzy, kid-friendly Irish saloon serving American pub fare with weekend live music, full bar, and family-friendly lakes-region atmosphere.",
+      "number_of_stations": null,
+      "cuisine_description": "Patrick's Pub & Eatery serves a variety of classic American pub fare with an Irish influence. The menu features hearty comfort food favorites, fresh seafood dishes, and generous portions, including popular items like steak tips, hand-cut fries, and diverse appetizers. Guests can enjoy a wide selection of beer, cocktails, and coffee, with specific dietary needs like vegetarian and gluten-free options catered for.",
+      "overall_description": "This vibrant, family-friendly Irish pub and eatery serves as a beloved staple in the Lakes Region, offering a extensive menu of classic American pub fare and comfort dishes. Known for its welcoming atmosphere, the restaurant features live music, a full bar, and a space that caters to both locals and travelers. With amenities like outdoor seating and multiple service options, it remains a consistent go-to destination for those seeking a lively dining experience in a community-centric environment.",
+      "service_description": "The restaurant offers a welcoming, family-friendly environment suitable for diverse occasions ranging from casual meals and happy hours to private celebrations. They provide dine-in, takeout, and curbside pickup services, along with dedicated event catering and private party facilities. The establishment is known for its efficient service and accommodating staff, though it can become quite busy during peak times and local events.",
+      "ambience_description": "The atmosphere is warm and inviting, successfully balancing the feel of a traditional Irish saloon with a modern, family-friendly restaurant environment. It is a lively hub where guests often enjoy shared meals and live music in a relaxed, community-oriented setting.",
+      "amenities_description": "The establishment provides a full bar experience, diverse dining options including takeout and curbside pickup, and an outdoor seating area. It also hosts live entertainment and maintains facilities for private events and catering.",
+      "unique_selling_points": "The venue is distinguished by its hearty, homemade-style comfort food, including signature items like chicken fingers and lobster mac and cheese, coupled with a genuine community-focused spirit. It frequently hosts community events and live performances, reinforcing its status as a local cornerstone.",
+      "neighborhood_description": "The neighborhood is a central, busy commercial area well-known for its accessibility to regional attractions and proximity to local lodging. It serves as a convenient and bustling corridor for tourists visiting the lakes and residents alike.",
+      "physical_setting_description": "Located along a primary local road in the Lakes Region of New Hampshire, this venue offers an accessible and comfortable space that serves as a hub for both travelers and locals. The environment is designed to be welcoming, with outdoor seating available for warmer weather.",
+      "customer_demographics_description": "The customer base is a mix of local residents and vacationers visiting the Lakes Region. It attracts a broad demographic, including families seeking a kid-friendly atmosphere, young professionals, and tourists exploring local attractions, particularly those attending events at nearby venues.",
+      "image": {
+       "url": "https://images.qloo.com/i/F7BF9020-50C6-4ABB-B4F0-15868C45DE0E-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9659076683972853,
+     "location": {
+      "lat": 43.5771897,
+      "lon": -71.40241739999999,
+      "geohash": "drtpzhyre10d"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:lobster_crab_cakes",
+       "name": "Lobster crab cakes",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking",
+       "name": "Parking",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_cider",
+       "name": "Hard cider",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kids_menu",
+       "name": "Kids menu",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:chicken_tenders",
+       "name": "Chicken tenders",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:lobster_mac_and_cheese",
+       "name": "Lobster mac and cheese",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:private_dining_room",
+       "name": "Private dining room",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:reuben_sandwich",
+       "name": "Reuben sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:buffalo_wings",
+       "name": "Buffalo wings",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:family_restaurant",
+       "name": "Family restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pub_culture",
+       "name": "Pub culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:aperitifs_and_digestifs",
+       "name": "Aperitifs and digestifs",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:irish_pub_fare",
+       "name": "Irish pub fare",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:pub_vibe",
+       "name": "Pub vibe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:takeout_service",
+       "name": "Takeout service",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:convenience_stop",
+       "name": "Convenience stop",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:lakes_region",
+       "name": "Lakes region",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:irish_pub",
+       "name": "Irish pub",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:healthy_options",
+       "name": "Healthy options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:bank_of_new_hampshire_pavilion",
+       "name": "Bank of new hampshire pavilion",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_food",
+       "name": "Happy hour food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:20_to_30",
+       "name": "$20 to $30",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:quick_bite",
+       "name": "Quick bite",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:small_plates",
+       "name": "Small plates",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:tourists",
+       "name": "Tourists",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:pickup",
+       "name": "Pickup",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:shepherds_pie",
+       "name": "Shepherds pie",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:homemade_mozzarella_sticks",
+       "name": "Homemade mozzarella sticks",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:families",
+       "name": "Families",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:stuffed_mushrooms",
+       "name": "Stuffed mushrooms",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:soft_drinks",
+       "name": "Soft drinks",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:work_dinner",
+       "name": "Work dinner",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:steak_tips",
+       "name": "Steak tips",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music_stage",
+       "name": "Live music stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_community_events",
+       "name": "Local community events",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:order_ahead",
+       "name": "Order ahead",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:lakes_region_proximity",
+       "name": "Lakes region proximity",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:corned_beef_and_cabbage",
+       "name": "Corned beef and cabbage",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:french_dip",
+       "name": "French dip",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:irish_pub",
+       "name": "Irish pub",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hot_tea",
+       "name": "Hot tea",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:private_events",
+       "name": "Private events",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:fireside_inn_suites",
+       "name": "Fireside inn suites",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:irish_pub",
+       "name": "Irish pub",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:street_view",
+       "name": "Street view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:sticky_toffee_pudding",
+       "name": "Sticky toffee pudding",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:55_",
+       "name": "55+",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:anniversary",
+       "name": "Anniversary",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:late_night_food",
+       "name": "Late night food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:lake_winnipesaukee",
+       "name": "Lake winnipesaukee",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:catering",
+       "name": "Catering",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1
+      }
+     },
+     "disambiguation": "18 Weirs Rd Gilford, NH 03249",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d669117",
+        "rating": 4,
+        "rating_count": 703
+       }
+      ],
+      "google_place": [
+       {
+        "id": "8449f182d8160",
+        "place_id": "ChIJx-fk2tUws0wRYIEtGJ9ECAA"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Tower Hill Tavern",
+     "entity_id": "2C549A0E-0F6E-4D53-9702-502D86F1F78F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T04:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T04:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T01:00:00"
+        }
+       ]
+      },
+      "phone": "+16033669100",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/2C549A0E-0F6E-4D53-9702-502D86F1F78F-2UrOAJ-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "264 Lakeside Ave Laconia, NH 03246",
+      "geocode": {
+       "city": "Laconia",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New Hampshire",
+       "admin2_region": "Belknap County"
+      },
+      "parking": true,
+      "website": "https://towerhilltavern.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": 1
+       },
+       {
+        "id": "urn:tag:event:place:anniversary",
+        "name": "Anniversary",
+        "type": "urn:tag:event:place",
+        "weight": 0.5
+       },
+       {
+        "id": "urn:tag:cost_description:place:inexpensive",
+        "name": "Inexpensive",
+        "type": "urn:tag:cost_description:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "bartender",
+        "count": 43
+       },
+       {
+        "name": "bands",
+        "count": 33
+       },
+       {
+        "name": "bike",
+        "count": 19
+       },
+       {
+        "name": "pizza",
+        "count": 17
+       },
+       {
+        "name": "live music",
+        "count": 16
+       },
+       {
+        "name": "entertainment",
+        "count": 10
+       },
+       {
+        "name": "water",
+        "count": 9
+       },
+       {
+        "name": "lake",
+        "count": 7
+       },
+       {
+        "name": "pool tables",
+        "count": 5
+       },
+       {
+        "name": "chicken tenders",
+        "count": 5
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Laconia",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E68D9B50-3020-43FE-8076-CE0DC864F2FC",
+        "admin_level": 8,
+        "locality_id": "r170185",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "New Hampshire",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "1B675204-7D8D-4616-A2CF-B0C0A700167F",
+        "admin_level": 4,
+        "locality_id": "r67213",
+        "abbreviation": "N.H.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Belknap County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F9374678-A12B-459B-81FA-62AC6A513C85",
+        "admin_level": 6,
+        "locality_id": "r365495",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Belknap County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F9374678-A12B-459B-81FA-62AC6A513C85",
+        "admin_level": 6,
+        "locality_id": "r365495",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "03246",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "66203C13-68D5-4C27-B2F1-734DD4F99C04",
+        "admin_level": 9,
+        "locality_id": "z03246",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Laconia",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "E68D9B50-3020-43FE-8076-CE0DC864F2FC",
+        "admin_level": 8,
+        "locality_id": "r170185",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New Hampshire",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "1B675204-7D8D-4616-A2CF-B0C0A700167F",
+        "admin_level": 4,
+        "locality_id": "r67213",
+        "abbreviation": "N.H.",
+        "country_code": null
+       }
+      ],
+      "description": "Bi-level music venue with two stages for blues, rock and country and a casual American menu near Weirs Beach.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant",
+       "akas": [
+        {
+         "value": "\"Mgahawa\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0c30\u0c46\u0c38\u0c4d\u0c1f\u0c3e\u0c30\u0c46\u0c02\u0c1f\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Restor\u0101ns\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u10e0\u10d4\u10e1\u10e2\u10dd\u10e0\u10d0\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u30ec\u30b9\u30c8\u30e9\u30f3\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Jatetxea\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0439\u0440\u0430\u043c\u0445\u0430\u043d\u0430\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Ristorante\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Re\u0161taur\u00e1cia\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0637\u0639\u0645\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Restaurang\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0395\u03c3\u03c4\u03b9\u03b1\u03c4\u03cc\u03c1\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Restaurante\"",
+         "languages": [
+          "pt_pt",
+          "es_la",
+          "pt",
+          "es_ar",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u0930\u0947\u0938\u094d\u0924\u0930\u093e\u0902\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eae\u0ec9\u0eb2\u0e99\u0ead\u0eb2\u0eab\u0eb2\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Restorant\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0b89\u0ba3\u0bb5\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0442\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05e1\u05e2\u05d3\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Restaurant\"",
+         "languages": [
+          "fr",
+          "af",
+          "ca",
+          "en_gb",
+          "nl",
+          "da",
+          "fr_ca",
+          "nb",
+          "ro",
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u09b0\u09c7\u09b8\u09cd\u09a4\u09cb\u09b0\u09be\u0981\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Restoran\"",
+         "languages": [
+          "tr",
+          "id",
+          "ms",
+          "et",
+          "bs",
+          "az",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Restauracja\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 h\u00e0ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1797\u17c4\u1787\u1793\u17b8\u1799\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u9910\u5385\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Restavracija\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Ravintola\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u1005\u102c\u1038\u101e\u1031\u102c\u1000\u103a\u1006\u102d\u102f\u1004\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u00c9tterem\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Restawran\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\"",
+         "languages": [
+          "sr",
+          "uk",
+          "ru",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\uc2dd\ub2f9\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e23\u0e49\u0e32\u0e19\u0e2d\u0e32\u0e2b\u0e32\u0e23\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u9910\u5ef3\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Restaurace\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Restoranas\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.099999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Bi-level music venue with two stages for blues, rock and country and a casual American menu near Weirs Beach.",
+      "number_of_stations": null,
+      "cuisine_description": "Tower Hill Tavern offers a casual American menu featuring comfort food, pizza, and desserts. The establishment provides a variety of beverages including cocktails, beer, wine, and spirits, with options for vegetarian and vegan diners.",
+      "overall_description": "Tower Hill Tavern is a dual-level entertainment destination in Laconia, NH, known for its lively nightlife, live music stages, and casual American dining. Offering both indoor and outdoor seating with scenic views of Lake Winnipesaukee, it attracts a variety of guests ranging from bikers and music lovers to summer tourists. While the venue is celebrated for its affordable drinks, billiards, and energetic atmosphere, it maintains a reputation as a central hub for social activity near the popular Weirs Beach.",
+      "service_description": "Tower Hill Tavern is a bi-level music venue that offers dine-in, takeout, and delivery services. It is known for its nightlife atmosphere, featuring two stages for live music, karaoke, and pool tables. The tavern includes outdoor seating with scenic lake views and is suitable for casual drinks and social gatherings.",
+      "ambience_description": "The atmosphere is energetic and loud, characterized by a multi-level layout that transitions from a casual dining space to a vibrant nightlife venue featuring live bands and music.",
+      "amenities_description": "The facility features a multi-level interior with two performance stages, pool tables, and an outdoor patio area overlooking the lake.",
+      "unique_selling_points": "The establishment serves as a dual-purpose destination that functions as a casual American grill by day and a high-energy, multi-stage music and dance club by night.",
+      "neighborhood_description": "The surrounding neighborhood is a bustling, scenic resort area popular with tourists, especially during peak summer seasons and local bike weeks.",
+      "physical_setting_description": "Situated near the lively Weirs Beach area in Laconia, this venue offers views of Lake Winnipesaukee and outdoor seating options.",
+      "customer_demographics_description": "The tavern attracts a diverse crowd ranging from young adults and party-goers to locals and tourists visiting the Weirs Beach area, especially during seasonal events like bike week.",
+      "image": {
+       "url": "https://images.qloo.com/i/2C549A0E-0F6E-4D53-9702-502D86F1F78F-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.862096184355639,
+     "location": {
+      "lat": 43.608276,
+      "lon": -71.4603791,
+      "geohash": "drv0jfshs7yj"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:no_frills",
+       "name": "No frills",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:quick_bite",
+       "name": "Quick bite",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:curbside_pickup",
+       "name": "Curbside pickup",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:late_night_food",
+       "name": "Late night food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:karaoke_bar",
+       "name": "Karaoke bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:billiards",
+       "name": "Billiards",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:waterfront",
+       "name": "Waterfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dinner",
+       "name": "Dinner",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:no_contact_delivery",
+       "name": "No contact delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:impulse_visit",
+       "name": "Impulse visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stages",
+       "name": "Stages",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+       "name": "Coffee and tea",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar_grill",
+       "name": "Bar + grill",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:catering",
+       "name": "Catering",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:temperature_check_required",
+       "name": "Temperature check required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:rock_music_club",
+       "name": "Rock music club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:lakeside",
+       "name": "Lakeside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:usually_a_wait",
+       "name": "Usually a wait",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:brunch",
+       "name": "Brunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:coffee",
+       "name": "Coffee",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:bar_atmosphere",
+       "name": "Bar atmosphere",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:pool_tables",
+       "name": "Pool tables",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:lake_winnipesaukee",
+       "name": "Lake winnipesaukee",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:rock_music_club",
+       "name": "Rock music club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:lunch_reservations_recommended",
+       "name": "Lunch reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:trendy_crowd",
+       "name": "Trendy crowd",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:dinner_reservations_recommended",
+       "name": "Dinner reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:high_chairs",
+       "name": "High chairs",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:drive_thru",
+       "name": "Drive thru",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:lake_view",
+       "name": "Lake view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_service",
+       "name": "Counter service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_get_temperature_checks",
+       "name": "Staff get temperature checks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:weirs_beach",
+       "name": "Weirs beach",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:brunch_reservations_recommended",
+       "name": "Brunch reservations recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:anniversary",
+       "name": "Anniversary",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:dance_club",
+       "name": "Dance club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:breakfast",
+       "name": "Breakfast",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed",
+       "name": "Dogs allowed",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar_grill",
+       "name": "Bar grill",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bar_food",
+       "name": "Bar food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:table_service",
+       "name": "Table service",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:party_planner",
+       "name": "Party planner",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:karaoke_bar",
+       "name": "Karaoke bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:vegan_options",
+       "name": "Vegan meals",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:dessert",
+       "name": "Dessert",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:tourists",
+       "name": "Tourists",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:mask_required",
+       "name": "Mask required",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:motorcycle_culture",
+       "name": "Motorcycle culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:drive_through",
+       "name": "Drive through",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_wear_masks",
+       "name": "Staff wear masks",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:dance_club",
+       "name": "Dance club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:party_goers",
+       "name": "Party goers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:vegetarian_options",
+       "name": "Vegetarian meals",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:billiards",
+       "name": "Billiards",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:comfort_food",
+       "name": "Comfort food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:reservations_required",
+       "name": "Reservations required",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:accepts_reservations",
+       "name": "Accepts reservations",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:ice_cream",
+       "name": "Ice cream",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:lunch",
+       "name": "Lunch",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:coastal",
+       "name": "Coastal",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:all_you_can_eat",
+       "name": "All you can eat",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:young_adults",
+       "name": "Young adults",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:valet_parking",
+       "name": "Valet parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:rustic_tavern",
+       "name": "Rustic tavern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:kids_menu",
+       "name": "Kids menu",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:pickup",
+       "name": "Pickup",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:inexpensive",
+       "name": "Inexpensive",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:small_plates",
+       "name": "Small plates",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:lakeside_resort_area",
+       "name": "Lakeside resort area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 1255.5356123997212,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "264 Lakeside Ave Laconia, NH 03246",
+     "external": {
+      "tripadvisor": [
+       {
+        "id": "d1510764",
+        "rating": 3.5,
+        "rating_count": 117
+       }
+      ],
+      "google_place": [
+       {
+        "id": "b9ca2f64cca78047",
+        "place_id": "ChIJTftXwJY3s0wRR4CnzGQvyrk"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "FBF55FA1-A9F7-4690-AF08-2E317AF0A427",
+      "name": "Gilford",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 43.557921403217534,
+       "lon": -71.38503568880652
+      },
+      "popularity": 0.94013184,
+      "disambiguation": "Gilford, Belknap County, New Hampshire, United States"
+     }
+    ]
+   }
+  }
+ }
+}

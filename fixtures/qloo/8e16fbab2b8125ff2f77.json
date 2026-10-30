@@ -1,0 +1,34 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "658495BB-DF77-472E-A6B2-9E37FF248FB3",
+  "take": 50,
+  "filter.location.query": "Miami Gardens, Florida",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "FC4C76DC-AB59-4FF7-B9F2-3BF64469DF34",
+      "name": "Miami Gardens",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 25.94324553108421,
+       "lon": -80.24252757564919
+      },
+      "popularity": 0.9917065,
+      "disambiguation": "Miami Gardens, Miami-Dade County, Florida, United States"
+     }
+    ]
+   }
+  }
+ }
+}

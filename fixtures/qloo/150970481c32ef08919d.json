@@ -1,0 +1,4256 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "5A99993A-E6F1-42DE-82D3-3D6C670CFB54",
+  "take": 50,
+  "filter.location.query": "North Charleston, South Carolina",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "The Purple Buffalo",
+     "entity_id": "2DBC7F0E-A76B-40E3-8869-402AA11464A6",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T19:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T19:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T19:00:00",
+         "closed": false,
+         "closes": "T02:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T19:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T19:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": "+18437358843",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/2DBC7F0E-A76B-40E3-8869-402AA11464A6-1GVsZ5-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2702 Azalea Dr North Charleston, SC 29405",
+      "geocode": {
+       "city": "North Charleston",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "South Carolina",
+       "admin2_region": "Charleston County"
+      },
+      "parking": true,
+      "website": null,
+      "good_for": [
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.9982857142857142
+       },
+       {
+        "id": "urn:tag:cost_description:place:inexpensive",
+        "name": "Inexpensive",
+        "type": "urn:tag:cost_description:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "open mic night",
+        "count": 5
+       },
+       {
+        "name": "live music",
+        "count": 11
+       },
+       {
+        "name": "techno party",
+        "count": 2
+       },
+       {
+        "name": "house music",
+        "count": 2
+       },
+       {
+        "name": "art space",
+        "count": 2
+       },
+       {
+        "name": "comedy",
+        "count": 2
+       },
+       {
+        "name": "outdoor area",
+        "count": 2
+       },
+       {
+        "name": "partying",
+        "count": 7
+       },
+       {
+        "name": "cozy place",
+        "count": 2
+       },
+       {
+        "name": "dancing",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": null,
+       "metro": null,
+       "state": {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "29405",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1CAB4114-CEA4-4901-B58F-BA060659DBA5",
+        "admin_level": 9,
+        "locality_id": "z29405",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Intimate live-music bar and restaurant offering affordable food, cocktails, dancing, and indoor/outdoor seating in North Charleston.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "akas": [
+        {
+         "value": "\"Baar\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Baari\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e1a\u0e32\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0628\u0627\u0631\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Bar\"",
+         "languages": [
+          "pt_pt",
+          "sv",
+          "tl",
+          "da",
+          "en_gb",
+          "sk",
+          "pl",
+          "de",
+          "bs",
+          "it",
+          "ca",
+          "cs",
+          "nb",
+          "ms",
+          "sq",
+          "tr",
+          "es_la",
+          "fr",
+          "az",
+          "gl",
+          "sl",
+          "hr",
+          "pt",
+          "fr_ca",
+          "ro",
+          "id",
+          "es_ar",
+          "nl",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\"",
+         "languages": [
+          "ru",
+          "kk",
+          "bg",
+          "mk",
+          "sr",
+          "uk"
+         ]
+        },
+        {
+         "value": "\"B\u00e1r\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0e9a\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u30d0\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"B\u0101rs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c3e\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5427\"",
+         "languages": [
+          "zh_tw",
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102c\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d0\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Qu\u00e1n bar\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1794\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u05d1\u05e8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kroeg\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u092c\u093e\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\ubc14\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Taberna\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u039c\u03c0\u03b1\u03c1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Ba\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Baras\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Intimate live-music bar and restaurant offering affordable food, cocktails, dancing, and indoor/outdoor seating in North Charleston.",
+      "number_of_stations": null,
+      "cuisine_description": "The Purple Buffalo operates as an intimate live-music bar and venue, focusing primarily on a bar-centric experience with accessible food offerings, a full bar serving beer, wine, and cocktails, and a social environment suited for nightlife.",
+      "overall_description": "The Purple Buffalo is an intimate, industrial-style live music venue and bar located in North Charleston that serves as a vital hub for local artists and performers. It is celebrated for its unpretentious, high-energy atmosphere, welcoming crowds into a raw, basement-like space that feels distinct from the typical downtown bar scene. With its mix of live music, dance events, and community-focused gatherings, it offers an authentic, gritty experience for those seeking something different and creative.",
+      "service_description": "This venue offers a casual and intimate setting for live performances, community events, and social gatherings. Guests can enjoy dining and drinking indoors or on the outdoor patio, with options for takeout and delivery.",
+      "ambience_description": "The atmosphere is raw, energetic, and highly social, defined by an unpretentious vibe that focuses on genuine creative expression and community connection.",
+      "amenities_description": "The space includes a dedicated stage for performances, a dance floor, a full-service bar, and a large outdoor patio area. It also provides accessible on-site parking for guests.",
+      "unique_selling_points": "It stands out as a gritty, no-frills incubator for local talent and diverse niche music scenes, providing a rare alternative to the conventional downtown bar landscape. The venue is known for its welcoming owner and its commitment to hosting everything from house and hip-hop nights to burlesque and jazz.",
+      "neighborhood_description": "Located in an industrial corridor of North Charleston, the area has a gritty, utilitarian feel that contrasts with the vibrant creative activity inside the venue.",
+      "physical_setting_description": "The venue is housed within an repurposed industrial factory building, offering an raw and intimate setting. It features a compact indoor space with concrete surfaces and a spacious, paved outdoor patio for socializing.",
+      "customer_demographics_description": "The venue attracts a diverse local crowd interested in alternative nightlife, live music, and community performances. It is frequented by younger adults and music lovers who appreciate intimate, non-pretentious social settings.",
+      "image": {
+       "url": "https://images.qloo.com/i/2DBC7F0E-A76B-40E3-8869-402AA11464A6-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9417646291873893,
+     "location": {
+      "lat": 32.841863499999995,
+      "lon": -79.9659377,
+      "geohash": "djz4u6dtdwv2"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:dance_floor",
+       "name": "Dance floor",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_patio",
+       "name": "Outdoor patio",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:raw_concrete",
+       "name": "Raw concrete",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:off_the_beaten_path",
+       "name": "Off the beaten path",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_shows",
+       "name": "Comedy shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stand_up_comedy",
+       "name": "Stand up comedy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:industrial_street_view",
+       "name": "Industrial street view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:electronic_dance_music",
+       "name": "Electronic dance music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:loud",
+       "name": "Loud",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:10_to_20",
+       "name": "$10 to $20",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:price_level",
+       "name": "Price level",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:industrial_area",
+       "name": "Industrial area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:poetry_readings",
+       "name": "Poetry readings",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dancing",
+       "name": "Dancing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:music_enthusiasts",
+       "name": "Music enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:independent_arts",
+       "name": "Independent arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:converted_factory",
+       "name": "Converted factory",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:park_circle",
+       "name": "Park circle",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:party_goers",
+       "name": "Party goers",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:basement_style",
+       "name": "Basement style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:riverfront_park",
+       "name": "Riverfront park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:bar_food",
+       "name": "Bar food",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:alternative_culture",
+       "name": "Alternative culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unique",
+       "name": "Unique",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:eclectic",
+       "name": "Eclectic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:gritty",
+       "name": "Gritty",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:18_24",
+       "name": "18 24",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stage",
+       "name": "Stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:underground",
+       "name": "Underground",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.79232812670285,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2702 Azalea Dr North Charleston, SC 29405",
+     "external": {
+      "google_place": [
+       {
+        "id": "babeef22b50ac994",
+        "place_id": "ChIJX-Iguyd7_ogRlMkKtSLvvro"
+       }
+      ]
+     }
+    },
+    {
+     "name": "LO-Fi Brewing \u2013 Pizza & Kitchen",
+     "entity_id": "E0973CEA-1D7C-4E30-884B-517E44528AD8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T17:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T18:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T19:00:00"
+        }
+       ]
+      },
+      "phone": "+18285822175",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/E0973CEA-1D7C-4E30-884B-517E44528AD8-1oOfbJ-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "2038 Meeting Street Rd North Charleston, SC 29405",
+      "geocode": {
+       "city": "North Charleston",
+       "name": null,
+       "metro": "Charleston",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "South Carolina",
+       "admin2_region": "Charleston County"
+      },
+      "parking": true,
+      "website": "http://lofibrewing.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "blueberry wheat",
+        "count": 2
+       },
+       {
+        "name": "dive brewery",
+        "count": 2
+       },
+       {
+        "name": "mac and cheese",
+        "count": 2
+       },
+       {
+        "name": "tomato pie",
+        "count": 2
+       },
+       {
+        "name": "music venue",
+        "count": 2
+       },
+       {
+        "name": "welcoming staff",
+        "count": 2
+       },
+       {
+        "name": "warehouse",
+        "count": 5
+       },
+       {
+        "name": "hidden gem",
+        "count": 2
+       },
+       {
+        "name": "glitter pony",
+        "count": 2
+       },
+       {
+        "name": "vibe",
+        "count": 11
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "North Charleston",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "96688508-5DAD-4E75-ACDF-D9BA88662BB5",
+        "admin_level": 8,
+        "locality_id": "r194134",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Charleston",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "F1842EDA-479F-4497-A716-255C2D0B4338",
+        "admin_level": 12,
+        "locality_id": "3F6EFEA6-8A95-4154-B3AF-D838B66AE96D",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Charleston",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "F1842EDA-479F-4497-A716-255C2D0B4338",
+        "admin_level": 12,
+        "locality_id": "3F6EFEA6-8A95-4154-B3AF-D838B66AE96D",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "29405",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "1CAB4114-CEA4-4901-B58F-BA060659DBA5",
+        "admin_level": 9,
+        "locality_id": "z29405",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "North Charleston",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "96688508-5DAD-4E75-ACDF-D9BA88662BB5",
+        "admin_level": 8,
+        "locality_id": "r194134",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Small-batch brewery and taproom in North Charleston offering craft beer, on-site bar service, and delivery.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:brewery",
+       "akas": [
+        {
+         "value": "\"\u0421\u044b\u0440\u0430 \u0437\u0430\u0443\u044b\u0442\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Pivovar\"",
+         "languages": [
+          "cs",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Brewery\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Birrificio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Cervecer\u00eda\"",
+         "languages": [
+          "es_ar",
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u917f\u9152\u5382\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Piv\u0259 zavodu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Brouwerij\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10da\u10e3\u10d3\u10e1\u10d0\u10ee\u10d0\u10e0\u10e8\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u092c\u094d\u0930\u0942\u0905\u0930\u0940\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1785\u1780\u17d2\u179a\u1795\u179b\u17b7\u178f\u179f\u17d2\u179a\u17b6\u1794\u17c0\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Serbeserya\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102e\u101a\u102c\u1001\u103b\u1000\u103a\u1005\u1000\u103a\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Ber\u0103rie\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d1\u05e9\u05dc\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Pivovarna\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Cervejaria\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Panimo\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u91c0\u9152\u5ee0\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0635\u0646\u0639 \u062c\u0639\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Bira fabrikas\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Pivara\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e40\u0e1a\u0e35\u0e22\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Brouery\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Garagardotegia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0e87\u0eb2\u0e99\u0e9c\u0eb0\u0ea5\u0eb4\u0e94\u0ec0\u0e9a\u0e8d\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Kiwanda cha bia\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Browar\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Bryggeri\"",
+         "languages": [
+          "da",
+          "nb",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\uc591\uc870\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u043d\u0438\u0446\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Brauerei\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Kilang bir\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0396\u03c5\u03b8\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09cd\u09b0\u09c1\u09af\u09bc\u09be\u09b0\u09bf\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Pabrik bir\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Cervexar\u00eda\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Brasserie\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Cerveseria\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c4d\u0c30\u0c42\u0c35\u0c30\u0c40\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Birtari\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Alaus darykla\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u91b8\u9020\u6240\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0440\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"S\u00f6rf\u0151zde\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 m\u00e1y bia\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Pruulikoda\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Alus dar\u012btava\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0baa\u0bbe\u0ba9 \u0b86\u0bb2\u0bc8\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Pivovara\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "ru"
+         ]
+        }
+       ],
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.800000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Small-batch brewery and taproom in North Charleston offering craft beer, on-site bar service, and delivery.",
+      "number_of_stations": null,
+      "cuisine_description": "LO-Fi Brewing is a small-batch brewery located in a rustic, industrial warehouse setting. It specializes in craft beers designed for the Southern climate, featuring signature offerings like their Mexican lager, Glitter Pony Trippel, and blueberry wheat ale. The venue provides a laid-back atmosphere with an on-site bar.",
+      "overall_description": "This small-batch brewery operates out of an unassuming warehouse in North Charleston, offering a raw and authentic space for local beer lovers. The taproom is defined by its industrial aesthetic, casual atmosphere, and a rotating selection of highly drinkable core beers. Beyond being a production site, it serves as a community hub that hosts live music, trivia nights, and social club gatherings, making it a staple of the local craft scene.",
+      "service_description": "The brewery operates as a taproom offering on-site bar service and outdoor seating. It hosts social events such as music trivia and chess club, and provides delivery options for its craft beer products.",
+      "ambience_description": "The atmosphere is defined by its simple, no-frills warehouse aesthetic that prioritizes a laid-back, community-focused vibe over polish.",
+      "amenities_description": "The facility features a straightforward taproom with a bar area and an outdoor space designed for casual social gatherings.",
+      "unique_selling_points": "Known for its 'Pure Luxury' branding, this small-batch producer is celebrated for approachable, highly drinkable craft beers and a genuine, unpretentious atmosphere.",
+      "neighborhood_description": "Situated within an emerging brewery district, the neighborhood maintains a gritty, industrial feel that rewards those who know exactly where to look.",
+      "physical_setting_description": "Located within a converted warehouse in an industrial area, the site offers a raw, utilitarian backdrop characterized by views of neighboring cranes and passing trains.",
+      "customer_demographics_description": "The customer base primarily consists of local residents and beer enthusiasts who appreciate the brewery's industrial, rustic vibe and small-batch craft products. It attracts a laid-back crowd looking for a casual space to socialize.",
+      "image": {
+       "url": "https://images.qloo.com/i/E0973CEA-1D7C-4E30-884B-517E44528AD8-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.4718745693419378,
+     "location": {
+      "lat": 32.833920299999996,
+      "lon": -79.95368719999999,
+      "geohash": "djz4u95x2n0p"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:unassuming",
+       "name": "Unassuming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:brewery_district",
+       "name": "Brewery district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:glitter_pony_trippel",
+       "name": "Glitter pony trippel",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:artisanal",
+       "name": "Artisanal",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:laid_back",
+       "name": "Laid back",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:mexican_lager",
+       "name": "Mexican lager",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:industrial_crane_views",
+       "name": "Industrial crane views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:passing_train_views",
+       "name": "Passing train views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:rustic",
+       "name": "Rustic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar",
+       "name": "Bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:warehouse",
+       "name": "Warehouse",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:minimalist",
+       "name": "Minimalist",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:pizza_restaurant",
+       "name": "Pizza restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:chill",
+       "name": "Chill",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:up_and_coming",
+       "name": "Up and coming",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:trendy_crowd",
+       "name": "Trendy crowd",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:board_games",
+       "name": "Board games",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:warehouse_district",
+       "name": "Warehouse district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:regulars",
+       "name": "Regulars",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:trivia",
+       "name": "Trivia",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:blueberry_wheat",
+       "name": "Blueberry wheat",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_space",
+       "name": "Outdoor space",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_industry",
+       "name": "Local industry",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7709198674335643,
+      "distance": 663.104594572123,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "2038 Meeting Street Rd North Charleston, SC 29405",
+     "external": {
+      "google_place": [
+       {
+        "id": "e0f86af818eb5d5",
+        "place_id": "ChIJg69jJd16_ogR1bWOga-GDw4"
+       }
+      ]
+     }
+    },
+    {
+     "name": "North Charleston Coliseum & Performing Arts Center",
+     "entity_id": "0597B502-EE40-4744-AE4A-F7E223838795",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+18435295000",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/0597B502-EE40-4744-AE4A-F7E223838795-3YsDYm-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "5001 Coliseum Dr North Charleston, SC 29418",
+      "geocode": {
+       "city": "North Charleston",
+       "name": null,
+       "metro": "Charleston",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "South Carolina",
+       "admin2_region": "Charleston County"
+      },
+      "parking": true,
+      "website": "https://www.northcharlestoncoliseumpac.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "concerts",
+        "count": 209
+       },
+       {
+        "name": "hockey game",
+        "count": 56
+       },
+       {
+        "name": "disney on ice",
+        "count": 20
+       },
+       {
+        "name": "graduation",
+        "count": 104
+       },
+       {
+        "name": "jeff dunham show",
+        "count": 14
+       },
+       {
+        "name": "no bad seats",
+        "count": 25
+       },
+       {
+        "name": "comedy show",
+        "count": 15
+       },
+       {
+        "name": "stingrays game",
+        "count": 7
+       },
+       {
+        "name": "cash only",
+        "count": 12
+       },
+       {
+        "name": "concert venue",
+        "count": 19
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "North Charleston",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "96688508-5DAD-4E75-ACDF-D9BA88662BB5",
+        "admin_level": 8,
+        "locality_id": "r194134",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Charleston",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "F1842EDA-479F-4497-A716-255C2D0B4338",
+        "admin_level": 12,
+        "locality_id": "3F6EFEA6-8A95-4154-B3AF-D838B66AE96D",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "Charleston",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "F1842EDA-479F-4497-A716-255C2D0B4338",
+        "admin_level": 12,
+        "locality_id": "3F6EFEA6-8A95-4154-B3AF-D838B66AE96D",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "29418",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "0955F71E-7859-4778-B1E6-3EDB3EE5B920",
+        "admin_level": 9,
+        "locality_id": "z29418",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "North Charleston",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "96688508-5DAD-4E75-ACDF-D9BA88662BB5",
+        "admin_level": 8,
+        "locality_id": "r194134",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Large indoor arena with an adjacent performing arts theater hosting minor-league hockey, concerts, and theatrical productions in North Charleston.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Large indoor arena with an adjacent performing arts theater hosting minor-league hockey, concerts, and theatrical productions in North Charleston.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "The North Charleston Coliseum & Performing Arts Center is a premier entertainment complex serving as the region's main destination for large-scale concerts, professional minor-league hockey, Broadway theater, and community events. While the arena offers a high-capacity space for massive shows and sporting action, the theater provides a more focused environment for performing arts productions. The facility is well-integrated into a commercial district with plentiful parking and nearby lodging. Though the venue is a cornerstone of local culture, visitors often note that event-day experiences can vary significantly based on crowd management and seating arrangements.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is typically high-energy and bustling, especially during major events, concerts, and professional hockey games. It serves as a social gathering point for diverse audiences attending wide-ranging entertainment.",
+      "amenities_description": "The venue features comprehensive event amenities including multiple concession stands, beverage stations, and accessible facilities for guests with disabilities. A large adjacent parking garage and dedicated ticket office are available for event-day support.",
+      "unique_selling_points": "The complex is uniquely positioned as the city's primary hub for high-profile events, seamlessly integrating a large-scale arena for major concerts and sports with a dedicated theater for Broadway-style productions.",
+      "neighborhood_description": "The neighborhood functions as a primary commercial and transit hub for the city, providing a convenient environment for event-goers with numerous nearby accommodations and dining establishments.",
+      "physical_setting_description": "Located in a central commercial area, the complex houses a large, multi-purpose indoor arena alongside an adjacent theater for performing arts. The facilities are easily accessible via major roads and surrounded by various hotels and dining options.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/0597B502-EE40-4744-AE4A-F7E223838795-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9978784228377762,
+     "location": {
+      "lat": 32.8654952,
+      "lon": -80.02243399999999,
+      "geohash": "djz4gncrqhp4"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:hotel_rich_area",
+       "name": "Hotel rich area",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:proscenium_theater_style",
+       "name": "Proscenium theater style",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:simple",
+       "name": "Simple",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:indoor_arena",
+       "name": "Indoor arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:utilitarian_arena_design",
+       "name": "Utilitarian arena design",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_celebrations",
+       "name": "Community celebrations",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:parking_garage",
+       "name": "Parking garage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:graduation_ceremonies",
+       "name": "Graduation ceremonies",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:hockey_games",
+       "name": "Hockey games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_services",
+       "name": "Event services",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:comedy",
+       "name": "Comedy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_drop_off_points",
+       "name": "Accessible drop off points",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:multi_venue_complex",
+       "name": "Multi venue complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:charleston_area_convention_center",
+       "name": "Charleston area convention center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:business",
+       "name": "Business",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_performances",
+       "name": "Comedy performances",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_floor",
+       "name": "Arena floor",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concession_stands",
+       "name": "Concession stands",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:event_centric",
+       "name": "Event centric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:high_energy",
+       "name": "High energy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:crowded",
+       "name": "Crowded",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:ticket_office",
+       "name": "Ticket office",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:stage_views",
+       "name": "Stage views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_garage",
+       "name": "Paid parking garage",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:gift_shop",
+       "name": "Gift shop",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:theater_venue",
+       "name": "Theater venue",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:musical_theater",
+       "name": "Musical theater",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:broadway_shows",
+       "name": "Broadway shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7596759193709315,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "5001 Coliseum Dr North Charleston, SC 29418",
+     "external": {
+      "google_place": [
+       {
+        "id": "452b5ab28f39e544",
+        "place_id": "ChIJi6YMfE5j_ogRROU5j7JaK0U"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Rusty Bull Brewing Co. (North Charleston)",
+     "entity_id": "2C4C3A7F-9F97-4CDD-8B7D-94F36AD0F5B3",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T20:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T11:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T16:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": "+18432258600",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/2C4C3A7F-9F97-4CDD-8B7D-94F36AD0F5B3-0gQ55b-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "3005 W Montague Ave North Charleston, SC 29418",
+      "geocode": {
+       "city": "North Charleston",
+       "name": null,
+       "metro": "Charleston",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "South Carolina",
+       "admin2_region": "Charleston County"
+      },
+      "parking": null,
+      "website": "https://rustybullbrewing.com/north-charleston/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "axe throwing",
+        "count": 38
+       },
+       {
+        "name": "chicken sandwich",
+        "count": 18
+       },
+       {
+        "name": "free wings",
+        "count": 3
+       },
+       {
+        "name": "industrial decor",
+        "count": 2
+       },
+       {
+        "name": "floor is lava",
+        "count": 2
+       },
+       {
+        "name": "welcoming staff",
+        "count": 10
+       },
+       {
+        "name": "hot honey chicken sandwich",
+        "count": 4
+       },
+       {
+        "name": "potato salad",
+        "count": 2
+       },
+       {
+        "name": "chicken tenders",
+        "count": 2
+       },
+       {
+        "name": "beer flight",
+        "count": 2
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "North Charleston",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "96688508-5DAD-4E75-ACDF-D9BA88662BB5",
+        "admin_level": 8,
+        "locality_id": "r194134",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Charleston",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "F1842EDA-479F-4497-A716-255C2D0B4338",
+        "admin_level": 12,
+        "locality_id": "3F6EFEA6-8A95-4154-B3AF-D838B66AE96D",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "Charleston",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "F1842EDA-479F-4497-A716-255C2D0B4338",
+        "admin_level": 12,
+        "locality_id": "3F6EFEA6-8A95-4154-B3AF-D838B66AE96D",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "29418",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "0955F71E-7859-4778-B1E6-3EDB3EE5B920",
+        "admin_level": 9,
+        "locality_id": "z29418",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Charleston County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "F56A3D9F-98B4-4687-AB98-0236303800A8",
+        "admin_level": 6,
+        "locality_id": "r1857000",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "North Charleston",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "96688508-5DAD-4E75-ACDF-D9BA88662BB5",
+        "admin_level": 8,
+        "locality_id": "r194134",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "South Carolina",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BEF3AE05-D7C1-462C-B982-B19529DE7CC3",
+        "admin_level": 4,
+        "locality_id": "r224040",
+        "abbreviation": "S.C.",
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       }
+      ],
+      "description": "Production brewery and casual taproom serving burgers, oysters, and craft beer with live music and axe throwing in North Charleston.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:brewery",
+       "akas": [
+        {
+         "value": "\"\u0421\u044b\u0440\u0430 \u0437\u0430\u0443\u044b\u0442\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Pivovar\"",
+         "languages": [
+          "cs",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Brewery\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"Birrificio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Cervecer\u00eda\"",
+         "languages": [
+          "es_ar",
+          "es_la",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u917f\u9152\u5382\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Piv\u0259 zavodu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Brouwerij\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u10da\u10e3\u10d3\u10e1\u10d0\u10ee\u10d0\u10e0\u10e8\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u092c\u094d\u0930\u0942\u0905\u0930\u0940\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1785\u1780\u17d2\u179a\u1795\u179b\u17b7\u178f\u179f\u17d2\u179a\u17b6\u1794\u17c0\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Serbeserya\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102e\u101a\u102c\u1001\u103b\u1000\u103a\u1005\u1000\u103a\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Ber\u0103rie\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d1\u05e9\u05dc\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Pivovarna\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Cervejaria\"",
+         "languages": [
+          "pt_pt",
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Panimo\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u91c0\u9152\u5ee0\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0635\u0646\u0639 \u062c\u0639\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"Bira fabrikas\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"Pivara\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e40\u0e1a\u0e35\u0e22\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Brouery\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Garagardotegia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0e87\u0eb2\u0e99\u0e9c\u0eb0\u0ea5\u0eb4\u0e94\u0ec0\u0e9a\u0e8d\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Kiwanda cha bia\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Browar\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u0430\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Bryggeri\"",
+         "languages": [
+          "da",
+          "nb",
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\uc591\uc870\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u0430\u0440\u043d\u0438\u0446\u0430\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Brauerei\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Kilang bir\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0396\u03c5\u03b8\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09cd\u09b0\u09c1\u09af\u09bc\u09be\u09b0\u09bf\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Pabrik bir\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Cervexar\u00eda\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Brasserie\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        },
+        {
+         "value": "\"Cerveseria\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c4d\u0c30\u0c42\u0c35\u0c30\u0c40\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Birtari\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Alaus darykla\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u91b8\u9020\u6240\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0440\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"S\u00f6rf\u0151zde\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Nh\u00e0 m\u00e1y bia\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Pruulikoda\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Alus dar\u012btava\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0baa\u0bbe\u0ba9 \u0b86\u0bb2\u0bc8\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Pivovara\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"\u041f\u0438\u0432\u043e\u0432\u0430\u0440\u043d\u044f\"",
+         "languages": [
+          "ru"
+         ]
+        }
+       ],
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Production brewery and casual taproom serving burgers, oysters, and craft beer with live music and axe throwing in North Charleston.",
+      "number_of_stations": null,
+      "cuisine_description": "Rusty Bull Brewing Co. is a production brewery and casual restaurant serving American classics such as burgers, tacos, and sandwiches, alongside fresh oysters. The beverage program features a large selection of house-made craft beers, with options for mixing, and a full bar.",
+      "overall_description": "This North Charleston production brewery and casual restaurant offers an all-encompassing experience centered on craft beer, comfort food, and community entertainment. The venue features an industrial taproom where guests can enjoy unique beer blends, hearty menu items like triple-decker burgers, and live music. With the inclusion of axe throwing and regular trivia nights, it serves as a dynamic local hub for socializing and recreation.",
+      "service_description": "The restaurant offers a relaxed, casual dining experience with counter-style service and a variety of entertainment options including live music, trivia nights, and axe throwing. Customers can enjoy both indoor and outdoor seating, with takeout and delivery services available.",
+      "ambience_description": "The space offers a relaxed and unpretentious vibe, defined by the sight of active brewing equipment and the sound of live music. It is a social atmosphere that encourages guests to settle in and enjoy a pint or a meal.",
+      "amenities_description": "The venue features an on-site axe throwing range, various tabletop games, and a stage for live musical performances to complement the dining experience.",
+      "unique_selling_points": "This venue stands out by combining a fully operational production brewery with a full-service casual restaurant and an indoor axe-throwing range. It offers a unique 'hack' for beer lovers by allowing guests to blend different tap beers for custom flavor profiles.",
+      "neighborhood_description": "Situated on a lively thoroughfare in North Charleston, the area is known for its energetic community vibe and proximity to local attractions.",
+      "physical_setting_description": "Located in a production facility in North Charleston, this taproom provides a spacious, industrial-inspired setting. It functions as both a working brewery and a casual neighborhood destination.",
+      "customer_demographics_description": "The restaurant primarily attracts local groups of friends and craft beer enthusiasts looking for a relaxed atmosphere, games, and entertainment.",
+      "image": {
+       "url": "https://images.qloo.com/i/2C4C3A7F-9F97-4CDD-8B7D-94F36AD0F5B3-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.45405948736693014,
+     "location": {
+      "lat": 32.8677279,
+      "lon": -80.0124874,
+      "geohash": "djz4gr2smug9"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:cuisine:qloo:burgers",
+       "name": "Burgers",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:ashtray",
+       "name": "Ashtray",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:axe_throwing",
+       "name": "Axe throwing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:american_restaurant",
+       "name": "American restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:chicken_bacon_ranch_sandwich",
+       "name": "Chicken bacon ranch sandwich",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:tacos",
+       "name": "Tacos",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:smoked_peach_amber_beer",
+       "name": "Smoked peach amber beer",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:axe_throwing_range",
+       "name": "Axe throwing range",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:tripple_decker_burger",
+       "name": "Tripple decker burger",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:games",
+       "name": "Games",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:beer_garden",
+       "name": "Beer garden",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:brewery_tours",
+       "name": "Brewery tours",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:seafood",
+       "name": "Seafood",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:brewery",
+       "name": "Brewery",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:american",
+       "name": "American",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:trivia_nights",
+       "name": "Trivia nights",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:brewery_production_area",
+       "name": "Brewery production area",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:brewery_taproom",
+       "name": "Brewery taproom",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_breweries",
+       "name": "Local breweries",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:hamburger",
+       "name": "Hamburger restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:pub_games",
+       "name": "Pub games",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:beer_garden",
+       "name": "Beer garden",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:hamburger_restaurant",
+       "name": "Hamburger restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:pickup",
+       "name": "Pickup",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:near_park_circle",
+       "name": "Near park circle",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:casual_dining",
+       "name": "Casual dining",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:production_brewery",
+       "name": "Production brewery",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:sports_bar",
+       "name": "Sports bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:pub_fare",
+       "name": "Pub fare",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:walk_ins",
+       "name": "Walk ins",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:oysters",
+       "name": "Oysters",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bar_seating",
+       "name": "Bar seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:park_circle",
+       "name": "Park circle",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_music_stage",
+       "name": "Live music stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:bar_service",
+       "name": "Bar service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "affinity": 0.7220628466383182,
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "3005 W Montague Ave North Charleston, SC 29418",
+     "external": {
+      "google_place": [
+       {
+        "id": "6f805bd685374a7b",
+        "place_id": "ChIJ_Se-G1dj_ogRe0o3hdZbgG8"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "96688508-5DAD-4E75-ACDF-D9BA88662BB5",
+      "name": "North Charleston",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 32.90834048952931,
+       "lon": -80.06595575094157
+      },
+      "popularity": 0.9961064,
+      "disambiguation": "North Charleston, Charleston County, South Carolina, United States"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Winchester, Nevada",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "26BED860-340A-4973-BE02-92EA35E27DC9",
+      "name": "Winchester",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 36.13663687090043,
+       "lon": -115.13014560142534
+      },
+      "popularity": 0.99412733,
+      "disambiguation": "Winchester, Clark County, Nevada, United States"
+     }
+    ]
+   }
+  }
+ }
+}

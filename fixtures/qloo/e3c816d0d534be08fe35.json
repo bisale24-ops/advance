@@ -1,0 +1,3163 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Englewood, Colorado",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Swallow Hill Music",
+     "entity_id": "C19DA2E3-4888-4AEA-84C5-BCBA4679002A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T16:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ]
+      },
+      "phone": "+13037771003",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/C19DA2E3-4888-4AEA-84C5-BCBA4679002A-4bV80N-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "71 E Yale Ave Denver, CO 80210",
+      "geocode": {
+       "city": "Denver",
+       "name": null,
+       "metro": "Denver",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Colorado",
+       "admin2_region": "Denver"
+      },
+      "parking": true,
+      "website": "http://www.swallowhillmusic.org/",
+      "good_for": [
+       {
+        "id": "urn:tag:children:place:good_kids",
+        "name": "Good for kids",
+        "type": "urn:tag:children:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "lessons",
+        "count": 10
+       },
+       {
+        "name": "guitar",
+        "count": 8
+       },
+       {
+        "name": "music school",
+        "count": 6
+       },
+       {
+        "name": "parking",
+        "count": 5
+       },
+       {
+        "name": "learn",
+        "count": 4
+       },
+       {
+        "name": "community",
+        "count": 3
+       },
+       {
+        "name": "story",
+        "count": 3
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Denver",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0ACB0D12-682D-4915-B12D-EE5EFCE62BEB",
+        "admin_level": 6,
+        "locality_id": "r1411339",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": {
+        "name": "Denver",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "FD5E75E6-580E-412C-8BDA-867E02FFBD14",
+        "admin_level": 12,
+        "locality_id": "0ACB0D12-682D-4915-B12D-EE5EFCE62BEB",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "Colorado",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F81C7F27-474F-4883-B2B7-2FFD7AA98E97",
+        "admin_level": 4,
+        "locality_id": "r161961",
+        "abbreviation": "Colo.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Denver",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0ACB0D12-682D-4915-B12D-EE5EFCE62BEB",
+        "admin_level": 6,
+        "locality_id": "r1411339",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Colorado",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F81C7F27-474F-4883-B2B7-2FFD7AA98E97",
+        "admin_level": 4,
+        "locality_id": "r161961",
+        "abbreviation": "Colo.",
+        "country_code": null
+       },
+       {
+        "name": "80210",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "198D3A15-F088-4DA5-8643-FCA84459F5A8",
+        "admin_level": 9,
+        "locality_id": "z80210",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Denver",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "0ACB0D12-682D-4915-B12D-EE5EFCE62BEB",
+        "admin_level": 6,
+        "locality_id": "r1411339",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Denver",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "FD5E75E6-580E-412C-8BDA-867E02FFBD14",
+        "admin_level": 12,
+        "locality_id": "0ACB0D12-682D-4915-B12D-EE5EFCE62BEB",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "A nonprofit hub for roots, folk, and acoustic music with concert halls, classes, and workshops in a welcoming community setting.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "akas": [
+        {
+         "value": "\"Salle de concert\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"Sala de conciertos\"",
+         "languages": [
+          "es_ar",
+          "es",
+          "es_la"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica en directo\"",
+         "languages": [
+          "gl"
+         ]
+        },
+        {
+         "value": "\"Konzertveranstaltungsort\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u73fe\u5834\u97f3\u6a02\u8868\u6f14\u5834\u5730\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Lewendige musiekplek\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa muziki wa moja kwa moja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u10ea\u10dd\u10ea\u10ee\u10d0\u10da\u10d8 \u10db\u10e3\u10e1\u10d8\u10d9\u10d8\u10e1 \u10d0\u10d3\u10d2\u10d8\u10da\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Elava muusika koht\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bc7\u0bb0\u0b9f\u0bbf \u0b87\u0b9a\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u73b0\u573a\u97f3\u4e50\u8868\u6f14\u573a\u6240\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e14\u0e19\u0e15\u0e23\u0e35\u0e2a\u0e14\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Loca\u021bie de muzic\u0103 live\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Hudebn\u00ed klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"\u30e9\u30a4\u30d6\u30cf\u30a6\u30b9\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Klub muzyczny\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u03a7\u03ce\u03c1\u03bf\u03c2 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae\u03c2 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae\u03c2\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Vendi i muzik\u00ebs live\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\ub77c\uc774\ube0c \uacf5\uc5f0\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u00c9l\u0151zenei helysz\u00edn\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Koncertna dvorana\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Prizori\u0161\u010de glasbe v \u017eivo\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"Sala da concerti\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0643\u0627\u0646 \u0645\u0648\u0633\u064a\u0642\u0649 \u062d\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u1793\u17d2\u179b\u17c2\u1784\u1794\u17d2\u179a\u1782\u17bb\u17c6\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Koncertsted\"",
+         "languages": [
+          "da"
+         ]
+        },
+        {
+         "value": "\"Local de m\u00fasica ao vivo\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 m\u00fczik mekan\u0131\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d4\u05d5\u05e4\u05e2\u05d5\u05ea\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokale\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"Sala de concerts\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"Mjesto za muziku u\u017eivo\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Zuzeneko musika aretoa\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"Canl\u0131 musiqi m\u0259kan\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Live music venue\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Tempat musik live\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Casa de shows\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"\u0417\u0430\u043b\u0430 \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u043d\u0430 \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0932\u093e\u0907\u0935 \u0938\u0902\u0917\u0940\u0924 \u0938\u094d\u0925\u0932\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0e96\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb0\u0ec1\u0e94\u0e87\u0e94\u0ebb\u0e99\u0e95\u0eb5\u0eaa\u0ebb\u0e94\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u0416\u0430\u043d\u0434\u044b \u043c\u0443\u0437\u044b\u043a\u0430 \u0430\u043b\u0430\u04a3\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Livemusiikkipaikka\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Poppodium\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Dz\u012bv\u0101s m\u016bzikas norises vieta\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c32\u0c48\u0c35\u0c4d \u0c2e\u0c4d\u0c2f\u0c42\u0c1c\u0c3f\u0c15\u0c4d \u0c35\u0c47\u0c26\u0c3f\u0c15\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Gyvos muzikos klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041a\u043e\u043d\u0446\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u09b2\u09be\u0987\u09ad \u09ae\u09bf\u0989\u099c\u09bf\u0995 \u09ad\u09c7\u09a8\u09cd\u09af\u09c1\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u1010\u1031\u1038\u1002\u102e\u1010\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u102c\u1014\u1031\u101b\u102c\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Koncertn\u00fd priestor\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Konzerthalle\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Tempat muzik langsung\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ecba \u0111i\u1ec3m nh\u1ea1c s\u1ed1ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u041c\u0435\u0441\u0442\u043e \u0437\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 \u0432\u043e \u0436\u0438\u0432\u043e\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Konsertlokal\"",
+         "languages": [
+          "sv"
+         ]
+        }
+       ],
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.699999809265137,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "A nonprofit hub for roots, folk, and acoustic music with concert halls, classes, and workshops in a welcoming community setting.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Swallow Hill Music is a dedicated nonprofit institution that serves as a cornerstone of the Denver arts community. It operates as both an intimate, historic concert venue and a comprehensive music school offering classes, workshops, and private lessons. By preserving its historic church home, the organization creates a welcoming environment for families, students, and music lovers to connect through shared artistic experiences. Whether attending a folk concert or enrolling in instrument lessons, visitors find a space committed to the celebration and education of music.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is warm, inclusive, and deeply rooted in community spirit, offering a relaxed and intimate vibe for both concert audiences and students alike.",
+      "amenities_description": "The venue provides several intimate concert spaces, a variety of classrooms for music instruction, and an on-site cafe offering snacks and drinks for attendees.",
+      "unique_selling_points": "As a long-standing non-profit organization, this unique hub blends high-quality musical education with an intimate concert experience in a historic church setting.",
+      "neighborhood_description": "Situated in a residential area of Denver, the neighborhood is a compact urban setting that faces parking challenges due to its popularity as a destination for concert-goers and music students.",
+      "physical_setting_description": "Located in a repurposed historic church, this facility functions as both a community music school and an intimate concert venue. The site features multiple performance halls and various classrooms within its indoor space.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/C19DA2E3-4888-4AEA-84C5-BCBA4679002A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.8815497635489902,
+     "location": {
+      "lat": 39.6680206,
+      "lon": -104.9868091,
+      "geohash": "9xj3dvqfyp33"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:category:place:music_instructor",
+       "name": "Music instructor",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:gender_neutral_restroom",
+       "name": "Gender neutral restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:storytelling_events",
+       "name": "Storytelling events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:comfortable",
+       "name": "Comfortable",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:community_oriented",
+       "name": "Community oriented",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:stage",
+       "name": "Stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_arts",
+       "name": "Community arts",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:education_learning",
+       "name": "Education learning",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids",
+       "name": "Good for kids",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:music_lessons",
+       "name": "Music lessons",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:cultural_preservation",
+       "name": "Cultural preservation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:instrument_practice",
+       "name": "Instrument practice",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:music_theory",
+       "name": "Music theory",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:interior_venue_views",
+       "name": "Interior venue views",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:music_school",
+       "name": "Music school",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:permit_parking_only",
+       "name": "Permit parking only",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:non_profit_organization",
+       "name": "Non profit organization",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concert_halls",
+       "name": "Concert halls",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:artistic",
+       "name": "Artistic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:classrooms",
+       "name": "Classrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:balcony",
+       "name": "Balcony",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:intimate",
+       "name": "Intimate",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:music_school",
+       "name": "Music school",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:bar_onsite",
+       "name": "Bar onsite",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:denver_botanic_gardens",
+       "name": "Denver botanic gardens",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:traditional",
+       "name": "Traditional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:music_instructor",
+       "name": "Music instructor",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:former_church",
+       "name": "Former church",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:cafe",
+       "name": "Cafe",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:church_interior",
+       "name": "Church interior",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:historic",
+       "name": "Historic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_performance",
+       "name": "Live performance",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:functional",
+       "name": "Functional",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:music_workshops",
+       "name": "Music workshops",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 39.73366175958625,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "71 E Yale Ave Denver, CO 80210",
+     "external": {
+      "google_place": [
+       {
+        "id": "3b3d8805c5b8783b",
+        "place_id": "ChIJVwj-W81_bIcRO3i4xQWIPTs"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Western Sky Bar & Taproom",
+     "entity_id": "43E4FF1B-05D8-4B2A-BB2F-D72CBFE4685F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T12:00:00",
+         "closed": false,
+         "closes": "T21:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T15:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T23:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T14:00:00",
+         "closed": false,
+         "closes": "T22:00:00"
+        }
+       ]
+      },
+      "phone": "+13033532918",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/43E4FF1B-05D8-4B2A-BB2F-D72CBFE4685F-4FD3hd-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "4361 S Broadway Englewood, CO 80113",
+      "geocode": {
+       "city": "Englewood",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Colorado",
+       "admin2_region": "Arapahoe County"
+      },
+      "parking": true,
+      "website": "http://westernskybar.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:genre:place:restaurant:bar",
+        "name": "Bar",
+        "type": "urn:tag:genre:place",
+        "weight": 0.9689826302729528
+       }
+      ],
+      "keywords": [
+       {
+        "name": "open mic",
+        "count": 13
+       },
+       {
+        "name": "beer selection",
+        "count": 37
+       },
+       {
+        "name": "live music",
+        "count": 14
+       },
+       {
+        "name": "karaoke",
+        "count": 18
+       },
+       {
+        "name": "trivia",
+        "count": 17
+       },
+       {
+        "name": "neighborhood bar",
+        "count": 20
+       },
+       {
+        "name": "patio",
+        "count": 16
+       },
+       {
+        "name": "comedy",
+        "count": 24
+       },
+       {
+        "name": "delicious ciders",
+        "count": 5
+       },
+       {
+        "name": "cocktail selection",
+        "count": 7
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Englewood",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7E3390AA-4F73-452F-A99D-CE3A8EA2C52B",
+        "admin_level": 8,
+        "locality_id": "r7243979",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Colorado",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F81C7F27-474F-4883-B2B7-2FFD7AA98E97",
+        "admin_level": 4,
+        "locality_id": "r161961",
+        "abbreviation": "Colo.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Arapahoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "18CDBD01-86C1-4229-BBE0-B6766C21BC3B",
+        "admin_level": 6,
+        "locality_id": "r1411351",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": true,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Colorado",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F81C7F27-474F-4883-B2B7-2FFD7AA98E97",
+        "admin_level": 4,
+        "locality_id": "r161961",
+        "abbreviation": "Colo.",
+        "country_code": null
+       },
+       {
+        "name": "Arapahoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "18CDBD01-86C1-4229-BBE0-B6766C21BC3B",
+        "admin_level": 6,
+        "locality_id": "r1411351",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "80113",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "EFB8213E-AF21-4267-923A-899FF4734E23",
+        "admin_level": 9,
+        "locality_id": "z80113",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Englewood",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7E3390AA-4F73-452F-A99D-CE3A8EA2C52B",
+        "admin_level": 8,
+        "locality_id": "r7243979",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Neighborhood South Broadway taproom offering extensive craft beer, hand-crafted cocktails, live music, comedy, and regular community events in Englewood.",
+      "hotel_class": null,
+      "price_level": 1,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": null,
+      "pet_friendly": true,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "akas": [
+        {
+         "value": "\"Baar\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Baari\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e1a\u0e32\u0e23\u0e4c\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0628\u0627\u0631\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Bar\"",
+         "languages": [
+          "pt_pt",
+          "sv",
+          "tl",
+          "da",
+          "en_gb",
+          "sk",
+          "pl",
+          "de",
+          "bs",
+          "it",
+          "ca",
+          "cs",
+          "nb",
+          "ms",
+          "sq",
+          "tr",
+          "es_la",
+          "fr",
+          "az",
+          "gl",
+          "sl",
+          "hr",
+          "pt",
+          "fr_ca",
+          "ro",
+          "id",
+          "es_ar",
+          "nl",
+          "es"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0430\u0440\"",
+         "languages": [
+          "ru",
+          "kk",
+          "bg",
+          "mk",
+          "sr",
+          "uk"
+         ]
+        },
+        {
+         "value": "\"B\u00e1r\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"\u0e9a\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u30d0\u30fc\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"B\u0101rs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c3e\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u9152\u5427\"",
+         "languages": [
+          "zh_tw",
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u1018\u102c\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d0\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"Qu\u00e1n bar\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u1794\u17b6\u179a\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u05d1\u05e8\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Kroeg\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"\u092c\u093e\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\ubc14\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Taberna\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u0bae\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"\u039c\u03c0\u03b1\u03c1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Ba\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Baras\"",
+         "languages": [
+          "lt"
+         ]
+        }
+       ],
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.800000190734863,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Neighborhood South Broadway taproom offering extensive craft beer, hand-crafted cocktails, live music, comedy, and regular community events in Englewood.",
+      "number_of_stations": null,
+      "cuisine_description": "Western Sky Bar & Taproom is a neighborhood taproom that specializes in an extensive selection of rotating craft beers on tap, including IPAs, stouts, lagers, and nitro options, alongside hard seltzers, ciders, and kombucha. The venue also features a full bar with a creative menu of hand-crafted cocktails, wine, and local spirits. While the focus is on beverages, they offer light bar snacks such as pizza and pretzels. The menu includes non-alcoholic options, and they cater to various dietary preferences including vegan and vegetarian friendly choices.",
+      "overall_description": "Western Sky Bar & Taproom is a beloved neighborhood fixture in Englewood, known for its warm, inclusive, and community-focused atmosphere. It offers an expansive, rotating selection of craft beers, spirits, and artisanal cocktails, often paired with light snacks. Beyond its drinks, the venue is a destination for high-quality entertainment, hosting weekly trivia, open mic nights, karaoke, and premier stand-up comedy performances. With its welcoming owners, pet-friendly back patio, and consistent event calendar, it serves as a central hub for locals to gather and connect.",
+      "service_description": "Western Sky Bar & Taproom offers a casual, community-focused dine-in experience with counter service, an outdoor patio, and takeout options. The venue is a hub for nightlife and local entertainment, hosting frequent events such as live music, comedy shows, karaoke, trivia, and interactive game nights, making it ideal for friends' gatherings, solo visitors, and local celebrations.",
+      "ambience_description": "The atmosphere is warm and unpretentious, designed to feel like a neighborhood living room where guests are greeted personally and can enjoy a relaxed, inclusive vibe.",
+      "amenities_description": "The space provides a well-stocked bar featuring an extensive rotating craft beer list, hand-crafted cocktails, and wine, complemented by a back patio and regular live performances.",
+      "unique_selling_points": "This venue stands out as the home of the South South Broadway Comedy Show and a hub for diverse community events, offering an exceptionally inclusive and personalized 'Cheers' style experience.",
+      "neighborhood_description": "Located in a vibrant residential and commercial area, the neighborhood offers a convenient, local atmosphere that serves as a central hub for residents and visitors alike.",
+      "physical_setting_description": "Situated along a bustling commercial corridor, this taproom features a welcoming, open-concept interior with rolling doors that lead out to a cozy back patio.",
+      "customer_demographics_description": "The taproom attracts a friendly, local crowd primarily from the surrounding Englewood and South Broadway neighborhoods. It serves a diverse mix of young professionals, couples, and groups of friends who appreciate craft beverages and community-oriented entertainment, including local comedy and music fans.",
+      "image": {
+       "url": "https://images.qloo.com/i/43E4FF1B-05D8-4B2A-BB2F-D72CBFE4685F-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.3114732693907101,
+     "location": {
+      "lat": 39.6372712,
+      "lon": -104.9880489,
+      "geohash": "9xj36zwpc540"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:outdoor_patio",
+       "name": "Outdoor patio",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:comedy_club",
+       "name": "Comedy club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegetarian",
+       "name": "Vegetarian",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:spirits",
+       "name": "Spirits",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+       "name": "Ok to order just drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:25_29",
+       "name": "25 29",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:beer",
+       "name": "Beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:culinary_style:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:culinary_style:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:bar",
+       "name": "Bar",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:alcohol",
+       "name": "Alcohol",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant:bar",
+       "name": "Bar",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:trivia",
+       "name": "Trivia",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:englewood_city_center",
+       "name": "Englewood city center",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:american_express",
+       "name": "American express",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:roadside",
+       "name": "Roadside",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:ruby_slipper",
+       "name": "Ruby slipper",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:welcoming",
+       "name": "Welcoming",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:routine_visit",
+       "name": "Routine visit",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:specialty_cocktails",
+       "name": "Specialty cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:hand_crafted_cocktails",
+       "name": "Hand crafted cocktails",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:outdoor_seating",
+       "name": "Outdoor seating",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:lightshine_radler",
+       "name": "Lightshine radler",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:pub",
+       "name": "Pub",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:wine",
+       "name": "Wine",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:hard_kombucha",
+       "name": "Hard kombucha",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+       "name": "Staff required to disinfect surfaces between visits",
+       "type": "urn:tag:not_for_display:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:dog_friendly",
+       "name": "Dog friendly",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:couples",
+       "name": "Couples",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:restaurant",
+       "name": "Restaurant",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:date_night",
+       "name": "Date night",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:snacks",
+       "name": "Snacks",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:pets:place:dogs_allowed",
+       "name": "Dogs allowed",
+       "type": "urn:tag:pets:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pizza",
+       "name": "Pizza",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:full_bar",
+       "name": "Full bar",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food_at_bar",
+       "name": "Food at bar",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:foodies",
+       "name": "Foodies",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:food",
+       "name": "Food",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:american",
+       "name": "American",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:35_44",
+       "name": "35 44",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:wi_fi",
+       "name": "Wi fi",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:counter_service",
+       "name": "Counter service",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+       "name": "Identifies as women owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:solo_diners",
+       "name": "Solo diners",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:laidback",
+       "name": "Laidback",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:lgbtq_friendly",
+       "name": "Lgbtq+ friendly",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:delivery",
+       "name": "Delivery",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour_drinks",
+       "name": "Happy hour drinks",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:community_engagement",
+       "name": "Community engagement",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:beer_enthusiasts",
+       "name": "Beer enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:community_centric",
+       "name": "Community centric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:live_entertainment_stage",
+       "name": "Live entertainment stage",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:happy_hour",
+       "name": "Happy hour",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:karaoke",
+       "name": "Karaoke",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+       "name": "Groups of friends",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cuisine:qloo:craft_beer_taproom",
+       "name": "Craft beer taproom",
+       "type": "urn:tag:cuisine:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:noise_level:qloo:moderate",
+       "name": "Moderate",
+       "type": "urn:tag:noise_level:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:beer",
+       "name": "Beer",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:community_focused",
+       "name": "Community focused",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:inclusivity:place:identifies_as_latino_owned",
+       "name": "Identifies as latino owned",
+       "type": "urn:tag:inclusivity:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:outside_food_allowed",
+       "name": "Outside food allowed",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:takeout",
+       "name": "Takeout",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:discover",
+       "name": "Discover",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+       "name": "Authentic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:social_community",
+       "name": "Social community",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:event_venue",
+       "name": "Event venue",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:vegan",
+       "name": "Vegan",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:event:place:birthday",
+       "name": "Birthday",
+       "type": "urn:tag:event:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:trivia_nights",
+       "name": "Trivia nights",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:stand_up_comedy",
+       "name": "Stand up comedy",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:craft_beer_tap_list",
+       "name": "Craft beer tap list",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_cider",
+       "name": "Hard cider",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:relaxing",
+       "name": "Relaxing",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:comedy_shows",
+       "name": "Comedy shows",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:gender_neutral_restroom",
+       "name": "Gender neutral restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:tequila_old_fashioned",
+       "name": "Tequila old fashioned",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:place:large_group",
+       "name": "Large group",
+       "type": "urn:tag:ambience:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:cocktail_enthusiasts",
+       "name": "Cocktail enthusiasts",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:age_range:qloo:30_34",
+       "name": "30 34",
+       "type": "urn:tag:age_range:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:counter_seating",
+       "name": "Counter seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:young_professionals",
+       "name": "Young professionals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:cost_description:place:10_to_20",
+       "name": "$10 to $20",
+       "type": "urn:tag:cost_description:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:raspberry_lemon_lager",
+       "name": "Raspberry lemon lager",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:pub",
+       "name": "Pub",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:cozy",
+       "name": "Cozy",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:comedy_club",
+       "name": "Comedy club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:beverage_offering:qloo:cocktails",
+       "name": "Cocktails",
+       "type": "urn:tag:beverage_offering:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial",
+       "name": "Industrial",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:customer_identity:qloo:locals",
+       "name": "Locals",
+       "type": "urn:tag:customer_identity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:visa",
+       "name": "Visa",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:rotating_drink_selection",
+       "name": "Rotating drink selection",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:south_broadway_district",
+       "name": "South broadway district",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:street_view",
+       "name": "Street view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:hard_liquor",
+       "name": "Hard liquor",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:residential",
+       "name": "Residential",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking",
+       "name": "Parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_type:qloo:dine_in",
+       "name": "Dine in",
+       "type": "urn:tag:service_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:seating",
+       "name": "Seating",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dietary_option:qloo:gluten_free",
+       "name": "Gluten free",
+       "type": "urn:tag:dietary_option:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:wine",
+       "name": "Wine",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:french_75",
+       "name": "French 75",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:craft_beer",
+       "name": "Craft beer",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:neighborhood",
+       "name": "Neighborhood",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:menu_highlight:qloo:pretzels",
+       "name": "Pretzels",
+       "type": "urn:tag:menu_highlight:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:live_music_venue",
+       "name": "Live music venue",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "4361 S Broadway Englewood, CO 80113",
+     "external": {
+      "google_place": [
+       {
+        "id": "66566e5ef258ff4c",
+        "place_id": "ChIJXeTJ4leBbIcRTP9Y8l5uVmY"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Gothic Theatre",
+     "entity_id": "02B231B5-55FF-4679-ABD3-0E66FCB9377A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": "+13037899206",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/02B231B5-55FF-4679-ABD3-0E66FCB9377A-09HFCg-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "3263 S Broadway Englewood, CO 80113",
+      "geocode": {
+       "city": "Englewood",
+       "name": null,
+       "metro": null,
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "Colorado",
+       "admin2_region": "Arapahoe County"
+      },
+      "parking": null,
+      "website": "http://www.gothictheatre.com/",
+      "good_for": [
+       {
+        "id": "urn:tag:ambience:place:large_group",
+        "name": "Large Group",
+        "type": "urn:tag:ambience:place",
+        "weight": null
+       }
+      ],
+      "keywords": [
+       {
+        "name": "metal show",
+        "count": 22
+       },
+       {
+        "name": "intimate shows",
+        "count": 86
+       },
+       {
+        "name": "intimate venue",
+        "count": 58
+       },
+       {
+        "name": "live music",
+        "count": 62
+       },
+       {
+        "name": "mosh pit",
+        "count": 10
+       },
+       {
+        "name": "bands",
+        "count": 10
+       },
+       {
+        "name": "balcony",
+        "count": 82
+       },
+       {
+        "name": "concert venue",
+        "count": 37
+       },
+       {
+        "name": "sound quality",
+        "count": 41
+       },
+       {
+        "name": "view of stage",
+        "count": 9
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "Englewood",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7E3390AA-4F73-452F-A99D-CE3A8EA2C52B",
+        "admin_level": 8,
+        "locality_id": "r7243979",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "metro": null,
+       "state": {
+        "name": "Colorado",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F81C7F27-474F-4883-B2B7-2FFD7AA98E97",
+        "admin_level": 4,
+        "locality_id": "r161961",
+        "abbreviation": "Colo.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Arapahoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "18CDBD01-86C1-4229-BBE0-B6766C21BC3B",
+        "admin_level": 6,
+        "locality_id": "r1411351",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": null
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "Colorado",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "F81C7F27-474F-4883-B2B7-2FFD7AA98E97",
+        "admin_level": 4,
+        "locality_id": "r161961",
+        "abbreviation": "Colo.",
+        "country_code": null
+       },
+       {
+        "name": "Arapahoe County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "18CDBD01-86C1-4229-BBE0-B6766C21BC3B",
+        "admin_level": 6,
+        "locality_id": "r1411351",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "80113",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "EFB8213E-AF21-4267-923A-899FF4734E23",
+        "admin_level": 9,
+        "locality_id": "z80113",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Englewood",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "7E3390AA-4F73-452F-A99D-CE3A8EA2C52B",
+        "admin_level": 8,
+        "locality_id": "r7243979",
+        "abbreviation": null,
+        "country_code": null
+       }
+      ],
+      "description": "Converted art deco movie house is an up-close live venue that favors alternative bands.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": null,
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "akas": [
+        {
+         "value": "\"Nh\u00e0 h\u00e1t ngh\u1ec7 thu\u1eadt bi\u1ec3u di\u1ec5n\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Theater voor podiumkunsten\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0430\u0440 \u0437\u0430 \u0438\u0437\u0432\u0435\u0434\u0443\u0432\u0430\u0447\u043a\u0438 \u0443\u043c\u0435\u0442\u043d\u043e\u0441\u0442\u0438\"",
+         "languages": [
+          "mk"
+         ]
+        },
+        {
+         "value": "\"\u0130fa\u00e7\u0131l\u0131q s\u0259n\u0259ti teatr\u0131\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Scenos men\u0173 teatras\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"\u041e\u0440\u044b\u043d\u0434\u0430\u0443\u0448\u044b\u043b\u044b\u049b \u04e9\u043d\u0435\u0440 \u0442\u0435\u0430\u0442\u0440\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes esc\u00e9nicas\"",
+         "languages": [
+          "es_la",
+          "es",
+          "gl",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"Kazali\u0161te izvedbenih umjetnosti\"",
+         "languages": [
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Salle de spectacles\"",
+         "languages": [
+          "fr_ca",
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u0ec2\u0eae\u0e87\u0ea5\u0eb0\u0e84\u0ead\u0e99\u0eaa\u0eb4\u0ea5\u0eb0\u0e9b\u0eb0\u0e81\u0eb2\u0e99\u0eaa\u0eb0\u0ec1\u0e94\u0e87\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Teatro di arti performative\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes c\u00eanicas\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Th\u00e9\u00e2tre\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u8868\u6f14\u827a\u672f\u5267\u9662\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Divadlo sc\u00e9nick\u00fdch um\u011bn\u00ed\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Teater seni pertunjukan\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"\u041f\u043e\u0437\u043e\u0440\u0438\u0448\u0442\u0435 \u0438\u0437\u0432\u043e\u0452\u0430\u0447\u043a\u0438\u0445 \u0443\u043c\u0435\u0442\u043d\u043e\u0441\u0442\u0438\"",
+         "languages": [
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0915\u0932\u093e \u0925\u093f\u090f\u091f\u0930\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Teatro de artes performativas\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u821e\u53f0\u82b8\u8853\u5287\u5834\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Teatre d'arts esc\u00e8niques\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10ea\u10d4\u10dc\u10e3\u10e0\u10d8 \u10ee\u10d4\u10da\u10dd\u10d5\u10dc\u10d4\u10d1\u10d8\u10e1 \u10d7\u10d4\u10d0\u10e2\u10e0\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05d0\u05de\u05e0\u05d5\u05d9\u05d5\u05ea \u05d4\u05d1\u05de\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u044a\u0440 \u0437\u0430 \u0441\u0446\u0435\u043d\u0438\u0447\u043d\u0438 \u0438\u0437\u043a\u0443\u0441\u0442\u0432\u0430\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0633\u0631\u062d \u0641\u0646\u0648\u0646 \u0623\u062f\u0627\u0626\u064a\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"El\u0151ad\u00f3m\u0171v\u00e9szeti sz\u00ednh\u00e1z\"",
+         "languages": [
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Teatro\"",
+         "languages": [
+          "pt",
+          "es"
+         ]
+        },
+        {
+         "value": "\"Ukumbi wa sanaa za maonyesho\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Teat\u00ebr i arteve performuese\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Pozori\u0161te izvo\u0111a\u010dkih umjetnosti\"",
+         "languages": [
+          "bs"
+         ]
+        },
+        {
+         "value": "\"Gledali\u0161\u010de uprizoritvenih umetnosti\"",
+         "languages": [
+          "sl"
+         ]
+        },
+        {
+         "value": "\"\u0ba8\u0bbf\u0b95\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd \u0b95\u0bb2\u0bc8 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Theater\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u1016\u103b\u1031\u102c\u103a\u1016\u103c\u1031\u101b\u1031\u1038\u1021\u1014\u102f\u1015\u100a\u102c\u101b\u102f\u1036\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Teatr sztuk scenicznych\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u09aa\u09be\u09b0\u09ab\u09b0\u09cd\u09ae\u09bf\u0982 \u0986\u09b0\u09cd\u099f\u09b8 \u09a5\u09bf\u09af\u09bc\u09c7\u099f\u09be\u09b0\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Theater f\u00fcr darstellende K\u00fcnste\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"Performing arts theatre\"",
+         "languages": [
+          "en_gb"
+         ]
+        },
+        {
+         "value": "\"\u0c2a\u0c46\u0c30\u0c4d\u0c2b\u0c3e\u0c30\u0c4d\u0c2e\u0c3f\u0c02\u0c17\u0c4d \u0c06\u0c30\u0c4d\u0c1f\u0c4d\u0c38\u0c4d \u0c25\u0c3f\u0c2f\u0c47\u0c1f\u0c30\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Etenduskunstide teater\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Teatru de arte spectacolului\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"Teater f\u00f6r scenkonst\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"\u0422\u0435\u0430\u0442\u0440 \u0441\u0446\u0435\u043d\u0456\u0447\u043d\u0438\u0445 \u043c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Teater seni persembahan\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Teater vir uitvoerende kunste\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Divadlo sc\u00e9nick\u00fdch umen\u00ed\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Arte eszenikoen antzokia\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u179a\u17c4\u1784\u1798\u17a0\u17c4\u179f\u17d2\u179a\u1796\u179f\u17b7\u179b\u17d2\u1794\u17c8\u179f\u1798\u17d2\u178f\u17c2\u1784\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Teatro ng sining ng pagtatanghal\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Esitt\u00e4vien taiteiden teatteri\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0e42\u0e23\u0e07\u0e25\u0e30\u0e04\u0e23\u0e28\u0e34\u0e25\u0e1b\u0e30\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Skatuves m\u0101kslas te\u0101tris\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacf5\uc5f0 \uc608\uc220 \uadf9\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Sahne sanatlar\u0131 tiyatrosu\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u8868\u6f14\u85dd\u8853\u5287\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Teater for scenekunst\"",
+         "languages": [
+          "da",
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0398\u03ad\u03b1\u03c4\u03c1\u03bf \u03c0\u03b1\u03c1\u03b1\u03c3\u03c4\u03b1\u03c4\u03b9\u03ba\u03ce\u03bd \u03c4\u03b5\u03c7\u03bd\u03ce\u03bd\"",
+         "languages": [
+          "el"
+         ]
+        }
+       ],
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": null,
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/02B231B5-55FF-4679-ABD3-0E66FCB9377A-420x-auto.jpg"
+      }
+     },
+     "popularity": 0,
+     "location": {
+      "lat": 39.6576932,
+      "lon": -104.98786539999999,
+      "geohash": "9xj3dgqnv987"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:concert_hall",
+       "name": "Concert hall",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:event_space",
+       "name": "Event space",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:performing_arts_theater",
+       "name": "Performing arts theater",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "3263 S Broadway Englewood, CO 80113",
+     "external": {
+      "google_place": [
+       {
+        "id": "19716ad39838cecf",
+        "place_id": "ChIJvaayfNV_bIcRz844mNNqcRk"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "7E3390AA-4F73-452F-A99D-CE3A8EA2C52B",
+      "name": "Englewood",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.64684364638971,
+       "lon": -104.99414875361889
+      },
+      "popularity": 0.9886632,
+      "disambiguation": "Englewood, Arapahoe County, Colorado, United States"
+     }
+    ]
+   }
+  }
+ }
+}

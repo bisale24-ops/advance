@@ -1,0 +1,33 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Mansfield, Massachusetts",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "762DE9A3-5A68-427B-8FE3-1CB802C2C33D",
+      "name": "Mansfield",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 42.016255010149465,
+       "lon": -71.2186810077009
+      },
+      "popularity": 0.9607912,
+      "disambiguation": "Mansfield, Bristol County, Massachusetts, United States"
+     }
+    ]
+   }
+  }
+ }
+}

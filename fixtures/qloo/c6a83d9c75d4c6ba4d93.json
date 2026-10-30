@@ -1,0 +1,34 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "signal.interests.entities": "9F1FC72B-9B11-4D17-8848-FBCC57442B0B",
+  "take": 50,
+  "filter.location.query": "Dover, Delaware",
+  "filter.tags": "urn:tag:category:place:live_music_venue,urn:tag:category:place:concert_hall,urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": []
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "D9993CB7-3DBC-4A0F-AEFC-40EB487F2F60",
+      "name": "Dover",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 39.16074269848776,
+       "lon": -75.51995883444248
+      },
+      "popularity": 0.98840874,
+      "disambiguation": "Dover, Kent County, Delaware, United States"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2757 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:place",
+  "take": 25,
+  "filter.location.query": "Brooklyn",
+  "filter.tags": "urn:tag:category:place:arena,urn:tag:category:place:stadium",
+  "filter.exclude.tags": "urn:tag:category:place:chapel,urn:tag:category:place:art_gallery"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Barclays Center",
+     "entity_id": "727B7C7F-FAB6-4F7F-B4BB-54EA8072F0B2",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "monday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "sunday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "saturday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "thursday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": null,
+         "closed": true,
+         "closes": null
+        }
+       ]
+      },
+      "phone": "+19176186100",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/727B7C7F-FAB6-4F7F-B4BB-54EA8072F0B2-4BMbh1-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "620 Atlantic Ave Brooklyn, NY 11217",
+      "geocode": {
+       "city": "New York",
+       "name": "Prospect Heights",
+       "metro": "New York City",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New York",
+       "admin2_region": "Kings County"
+      },
+      "parking": true,
+      "website": "http://www.barclayscenter.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "concerts",
+        "count": 1049
+       },
+       {
+        "name": "basketball game",
+        "count": 502
+       },
+       {
+        "name": "nets",
+        "count": 831
+       },
+       {
+        "name": "disney on ice",
+        "count": 56
+       },
+       {
+        "name": "boxing",
+        "count": 66
+       },
+       {
+        "name": "acoustics",
+        "count": 90
+       },
+       {
+        "name": "subway access",
+        "count": 35
+       },
+       {
+        "name": "concession stands",
+        "count": 75
+       },
+       {
+        "name": "celine dion concert",
+        "count": 10
+       },
+       {
+        "name": "concert venue",
+        "count": 45
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "New York",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "admin_level": 5,
+        "locality_id": "r175905",
+        "abbreviation": "NYC",
+        "country_code": null
+       },
+       "metro": {
+        "name": "New York City",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+        "admin_level": 12,
+        "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "New York",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+        "admin_level": 4,
+        "locality_id": "r61320",
+        "abbreviation": "N.Y.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Kings County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+        "admin_level": 6,
+        "locality_id": "r369518",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Prospect Heights",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "515880FF-447F-42B3-AC55-C571B9AE4785",
+        "admin_level": 10,
+        "locality_id": "n248606480",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "New York",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "admin_level": 5,
+        "locality_id": "r175905",
+        "abbreviation": "NYC",
+        "country_code": null
+       },
+       {
+        "name": "Prospect Heights",
+        "place": "neighbourhood",
+        "boundary": "neighborhood",
+        "entity_id": "515880FF-447F-42B3-AC55-C571B9AE4785",
+        "admin_level": 10,
+        "locality_id": "n248606480",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "11217",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "6B09FBFC-923F-42B2-BF13-2B5408CA9D25",
+        "admin_level": 9,
+        "locality_id": "z11217",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "New York City",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+        "admin_level": 12,
+        "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Brooklyn",
+        "place": "borough",
+        "boundary": "administrative",
+        "entity_id": "86BAEBAE-2980-43B6-9E75-2A5CDB898628",
+        "admin_level": 7,
+        "locality_id": "r9691750",
+        "abbreviation": "BK",
+        "country_code": null
+       },
+       {
+        "name": "Kings County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+        "admin_level": 6,
+        "locality_id": "r369518",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "New York",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+        "admin_level": 4,
+        "locality_id": "r61320",
+        "abbreviation": "N.Y.",
+        "country_code": null
+       }
+      ],
+      "description": "State-of-the-art downtown Brooklyn arena hosting NBA games, major concerts, boxing, and large-scale entertainment events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Prospect Heights",
+      "pet_friendly": false,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:arena",
+       "akas": [
+        {
+         "value": "\"\u0633\u0627\u062d\u0629\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e25\u0e32\u0e07\u0e41\u0e08\u0e49\u0e07\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"\u098f\u09b0\u09bf\u09a8\u09be\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u7af6\u6280\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Aren\u0103\"",
+         "languages": [
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u7ade\u6280\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0410\u0440\u0435\u043d\u0430\"",
+         "languages": [
+          "ru",
+          "sr",
+          "uk",
+          "bg",
+          "kk",
+          "mk"
+         ]
+        },
+        {
+         "value": "\"Aren\u00eb\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"Areena\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"\u0391\u03c1\u03ad\u03bd\u03b1\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"\u10d0\u10e0\u10d4\u10dc\u10d0\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0c05\u0c30\u0c47\u0c28\u0c3e\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u30a2\u30ea\u30fc\u30ca\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e8ne\"",
+         "languages": [
+          "fr"
+         ]
+        },
+        {
+         "value": "\"\u179f\u1784\u17d2\u179c\u17c0\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Ar\u0113na\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Arena\"",
+         "languages": [
+          "sv",
+          "gl",
+          "tl",
+          "ca",
+          "hr",
+          "es",
+          "lt",
+          "es_ar",
+          "ms",
+          "tr",
+          "en_gb",
+          "es_la",
+          "id",
+          "pt",
+          "nl",
+          "eu",
+          "da",
+          "pt_pt",
+          "pl",
+          "af",
+          "de",
+          "nb",
+          "sl",
+          "az",
+          "bs",
+          "it"
+         ]
+        },
+        {
+         "value": "\"\u0905\u0916\u093e\u0921\u093c\u093e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u05d6\u05d9\u05e8\u05d4\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u0110\u1ea5u tr\u01b0\u1eddng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"Ar\u00e9na\"",
+         "languages": [
+          "fr_ca",
+          "cs",
+          "hu",
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Areen\"",
+         "languages": [
+          "et"
+         ]
+        }
+       ],
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.5,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "State-of-the-art downtown Brooklyn arena hosting NBA games, major concerts, boxing, and large-scale entertainment events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "Barclays Center is a premier, state-of-the-art arena located in the heart of downtown Brooklyn, serving as a primary hub for professional sports and global entertainment. Known for its distinct, modern architecture, the venue hosts everything from NBA and WNBA games to major concerts and sporting matches. The arena offers a high-energy, immersive experience defined by advanced acoustics and a layout designed for optimal viewing. With its convenient integration into the city's transit system, it stands as a focal point for visitors and locals seeking world-class live events.",
+      "service_description": null,
+      "ambience_description": "The venue maintains a high-energy, modern atmosphere that feels both professional and vibrant during large-scale events. Visitors frequently describe the environment as clean and well-organized, with an electric crowd presence that enhances the overall event experience.",
+      "amenities_description": "The arena is well-equipped with comprehensive guest services, including diverse food and drink options, multiple bar areas, and dedicated premium lounges. It prioritizes guest accessibility with direct subway links and streamlined entry processes for card members.",
+      "unique_selling_points": "As a modern architectural marvel, the arena offers state-of-the-art acoustics and a bowl-style seating design that ensures excellent views of the action from nearly every seat. It serves as a central cultural landmark for Brooklyn, hosting premier global athletes and musicians in a highly immersive, high-energy environment.",
+      "neighborhood_description": "The surrounding area is a vibrant and high-traffic commercial district defined by its proximity to major transit lines and shopping terminals. It serves as a bustling hub of activity, drawing heavy foot traffic from commuters, sports fans, and concertgoers alike.",
+      "physical_setting_description": "Located in the heart of downtown Brooklyn at the intersection of Atlantic and Flatbush Avenues, this state-of-the-art arena features a striking, modern exterior that resembles a sleek spaceship. The facility is directly integrated with major public transportation hubs, providing seamless access for visitors navigating the city.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/727B7C7F-FAB6-4F7F-B4BB-54EA8072F0B2-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9999765982034107,
+     "location": {
+      "lat": 40.6826465,
+      "lon": -73.97541559999999,
+      "geohash": "dr5rkwh9xg4q"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:amenity:qloo:restrooms",
+       "name": "Restrooms",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:electric",
+       "name": "Electric",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:stylish",
+       "name": "Stylish",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:safe",
+       "name": "Safe",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:late_night",
+       "name": "Late night",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:arena",
+       "name": "Arena",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:luxury_suites",
+       "name": "Luxury suites",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:boxing",
+       "name": "Boxing",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:modern",
+       "name": "Modern",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:wifi",
+       "name": "Wifi",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:team_store",
+       "name": "Team store",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:culture_arts",
+       "name": "Culture arts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:concerts",
+       "name": "Concerts",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:clean",
+       "name": "Clean",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:city_view",
+       "name": "City view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:express_entry",
+       "name": "Express entry",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:brooklyn_academy_of_music",
+       "name": "Brooklyn academy of music",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:competitive_sports",
+       "name": "Competitive sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:industrial_chic",
+       "name": "Industrial chic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:bars",
+       "name": "Bars",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_basketball",
+       "name": "Professional basketball",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:wrestling",
+       "name": "Wrestling",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:organized",
+       "name": "Organized",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:live_events",
+       "name": "Live events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:special_occasion",
+       "name": "Special occasion",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:accessible_seating",
+       "name": "Accessible seating",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:atlantic_terminal_mall",
+       "name": "Atlantic terminal mall",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:assistive_hearing_loop",
+       "name": "Assistive hearing loop",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:dining_options:place:food_vendors",
+       "name": "Food vendors",
+       "type": "urn:tag:dining_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:basketball",
+       "name": "Basketball",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:urban",
+       "name": "Urban",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:convenient",
+       "name": "Convenient",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:sports_complex",
+       "name": "Sports complex",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:lounge_areas",
+       "name": "Lounge areas",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:arena_interior_view",
+       "name": "Arena interior view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:live_music",
+       "name": "Live music",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:urban_culture",
+       "name": "Urban culture",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:transit_oriented",
+       "name": "Transit oriented",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:court_view",
+       "name": "Court view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:corporate_events",
+       "name": "Corporate events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:nightlife",
+       "name": "Nightlife",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:central",
+       "name": "Central",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:public_transit_access",
+       "name": "Public transit access",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:shopping_options",
+       "name": "Shopping options",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:mobile_app",
+       "name": "Mobile app",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:arena",
+       "name": "Arena",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:planning:place:getting_tickets_in_advance_recommended",
+       "name": "Getting tickets in advance recommended",
+       "type": "urn:tag:planning:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:commercial",
+       "name": "Commercial",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": -1.149321249537293
+      }
+     },
+     "disambiguation": "620 Atlantic Ave Brooklyn, NY 11217",
+     "external": {
+      "google_place": [
+       {
+        "id": "b9949385da52e69e",
+        "place_id": "ChIJo3lEaa5bwokRnuZS2oWTlLk"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Brooklyn Cyclones",
+     "entity_id": "CB6D04B2-794E-4DD4-BE10-F242136A55C6",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": {
+       "friday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "monday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "sunday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "tuesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "saturday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "thursday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ],
+       "wednesday": [
+        {
+         "opens": "T10:00:00",
+         "closed": false,
+         "closes": "T17:00:00"
+        }
+       ]
+      },
+      "phone": "+17183725596",
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/CB6D04B2-794E-4DD4-BE10-F242136A55C6-432Frx-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1904 Surf Ave Brooklyn, NY 11224",
+      "geocode": {
+       "city": "New York",
+       "name": "Coney Island",
+       "metro": "New York City",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New York",
+       "admin2_region": "Kings County"
+      },
+      "parking": true,
+      "website": "http://www.brooklyncyclones.com/",
+      "good_for": null,
+      "keywords": [
+       {
+        "name": "stadium",
+        "count": 106
+       },
+       {
+        "name": "minor league baseball",
+        "count": 18
+       },
+       {
+        "name": "cyclones game",
+        "count": 5
+       },
+       {
+        "name": "running the bases",
+        "count": 13
+       },
+       {
+        "name": "fireworks",
+        "count": 42
+       },
+       {
+        "name": "professional baseball",
+        "count": 2
+       },
+       {
+        "name": "friendly staff",
+        "count": 19
+       },
+       {
+        "name": "boardwalk",
+        "count": 4
+       },
+       {
+        "name": "affordability",
+        "count": 5
+       },
+       {
+        "name": "giveaways",
+        "count": 8
+       }
+      ],
+      "locality": {
+       "city": {
+        "name": "New York",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "admin_level": 5,
+        "locality_id": "r175905",
+        "abbreviation": "NYC",
+        "country_code": null
+       },
+       "metro": {
+        "name": "New York City",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+        "admin_level": 12,
+        "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "New York",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+        "admin_level": 4,
+        "locality_id": "r61320",
+        "abbreviation": "N.Y.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Kings County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+        "admin_level": 6,
+        "locality_id": "r369518",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Coney Island",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "7233FC0B-BBAA-465D-AE20-5CE0548B1CEB",
+        "admin_level": 10,
+        "locality_id": "n11956391852",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "New York",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "admin_level": 5,
+        "locality_id": "r175905",
+        "abbreviation": "NYC",
+        "country_code": null
+       },
+       {
+        "name": "New York City",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+        "admin_level": 12,
+        "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Brooklyn",
+        "place": "borough",
+        "boundary": "administrative",
+        "entity_id": "86BAEBAE-2980-43B6-9E75-2A5CDB898628",
+        "admin_level": 7,
+        "locality_id": "r9691750",
+        "abbreviation": "BK",
+        "country_code": null
+       },
+       {
+        "name": "Kings County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+        "admin_level": 6,
+        "locality_id": "r369518",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "11224",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4BAB4495-4C85-4A38-98D7-C657E539C5D9",
+        "admin_level": 9,
+        "locality_id": "z11224",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Coney Island",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "7233FC0B-BBAA-465D-AE20-5CE0548B1CEB",
+        "admin_level": 10,
+        "locality_id": "n11956391852",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "New York",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+        "admin_level": 4,
+        "locality_id": "r61320",
+        "abbreviation": "N.Y.",
+        "country_code": null
+       }
+      ],
+      "description": "Waterfront High-A Minor League Baseball team playing at Maimonides Park on Coney Island, offering family-friendly games, promotions, and seasonal events.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": true,
+      "neighborhood": "Coney Island",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:baseball_club",
+       "akas": [
+        {
+         "value": "\"Baseballklub\"",
+         "languages": [
+          "da",
+          "hu"
+         ]
+        },
+        {
+         "value": "\"Klub baseballowy\"",
+         "languages": [
+          "pl"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0435\u0439\u0441\u0431\u043e\u043b \u043a\u043b\u0443\u0431\u044b\"",
+         "languages": [
+          "kk"
+         ]
+        },
+        {
+         "value": "\"Klubi i bejsbollit\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0ec2\u0ea1\u0eaa\u0ead\u0e99\u0ec0\u0e9a\u0eaa\u0e9a\u0ead\u0e99\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"Club de b\u00e9isbol\"",
+         "languages": [
+          "gl",
+          "es_la",
+          "es",
+          "es_ar"
+         ]
+        },
+        {
+         "value": "\"\u1780\u17d2\u179b\u17b9\u1794\u1794\u17c1\u179f\u17d2\u1794\u179b\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"\u68d2\u7403\u4ff1\u6a02\u90e8\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"Bofbalklub\"",
+         "languages": [
+          "af"
+         ]
+        },
+        {
+         "value": "\"Beysbol klubu\"",
+         "languages": [
+          "az"
+         ]
+        },
+        {
+         "value": "\"Clube de beisebol\"",
+         "languages": [
+          "pt"
+         ]
+        },
+        {
+         "value": "\"Honkbalclub\"",
+         "languages": [
+          "nl"
+         ]
+        },
+        {
+         "value": "\"Club di baseball\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"\uc57c\uad6c \ud074\ub7fd\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"Clube de basebol\"",
+         "languages": [
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u68d2\u7403\u4ff1\u4e50\u90e8\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"Kelab besbol\"",
+         "languages": [
+          "ms"
+         ]
+        },
+        {
+         "value": "\"\u91ce\u7403\u30af\u30e9\u30d6\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Baseball club\"",
+         "languages": [
+          "en_gb",
+          "tl"
+         ]
+        },
+        {
+         "value": "\"Klabu ya besiboli\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0baa\u0bc7\u0bb8\u0bcd\u0baa\u0bbe\u0bb2\u0bcd \u0b95\u0bbf\u0bb3\u0baa\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Bejzbalov\u00fd klub\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"Baseballklubb\"",
+         "languages": [
+          "nb"
+         ]
+        },
+        {
+         "value": "\"\u0c2c\u0c47\u0c38\u0c4d \u0c2c\u0c3e\u0c32\u0c4d \u0c15\u0c4d\u0c32\u0c2c\u0c4d\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"\u1018\u1031\u1037\u1005\u103a\u1018\u1031\u102c\u1000\u101c\u1015\u103a\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Baseball-seura\"",
+         "languages": [
+          "fi"
+         ]
+        },
+        {
+         "value": "\"Club de baseball\"",
+         "languages": [
+          "fr",
+          "fr_ca",
+          "ro"
+         ]
+        },
+        {
+         "value": "\"\u0646\u0627\u062f\u064a \u0628\u064a\u0633\u0628\u0648\u0644\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"Club de beisbol\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"C\u00e2u l\u1ea1c b\u1ed9 b\u00f3ng ch\u00e0y\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0435\u0439\u0441\u0431\u043e\u043b\u044c\u043d\u044b\u0439 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "ru"
+         ]
+        },
+        {
+         "value": "\"Beyzbol kul\u00fcb\u00fc\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e42\u0e21\u0e2a\u0e23\u0e40\u0e1a\u0e2a\u0e1a\u0e2d\u0e25\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Beisbol kluba\"",
+         "languages": [
+          "eu"
+         ]
+        },
+        {
+         "value": "\"\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d1\u05d9\u05d9\u05e1\u05d1\u05d5\u05dc\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"Basebollklubb\"",
+         "languages": [
+          "sv"
+         ]
+        },
+        {
+         "value": "\"Beisbola klubs\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0435\u0439\u0437\u0431\u043e\u043b\u0435\u043d \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "bg"
+         ]
+        },
+        {
+         "value": "\"\u092c\u0947\u0938\u092c\u0949\u0932 \u0915\u094d\u0932\u092c\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"Beisbolo klubas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Klub bisbol\"",
+         "languages": [
+          "id"
+         ]
+        },
+        {
+         "value": "\"Baseballov\u00fd klub\"",
+         "languages": [
+          "cs"
+         ]
+        },
+        {
+         "value": "\"Pesapalliklubi\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03cd\u03bb\u03bb\u03bf\u03b3\u03bf\u03c2 \u03bc\u03c0\u03ad\u03b9\u03b6\u03bc\u03c0\u03bf\u03bb\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Bejzbol klub\"",
+         "languages": [
+          "hr",
+          "sl",
+          "bs"
+         ]
+        },
+        {
+         "value": "\"\u09ac\u09c7\u09b8\u09ac\u09b2 \u0995\u09cd\u09b2\u09be\u09ac\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0435\u0458\u0437\u0431\u043e\u043b \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "mk",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"Baseballclub\"",
+         "languages": [
+          "de"
+         ]
+        },
+        {
+         "value": "\"\u10d1\u10d4\u10d8\u10e1\u10d1\u10dd\u10da\u10d8\u10e1 \u10d9\u10da\u10e3\u10d1\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\u0411\u0435\u0439\u0441\u0431\u043e\u043b\u044c\u043d\u0438\u0439 \u043a\u043b\u0443\u0431\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"Baseballverein\"",
+         "languages": [
+          "de"
+         ]
+        }
+       ],
+       "name": "Baseball club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Waterfront High-A Minor League Baseball team playing at Maimonides Park on Coney Island, offering family-friendly games, promotions, and seasonal events.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": "This waterfront stadium serves as the home to a High-A Minor League Baseball team, offering a quintessential summer experience in the heart of Coney Island. Fans are drawn to the venue for its unique location, which provides stunning ocean views and direct access to famous neighboring amusement attractions. While the facility is known for its lively and family-friendly atmosphere during games, it also hosts various community events and festivals throughout the season. It remains a popular destination for those looking to combine the excitement of professional sports with a classic New York coastal getaway.",
+      "service_description": null,
+      "ambience_description": "The atmosphere is energetic and inherently social, perfectly capturing the classic spirit of a summer day at the ballpark. It offers a lively and casual environment that is particularly well-suited for families and groups looking for fun.",
+      "amenities_description": "The ballpark features traditional stadium concessions, diverse seating options with excellent sightlines, and various hospitality suites for groups. It also includes commemorative statues and a large video board to enhance the game-day experience.",
+      "unique_selling_points": "The stadium is defined by its breathtaking backdrop of the Atlantic Ocean and its location within the world-famous Coney Island amusement area. This singular setting offers an unforgettable fusion of classic American baseball and iconic seaside entertainment.",
+      "neighborhood_description": "The surrounding neighborhood is a vibrant and bustling amusement district known for its classic boardwalk attractions and energetic summer atmosphere. It is a highly walkable area that balances historic coastal charm with intense touristic activity.",
+      "physical_setting_description": "Located in the heart of Coney Island, the stadium is situated directly on the waterfront with views of the Atlantic Ocean. It is nestled right next to major amusement parks, providing a unique coastal urban setting.",
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/CB6D04B2-794E-4DD4-BE10-F242136A55C6-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.9875177417192,
+     "location": {
+      "lat": 40.5748548,
+      "lon": -73.9848629,
+      "geohash": "dr5qu6mvetr6"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:ambience:qloo:energetic",
+       "name": "Energetic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+       "name": "Touristic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:evening",
+       "name": "Evening",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:classic",
+       "name": "Classic",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:concessions",
+       "name": "Concessions",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:summery",
+       "name": "Summery",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:fun",
+       "name": "Fun",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:ocean_view",
+       "name": "Ocean view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:coastal",
+       "name": "Coastal",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+       "name": "Walkable",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:summer_festivals",
+       "name": "Summer festivals",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:cyclone_roller_coaster",
+       "name": "Cyclone roller coaster",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:seating_bowl",
+       "name": "Seating bowl",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:entertainment",
+       "name": "Entertainment",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:sunset_view",
+       "name": "Sunset view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_street_parking",
+       "name": "Free street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:luna_park",
+       "name": "Luna park",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:statues",
+       "name": "Statues",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:decor:qloo:open_air_stadium",
+       "name": "Open air stadium",
+       "type": "urn:tag:decor:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:minor_league_baseball_games",
+       "name": "Minor league baseball games",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+       "name": "Afternoon",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:amusement_parks",
+       "name": "Amusement parks",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:waterfront",
+       "name": "Waterfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:amusement_district",
+       "name": "Amusement district",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_club",
+       "name": "Baseball club",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:amusement_park_district",
+       "name": "Amusement park district",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:view:qloo:amusement_park_view",
+       "name": "Amusement park view",
+       "type": "urn:tag:view:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+       "name": "Bustling",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:day_trip",
+       "name": "Day trip",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:beachfront",
+       "name": "Beachfront",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:festivals",
+       "name": "Festivals",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:sports_recreation",
+       "name": "Sports recreation",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:new_york_aquarium",
+       "name": "New york aquarium",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:outdoor_recreation",
+       "name": "Outdoor recreation",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:social",
+       "name": "Social",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:time_of_day_fit:qloo:midday",
+       "name": "Midday",
+       "type": "urn:tag:time_of_day_fit:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:nearby_attraction:qloo:coney_island_boardwalk",
+       "name": "Coney island boardwalk",
+       "type": "urn:tag:nearby_attraction:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:visit_intent:qloo:destination",
+       "name": "Destination",
+       "type": "urn:tag:visit_intent:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:local_tourism",
+       "name": "Local tourism",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:suite_rentals",
+       "name": "Suite rentals",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:seasonal_events",
+       "name": "Seasonal events",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:interests:qloo:professional_sports",
+       "name": "Professional sports",
+       "type": "urn:tag:interests:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:setting:qloo:city_center",
+       "name": "City center",
+       "type": "urn:tag:setting:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+       "name": "Scenic",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:casual",
+       "name": "Casual",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:neighborhood_characteristic:qloo:family_friendly",
+       "name": "Family friendly",
+       "type": "urn:tag:neighborhood_characteristic:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:ambience:qloo:lively",
+       "name": "Lively",
+       "type": "urn:tag:ambience:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenity:qloo:video_board",
+       "name": "Video board",
+       "type": "urn:tag:amenity:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:activity_type:qloo:dining_drinking",
+       "name": "Dining drinking",
+       "type": "urn:tag:activity_type:qloo",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_club",
+       "name": "Baseball club",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1904 Surf Ave Brooklyn, NY 11224",
+     "external": {
+      "google_place": [
+       {
+        "id": "6c2876836bb13f45",
+        "place_id": "ChIJ82sx58pFwokRRT-xa4N2KGw"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Maimonides Park",
+     "entity_id": "ACB1E209-931B-4740-9A9B-B91379CD7654",
+     "type": "urn:entity",
+     "subtype": "urn:entity:place",
+     "properties": {
+      "hours": null,
+      "phone": null,
+      "images": [
+       {
+        "url": "https://images.qloo.com/i/ACB1E209-931B-4740-9A9B-B91379CD7654-3udd99-420x-outside.jpg",
+        "type": "urn:image:place:unknown"
+       }
+      ],
+      "address": "1904 Surf Ave Brooklyn, NY 11224",
+      "geocode": {
+       "city": "New York",
+       "name": "Coney Island",
+       "metro": "New York City",
+       "country": "United States",
+       "country_code": "US",
+       "admin1_region": "New York",
+       "admin2_region": "Kings County"
+      },
+      "parking": null,
+      "website": "http://www.brooklyncyclones.com/mcupark/mcupark/",
+      "good_for": null,
+      "keywords": null,
+      "locality": {
+       "city": {
+        "name": "New York",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "admin_level": 5,
+        "locality_id": "r175905",
+        "abbreviation": "NYC",
+        "country_code": null
+       },
+       "metro": {
+        "name": "New York City",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+        "admin_level": 12,
+        "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "state": {
+        "name": "New York",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+        "admin_level": 4,
+        "locality_id": "r61320",
+        "abbreviation": "N.Y.",
+        "country_code": null
+       },
+       "county": {
+        "name": "Kings County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+        "admin_level": 6,
+        "locality_id": "r369518",
+        "abbreviation": null,
+        "country_code": null
+       },
+       "country": {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       "neighborhood": {
+        "name": "Coney Island",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "7233FC0B-BBAA-465D-AE20-5CE0548B1CEB",
+        "admin_level": 10,
+        "locality_id": "n11956391852",
+        "abbreviation": null,
+        "country_code": null
+       }
+      },
+      "menu_url": null,
+      "is_closed": false,
+      "live_music": null,
+      "localities": [
+       {
+        "name": "New York",
+        "place": "city",
+        "boundary": "administrative",
+        "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "admin_level": 5,
+        "locality_id": "r175905",
+        "abbreviation": "NYC",
+        "country_code": null
+       },
+       {
+        "name": "New York City",
+        "place": "metro",
+        "boundary": "metro",
+        "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+        "admin_level": 12,
+        "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Brooklyn",
+        "place": "borough",
+        "boundary": "administrative",
+        "entity_id": "86BAEBAE-2980-43B6-9E75-2A5CDB898628",
+        "admin_level": 7,
+        "locality_id": "r9691750",
+        "abbreviation": "BK",
+        "country_code": null
+       },
+       {
+        "name": "Kings County",
+        "place": "county",
+        "boundary": "administrative",
+        "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+        "admin_level": 6,
+        "locality_id": "r369518",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "11224",
+        "place": "ZCTA",
+        "boundary": "ZCTA",
+        "entity_id": "4BAB4495-4C85-4A38-98D7-C657E539C5D9",
+        "admin_level": 9,
+        "locality_id": "z11224",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "Coney Island",
+        "place": "suburb",
+        "boundary": "neighborhood",
+        "entity_id": "7233FC0B-BBAA-465D-AE20-5CE0548B1CEB",
+        "admin_level": 10,
+        "locality_id": "n11956391852",
+        "abbreviation": null,
+        "country_code": null
+       },
+       {
+        "name": "United States",
+        "place": "country",
+        "boundary": "administrative",
+        "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+        "admin_level": 2,
+        "locality_id": "r148838",
+        "abbreviation": "USA",
+        "country_code": "US"
+       },
+       {
+        "name": "New York",
+        "place": "state",
+        "boundary": "administrative",
+        "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+        "admin_level": 4,
+        "locality_id": "r61320",
+        "abbreviation": "N.Y.",
+        "country_code": null
+       }
+      ],
+      "description": "Multipurpose Coney Island ballpark hosting Brooklyn Cyclones baseball, plus boxing and wrestling events in a compact, family-friendly seaside setting.",
+      "hotel_class": null,
+      "price_level": null,
+      "price_range": {
+       "to": null,
+       "from": null,
+       "currency": "usd"
+      },
+      "star_rating": null,
+      "event_spaces": null,
+      "neighborhood": "Coney Island",
+      "pet_friendly": null,
+      "check_in_time": null,
+      "primary_genre": {
+       "id": "urn:tag:genre:place:stadium",
+       "akas": [
+        {
+         "value": "\"Stadions\"",
+         "languages": [
+          "lv"
+         ]
+        },
+        {
+         "value": "\"Stadio\"",
+         "languages": [
+          "it"
+         ]
+        },
+        {
+         "value": "\"S\u00e2n v\u1eadn \u0111\u1ed9ng\"",
+         "languages": [
+          "vi"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0456\u043e\u043d\"",
+         "languages": [
+          "uk"
+         ]
+        },
+        {
+         "value": "\"\u9ad4\u80b2\u5834\"",
+         "languages": [
+          "zh_tw"
+         ]
+        },
+        {
+         "value": "\"\u0eaa\u0eb0\u0edc\u0eb2\u0ea1\u0e81\u0eb4\u0ea5\u0eb2\"",
+         "languages": [
+          "lo"
+         ]
+        },
+        {
+         "value": "\"\u4f53\u80b2\u573a\"",
+         "languages": [
+          "zh"
+         ]
+        },
+        {
+         "value": "\"\u0c38\u0c4d\u0c1f\u0c47\u0c21\u0c3f\u0c2f\u0c02\"",
+         "languages": [
+          "te"
+         ]
+        },
+        {
+         "value": "\"Stadyum\"",
+         "languages": [
+          "tr"
+         ]
+        },
+        {
+         "value": "\"\u0645\u0644\u0639\u0628\"",
+         "languages": [
+          "ar"
+         ]
+        },
+        {
+         "value": "\"\u10e1\u10e2\u10d0\u10d3\u10d8\u10dd\u10dc\u10d8\"",
+         "languages": [
+          "ka"
+         ]
+        },
+        {
+         "value": "\"\uacbd\uae30\uc7a5\"",
+         "languages": [
+          "ko"
+         ]
+        },
+        {
+         "value": "\"\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\"",
+         "languages": [
+          "th"
+         ]
+        },
+        {
+         "value": "\"Stadion\"",
+         "languages": [
+          "sl",
+          "cs",
+          "de",
+          "af",
+          "fi",
+          "pl",
+          "da",
+          "nb",
+          "sv",
+          "az",
+          "nl",
+          "hu",
+          "id",
+          "bs",
+          "ro",
+          "hr"
+         ]
+        },
+        {
+         "value": "\"Est\u00e1dio\"",
+         "languages": [
+          "pt",
+          "pt_pt"
+         ]
+        },
+        {
+         "value": "\"\u30b9\u30bf\u30b8\u30a2\u30e0\"",
+         "languages": [
+          "ja"
+         ]
+        },
+        {
+         "value": "\"Estadi\"",
+         "languages": [
+          "ca"
+         ]
+        },
+        {
+         "value": "\"\u0bb5\u0bbf\u0bb3\u0bc8\u0baf\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0b85\u0bb0\u0b99\u0bcd\u0b95\u0bae\u0bcd\"",
+         "languages": [
+          "ta"
+         ]
+        },
+        {
+         "value": "\"Stadium\"",
+         "languages": [
+          "en_gb",
+          "ms"
+         ]
+        },
+        {
+         "value": "\"Estadio\"",
+         "languages": [
+          "es_la",
+          "es_ar",
+          "eu",
+          "es",
+          "gl"
+         ]
+        },
+        {
+         "value": "\"\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf\"",
+         "languages": [
+          "el"
+         ]
+        },
+        {
+         "value": "\"Stadionas\"",
+         "languages": [
+          "lt"
+         ]
+        },
+        {
+         "value": "\"Staadion\"",
+         "languages": [
+          "et"
+         ]
+        },
+        {
+         "value": "\"Stadiumi\"",
+         "languages": [
+          "sq"
+         ]
+        },
+        {
+         "value": "\"\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df\"",
+         "languages": [
+          "he"
+         ]
+        },
+        {
+         "value": "\"\u1796\u17a0\u17bb\u1780\u17b8\u17a1\u178a\u17d2\u178b\u17b6\u1793\"",
+         "languages": [
+          "km"
+         ]
+        },
+        {
+         "value": "\"Istadyum\"",
+         "languages": [
+          "tl"
+         ]
+        },
+        {
+         "value": "\"\u09b8\u09cd\u099f\u09c7\u09a1\u09bf\u09af\u09bc\u09be\u09ae\"",
+         "languages": [
+          "bn"
+         ]
+        },
+        {
+         "value": "\"Uwanja\"",
+         "languages": [
+          "sw"
+         ]
+        },
+        {
+         "value": "\"\u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e\"",
+         "languages": [
+          "hi"
+         ]
+        },
+        {
+         "value": "\"\u0160tadi\u00f3n\"",
+         "languages": [
+          "sk"
+         ]
+        },
+        {
+         "value": "\"\u0421\u0442\u0430\u0434\u0438\u043e\u043d\"",
+         "languages": [
+          "mk",
+          "bg",
+          "kk",
+          "ru",
+          "sr"
+         ]
+        },
+        {
+         "value": "\"\u1021\u102c\u1038\u1000\u1005\u102c\u1038\u1000\u103d\u1004\u103a\u1038\"",
+         "languages": [
+          "my"
+         ]
+        },
+        {
+         "value": "\"Stade\"",
+         "languages": [
+          "fr",
+          "fr_ca"
+         ]
+        }
+       ],
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      "check_out_time": null,
+      "business_rating": 4.599999904632568,
+      "loyalty_program": null,
+      "number_of_rooms": null,
+      "cost_description": null,
+      "specialty_dishes": null,
+      "short_description": "Multipurpose Coney Island ballpark hosting Brooklyn Cyclones baseball, plus boxing and wrestling events in a compact, family-friendly seaside setting.",
+      "number_of_stations": null,
+      "cuisine_description": null,
+      "overall_description": null,
+      "service_description": null,
+      "ambience_description": null,
+      "amenities_description": null,
+      "unique_selling_points": null,
+      "neighborhood_description": null,
+      "physical_setting_description": null,
+      "customer_demographics_description": null,
+      "image": {
+       "url": "https://images.qloo.com/i/ACB1E209-931B-4740-9A9B-B91379CD7654-420x-auto.jpg"
+      }
+     },
+     "popularity": 0.8866069660833676,
+     "location": {
+      "lat": 40.5746915,
+      "lon": -73.9844176,
+      "geohash": "dr5qu6qhwnc2"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+       "name": "Wheelchair accessible entrance",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:on_site_parking",
+       "name": "On site parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:parking_lot",
+       "name": "Parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:cash_only",
+       "name": "Cash only",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:free_parking_lot",
+       "name": "Free parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:group_events",
+       "name": "Group events",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+       "name": "Wheelchair accessible parking lot",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:amenities:place:restroom",
+       "name": "Restroom",
+       "type": "urn:tag:amenities:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:good_for_kids_birthday",
+       "name": "Good for kids birthday",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:credit_cards",
+       "name": "Credit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+       "name": "Wheelchair accessible restroom",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_street_parking",
+       "name": "Paid street parking",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:offerings:place:marketplace",
+       "name": "Marketplace",
+       "type": "urn:tag:offerings:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:tourist_attraction",
+       "name": "Tourist attraction",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:children:place:has_changing_tables",
+       "name": "Has changing table s",
+       "type": "urn:tag:children:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:nfc_mobile_payments",
+       "name": "Nfc mobile payments",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place",
+       "name": "Place",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:service_options:place:onsite_services",
+       "name": "Onsite services",
+       "type": "urn:tag:service_options:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:baseball_field",
+       "name": "Baseball field",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:payments:place:debit_cards",
+       "name": "Debit cards",
+       "type": "urn:tag:payments:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+       "name": "Wheelchair accessible seating",
+       "type": "urn:tag:accessibility:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:credit_card:place:mastercard",
+       "name": "Mastercard",
+       "type": "urn:tag:credit_card:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:parking:place:paid_parking_lot",
+       "name": "Paid parking lot",
+       "type": "urn:tag:parking:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:category:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:category:place",
+       "weight": null
+      },
+      {
+       "id": "urn:tag:genre:place:stadium",
+       "name": "Stadium",
+       "type": "urn:tag:genre:place",
+       "weight": null
+      }
+     ],
+     "references": null,
+     "query": {
+      "distance": 0,
+      "measurements": {
+       "audience_growth": 0
+      }
+     },
+     "disambiguation": "1904 Surf Ave Brooklyn, NY 11224",
+     "external": {
+      "google_place": [
+       {
+        "id": "ef89eb295e9bbbaf",
+        "place_id": "ChIJ82sx58pFwokRr7ubXinrie8"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "query": {
+   "localities": {
+    "filter": [
+     {
+      "entity_id": "86BAEBAE-2980-43B6-9E75-2A5CDB898628",
+      "name": "Brooklyn",
+      "subtype": "urn:entity:locality",
+      "location": {
+       "lat": 40.6341780363703,
+       "lon": -73.95018815847007
+      },
+      "popularity": 0.9993556,
+      "disambiguation": "Brooklyn, Kings County, New York, New York, United States"
+     }
+    ]
+   }
+  }
+ }
+}
