@@ -60,7 +60,8 @@ def test_venues_are_concert_rooms_inside_the_city():
     stub = Stub({"place": [e("Metro", 0.9)]})
     section = brief.which_room(stub, HEAD, city="Chicago")
     assert stub.asked[0][2] == {"take": brief.TAKE, "filter__location__query": "Chicago",
-                                "filter__tags": brief.VENUE_TAGS}
+                                "filter__tags": brief.VENUE_TAGS,
+                                    "filter__exclude__tags": brief.NOT_VENUE}
     assert section.title == "Which room · Chicago" and section.lines[0].name == "Metro"
     assert brief.which_room(Stub({}), HEAD, city=None).missing.startswith("Pick a city")
 

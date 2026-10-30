@@ -24,7 +24,11 @@ AFTER_TAGS = ("urn:tag:category:place:bar", "urn:tag:category:place:cocktail_bar
               "urn:tag:category:place:night_club")
 # a hotel lobby bar or a campground snack bar carries the bar tag too (checked live, 3 Oct 2026)
 NOT_AFTER = ("urn:tag:category:place:hotel", "urn:tag:category:place:bed_breakfast",
-             "urn:tag:category:place:campground", "urn:tag:category:place:motel", "urn:tag:category:place:hostel")
+             "urn:tag:category:place:campground", "urn:tag:category:place:motel", "urn:tag:category:place:hostel",
+             # a gallery or a landmark that also pours drinks is not where a touring crew goes (checked live, 31 Oct 2026)
+             "urn:tag:category:place:art_museum", "urn:tag:category:place:tourist_attraction")
+# a chapel or a church hall tagged as a performing-arts theatre is not a room a promoter can book
+NOT_VENUE = ("urn:tag:category:place:chapel",)
 
 
 @dataclasses.dataclass(frozen=True)
@@ -151,7 +155,7 @@ def which_room(q, headliner, city, take=TAKE):
                        missing="Pick a city to see its venues.")
     got = _ask("venue", f"Which room · {city}", f"Which {city} venues do {headliner.name}'s fans favour?",
                lambda: q.insights("place", entities=[headliner.id], take=take, filter__location__query=city,
-                                  filter__tags=VENUE_TAGS))
+                                  filter__tags=VENUE_TAGS, filter__exclude__tags=NOT_VENUE))
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
