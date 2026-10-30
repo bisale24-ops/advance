@@ -12,9 +12,10 @@ SCENES = [
      "and who sponsors. Today that comes from ticket history and a genre chart. Neither one knows what this "
      "particular audience loves."),
     ("clip:phoebe",
-     "Advance asks Qloo's taste graph. Type a headliner and a city. A language model, Apertus seventy B, turns the "
-     "sentence into a plan, and Qloo answers each question for this headliner's audience: where to play, who opens, "
-     "which room in Chicago, and where fans go after. Every line carries Qloo's affinity score and the request "
+     "Advance asks Qloo's taste graph. Type a headliner and cities. A language model, Apertus seventy B, turns the "
+     "sentence into a plan. Advance joins your cities and Qloo's best markets into the shortest tour, drawn on a map, "
+     "so the route does not double back. Then Qloo answers each question for this audience: where to play, who opens, "
+     "which room in each city, and where fans go after. Every line carries Qloo's affinity score and the request "
      "behind it."),
     ("card:agent",
      "The model writes the advance notes, but its schema only allows names that Qloo returned, so it cannot "
@@ -30,7 +31,7 @@ SCENES = [
      "The model has read about these tours, and taste still finds three times more."),
     ("card:api",
      "Along the way we mapped where the API fails silently: a take above fifty, genre tags that need a music segment, "
-     "and bars that are really hotel lobbies. Each one is guarded by a test, and the whole backtest replays offline "
+     "bars that are really hotel lobbies, and a ranking that put tiny towns above Boston. Each one is guarded by a test, and the whole backtest replays offline "
      "from recorded responses."),
     ("card:outro",
      "Advance. The tour advance, from your audience's taste. Live now, and open source."),
@@ -71,6 +72,7 @@ CARDS = {
       <tr><td><code>urn:tag:genre:pop_rock</code></td><td>empty 200 → needs <code>urn:tag:genre:music:pop_rock</code></td></tr>
       <tr><td>places with no category</td><td>airports and skyscrapers → venue and bar categories</td></tr>
       <tr><td>“bar”</td><td>includes hotel lobbies → <code>filter.exclude.tags</code></td></tr>
+      <tr><td>affinity alone</td><td>Bar Harbor above Boston → keep markets big enough to draw a room</td></tr>
     </table>
     <p class=foot>QLOO_MODE=replay reproduces the backtest from 999 recorded responses, no key, no network.</p>""",
     "outro": """<h1>Advance<span style="color:#714cb6">.</span></h1>

@@ -10,8 +10,8 @@ from playwright.sync_api import sync_playwright
 
 HERE = pathlib.Path(__file__).parent
 OUT = HERE / "clips"
-URL = f"http://127.0.0.1:{os.environ.get('PORT', '8792')}/"
-ASKS = [("phoebe", "Phoebe Bridgers in Chicago, US"), ("metallica", "Metallica in Berlin and Munich, Germany")]
+URL = os.environ.get("URL") or f"http://127.0.0.1:{os.environ.get('PORT', '8792')}/"
+ASKS = [("phoebe", "Phoebe Bridgers in Chicago and Denver"), ("metallica", "Metallica in Berlin and Munich, Germany")]
 
 
 def scroll(page, total, step=6, pause=16):
@@ -36,7 +36,7 @@ def clip(browser, name, act):
     print(name, flush=True)
 
 
-def ask(text):
+def ask(text, route=False):
     def act(page):
         page.click("#text")
         page.type("#text", text, delay=40)
@@ -45,6 +45,11 @@ def ask(text):
         page.wait_for_selector(".grid .card", timeout=120000)
         page.wait_for_timeout(1500)
         scroll(page, 420)
+        page.wait_for_timeout(1500)
+        if route:
+            page.evaluate("document.querySelector('.route').scrollIntoView({block: 'center', behavior: 'smooth'})")
+            page.wait_for_timeout(9000)
+        scroll(page, 900)
         page.wait_for_timeout(2500)
         scroll(page, 900)
         page.wait_for_timeout(2500)
@@ -63,7 +68,7 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         for name, text in ASKS:
-            clip(browser, name, ask(text))
+            clip(browser, name, ask(text, route=name == "phoebe"))
         clip(browser, "proof", proof)
         browser.close()
 
