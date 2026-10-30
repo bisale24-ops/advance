@@ -82,3 +82,16 @@ def test_a_place_line_carries_its_address_website_and_room_feel():
     line = brief._lines([Entity("b", "Bluebird Theater", raw=raw)], brief.place_note)[0]
     assert line.link == "http://bluebirdtheater.net" and line.phone == "+13033771666"
     assert line.note == "3317 E Colfax Ave Denver, CO · intimate venue"
+
+
+def test_rooms_that_stand_out_for_this_act_come_before_rooms_every_act_likes():
+    generic, special = e("Good Hall", 0.90), e("Indie Club", 0.88)
+    generic = type(generic)(id="g", name="Good Hall", affinity=0.90)
+    special = type(generic)(id="s", name="Indie Club", affinity=0.88)
+    panel = [{"g": 0.90, "s": 0.60}, {"g": 0.88, "s": 0.55}]
+    ranked, lift = brief.stands_out([generic, special], panel, 2)
+    assert [r.name for r in ranked] == ["Indie Club", "Good Hall"]
+    assert round(lift["s"], 3) == 0.305 and round(lift["g"], 3) == 0.01
+    # Qloo's own score is untouched and no panel means no change
+    assert ranked[0].affinity == 0.88
+    assert [r.name for r in brief.stands_out([generic, special], [], 2)[0]] == ["Good Hall", "Indie Club"]

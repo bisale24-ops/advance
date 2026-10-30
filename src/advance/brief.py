@@ -28,8 +28,8 @@ NOT_AFTER = ("urn:tag:category:place:hotel", "urn:tag:category:place:bed_breakfa
              "urn:tag:category:place:campground", "urn:tag:category:place:motel", "urn:tag:category:place:hostel",
              # a gallery or a landmark that also pours drinks is not where a touring crew goes (checked live, 31 Oct 2026)
              "urn:tag:category:place:art_museum", "urn:tag:category:place:tourist_attraction")
-# a chapel or a church hall tagged as a performing-arts theatre is not a room a promoter can book
-NOT_VENUE = ("urn:tag:category:place:chapel",)
+# a chapel, a church hall or a gallery tagged as a performing-arts theatre is not a room a promoter can book
+NOT_VENUE = ("urn:tag:category:place:chapel", "urn:tag:category:place:art_gallery")
 
 
 @dataclasses.dataclass(frozen=True)
@@ -166,8 +166,47 @@ def after_show(q, headliner, city, take=TAKE):
     return Section(key, title, question, _lines(answer.entities, place_note), answer.request)
 
 
+# Five acts with very different audiences. A room that scores high for all of them is a good room in that city;
+# a room that scores higher for this headliner than for them is what the headliner's audience adds.
+PANEL = ("Taylor Swift", "Metallica", "Kendrick Lamar", "Luke Combs", "Billie Eilish")
+POOL = 50
+
+
+def _panel_scores(q, headliner, city):
+    """{panel artist: {place id: affinity}} for the city; artists whose lookup fails are left out."""
+    import concurrent.futures
+
+    def one(name):
+        try:
+            who = q.find(name, "artist")
+            if who.id == headliner.id:
+                return None
+            got = q.insights("place", entities=[who.id], take=POOL, filter__location__query=city,
+                             filter__tags=VENUE_TAGS, filter__exclude__tags=NOT_VENUE)
+            return {e.id: e.affinity for e in got.entities if e.affinity is not None}
+        except (Empty, QlooError):
+            return None
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+        return [s for s in pool.map(one, PANEL) if s]
+
+
+def stands_out(entities, panel, take):
+    """Re-rank candidate rooms by how much more this audience likes them than the panel does.
+    Qloo's own affinity stays on every line; only the order changes. No panel, no change."""
+    if not panel:
+        return list(entities)[:take], {}
+    lift = {}
+    for e in entities:
+        others = [p.get(e.id, min(p.values())) for p in panel]
+        lift[e.id] = (e.affinity or 0) - sum(others) / len(others)
+    ranked = sorted(entities, key=lambda e: -lift[e.id])[:take]
+    return ranked, lift
+
+
 def which_room(q, headliner, city, take=TAKE):
-    """Concert rooms in the city ranked by the headliner's audience: the venue shortlist."""
+    """Concert rooms in the city: the headliner's audience picks the shortlist, and the rooms that stand
+    out for this act (against a panel of very different acts) come first. The same rooms Qloo returned,
+    reordered, so the list is not the same handful of good rooms for everyone."""
     if not city:
         return Section("venue", "Which room", "Which venues does this audience favour?",
                        missing="Pick a city to see its venues.")
@@ -177,7 +216,12 @@ def which_room(q, headliner, city, take=TAKE):
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
-    return Section(key, title, question, _lines(answer.entities, place_note), answer.request)
+    picks, lift = stands_out(answer.entities, _panel_scores(q, headliner, city), take)
+
+    def note(e):
+        base = place_note(e)
+        return base + (" · %+.2f vs other acts" % lift[e.id] if e.id in lift else "")
+    return Section(key, title, question, _lines(picks, note), answer.request)
 
 
 def who_sponsors(q, headliner, take=TAKE):
