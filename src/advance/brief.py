@@ -71,6 +71,15 @@ def _lines(entities, note=lambda e: ""):
     return tuple(Line(e.name, r(e.affinity), r(e.popularity), e.id, note(e)) for e in entities)
 
 
+def _with_region(e):
+    """'Portland' alone is Maine or Oregon: name the state or region Qloo returns with the destination."""
+    geo = ((e.raw or {}).get("properties") or {}).get("geocode") or {}
+    region = geo.get("admin1_region")
+    if region and region != e.name:
+        return dataclasses.replace(e, name=f"{e.name}, {region}")
+    return e
+
+
 def _ask(key, title, question, call):
     """Run one Qloo call; turn a refusal or an empty answer into a section that says what happened."""
     try:
@@ -96,7 +105,7 @@ def where_to_play(q, headliner, take=TAKE, market=None):
     key, title, question, answer = got
     big = [e for e in answer.entities if (e.popularity or 0) >= MARKET_POPULARITY_FLOOR]
     picks = (big if len(big) >= take else list(answer.entities))[:take]
-    return Section(key, title, question, _lines(picks), answer.request)
+    return Section(key, title, question, _lines([_with_region(e) for e in picks]), answer.request)
 
 
 def who_opens(q, headliner, take=TAKE, share=OPENER_POPULARITY_SHARE):

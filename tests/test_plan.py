@@ -102,3 +102,18 @@ def test_where_to_play_skips_towns_too_small_to_book_a_room():
 
     names = [line.name for line in brief.where_to_play(Stub(), Entity("H", "Mitski"), market="US").lines]
     assert names == ["City%d" % i for i in range(8)]
+
+
+def test_where_to_play_names_the_region_so_portland_is_not_ambiguous():
+    from advance import brief
+    from advance.qloo import Answer, Entity
+    raw = {"properties": {"geocode": {"name": "Portland", "admin1_region": "Maine"}}}
+    pool = tuple(Entity("p%d" % i, "Portland" if i == 0 else "Town%d" % i, affinity=0.9, popularity=0.9,
+                        raw=raw if i == 0 else None) for i in range(8))
+
+    class Stub:
+        def insights(self, kind, entities=(), tags=(), take=0, **params):
+            return Answer(entities=pool)
+
+    lines = brief.where_to_play(Stub(), Entity("H", "Mitski"), market="US").lines
+    assert lines[0].name == "Portland, Maine" and lines[1].name == "Town1"
