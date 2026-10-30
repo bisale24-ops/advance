@@ -1,0 +1,42 @@
+{
+ "path": "/search",
+ "params": {
+  "query": "Denver",
+  "types": "urn:entity:destination",
+  "take": 5
+ },
+ "response": {
+  "results": [
+   {
+    "name": "Denver",
+    "entity_id": "D87E0EEF-6976-43B3-9F77-F9E7E86A380E",
+    "types": [
+     "urn:entity:destination"
+    ],
+    "properties": {
+     "state": "Colorado"
+    },
+    "popularity": 0.9739053516143299,
+    "disambiguation": "Denver",
+    "location": {
+     "lat": 39.7391,
+     "lon": -104.98360001
+    },
+    "tags": [
+     {
+      "name": "Urban Destinations",
+      "tag_id": "5191CB63-26EA-4637-A742-D9547110F2A1",
+      "type": "urn:tag:genre",
+      "value": "urn:tag:genre:urban_destinations"
+     },
+     {
+      "name": "Outdoor Activities",
+      "tag_id": "26726D74-BD8F-412B-AC4C-2DA1C7A9C237",
+      "type": "urn:tag:genre",
+      "value": "urn:tag:genre:outdoor_activities"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:destination",
+  "signal.interests.entities": "AFBC71A7-9439-4AB0-AB68-D14B11AAF836",
+  "take": 3,
+  "filter.geocode.country_code": "US"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Portland",
+     "entity_id": "3F25F3CC-F2E9-4B44-9F06-D7EA593F3E04",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Portland",
+       "admin1_region": "Maine",
+       "admin2_region": "Cumberland County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8268359020852222,
+     "location": {
+      "lat": 43.6587,
+      "lon": -70.2663,
+      "geohash": "dry035cdke7u"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9287607600211794
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Salem",
+     "entity_id": "AFF82BCA-10B8-40EB-BE9B-22ACCF1BDC97",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Salem",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Essex County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8204895738893926,
+     "location": {
+      "lat": 42.5224,
+      "lon": -70.89581,
+      "geohash": "drt9fsznzvf7"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9265319307004805
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "New Haven",
+     "entity_id": "A4200E97-CEB8-49B4-BB30-59A78D8965AB",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "New Haven",
+       "admin1_region": "Connecticut",
+       "admin2_region": "New Haven County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.584315503173164,
+     "location": {
+      "lat": 41.3089,
+      "lon": -72.9253,
+      "geohash": "drk5h813v2fs"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9255706522691087
+     },
+     "disambiguation": ""
+    }
+   ]
+  }
+ }
+}

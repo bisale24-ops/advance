@@ -1,0 +1,1849 @@
+{
+ "path": "/v2/insights",
+ "params": {
+  "filter.type": "urn:entity:destination",
+  "signal.interests.entities": "AFBC71A7-9439-4AB0-AB68-D14B11AAF836",
+  "take": 48,
+  "filter.geocode.country_code": "US"
+ },
+ "response": {
+  "success": true,
+  "results": {
+   "entities": [
+    {
+     "name": "Portland",
+     "entity_id": "3F25F3CC-F2E9-4B44-9F06-D7EA593F3E04",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Portland",
+       "admin1_region": "Maine",
+       "admin2_region": "Cumberland County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8268359020852222,
+     "location": {
+      "lat": 43.6587,
+      "lon": -70.2663,
+      "geohash": "dry035cdke7u"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9287607600211794
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Salem",
+     "entity_id": "AFF82BCA-10B8-40EB-BE9B-22ACCF1BDC97",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Salem",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Essex County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8204895738893926,
+     "location": {
+      "lat": 42.5224,
+      "lon": -70.89581,
+      "geohash": "drt9fsznzvf7"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9265319307004805
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "New Haven",
+     "entity_id": "A4200E97-CEB8-49B4-BB30-59A78D8965AB",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "New Haven",
+       "admin1_region": "Connecticut",
+       "admin2_region": "New Haven County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.584315503173164,
+     "location": {
+      "lat": 41.3089,
+      "lon": -72.9253,
+      "geohash": "drk5h813v2fs"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9255706522691087
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Boston",
+     "entity_id": "32DECF27-D374-48AD-BCBF-4032A9DE4551",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Boston",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Suffolk County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.985040797824116,
+     "location": {
+      "lat": 42.3577,
+      "lon": -71.0565,
+      "geohash": "drt2znfprrwu"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:urban_destinations",
+       "name": "Urban Destinations",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9244033648043951
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Burlington",
+     "entity_id": "75DAEF19-15F0-42E6-A430-0BE3D78E1EC4",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Burlington",
+       "admin1_region": "Vermont",
+       "admin2_region": "Chittenden County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.6758839528558477,
+     "location": {
+      "lat": 44.4847,
+      "lon": -73.2232,
+      "geohash": "drgvjf0qpufr"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9213697477553395
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Williamstown",
+     "entity_id": "DB46B5B7-ABBE-4E6E-A361-D45E898F979D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Williamstown",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Berkshire County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.09519492293744333,
+     "location": {
+      "lat": 42.711945,
+      "lon": -73.20417,
+      "geohash": "drefypqr55w3"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:peace_tranquility",
+       "name": "Peace and Tranquility",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:off_beaten_path",
+       "name": "Off the Beaten Path",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9157050795802854
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Stowe",
+     "entity_id": "B5C47F51-16EA-433B-894D-5ACE6D42C6C8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Morristown",
+       "admin1_region": "Vermont",
+       "admin2_region": "Lamoille County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.49773345421577514,
+     "location": {
+      "lat": 44.4653,
+      "lon": -72.685,
+      "geohash": "drukfn8mhucx"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:snow_ski",
+       "name": "Snow and Ski",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9155669296913648
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Bar Harbor",
+     "entity_id": "8EE621F8-9F50-4F70-AC54-69A1424814CA",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Bar Harbor",
+       "admin1_region": "Maine",
+       "admin2_region": "Hancock County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.5326382592928377,
+     "location": {
+      "lat": 44.385834,
+      "lon": -68.20944,
+      "geohash": "drzkxb5qhz1e"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9105069000425254
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Scranton",
+     "entity_id": "9E74C663-6DFA-4CAF-914B-D40C952EA5C0",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Scranton",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Lackawanna County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.41795104261106075,
+     "location": {
+      "lat": 41.40897,
+      "lon": -75.662415,
+      "geohash": "dr65w6229zqw"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:snow_ski",
+       "name": "Snow and Ski",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9098617402183846
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Cambridge",
+     "entity_id": "245E2882-4DF6-45A1-B8AF-E2F5D67E2B58",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Cambridge",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Middlesex County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8077969174977334,
+     "location": {
+      "lat": 42.3737,
+      "lon": -71.1106,
+      "geohash": "drt3jcfudy51"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9092551188114124
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Worcester",
+     "entity_id": "A411A47D-EA06-4FC6-82A2-0B2FE9A3FEFD",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Worcester",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Worcester County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.44061650045330913,
+     "location": {
+      "lat": 42.2688,
+      "lon": -71.8038,
+      "geohash": "drsbqnf1d5hq"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.906355174404041
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Providence",
+     "entity_id": "7F398EA6-2F49-4C84-93FC-586D6D313B65",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Providence",
+       "admin1_region": "Rhode Island",
+       "admin2_region": "Providence County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.6500453309156845,
+     "location": {
+      "lat": 41.8236,
+      "lon": -71.4221,
+      "geohash": "drmjyvb00s30"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9046925894846749
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Gloucester",
+     "entity_id": "5D7270A9-48EC-4EEE-B58F-BBCDDD7A8F1D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Gloucester",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Essex County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.39936536718041704,
+     "location": {
+      "lat": 42.624,
+      "lon": -70.6755,
+      "geohash": "drtdrxrwv987"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9043811773573782
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Lenox",
+     "entity_id": "CCEEDFB1-E80E-442E-90A9-DAA807A7F9BA",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Lenox",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Berkshire County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.09610154125113328,
+     "location": {
+      "lat": 42.3572,
+      "lon": -73.2842,
+      "geohash": "drebuquhd63z"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9019953984033787
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Provincetown",
+     "entity_id": "5B077A21-3BD0-4576-9FA3-A4A78EB8A89E",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Provincetown",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Barnstable County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.6763372620126926,
+     "location": {
+      "lat": 42.058334,
+      "lon": -70.17917,
+      "geohash": "drqp703pdcg0"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_nightlife",
+       "name": "Great Nightlife",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9012129968940656
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Pittsburgh",
+     "entity_id": "68BF9C48-A3D9-48DB-9C42-40C4370B0A60",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Pittsburgh",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Allegheny County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8563009972801451,
+     "location": {
+      "lat": 40.4411,
+      "lon": -79.9975,
+      "geohash": "dppn5d5d7pwk"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:urban_destinations",
+       "name": "Urban Destinations",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_nightlife",
+       "name": "Great Nightlife",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.9005024336852776
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Chatham",
+     "entity_id": "43706DB0-69DC-41F3-A193-44BEE8DCBF2A",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Chatham",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Barnstable County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.3100634632819583,
+     "location": {
+      "lat": 41.681946,
+      "lon": -69.96028,
+      "geohash": "drqm05bqzmc5"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8962978641887007
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Camden",
+     "entity_id": "9781FF65-FFC1-4F1D-8DC8-82C4657C168D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Camden",
+       "admin1_region": "Maine",
+       "admin2_region": "Knox County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.21078875793291024,
+     "location": {
+      "lat": 44.2104,
+      "lon": -69.0684,
+      "geohash": "drygs23bjxy4"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8928491388767273
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Plymouth",
+     "entity_id": "1CE0A64A-B137-4A9B-87F4-87354A2EF46D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Plymouth",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Plymouth County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.3884859474161378,
+     "location": {
+      "lat": 41.9585,
+      "lon": -70.6676,
+      "geohash": "drmwxym3vx23"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8927673923830545
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Boothbay Harbor",
+     "entity_id": "48B0C003-C07E-4DE0-94CF-615FFFD420FD",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Boothbay Harbor",
+       "admin1_region": "Maine",
+       "admin2_region": "Lincoln County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.1840435176790571,
+     "location": {
+      "lat": 43.85247,
+      "lon": -69.62849,
+      "geohash": "dry3rx454svr"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8889883703971292
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Ithaca",
+     "entity_id": "69F6E10F-8CEB-4004-9E8A-9C6B33F4DE12",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Ithaca",
+       "admin1_region": "New York",
+       "admin2_region": "Tompkins County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.514505893019039,
+     "location": {
+      "lat": 42.4386,
+      "lon": -76.499,
+      "geohash": "dr997jxnu04v"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:nature",
+       "name": "Nature",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.887890159656226
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Kennebunkport",
+     "entity_id": "F0A44DCD-984E-48B9-860B-8E62ED7905DA",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Kennebunkport",
+       "admin1_region": "Maine",
+       "admin2_region": "York County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.3830462375339982,
+     "location": {
+      "lat": 43.3602,
+      "lon": -70.4661,
+      "geohash": "drtyst2pkyct"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8870892304551318
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Falmouth",
+     "entity_id": "116055A3-8552-4EBA-A68F-CDB98119B75C",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Falmouth",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Barnstable County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.2724388032638259,
+     "location": {
+      "lat": 41.5485,
+      "lon": -70.6048,
+      "geohash": "drmu37ejscz2"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:nature",
+       "name": "Nature",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8855652433532812
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Lincoln",
+     "entity_id": "34F40B0E-D8A3-43F8-BC87-34C3789C8FB2",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Woodstock",
+       "admin1_region": "New Hampshire",
+       "admin2_region": "Grafton County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.1328195829555757,
+     "location": {
+      "lat": 44.0456,
+      "lon": -71.6706,
+      "geohash": "drv494701zne"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:nature",
+       "name": "Nature",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8847403132304819
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Syracuse",
+     "entity_id": "E2FBE593-D9C9-49A6-B446-06BE52B6320B",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Syracuse",
+       "admin1_region": "New York",
+       "admin2_region": "Onondaga County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.5861287398005439,
+     "location": {
+      "lat": 43.046898,
+      "lon": -76.144424,
+      "geohash": "dr9ugk3q673u"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8825201650076133
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Lancaster",
+     "entity_id": "087B8675-B7D4-487A-8B68-46F4D6CB61FE",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Lancaster",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Lancaster County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.5593834995466909,
+     "location": {
+      "lat": 40.0399,
+      "lon": -76.3044,
+      "geohash": "dr1ez9hc6dtm"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.881865330376834
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Santa Fe",
+     "entity_id": "EAC27BDD-C045-40B9-BABE-4FC5154299B4",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Santa Fe",
+       "admin1_region": "New Mexico",
+       "admin2_region": "Santa Fe County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8059836808703535,
+     "location": {
+      "lat": 35.6542,
+      "lon": -105.9721,
+      "geohash": "9wkdud9kz0gs"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:romantic_getaways",
+       "name": "Romantic Getaways",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8801190879258413
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Gettysburg",
+     "entity_id": "AB0500FF-7A64-419F-9DE7-7C77C758B2A9",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Gettysburg",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Adams County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.30779691749773347,
+     "location": {
+      "lat": 39.8293,
+      "lon": -77.2342,
+      "geohash": "dr14d6xy2xwu"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8763679573348935
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Edgartown",
+     "entity_id": "94F001A4-5F8F-42B0-8F65-503538F00349",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Edgartown",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Dukes County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.22484134179510426,
+     "location": {
+      "lat": 41.38889,
+      "lon": -70.513885,
+      "geohash": "drmg7qt7g2hj"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8760226026029286
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "North Conway",
+     "entity_id": "28B967C1-EFE1-4CC3-9F73-841C3A64E0D2",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "North Conway",
+       "admin1_region": "New Hampshire",
+       "admin2_region": "Carroll County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.28558476881233,
+     "location": {
+      "lat": 44.0531,
+      "lon": -71.1281,
+      "geohash": "drv6t7w5gjnk"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:snow_ski",
+       "name": "Snow and Ski",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:scenic_picturesque",
+       "name": "Scenic & Picturesque",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:nature",
+       "name": "Nature",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8743068990894167
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Marfa",
+     "entity_id": "AB3C0755-D6FC-406F-BD14-B328E27719F9",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Marfa",
+       "admin1_region": "Texas",
+       "admin2_region": "Presidio County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.46509519492293744,
+     "location": {
+      "lat": 30.311666,
+      "lon": -104.024445,
+      "geohash": "9tqh2y5dqb0j"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:peace_tranquility",
+       "name": "Peace and Tranquility",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:off_beaten_path",
+       "name": "Off the Beaten Path",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8738984731905406
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Ogunquit",
+     "entity_id": "B69E2BC0-6112-4BF0-91FC-319CD03745FF",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Ogunquit",
+       "admin1_region": "Maine",
+       "admin2_region": "York County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.3866727107887579,
+     "location": {
+      "lat": 43.25028,
+      "lon": -70.598335,
+      "geohash": "drty13rz5s3b"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8738877967346439
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Taos",
+     "entity_id": "EE432C29-3A83-447D-9C3A-4649805F6CA3",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Taos",
+       "admin1_region": "New Mexico",
+       "admin2_region": "Taos County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.45648232094288305,
+     "location": {
+      "lat": 36.394,
+      "lon": -105.577,
+      "geohash": "9wkzj934mt82"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:off_beaten_path",
+       "name": "Off the Beaten Path",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:snow_ski",
+       "name": "Snow and Ski",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8728008080896753
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Finger Lakes",
+     "entity_id": "FD0B83D9-B14A-4653-B979-B4F70C575329",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Trumansburg",
+       "admin1_region": "New York",
+       "admin2_region": "Tompkins County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.06255666364460562,
+     "location": {
+      "lat": 42.45645,
+      "lon": -76.74048,
+      "geohash": "dr93t8zqc0pv"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:wine_country",
+       "name": "Wine Country",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8727403631818244
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Newport",
+     "entity_id": "24298149-48E7-498D-AF9A-4ABBEE4F6B2F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Newport",
+       "admin1_region": "Rhode Island",
+       "admin2_region": "Newport County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.6894832275611967,
+     "location": {
+      "lat": 41.488003,
+      "lon": -71.31262,
+      "geohash": "drmk10xtpkqb"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_architecture",
+       "name": "Great Architecture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:romantic_getaways",
+       "name": "Romantic Getaways",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.87218799561037
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Hampton",
+     "entity_id": "5619F297-129F-4BBE-BAB7-3F04C06974D5",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Hampton",
+       "admin1_region": "New Hampshire",
+       "admin2_region": "Rockingham County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.10924750679963735,
+     "location": {
+      "lat": 42.93549,
+      "lon": -70.83961,
+      "geohash": "drtsk00jme2k"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.870484855730467
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Poughkeepsie",
+     "entity_id": "8C2E8E5E-01E8-4899-B2B2-B06EEC60037F",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Poughkeepsie",
+       "admin1_region": "New York",
+       "admin2_region": "Dutchess County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.29193109700815956,
+     "location": {
+      "lat": 41.7024,
+      "lon": -73.9279,
+      "geohash": "dr7mjxxq54be"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8690987623243236
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Rochester",
+     "entity_id": "399B99D8-1E43-4E33-8B67-693DD61904C8",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Rochester",
+       "admin1_region": "New York",
+       "admin2_region": "Monroe County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.6767905711695377,
+     "location": {
+      "lat": 43.1655,
+      "lon": -77.6115,
+      "geohash": "dr8v9fj12bs3"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8674283387214395
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Hyannis",
+     "entity_id": "8BA589DD-9966-4328-9E76-140EDCD69832",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Hyannis",
+       "admin1_region": "Massachusetts",
+       "admin2_region": "Barnstable County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.24614687216681777,
+     "location": {
+      "lat": 41.6528,
+      "lon": -70.2833,
+      "geohash": "drqhbwtm0kgr"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8663924344300339
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Nashville",
+     "entity_id": "910F68B8-942F-4058-9D8E-3755CED36C06",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Nashville",
+       "admin1_region": "Tennessee",
+       "admin2_region": "Davidson County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.9836808703535811,
+     "location": {
+      "lat": 36.1651,
+      "lon": -86.7837,
+      "geohash": "dn6m9pwhcprc"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:great_nightlife",
+       "name": "Great Nightlife",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8632149107015408
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Philadelphia",
+     "entity_id": "182F18D8-7E24-4BAC-BC47-75CC284C4777",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Philadelphia",
+       "admin1_region": "Pennsylvania",
+       "admin2_region": "Philadelphia County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.9755213055303718,
+     "location": {
+      "lat": 39.9527,
+      "lon": -75.1651,
+      "geohash": "dr4e394mq5rh"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:urban_destinations",
+       "name": "Urban Destinations",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8630132703243835
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Chicago",
+     "entity_id": "48C1C6E6-525E-4240-A7CD-6A69B0225D16",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Chicago",
+       "admin1_region": "Illinois",
+       "admin2_region": "Cook County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.9941069809610155,
+     "location": {
+      "lat": 41.88322,
+      "lon": -87.6325,
+      "geohash": "dp3wmbegqy0p"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_architecture",
+       "name": "Great Architecture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:urban_destinations",
+       "name": "Urban Destinations",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8622735933393743
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Austin",
+     "entity_id": "F3E1B4AF-87AD-43AE-A082-0380D8538DAD",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Austin",
+       "admin1_region": "Texas",
+       "admin2_region": "Travis County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.9805077062556664,
+     "location": {
+      "lat": 30.2677,
+      "lon": -97.7475,
+      "geohash": "9v6kpwn6nhr0"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_nightlife",
+       "name": "Great Nightlife",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:urban_destinations",
+       "name": "Urban Destinations",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8615344227809494
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Lake Placid",
+     "entity_id": "9FE47C26-0E4A-41D4-AFD2-56F558076545",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Lake Placid",
+       "admin1_region": "New York",
+       "admin2_region": "Essex County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.48957388939256574,
+     "location": {
+      "lat": 44.285557,
+      "lon": -73.985275,
+      "geohash": "drg7umvw44hk"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:nature",
+       "name": "Nature",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:snow_ski",
+       "name": "Snow and Ski",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8598586511629812
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Wells",
+     "entity_id": "8317E38F-D028-4899-96B4-8FF5057BD833",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Wells Beach Station",
+       "admin1_region": "Maine",
+       "admin2_region": "York County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.15820489573889393,
+     "location": {
+      "lat": 43.3219,
+      "lon": -70.5814,
+      "geohash": "drty3ys0q5rh"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:beaches",
+       "name": "Beaches",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8594661616795742
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "New Orleans",
+     "entity_id": "E504AFD3-B4CA-44FB-9CA7-6DBFD95C9AFB",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "New Orleans",
+       "admin1_region": "Louisiana",
+       "admin2_region": "Orleans Parish",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.971441523118767,
+     "location": {
+      "lat": 29.948479,
+      "lon": -90.07086,
+      "geohash": "9vrfq7uqsc1d"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:great_architecture",
+       "name": "Great Architecture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:foodie_destination",
+       "name": "Foodie Destination",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:entertainment_performing_arts",
+       "name": "Entertainment & Performing Arts",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:art_culture",
+       "name": "Art & Culture",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_nightlife",
+       "name": "Great Nightlife",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:great_shopping",
+       "name": "Great Shopping",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:history",
+       "name": "For the History",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8564584254210624
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Albuquerque",
+     "entity_id": "6225E87B-4870-4BF1-993F-CF023B06F4B0",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Albuquerque",
+       "admin1_region": "New Mexico",
+       "admin2_region": "Bernalillo County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.8386219401631912,
+     "location": {
+      "lat": 35.0873,
+      "lon": -106.6506,
+      "geohash": "9whpt57qkfxm"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:kids",
+       "name": "With Kids",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8560483700376352
+     },
+     "disambiguation": ""
+    },
+    {
+     "name": "Boulder",
+     "entity_id": "80CEBCBD-CD36-452C-9C0F-885DCE13682D",
+     "type": "urn:entity",
+     "subtype": "urn:entity:destination",
+     "properties": {
+      "geocode": {
+       "name": "Boulder",
+       "admin1_region": "Colorado",
+       "admin2_region": "Boulder County",
+       "country_code": "US"
+      }
+     },
+     "popularity": 0.914324569356301,
+     "location": {
+      "lat": 40.0194,
+      "lon": -105.259,
+      "geohash": "9xj5sv29zmnu"
+     },
+     "tags": [
+      {
+       "id": "urn:tag:genre:destination:nature",
+       "name": "Nature",
+       "type": "urn:tag:genre:destination"
+      },
+      {
+       "id": "urn:tag:genre:destination:outdoor_activities",
+       "name": "Outdoor Activities",
+       "type": "urn:tag:genre:destination"
+      }
+     ],
+     "query": {
+      "affinity": 0.8555118445462274
+     },
+     "disambiguation": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "path": "/search",
+ "params": {
+  "query": "Chicago",
+  "types": "urn:entity:destination",
+  "take": 5
+ },
+ "response": {
+  "results": [
+   {
+    "name": "Chicago",
+    "entity_id": "48C1C6E6-525E-4240-A7CD-6A69B0225D16",
+    "types": [
+     "urn:entity:destination"
+    ],
+    "properties": {
+     "country": "United States Of America",
+     "state": "Illinois"
+    },
+    "popularity": 0.9929234851835471,
+    "disambiguation": "Chicago",
+    "location": {
+     "lat": 41.883222,
+     "lon": -87.632496
+    },
+    "tags": [
+     {
+      "name": "With Kids",
+      "tag_id": "B46F24A2-C197-4BA3-91D7-797536C0C9BB",
+      "type": "urn:tag:genre",
+      "value": "urn:tag:genre:with_kids"
+     },
+     {
+      "name": "Urban Destinations",
+      "tag_id": "5191CB63-26EA-4637-A742-D9547110F2A1",
+      "type": "urn:tag:genre",
+      "value": "urn:tag:genre:urban_destinations"
+     },
+     {
+      "name": "Entertainment & Performing Arts",
+      "tag_id": "431E749F-FF80-4FA7-B8AC-0B2CDFA354BD",
+      "type": "urn:tag:genre",
+      "value": "urn:tag:genre:entertainment_performing_arts"
+     },
+     {
+      "name": "Art & Culture",
+      "tag_id": "86BDB8C7-478E-4291-8D51-E9C64EB28E72",
+      "type": "urn:tag:genre",
+      "value": "urn:tag:genre:art_culture"
+     },
+     {
+      "name": "Foodie Destination",
+      "tag_id": "4F3E51D5-4BF4-4415-84DC-C760D6CE9812",
+      "type": "urn:tag:genre",
+      "value": "urn:tag:genre:foodie_destination"
+     }
+    ]
+   }
+  ]
+ }
+}
