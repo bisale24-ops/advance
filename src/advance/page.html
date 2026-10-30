@@ -134,7 +134,8 @@ $("cmp").innerHTML = PROOF.map(([k, t, l, g]) => `<span class="k">Found in ${k}<
 const pct = v => v == null ? "—" : v.toFixed(2);
 
 function section(s) {
-  const w = a => Math.max(4, Math.round(((a ?? 0) - 0.7) / 0.3 * 100));   // bars start at 0.70, where Qloo's scores begin to mean a match
+  const v = s.lines.map(l => l.affinity ?? 0), hi = Math.max(...v), floor = Math.max(0, Math.min(...v) - 0.15);
+  const w = a => hi > floor ? Math.round(((a ?? 0) - floor) / (hi - floor) * 100) : 100;   // the longest bar is the best score in this list
   const rows = s.lines.map((l, i) => `<div class="row"><span class="n">${i + 1}</span><span class="name" title="${esc(l.name)}">${esc(l.name)}</span>
     <span class="aff"><span class="bar"><i style="width:${w(l.affinity)}%"></i></span>${pct(l.affinity)}</span></div>`).join("");
   return `<article class="card"><h3>${esc(s.title)}</h3><p class="q">${esc(s.question)}</p>
