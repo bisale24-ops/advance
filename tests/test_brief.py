@@ -73,3 +73,12 @@ def test_the_whole_brief_has_five_sections_and_renders():
     assert [s.key for s in built.sections] == ["cities", "openers", "venue", "after", "brands"]
     text = brief.render_text(built)
     assert "ADVANCE — Phoebe Bridgers · Chicago" in text and "0.95  Julien Baker" in text
+
+
+def test_a_place_line_carries_its_address_website_and_room_feel():
+    from advance.qloo import Entity
+    raw = {"properties": {"address": "3317 E Colfax Ave Denver, CO", "website": "http://bluebirdtheater.net", "phone": "+13033771666",
+                          "keywords": [{"name": "parking", "count": 90}, {"name": "intimate venue", "count": 102}]}}
+    line = brief._lines([Entity("b", "Bluebird Theater", raw=raw)], brief.place_note)[0]
+    assert line.link == "http://bluebirdtheater.net" and line.phone == "+13033771666"
+    assert line.note == "3317 E Colfax Ave Denver, CO · intimate venue"

@@ -40,6 +40,8 @@ class Line:
     note: str = ""
     lat: typing.Optional[float] = None
     lon: typing.Optional[float] = None
+    link: str = ""         # the place's own website, so the shortlist is something a promoter can call
+    phone: str = ""
 
 
 @dataclasses.dataclass(frozen=True)
@@ -79,7 +81,20 @@ def _lines(entities, note=lambda e: ""):
         return round(x, 3) if x is not None else None
     def at(e, key):
         return (e.location or {}).get(key)
-    return tuple(Line(e.name, r(e.affinity), r(e.popularity), e.id, note(e), at(e, "lat"), at(e, "lon")) for e in entities)
+    def prop(e, key):
+        value = ((e.raw or {}).get("properties") or {}).get(key)
+        return value if isinstance(value, str) else ""
+    return tuple(Line(e.name, r(e.affinity), r(e.popularity), e.id, note(e), at(e, "lat"), at(e, "lon"),
+                      prop(e, "website"), prop(e, "phone")) for e in entities)
+
+
+def place_note(e):
+    """Address, and the one thing reviewers say most about the room's size or feel."""
+    props = (e.raw or {}).get("properties") or {}
+    feel = [k for k in sorted(props.get("keywords") or (), key=lambda k: -k.get("count", 0))
+            if any(w in str(k.get("name", "")) for w in ("intimate", "large", "spacious", "small", "big", "standing", "seated", "capacity"))]
+    parts = [props.get("address") or ""] + [str(feel[0]["name"])] if feel else [props.get("address") or ""]
+    return " · ".join(p for p in parts if p)
 
 
 def _with_region(e):
@@ -145,7 +160,7 @@ def after_show(q, headliner, city, take=TAKE):
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
-    return Section(key, title, question, _lines(answer.entities), answer.request)
+    return Section(key, title, question, _lines(answer.entities, place_note), answer.request)
 
 
 def which_room(q, headliner, city, take=TAKE):
@@ -159,7 +174,7 @@ def which_room(q, headliner, city, take=TAKE):
     if isinstance(got, Section):
         return got
     key, title, question, answer = got
-    return Section(key, title, question, _lines(answer.entities), answer.request)
+    return Section(key, title, question, _lines(answer.entities, place_note), answer.request)
 
 
 def who_sponsors(q, headliner, take=TAKE):

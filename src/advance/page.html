@@ -54,6 +54,8 @@
   .row:first-of-type { border-top: 0; }
   .n { color: var(--stone); font-size: 13px; font-variant-numeric: tabular-nums; }
   .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .name .nm { color: inherit; text-decoration: none; border-bottom: 1px solid var(--mist); } .name .nm:hover { color: var(--violet); border-color: var(--violet); }
+  .name .sub { display: block; font-size: 12px; color: var(--stone); overflow: hidden; text-overflow: ellipsis; }
   .aff { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--stone); font-variant-numeric: tabular-nums; }
   .bar { flex: 1; height: 6px; border-radius: 99px; background: #efedf6; overflow: hidden; }
   .bar i { display: block; height: 100%; background: var(--violet); border-radius: 99px; }
@@ -91,6 +93,7 @@
   .legs .sum { margin-top: 10px; font-size: 14px; color: var(--stone); } .legs .sum b { color: var(--ink); }
   .export { margin: 22px 0 0; } .export button { font: inherit; font-size: 15px; font-weight: 600; padding: 12px 18px; border-radius: 12px; border: 1px solid var(--wine); background: transparent; color: var(--wine); cursor: pointer; }
   .legs .key { font-size: 12.5px; color: var(--stone); margin-top: 8px; }
+  .method { margin: 16px 0 0; font-size: 14px; color: var(--stone); max-width: 80ch; } .method p { margin: 8px 0 0; }
   footer { border-top: 1px solid var(--mist); padding: 22px 0 40px; font-size: 13.5px; color: var(--stone); }
 </style>
 </head>
@@ -117,6 +120,8 @@
     <p class="q">Given only the headliner, where do the support acts promoters actually booked (2023–2025, from Wikipedia) land in Qloo's taste list — against the same LLM asked without Qloo, and a genre chart of the headliner's own genre?</p>
     <div class="cmp" id="cmp"></div>
     <div class="legend"><span class="lt">Qloo taste list (Advance)</span><span class="ll">LLM alone (Apertus 70B)</span><span class="lg">Genre chart</span><span>619 real openers Qloo knows</span></div>
+    <details class="method"><summary>How honest is this? The limits.</summary>
+      <p>Of 619 real openers, taste puts 109 in its top 100: <b>17.6%</b>. Most real openers are in nobody's top 100, because tours are booked on routing, agents and availability, not only on taste. The LLM is better at the very top (median rank 9 against 31): when it knows a tour, it knows it, and these tours are on Wikipedia, so any leakage favours the LLM. Per tour, taste finds at least one real opener in its top 100 in 61 of 113 tours, the LLM in 22. It beats the LLM in 49 tours, loses in 8, ties in 56 (48 of them both find none). The support act is the only line backtested; venue capacity and availability are not in Qloo. <a href="https://github.com/bisale24-ops/advance/blob/main/docs/METHOD.md">Method, data and how to reproduce it offline</a>.</p></details>
     <p class="hits">Ranked first or second by taste: Sleeping with Sirens for Pierce the Veil · Modest Mouse for Weezer · Wild Rivers and Maisie Peters for Noah Kahan · Isabel LaRosa for Nessa Barrett · Keyshia Cole for Brandy.</p>
   </section>
 
@@ -137,7 +142,7 @@ const pct = v => v == null ? "—" : v.toFixed(2);
 function section(s) {
   const v = s.lines.map(l => l.affinity ?? 0), hi = Math.max(...v), floor = Math.max(0, Math.min(...v) - 0.15);
   const w = a => hi > floor ? Math.round(((a ?? 0) - floor) / (hi - floor) * 100) : 100;   // the longest bar is the best score in this list
-  const rows = s.lines.map((l, i) => `<div class="row"><span class="n">${i + 1}</span><span class="name" title="${esc(l.name)}">${esc(l.name)}</span>
+  const rows = s.lines.map((l, i) => `<div class="row"><span class="n">${i + 1}</span><span class="name" title="${esc(l.name)}">${/^https?:\/\//.test(l.link) ? `<a class="nm" href="${esc(l.link)}" target="_blank" rel="noopener">${esc(l.name)}</a>` : esc(l.name)}${l.note ? `<small class="sub">${esc(l.note)}${l.phone ? " · " + esc(l.phone) : ""}</small>` : ""}</span>
     <span class="aff"><span class="bar"><i style="width:${w(l.affinity)}%"></i></span>${pct(l.affinity)}</span></div>`).join("");
   return `<article class="card"><h3>${esc(s.title)}</h3><p class="q">${esc(s.question)}</p>
     ${rows || `<p class="missing">${esc(s.missing)}</p>`}
