@@ -260,8 +260,10 @@ def tour_route(q, cities, where, market):
         if loc.get("lat") is not None and loc.get("lon") is not None:
             named.append({"name": c, "lat": loc["lat"], "lon": loc["lon"]})
     markets = [{"name": l.name, "lat": l.lat, "lon": l.lon} for l in where.lines if l.lat is not None and l.lon is not None]
-    lookup = (lambda a, b: None) if os.environ.get("QLOO_MODE") == "replay" else route.road   # replay runs offline
-    return route.with_roads(route.plan(named, markets, unit="mi" if market in (None, "", "US") else "km"), lookup)
+    offline = os.environ.get("QLOO_MODE") == "replay"        # replay runs without network
+    lookup = (lambda a, b: None) if offline else route.road
+    matrix = None if offline else route.road_matrix
+    return route.with_roads(route.plan(named, markets, unit="mi" if market in (None, "", "US") else "km", matrix=matrix), lookup)
 
 
 def render_text(brief):

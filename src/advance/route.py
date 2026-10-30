@@ -30,32 +30,37 @@ def pick(stops, limit=MAX_STOPS):
     return kept
 
 
-def shortest(stops):
-    """The visiting order with the least total distance (no fixed start or end)."""
+def shortest(stops, cost=None):
+    """The visiting order with the least total cost (no fixed start or end). `cost(a, b)` defaults to
+    straight-line km; pass road seconds when a matrix is known."""
+    cost = cost or km
     if len(stops) < 3:
         return list(stops)
     best, best_len = None, math.inf
     for order in itertools.permutations(stops):
-        if order[0]["name"] > order[-1]["name"]:      # a path and its reverse are the same tour
+        if order[0]["name"] > order[-1]["name"] and cost is km:   # a path and its reverse are the same tour
             continue
-        total = sum(km(x, y) for x, y in zip(order, order[1:]))
+        total = sum(cost(x, y) for x, y in zip(order, order[1:]))
         if total < best_len:
             best, best_len = order, total
     return list(best)
 
 
-def plan(named, markets, unit="mi"):
+def plan(named, markets, unit="mi", matrix=None):
     """`named`: the cities the promoter typed; `markets`: Qloo's destinations, best taste first.
     Every stop is {name, lat, lon}. Returns None when there are not two places to join."""
     stops = pick(list(named) + list(markets))
     if len(stops) < 2:
         return None
-    order = shortest(stops)
+    seconds = matrix(stops) if matrix else None          # road time between every pair, or None
+    index = {s["name"]: i for i, s in enumerate(stops)}
+    order = shortest(stops, (lambda a, b: seconds[index[a["name"]]][index[b["name"]]]) if seconds else None)
     div = KM_PER_MILE if unit == "mi" else 1
     legs = [{"from": a["name"], "to": b["name"], "distance": round(km(a, b) / div)} for a, b in zip(order, order[1:])]
     return {"unit": unit, "stops": [{"name": s["name"], "lat": s["lat"], "lon": s["lon"],
                                      "typed": s["name"] in {n["name"] for n in named}} for s in order],
-            "legs": legs, "total": sum(l["distance"] for l in legs)}
+            "legs": legs, "total": sum(l["distance"] for l in legs),
+            "ordered_by": "road time (OSRM)" if seconds else "straight-line distance"}
 
 
 OSRM = "https://router.project-osrm.org/route/v1/driving/{a};{b}?overview=false"
@@ -85,3 +90,21 @@ def with_roads(tour, lookup=road):
     for leg, figure in zip(tour["legs"], found):
         leg["road"] = figure
     return tour
+
+
+OSRM_TABLE = "https://router.project-osrm.org/table/v1/driving/{points}?annotations=duration"
+
+
+def road_matrix(stops, timeout=6):
+    """Driving seconds between every pair of stops from one OSRM table call, or None."""
+    points = ";".join("%s,%s" % (s["lon"], s["lat"]) for s in stops)
+    try:
+        with urllib.request.urlopen(urllib.request.Request(OSRM_TABLE.format(points=points),
+                                                           headers={"User-Agent": "advance/0.1"}), timeout=timeout) as r:
+            data = json.load(r)
+        rows = data["durations"]
+        if data.get("code") != "Ok" or any(v is None for row in rows for v in row):
+            return None
+        return rows
+    except Exception:  # noqa: BLE001 - no matrix means the order falls back to straight lines, and says so
+        return None

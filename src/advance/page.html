@@ -172,7 +172,7 @@ function routeCard(r) {
   const legs = r.stops.map((p, i) => `<li><span class="n">${i + 1}</span><span>${esc(p.name)}</span><span class="d">${i ? "+" + r.legs[i - 1].distance.toLocaleString() + " " + r.unit + " · " + trip(r.legs[i - 1], r.unit) : "start"}</span></li>`).join("");
   return `<article class="card route"><div><h3>Tour routing</h3><p class="q">The shortest order to play your cities and Qloo's best markets, so the tour does not double back.</p>
     <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of the routed tour">${outline}${line}${dots}</svg></div>
-    <div><ol class="legs">${legs}</ol><p class="legs sum">Total <b>${r.total.toLocaleString()} ${r.unit}</b> in straight lines across ${r.stops.length} stops. Drive times are road routes from OpenStreetMap (OSRM); where that service did not answer, the leg is marked est. (straight line plus 25% at highway speed). A leg over twelve hours is marked fly: advice, not a schedule. The stop order is chosen on straight-line distance.</p>
+    <div><ol class="legs">${legs}</ol><p class="legs sum">Total <b>${r.total.toLocaleString()} ${r.unit}</b> in straight lines across ${r.stops.length} stops. Drive times are road routes from OpenStreetMap (OSRM); where that service did not answer, the leg is marked est. (straight line plus 25% at highway speed). A leg over twelve hours is marked fly: advice, not a schedule. The stop order is chosen on ${r.ordered_by}.</p>
     <p class="legs key"><span style="color:var(--wine)">●</span> the cities you named &nbsp; <span style="color:var(--violet)">●</span> markets where this audience over-indexes</p></div></article>`;
 }
 

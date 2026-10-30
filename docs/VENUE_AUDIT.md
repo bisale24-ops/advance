@@ -31,3 +31,5 @@ Still not good:
 - **Lyric Opera of Chicago** is first for Chappell Roan. It is in Qloo's shortlist for that audience and is a large theatre; the check does not say it suits the act, and its site blocks scripts so it counts as a failure.
 - **Joe's Live (Rosemont) and Infinity Park (Glendale)** fail the city test because they sit in the metro area, not in the named city. Both are real rooms; "city in address" is stricter than "in the market".
 - The audit still cannot say whether a room fits a headliner's draw. That needs capacity and sales history, which Qloo does not hold.
+
+See also `docs/PANEL_SENSITIVITY.md`: how much the order depends on which five acts form the comparison panel.

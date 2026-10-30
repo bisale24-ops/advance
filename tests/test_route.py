@@ -45,3 +45,14 @@ def test_roads_attach_to_every_leg_and_a_failed_lookup_stays_none():
     assert len(calls) == len(got["legs"]) == 3
     assert [l["road"] is None for l in got["legs"]].count(True) == 1
     assert route.with_roads(None, lookup) is None
+
+
+def test_the_order_follows_road_time_when_a_matrix_is_known():
+    # on a map Boston-Chicago-Denver looks like the shortest line, but here the roads say Chicago is the far end
+    stops = [BOS, CHI, DEN]
+    seconds = [[0, 90, 10], [90, 0, 10], [10, 10, 0]]       # Boston-Denver and Chicago-Denver are quick, Boston-Chicago is not
+    got = route.plan([], stops, matrix=lambda s: seconds)
+    names = [x["name"] for x in got["stops"]]
+    assert names[1] == "Denver" and got["ordered_by"] == "road time (OSRM)"
+    assert route.plan([], stops)["ordered_by"] == "straight-line distance"
+    assert route.plan([], stops, matrix=lambda s: None)["ordered_by"] == "straight-line distance"
